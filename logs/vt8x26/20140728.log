@@ -1,0 +1,39 @@
+28/07 09:43:14:643 Viettel 8x26 started
+28/07 09:43:14:669 Starting process session
+28/07 09:43:24:691 Testing connection ...
+28/07 09:43:24:693 Testing connection are success
+28/07 09:44:08:001 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289981) (MsgContent: Dung, ban co: 40 d.CH tiep Bai hat chinh thuc o World Cup 2006 la Mua He Italia? 1-Dung, 2-Sai. Gui 1 hoac 2 den 9999)
+28/07 09:46:18:774 Viettel 8x26 started
+28/07 09:46:18:794 Starting process session
+28/07 09:46:28:815 Testing connection ...
+28/07 09:46:28:815 Testing connection are success
+28/07 09:46:28:852 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289981) (MsgContent: Sai, ban co 40 d.CH tiep Pele la cau thu gia nhat tung ghi ban o mot ky World Cup? 1-Dung, 2-Sai. Gui 1 hoac 2 den 9999)
+28/07 09:46:59:863 orderId = 482862678, orderDate = 28/07 09:46:26:358, status = 4, cause = error, description = null, cost = 31013
+28/07 09:46:59:914 disconnected
+28/07 09:47:13:824 ID=948, ALIAS=, SUCCESS=0, FAILURE=1, STARTTIME=28/07/2014 09:46:59., 15000
+28/07 10:05:30:916 Viettel 8x26 started
+28/07 10:05:30:948 Starting process session
+28/07 10:05:40:969 Testing connection ...
+28/07 10:05:40:971 Testing connection are success
+28/07 15:29:06:764 Viettel 8x26 started
+28/07 15:29:06:797 Starting process session
+28/07 15:29:06:830 Testing connection ...
+28/07 15:29:06:830 Testing connection are success
+28/07 15:29:28:112 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289990) (MsgContent: Ban se nhan duoc noi dung dich vu va cau hoi mien phi de "Tich diem trung may nghe nhac MP3". Tra loi dung duoc 10d, sai khong co diem. Ap dung theo T&C)
+28/07 15:29:28:854 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289990) (MsgContent: 69509189)
+28/07 15:30:00:029 orderId = 482862684, orderDate = 28/07 15:29:28:172, status = 4, cause = error, description = null, cost = 31176
+28/07 15:30:00:031 orderId = 482862684, orderDate = 28/07 15:29:28:072, status = 4, cause = error, description = null, cost = 31922
+28/07 15:30:00:084 disconnected
+28/07 15:30:00:106 disconnected
+28/07 15:30:06:843 ID=948, ALIAS=, SUCCESS=0, FAILURE=2, STARTTIME=28/07/2014 15:30:00., 15000
+28/07 15:34:14:278 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289990) (MsgContent: Ban se nhan duoc noi dung dich vu va cau hoi mien phi de "Tich diem trung may nghe nhac MP3". Tra loi dung duoc 10d, sai khong co diem. Ap dung theo T&C
+N?i dung: Ban se nhan duoc noi dung dich vu va cau hoi mien phi de "Tich diem trung may nghe nhac MP3". Tra loi dung duoc 10d, sai khong co diem. Ap dung theo T&C)
+28/07 15:34:18:345 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289990) (MsgContent: Link tai game cua ban la: goo.gl/XSXoDB)
+28/07 15:34:19:346 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289990) (MsgContent: Phan mem chat truc tuyen cho phep chat cung luc voi nhieu hon 5 nguoi?A-Dung, B-Sai.Gui CHAT A hoac CHAT B den 8626)
+28/07 15:34:44:845 orderId = 482862685, orderDate = 28/07 15:34:14:268, status = 4, cause = error, description = null, cost = 30567
+28/07 15:34:44:899 disconnected
+28/07 15:34:48:914 orderId = 482862685, orderDate = 28/07 15:34:17:733, status = 4, cause = error, description = null, cost = 30569
+28/07 15:34:48:973 disconnected
+28/07 15:34:49:909 orderId = 482862685, orderDate = 28/07 15:34:17:833, status = 4, cause = error, description = null, cost = 30564
+28/07 15:34:49:939 disconnected
+28/07 15:34:51:916 ID=948, ALIAS=VT8X26.SENDSMS, SUCCESS=0, FAILURE=3, STARTTIME=28/07/2014 15:30:06., 15000

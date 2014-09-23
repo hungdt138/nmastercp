@@ -1,0 +1,13 @@
+28/07 09:46:05:754 VT Order Response started
+28/07 09:46:05:805 Starting process session
+28/07 09:46:30:422 orderId = 482862678, orderDate = 28/07 09:46:26:180, isdn = 84967289981, status = 0, cause = wrong, description = Confirm success, response date: 28/07 09:46:26:355, order cost: 4242, update cost: 51, Queue cost: 1, Create cost: 3
+28/07 10:00:01:851 VT Order Response started
+28/07 10:00:01:936 Starting process session
+28/07 10:01:12:245 VT Order Response started
+28/07 10:01:12:373 Starting process session
+28/07 10:05:10:891 VT Order Response started
+28/07 10:05:10:908 Starting process session
+28/07 15:28:44:675 VT Order Response started
+28/07 15:28:44:739 Starting process session
+28/07 15:29:28:357 orderId = 482862684, orderDate = 28/07 15:29:27:648, isdn = 84967289990, status = 0, cause = success, description = , response date: 28/07 15:29:28:069, order cost: 709, update cost: 10, Queue cost: 1, Create cost: 54
+28/07 15:34:17:850 orderId = 482862685, orderDate = 28/07 15:33:53:257, isdn = 84967289990, status = 0, cause = success, description = , response date: 28/07 15:34:14:267, order cost: 24593, update cost: 11, Queue cost: 0, Create cost: 1

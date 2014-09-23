@@ -1,0 +1,1196 @@
+22/07 14:58:55 <FONT color="#0033CC"><B>Queue Monitor started</B></FONT>
+22/07 14:58:57 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+22/07 14:59:08 User 'system' try to start thread 'Order Routing'
+22/07 14:59:09 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+22/07 14:59:18 User 'system' try to stop thread 'Order Routing'
+22/07 14:59:19 <FONT color="#CC0033"><B>Order Routing stopped</B></FONT>
+22/07 15:01:36 <FONT color="#0033CC"><B>Queue Monitor started</B></FONT>
+22/07 15:01:38 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+22/07 15:01:42 <FONT color="#CC6622"><U>User 'system' disconnected</U></FONT>
+22/07 15:01:43 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+22/07 15:01:47 User 'system' try to start thread 'Order Routing'
+22/07 15:01:47 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+22/07 15:02:10 User 'system' try to start thread 'Order Routing'
+22/07 15:02:10 <FONT color="#CC0033"><B>Order Routing stopped</B></FONT>
+22/07 15:02:12 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+22/07 15:05:54 <FONT color="#0033CC"><B>Queue Monitor started</B></FONT>
+22/07 15:06:07 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+22/07 15:06:11 <FONT color="#CC6622"><U>User 'system' disconnected</U></FONT>
+22/07 15:06:13 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+22/07 15:06:18 User 'system' try to start thread 'Order Routing'
+22/07 15:06:18 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+22/07 15:10:01 User 'system' try to start thread 'Order Routing'
+22/07 15:10:01 <FONT color="#CC0033"><B>Order Routing stopped</B></FONT>
+22/07 15:10:03 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+22/07 15:15:54 <FONT color="#0033CC"><B>Queue Monitor started</B></FONT>
+22/07 15:15:59 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+22/07 15:16:06 <FONT color="#CC6622"><U>User 'system' disconnected</U></FONT>
+22/07 15:16:08 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+22/07 15:16:17 User 'system' try to start thread 'Order Routing'
+22/07 15:16:17 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+22/07 15:17:41 User 'system' try to start thread 'Order Routing'
+22/07 15:17:42 <FONT color="#CC0033"><B>Order Routing stopped</B></FONT>
+22/07 15:17:43 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+22/07 15:17:58 User 'system' try to start thread 'Order Routing'
+22/07 15:17:59 <FONT color="#CC0033"><B>Order Routing stopped</B></FONT>
+22/07 15:18:00 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+22/07 15:19:30 <FONT color="#0033CC"><B>Queue Monitor started</B></FONT>
+22/07 15:19:33 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+22/07 15:19:37 <FONT color="#CC6622"><U>User 'system' disconnected</U></FONT>
+22/07 15:19:39 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+22/07 15:19:48 User 'system' try to start thread 'Order Routing'
+22/07 15:19:49 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+22/07 15:20:53 User 'system' try to start thread 'Order Routing'
+22/07 15:20:54 <FONT color="#CC0033"><B>Order Routing stopped</B></FONT>
+22/07 15:20:56 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+22/07 15:21:06 <FONT color="#0033CC"><B>Queue Monitor started</B></FONT>
+22/07 15:21:07 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+22/07 15:21:10 <FONT color="#CC6622"><U>User 'system' disconnected</U></FONT>
+22/07 15:21:11 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+22/07 15:21:26 User 'system' try to start thread 'Order Routing'
+22/07 15:21:27 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+22/07 15:22:40 <FONT color="#0033CC"><B>Queue Monitor started</B></FONT>
+22/07 15:22:42 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+22/07 15:22:47 <FONT color="#CC6622"><U>User 'system' disconnected</U></FONT>
+22/07 15:22:48 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+22/07 15:22:52 User 'system' try to start thread 'Order Routing'
+22/07 15:22:53 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+22/07 15:23:20 User 'system' try to start thread 'Order Routing'
+22/07 15:23:22 <FONT color="#CC0033"><B>Order Routing stopped</B></FONT>
+22/07 15:23:23 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+22/07 15:23:35 <FONT color="#0033CC"><B>Queue Monitor started</B></FONT>
+22/07 15:23:36 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+22/07 15:23:40 <FONT color="#CC6622"><U>User 'system' disconnected</U></FONT>
+22/07 15:23:41 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+22/07 15:23:46 User 'system' try to start thread 'Order Routing'
+22/07 15:23:47 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+22/07 15:24:04 User 'system' try to start thread 'Command Logs'
+22/07 15:24:05 <FONT color="#0033CC"><B>Command Logs started</B></FONT>
+22/07 15:24:09 User 'system' try to start thread 'MOListener'
+22/07 15:24:11 <FONT color="#0033CC"><B>MOListener started</B></FONT>
+22/07 15:24:24 User 'system' try to start thread 'Command Routing'
+22/07 15:24:25 <FONT color="#0033CC"><B>Command Routing started</B></FONT>
+22/07 15:24:29 User 'system' try to start thread 'Command Statistc'
+22/07 15:24:30 <FONT color="#0033CC"><B>Command Statistc started</B></FONT>
+22/07 15:24:31 User 'system' try to start thread 'Order Response'
+22/07 15:24:32 <FONT color="#0033CC"><B>Order Response started</B></FONT>
+22/07 15:27:56 User 'system' try to update parameter of thread 'Mobifone SDP'
+22/07 15:28:29 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+22/07 15:30:50 User 'system' try to update parameter of thread 'Mobifone SDP'
+22/07 15:31:54 User 'system' try to update parameter of thread 'Mobifone SDP'
+22/07 15:31:54 Parameter of thread 'Mobifone SDP' updated
+22/07 15:31:56 User 'system' try to start thread 'Mobifone SDP'
+22/07 15:31:57 <FONT color="#0033CC"><B>Mobifone SDP started</B></FONT>
+22/07 15:32:18 <FONT color="#CC6622"><U>User 'system' disconnected</U></FONT>
+22/07 15:39:26 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+22/07 15:41:41 User 'system' try to update parameter of thread 'Mobifone OTP'
+22/07 15:41:41 Parameter of thread 'Mobifone OTP' updated
+22/07 15:41:43 User 'system' try to start thread 'Mobifone OTP'
+22/07 15:41:44 <FONT color="#0033CC"><B>Mobifone OTP started</B></FONT>
+22/07 15:41:45 User 'system' try to start thread 'CRM'
+22/07 15:41:46 <FONT color="#0033CC"><B>CRM started</B></FONT>
+22/07 15:42:24 <FONT color="#CC6622"><U>User 'system' disconnected</U></FONT>
+22/07 15:50:49 <FONT color="#0033CC"><B>Queue Monitor started</B></FONT>
+22/07 15:50:57 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+22/07 15:51:01 <FONT color="#CC6622"><U>User 'system' disconnected</U></FONT>
+22/07 15:51:03 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+22/07 15:51:09 User 'system' try to start thread 'Mobifone SDP'
+22/07 15:51:09 <FONT color="#0033CC"><B>Mobifone SDP started</B></FONT>
+22/07 15:51:13 User 'system' try to start thread 'Mobifone OTP'
+22/07 15:51:13 <FONT color="#0033CC"><B>Mobifone OTP started</B></FONT>
+22/07 15:51:17 User 'system' try to start thread 'Vinaphone SDP'
+22/07 15:51:17 <FONT color="#0033CC"><B>Vinaphone SDP started</B></FONT>
+22/07 15:51:21 User 'system' try to start thread 'Vinaphone OTP'
+22/07 15:51:21 <FONT color="#0033CC"><B>Vinaphone OTP started</B></FONT>
+22/07 15:51:34 User 'system' try to start thread 'MT Charging'
+22/07 15:51:34 <FONT color="#0033CC"><B>MT Charging started</B></FONT>
+22/07 15:51:36 User 'system' try to start thread 'MT SMS'
+22/07 15:51:36 <FONT color="#0033CC"><B>MT SMS started</B></FONT>
+22/07 15:51:52 User 'system' try to start thread 'CRM'
+22/07 15:51:52 <FONT color="#0033CC"><B>CRM started</B></FONT>
+22/07 15:51:56 User 'system' try to start thread 'Order Response'
+22/07 15:51:56 <FONT color="#0033CC"><B>Order Response started</B></FONT>
+22/07 15:51:58 User 'system' try to start thread 'Command Statistc'
+22/07 15:51:58 <FONT color="#0033CC"><B>Command Statistc started</B></FONT>
+22/07 15:52:01 User 'system' try to start thread 'Command Routing'
+22/07 15:52:01 <FONT color="#0033CC"><B>Command Routing started</B></FONT>
+22/07 15:52:05 User 'system' try to start thread 'Command Logs'
+22/07 15:52:05 <FONT color="#0033CC"><B>Command Logs started</B></FONT>
+22/07 15:52:07 User 'system' try to start thread 'Order Routing'
+22/07 15:52:07 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+22/07 15:52:09 User 'system' try to start thread 'MOListener'
+22/07 15:52:09 <FONT color="#0033CC"><B>MOListener started</B></FONT>
+22/07 15:52:44 <FONT color="#CC6622"><U>User 'system' disconnected</U></FONT>
+22/07 15:53:12 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+22/07 15:54:20 <FONT color="#CC6622"><U>User 'system' disconnected</U></FONT>
+22/07 16:02:27 <FONT color="#0033CC"><B>Queue Monitor started</B></FONT>
+22/07 16:02:35 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+22/07 16:02:40 <FONT color="#CC6622"><U>User 'system' disconnected</U></FONT>
+22/07 16:02:41 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+22/07 16:05:08 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+22/07 16:06:25 User 'system' try to update parameter of thread 'CP Sync'
+22/07 16:06:26 Parameter of thread 'CP Sync' updated
+22/07 16:06:28 User 'system' try to start thread 'CP Sync'
+22/07 16:06:28 <FONT color="#0033CC"><B>CP Sync started</B></FONT>
+22/07 16:06:39 <FONT color="#CC6622"><U>User 'system' disconnected</U></FONT>
+23/07 08:59:59 <FONT color="#0033CC"><B>Queue Monitor started</B></FONT>
+23/07 09:00:20 <FONT color="#0033CC"><B>Queue Monitor started</B></FONT>
+23/07 09:01:16 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+23/07 09:01:21 User 'system' try to start thread 'Order Routing'
+23/07 09:01:22 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+23/07 09:01:24 User 'system' try to start thread 'Command Logs'
+23/07 09:01:25 <FONT color="#0033CC"><B>Command Logs started</B></FONT>
+23/07 09:01:26 User 'system' try to start thread 'Command Statistc'
+23/07 09:01:27 <FONT color="#0033CC"><B>Command Statistc started</B></FONT>
+23/07 09:02:17 User 'system' try to start thread 'Command Routing'
+23/07 09:02:18 <FONT color="#0033CC"><B>Command Routing started</B></FONT>
+23/07 09:02:20 User 'system' try to start thread 'Order Response'
+23/07 09:02:21 <FONT color="#0033CC"><B>Order Response started</B></FONT>
+23/07 09:02:22 User 'system' try to start thread 'CP Sync'
+23/07 09:02:23 <FONT color="#0033CC"><B>CP Sync started</B></FONT>
+23/07 09:57:11 <FONT color="#0033CC"><B>Queue Monitor started</B></FONT>
+23/07 09:57:17 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+23/07 09:57:23 <FONT color="#CC6622"><U>User 'system' disconnected</U></FONT>
+23/07 09:57:24 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+23/07 09:57:28 User 'system' try to start thread 'Order Routing'
+23/07 09:57:28 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+23/07 10:01:52 User 'system' try to start thread 'Order Response'
+23/07 10:01:53 <FONT color="#0033CC"><B>Order Response started</B></FONT>
+23/07 10:15:43 <FONT color="#CC6622"><U>User 'system' disconnected</U></FONT>
+23/07 15:01:24 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+23/07 15:01:32 <FONT color="#CC6622"><U>User 'system' disconnected</U></FONT>
+23/07 15:01:33 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+23/07 15:05:18 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+23/07 15:05:18 <FONT color="#0033CC"><B>Command Statistc started</B></FONT>
+23/07 15:05:18 <FONT color="#0033CC"><B>Order Response started</B></FONT>
+23/07 15:05:19 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+23/07 15:05:19 <FONT color="#0033CC"><B>CRM started</B></FONT>
+23/07 15:05:19 <FONT color="#0033CC"><B>Command Routing started</B></FONT>
+23/07 15:05:20 <FONT color="#0033CC"><B>Queue Monitor started</B></FONT>
+23/07 15:05:22 <FONT color="#CC6622"><U>User 'system' disconnected</U></FONT>
+23/07 15:05:24 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+23/07 15:11:48 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+23/07 15:11:48 <FONT color="#0033CC"><B>Command Statistc started</B></FONT>
+23/07 15:11:48 <FONT color="#0033CC"><B>Order Response started</B></FONT>
+23/07 15:11:49 <FONT color="#0033CC"><B>Command Routing started</B></FONT>
+23/07 15:11:49 <FONT color="#0033CC"><B>CRM started</B></FONT>
+23/07 15:11:50 <FONT color="#0033CC"><B>Queue Monitor started</B></FONT>
+23/07 15:12:01 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+23/07 15:12:06 <FONT color="#CC6622"><U>User 'system' disconnected</U></FONT>
+23/07 15:12:08 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+23/07 15:13:09 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+23/07 15:13:09 <FONT color="#0033CC"><B>Command Statistc started</B></FONT>
+23/07 15:13:09 <FONT color="#0033CC"><B>Order Response started</B></FONT>
+23/07 15:13:09 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+23/07 15:13:10 <FONT color="#0033CC"><B>Command Routing started</B></FONT>
+23/07 15:13:10 <FONT color="#0033CC"><B>CRM started</B></FONT>
+23/07 15:13:11 <FONT color="#0033CC"><B>Queue Monitor started</B></FONT>
+23/07 15:13:13 <FONT color="#CC6622"><U>User 'system' disconnected</U></FONT>
+23/07 15:13:14 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+23/07 15:13:39 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+23/07 15:13:39 <FONT color="#0033CC"><B>Command Statistc started</B></FONT>
+23/07 15:13:39 <FONT color="#0033CC"><B>Order Response started</B></FONT>
+23/07 15:13:39 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+23/07 15:13:40 <FONT color="#0033CC"><B>CRM started</B></FONT>
+23/07 15:13:40 <FONT color="#0033CC"><B>Command Routing started</B></FONT>
+23/07 15:13:41 <FONT color="#0033CC"><B>Queue Monitor started</B></FONT>
+23/07 15:13:43 <FONT color="#CC6622"><U>User 'system' disconnected</U></FONT>
+23/07 15:13:44 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+23/07 15:14:10 User 'system' try to start thread 'CP Sync'
+23/07 15:14:11 <FONT color="#0033CC"><B>CP Sync started</B></FONT>
+23/07 15:14:18 User 'system' try to start thread 'Viettel 8x26'
+23/07 15:14:19 <FONT color="#0033CC"><B>Viettel 8x26 started</B></FONT>
+23/07 15:14:22 User 'system' try to stop thread 'Viettel 8x26'
+23/07 15:14:23 <FONT color="#CC0033"><B>Viettel 8x26 stopped</B></FONT>
+23/07 15:15:16 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+23/07 15:15:16 <FONT color="#0033CC"><B>Command Statistc started</B></FONT>
+23/07 15:15:16 <FONT color="#0033CC"><B>Order Response started</B></FONT>
+23/07 15:15:17 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+23/07 15:15:18 <FONT color="#0033CC"><B>CRM started</B></FONT>
+23/07 15:15:18 <FONT color="#0033CC"><B>Command Routing started</B></FONT>
+23/07 15:15:19 <FONT color="#0033CC"><B>Queue Monitor started</B></FONT>
+23/07 15:15:21 <FONT color="#CC6622"><U>User 'system' disconnected</U></FONT>
+23/07 15:15:22 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+23/07 15:15:28 User 'system' try to start thread 'CP Sync'
+23/07 15:15:29 <FONT color="#0033CC"><B>CP Sync started</B></FONT>
+23/07 15:15:32 User 'system' try to start thread 'Viettel 8x26'
+23/07 15:15:33 <FONT color="#0033CC"><B>Viettel 8x26 started</B></FONT>
+23/07 15:16:09 User 'system' try to stop thread 'Viettel 8x26'
+23/07 15:16:10 <FONT color="#CC0033"><B>Viettel 8x26 stopped</B></FONT>
+23/07 15:16:52 User 'system' try to start thread 'Viettel 8x26'
+23/07 15:16:53 <FONT color="#0033CC"><B>Viettel 8x26 started</B></FONT>
+23/07 15:17:56 User 'system' try to start thread 'Command Logs'
+23/07 15:17:57 <FONT color="#0033CC"><B>Command Logs started</B></FONT>
+23/07 15:23:06 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+23/07 15:23:06 <FONT color="#0033CC"><B>Command Statistc started</B></FONT>
+23/07 15:23:06 <FONT color="#0033CC"><B>Order Response started</B></FONT>
+23/07 15:23:07 <FONT color="#0033CC"><B>Command Routing started</B></FONT>
+23/07 15:23:07 <FONT color="#0033CC"><B>CRM started</B></FONT>
+23/07 15:23:08 <FONT color="#0033CC"><B>Queue Monitor started</B></FONT>
+23/07 15:23:14 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+23/07 15:23:17 <FONT color="#CC6622"><U>User 'system' disconnected</U></FONT>
+23/07 15:23:19 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+23/07 15:23:23 User 'system' try to start thread 'Viettel 8x26'
+23/07 15:23:24 <FONT color="#0033CC"><B>Viettel 8x26 started</B></FONT>
+23/07 15:23:25 User 'system' try to start thread 'CP Sync'
+23/07 15:23:25 <FONT color="#0033CC"><B>CP Sync started</B></FONT>
+23/07 15:24:20 <FONT color="#CC6622"><U>User 'system' disconnected</U></FONT>
+23/07 15:24:44 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+23/07 15:35:31 User 'system' try to update parameter of thread 'Viettel 8x26'
+23/07 15:35:31 Parameter of thread 'Viettel 8x26' updated
+23/07 15:35:33 User 'system' try to start thread 'Viettel 8x26'
+23/07 15:35:33 <FONT color="#CC0033"><B>Viettel 8x26 stopped</B></FONT>
+23/07 15:35:35 <FONT color="#0033CC"><B>Viettel 8x26 started</B></FONT>
+23/07 15:41:27 User 'system' try to start thread 'Order Routing'
+23/07 15:41:27 <FONT color="#CC0033"><B>Order Routing stopped</B></FONT>
+23/07 15:41:29 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+23/07 15:44:56 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+23/07 15:44:56 <FONT color="#0033CC"><B>Command Statistc started</B></FONT>
+23/07 15:44:56 <FONT color="#0033CC"><B>Order Response started</B></FONT>
+23/07 15:44:57 <FONT color="#0033CC"><B>CRM started</B></FONT>
+23/07 15:44:57 <FONT color="#0033CC"><B>Command Routing started</B></FONT>
+23/07 15:44:58 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+23/07 15:44:58 <FONT color="#0033CC"><B>Queue Monitor started</B></FONT>
+23/07 15:45:01 <FONT color="#CC6622"><U>User 'system' disconnected</U></FONT>
+23/07 15:45:02 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+23/07 15:45:06 User 'system' try to start thread 'CP Sync'
+23/07 15:45:06 <FONT color="#0033CC"><B>CP Sync started</B></FONT>
+23/07 15:45:09 User 'system' try to start thread 'Viettel 8x26'
+23/07 15:45:09 <FONT color="#0033CC"><B>Viettel 8x26 started</B></FONT>
+23/07 15:48:08 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+23/07 15:48:08 <FONT color="#0033CC"><B>Command Statistc started</B></FONT>
+23/07 15:48:08 <FONT color="#0033CC"><B>Order Response started</B></FONT>
+23/07 15:48:10 <FONT color="#0033CC"><B>CRM started</B></FONT>
+23/07 15:48:10 <FONT color="#0033CC"><B>Command Routing started</B></FONT>
+23/07 15:48:11 <FONT color="#0033CC"><B>Queue Monitor started</B></FONT>
+23/07 15:48:13 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+23/07 15:48:17 <FONT color="#CC6622"><U>User 'system' disconnected</U></FONT>
+23/07 15:48:19 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+23/07 15:48:23 User 'system' try to start thread 'CP Sync'
+23/07 15:48:24 <FONT color="#0033CC"><B>CP Sync started</B></FONT>
+23/07 15:48:26 User 'system' try to start thread 'Viettel 8x26'
+23/07 15:48:27 <FONT color="#0033CC"><B>Viettel 8x26 started</B></FONT>
+23/07 15:54:07 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+23/07 15:54:07 <FONT color="#0033CC"><B>Command Statistc started</B></FONT>
+23/07 15:54:07 <FONT color="#0033CC"><B>Order Response started</B></FONT>
+23/07 15:54:09 <FONT color="#0033CC"><B>Command Routing started</B></FONT>
+23/07 15:54:09 <FONT color="#0033CC"><B>CRM started</B></FONT>
+23/07 15:54:10 <FONT color="#0033CC"><B>Queue Monitor started</B></FONT>
+23/07 15:54:10 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+23/07 15:54:13 <FONT color="#CC6622"><U>User 'system' disconnected</U></FONT>
+23/07 15:54:15 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+23/07 15:54:20 User 'system' try to start thread 'CP Sync'
+23/07 15:54:21 <FONT color="#0033CC"><B>CP Sync started</B></FONT>
+23/07 15:54:23 User 'system' try to start thread 'Viettel 8x26'
+23/07 15:54:24 <FONT color="#0033CC"><B>Viettel 8x26 started</B></FONT>
+23/07 15:55:32 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+23/07 15:55:32 <FONT color="#0033CC"><B>Command Statistc started</B></FONT>
+23/07 15:55:32 <FONT color="#0033CC"><B>Order Response started</B></FONT>
+23/07 15:55:32 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+23/07 15:55:33 <FONT color="#0033CC"><B>Command Routing started</B></FONT>
+23/07 15:55:33 <FONT color="#0033CC"><B>CRM started</B></FONT>
+23/07 15:55:34 <FONT color="#0033CC"><B>Queue Monitor started</B></FONT>
+23/07 15:55:36 <FONT color="#CC6622"><U>User 'system' disconnected</U></FONT>
+23/07 15:55:37 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+23/07 15:55:42 User 'system' try to start thread 'CP Sync'
+23/07 15:55:42 <FONT color="#0033CC"><B>CP Sync started</B></FONT>
+23/07 15:55:44 User 'system' try to start thread 'Viettel 8x26'
+23/07 15:55:44 <FONT color="#0033CC"><B>Viettel 8x26 started</B></FONT>
+23/07 16:05:33 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+23/07 16:05:33 <FONT color="#0033CC"><B>Command Statistc started</B></FONT>
+23/07 16:05:33 <FONT color="#0033CC"><B>Order Response started</B></FONT>
+23/07 16:05:34 <FONT color="#0033CC"><B>Command Routing started</B></FONT>
+23/07 16:05:34 <FONT color="#0033CC"><B>CRM started</B></FONT>
+23/07 16:05:35 <FONT color="#0033CC"><B>Queue Monitor started</B></FONT>
+23/07 16:05:37 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+23/07 16:05:41 <FONT color="#CC6622"><U>User 'system' disconnected</U></FONT>
+23/07 16:05:42 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+23/07 16:05:47 User 'system' try to start thread 'CP Sync'
+23/07 16:05:48 <FONT color="#0033CC"><B>CP Sync started</B></FONT>
+23/07 16:05:51 User 'system' try to start thread 'Viettel 8x26'
+23/07 16:05:52 <FONT color="#0033CC"><B>Viettel 8x26 started</B></FONT>
+23/07 16:06:23 <FONT color="#CC6622"><U>User 'system' disconnected</U></FONT>
+23/07 16:21:08 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+23/07 16:21:09 <FONT color="#0033CC"><B>Command Statistc started</B></FONT>
+23/07 16:21:09 <FONT color="#0033CC"><B>Order Response started</B></FONT>
+23/07 16:21:10 <FONT color="#0033CC"><B>Command Routing started</B></FONT>
+23/07 16:21:10 <FONT color="#0033CC"><B>CRM started</B></FONT>
+23/07 16:21:11 <FONT color="#0033CC"><B>Queue Monitor started</B></FONT>
+23/07 16:21:15 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+23/07 16:21:34 User 'system' try to start thread 'CP Sync'
+23/07 16:21:35 <FONT color="#0033CC"><B>CP Sync started</B></FONT>
+23/07 16:21:38 User 'system' try to start thread 'Viettel 8x26'
+23/07 16:21:39 <FONT color="#0033CC"><B>Viettel 8x26 started</B></FONT>
+23/07 16:29:36 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+23/07 16:29:36 <FONT color="#0033CC"><B>Command Statistc started</B></FONT>
+23/07 16:29:36 <FONT color="#0033CC"><B>Order Response started</B></FONT>
+23/07 16:29:37 <FONT color="#0033CC"><B>CRM started</B></FONT>
+23/07 16:29:37 <FONT color="#0033CC"><B>Command Routing started</B></FONT>
+23/07 16:29:38 <FONT color="#0033CC"><B>Queue Monitor started</B></FONT>
+23/07 16:29:41 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+23/07 16:29:47 <FONT color="#CC6622"><U>User 'system' disconnected</U></FONT>
+23/07 16:29:48 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+23/07 16:29:56 User 'system' try to start thread 'CP Sync'
+23/07 16:29:57 <FONT color="#0033CC"><B>CP Sync started</B></FONT>
+23/07 16:35:43 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+23/07 16:35:44 <FONT color="#0033CC"><B>Command Statistc started</B></FONT>
+23/07 16:35:44 <FONT color="#0033CC"><B>Order Response started</B></FONT>
+23/07 16:35:44 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+23/07 16:35:45 <FONT color="#0033CC"><B>Command Routing started</B></FONT>
+23/07 16:35:45 <FONT color="#0033CC"><B>CRM started</B></FONT>
+23/07 16:35:46 <FONT color="#0033CC"><B>Queue Monitor started</B></FONT>
+23/07 16:35:47 <FONT color="#CC6622"><U>User 'system' disconnected</U></FONT>
+23/07 16:35:48 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+23/07 16:35:52 User 'system' try to start thread 'CP Sync'
+23/07 16:35:53 <FONT color="#0033CC"><B>CP Sync started</B></FONT>
+23/07 16:35:55 User 'system' try to start thread 'Viettel 8x26'
+23/07 16:35:56 <FONT color="#0033CC"><B>Viettel 8x26 started</B></FONT>
+23/07 16:37:04 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+23/07 16:37:04 <FONT color="#0033CC"><B>Command Statistc started</B></FONT>
+23/07 16:37:04 <FONT color="#0033CC"><B>Order Response started</B></FONT>
+23/07 16:37:05 <FONT color="#0033CC"><B>Command Routing started</B></FONT>
+23/07 16:37:05 <FONT color="#0033CC"><B>CRM started</B></FONT>
+23/07 16:37:06 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+23/07 16:37:06 <FONT color="#0033CC"><B>Queue Monitor started</B></FONT>
+23/07 16:37:11 <FONT color="#CC6622"><U>User 'system' disconnected</U></FONT>
+23/07 16:37:12 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+23/07 16:37:16 User 'system' try to start thread 'CP Sync'
+23/07 16:37:17 <FONT color="#0033CC"><B>CP Sync started</B></FONT>
+23/07 16:37:20 User 'system' try to start thread 'Viettel 8x26'
+23/07 16:37:21 <FONT color="#0033CC"><B>Viettel 8x26 started</B></FONT>
+23/07 16:38:30 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+23/07 16:38:30 <FONT color="#0033CC"><B>Command Statistc started</B></FONT>
+23/07 16:38:30 <FONT color="#0033CC"><B>Order Response started</B></FONT>
+23/07 16:38:31 <FONT color="#0033CC"><B>CRM started</B></FONT>
+23/07 16:38:31 <FONT color="#0033CC"><B>Command Routing started</B></FONT>
+23/07 16:38:32 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+23/07 16:38:32 <FONT color="#0033CC"><B>Queue Monitor started</B></FONT>
+23/07 16:38:36 <FONT color="#CC6622"><U>User 'system' disconnected</U></FONT>
+23/07 16:38:37 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+23/07 16:38:42 User 'system' try to start thread 'CP Sync'
+23/07 16:38:42 <FONT color="#0033CC"><B>CP Sync started</B></FONT>
+23/07 16:38:44 User 'system' try to start thread 'Viettel 8x26'
+23/07 16:38:44 <FONT color="#0033CC"><B>Viettel 8x26 started</B></FONT>
+23/07 16:40:01 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+23/07 16:40:01 <FONT color="#0033CC"><B>Command Statistc started</B></FONT>
+23/07 16:40:01 <FONT color="#0033CC"><B>Order Response started</B></FONT>
+23/07 16:40:02 <FONT color="#0033CC"><B>Command Routing started</B></FONT>
+23/07 16:40:03 <FONT color="#0033CC"><B>CRM started</B></FONT>
+23/07 16:40:03 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+23/07 16:40:03 <FONT color="#0033CC"><B>Queue Monitor started</B></FONT>
+23/07 16:40:06 <FONT color="#CC6622"><U>User 'system' disconnected</U></FONT>
+23/07 16:40:07 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+23/07 16:40:11 User 'system' try to start thread 'CP Sync'
+23/07 16:40:12 <FONT color="#0033CC"><B>CP Sync started</B></FONT>
+23/07 16:40:14 User 'system' try to start thread 'Viettel 8x26'
+23/07 16:40:15 <FONT color="#0033CC"><B>Viettel 8x26 started</B></FONT>
+23/07 16:50:04 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+23/07 16:50:04 <FONT color="#0033CC"><B>Command Statistc started</B></FONT>
+23/07 16:50:04 <FONT color="#0033CC"><B>Order Response started</B></FONT>
+23/07 16:50:06 <FONT color="#0033CC"><B>CRM started</B></FONT>
+23/07 16:50:06 <FONT color="#0033CC"><B>Command Routing started</B></FONT>
+23/07 16:50:07 <FONT color="#0033CC"><B>Queue Monitor started</B></FONT>
+23/07 16:50:18 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+23/07 16:50:21 <FONT color="#CC6622"><U>User 'system' disconnected</U></FONT>
+23/07 16:50:22 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+23/07 16:50:26 User 'system' try to start thread 'CP Sync'
+23/07 16:50:27 <FONT color="#0033CC"><B>CP Sync started</B></FONT>
+23/07 16:50:29 User 'system' try to start thread 'Viettel 8x26'
+23/07 16:50:30 <FONT color="#0033CC"><B>Viettel 8x26 started</B></FONT>
+23/07 16:53:41 User 'system' try to update parameter of thread 'Order Response'
+23/07 16:53:41 Parameter of thread 'Order Response' updated
+23/07 16:53:43 User 'system' try to start thread 'Order Response'
+23/07 16:53:44 <FONT color="#CC0033"><B>Order Response stopped</B></FONT>
+23/07 16:53:46 <FONT color="#0033CC"><B>Order Response started</B></FONT>
+23/07 17:03:54 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+23/07 17:03:54 <FONT color="#0033CC"><B>Command Statistc started</B></FONT>
+23/07 17:03:54 <FONT color="#0033CC"><B>Order Response started</B></FONT>
+23/07 17:03:55 <FONT color="#0033CC"><B>Command Routing started</B></FONT>
+23/07 17:03:55 <FONT color="#0033CC"><B>CRM started</B></FONT>
+23/07 17:03:57 <FONT color="#0033CC"><B>Queue Monitor started</B></FONT>
+23/07 17:03:57 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+23/07 17:04:00 <FONT color="#CC6622"><U>User 'system' disconnected</U></FONT>
+23/07 17:04:01 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+23/07 17:04:05 User 'system' try to start thread 'CP Sync'
+23/07 17:04:05 <FONT color="#0033CC"><B>CP Sync started</B></FONT>
+23/07 17:04:07 User 'system' try to start thread 'Viettel 8x26'
+23/07 17:04:07 <FONT color="#0033CC"><B>Viettel 8x26 started</B></FONT>
+23/07 17:05:20 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+23/07 17:05:21 <FONT color="#0033CC"><B>Command Statistc started</B></FONT>
+23/07 17:05:21 <FONT color="#0033CC"><B>Order Response started</B></FONT>
+23/07 17:05:22 <FONT color="#0033CC"><B>Command Routing started</B></FONT>
+23/07 17:05:22 <FONT color="#0033CC"><B>CRM started</B></FONT>
+23/07 17:05:23 <FONT color="#0033CC"><B>Queue Monitor started</B></FONT>
+23/07 17:05:23 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+23/07 17:05:27 <FONT color="#CC6622"><U>User 'system' disconnected</U></FONT>
+23/07 17:05:28 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+23/07 17:05:32 User 'system' try to start thread 'CP Sync'
+23/07 17:05:33 <FONT color="#0033CC"><B>CP Sync started</B></FONT>
+23/07 17:05:34 User 'system' try to start thread 'Viettel 8x26'
+23/07 17:05:35 <FONT color="#0033CC"><B>Viettel 8x26 started</B></FONT>
+23/07 17:12:28 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+23/07 17:12:28 <FONT color="#0033CC"><B>Command Statistc started</B></FONT>
+23/07 17:12:28 <FONT color="#0033CC"><B>Order Response started</B></FONT>
+23/07 17:12:29 <FONT color="#0033CC"><B>Command Routing started</B></FONT>
+23/07 17:12:29 <FONT color="#0033CC"><B>CRM started</B></FONT>
+23/07 17:12:30 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+23/07 17:12:30 <FONT color="#0033CC"><B>Queue Monitor started</B></FONT>
+23/07 17:12:34 <FONT color="#CC6622"><U>User 'system' disconnected</U></FONT>
+23/07 17:12:35 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+23/07 17:12:40 User 'system' try to start thread 'CP Sync'
+23/07 17:12:40 <FONT color="#0033CC"><B>CP Sync started</B></FONT>
+23/07 17:12:41 User 'system' try to start thread 'Viettel 8x26'
+23/07 17:12:41 <FONT color="#0033CC"><B>Viettel 8x26 started</B></FONT>
+23/07 17:18:12 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+23/07 17:18:13 <FONT color="#0033CC"><B>Command Statistc started</B></FONT>
+23/07 17:18:13 <FONT color="#0033CC"><B>Order Response started</B></FONT>
+23/07 17:18:14 <FONT color="#0033CC"><B>Command Routing started</B></FONT>
+23/07 17:18:14 <FONT color="#0033CC"><B>CRM started</B></FONT>
+23/07 17:18:15 <FONT color="#0033CC"><B>Queue Monitor started</B></FONT>
+23/07 17:18:17 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+23/07 17:18:21 <FONT color="#CC6622"><U>User 'system' disconnected</U></FONT>
+23/07 17:18:22 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+23/07 17:24:58 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+23/07 17:24:58 <FONT color="#0033CC"><B>Command Statistc started</B></FONT>
+23/07 17:24:58 <FONT color="#0033CC"><B>Order Response started</B></FONT>
+23/07 17:25:00 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+23/07 17:25:00 <FONT color="#0033CC"><B>Command Routing started</B></FONT>
+23/07 17:25:00 <FONT color="#0033CC"><B>CRM started</B></FONT>
+23/07 17:25:01 <FONT color="#0033CC"><B>Queue Monitor started</B></FONT>
+23/07 17:25:03 <FONT color="#CC6622"><U>User 'system' disconnected</U></FONT>
+23/07 17:25:04 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+23/07 17:28:57 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+23/07 17:28:57 <FONT color="#0033CC"><B>Command Statistc started</B></FONT>
+23/07 17:28:57 <FONT color="#0033CC"><B>Order Response started</B></FONT>
+23/07 17:28:58 <FONT color="#0033CC"><B>CRM started</B></FONT>
+23/07 17:28:58 <FONT color="#0033CC"><B>Command Routing started</B></FONT>
+23/07 17:28:59 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+23/07 17:28:59 <FONT color="#0033CC"><B>Queue Monitor started</B></FONT>
+23/07 17:29:03 <FONT color="#CC6622"><U>User 'system' disconnected</U></FONT>
+23/07 17:29:04 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+23/07 17:31:16 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+23/07 17:31:17 <FONT color="#0033CC"><B>Command Statistc started</B></FONT>
+23/07 17:31:17 <FONT color="#0033CC"><B>Order Response started</B></FONT>
+23/07 17:31:18 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+23/07 17:31:18 <FONT color="#0033CC"><B>CRM started</B></FONT>
+23/07 17:31:18 <FONT color="#0033CC"><B>Command Routing started</B></FONT>
+23/07 17:31:19 <FONT color="#0033CC"><B>Queue Monitor started</B></FONT>
+23/07 17:31:22 <FONT color="#CC6622"><U>User 'system' disconnected</U></FONT>
+23/07 17:31:24 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+23/07 17:31:28 User 'system' try to start thread 'CP Sync'
+23/07 17:31:28 <FONT color="#0033CC"><B>CP Sync started</B></FONT>
+23/07 17:31:30 User 'system' try to start thread 'Viettel 8x26'
+23/07 17:31:30 <FONT color="#0033CC"><B>Viettel 8x26 started</B></FONT>
+23/07 17:39:14 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+23/07 17:39:14 <FONT color="#0033CC"><B>Command Statistc started</B></FONT>
+23/07 17:39:14 <FONT color="#0033CC"><B>Order Response started</B></FONT>
+23/07 17:39:15 <FONT color="#0033CC"><B>Command Routing started</B></FONT>
+23/07 17:39:15 <FONT color="#0033CC"><B>CRM started</B></FONT>
+23/07 17:39:16 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+23/07 17:39:16 <FONT color="#0033CC"><B>Queue Monitor started</B></FONT>
+23/07 17:39:19 <FONT color="#CC6622"><U>User 'system' disconnected</U></FONT>
+23/07 17:39:20 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+23/07 17:39:25 User 'system' try to start thread 'CP Sync'
+23/07 17:39:25 <FONT color="#0033CC"><B>CP Sync started</B></FONT>
+23/07 17:39:28 User 'system' try to start thread 'Viettel 8x26'
+23/07 17:39:28 <FONT color="#0033CC"><B>Viettel 8x26 started</B></FONT>
+23/07 17:45:20 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+23/07 17:45:20 <FONT color="#0033CC"><B>Command Statistc started</B></FONT>
+23/07 17:45:20 <FONT color="#0033CC"><B>Order Response started</B></FONT>
+23/07 17:45:21 <FONT color="#0033CC"><B>CRM started</B></FONT>
+23/07 17:45:21 <FONT color="#0033CC"><B>Command Routing started</B></FONT>
+23/07 17:45:21 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+23/07 17:45:22 <FONT color="#0033CC"><B>Queue Monitor started</B></FONT>
+23/07 17:45:24 <FONT color="#CC6622"><U>User 'system' disconnected</U></FONT>
+23/07 17:45:26 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+23/07 17:45:31 User 'system' try to start thread 'CP Sync'
+23/07 17:45:32 <FONT color="#0033CC"><B>CP Sync started</B></FONT>
+23/07 17:45:36 User 'system' try to start thread 'Viettel 8x26'
+23/07 17:45:36 <FONT color="#0033CC"><B>Viettel 8x26 started</B></FONT>
+23/07 17:47:46 User 'system' try to update parameter of thread 'Viettel 8x26'
+23/07 17:47:46 Parameter of thread 'Viettel 8x26' updated
+23/07 17:47:48 User 'system' try to start thread 'Viettel 8x26'
+23/07 17:47:48 <FONT color="#CC0033"><B>Viettel 8x26 stopped</B></FONT>
+23/07 17:47:50 <FONT color="#0033CC"><B>Viettel 8x26 started</B></FONT>
+23/07 20:59:04 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+23/07 20:59:04 <FONT color="#0033CC"><B>Command Statistc started</B></FONT>
+23/07 20:59:04 <FONT color="#0033CC"><B>Order Response started</B></FONT>
+23/07 20:59:05 <FONT color="#0033CC"><B>Command Routing started</B></FONT>
+23/07 20:59:05 <FONT color="#0033CC"><B>CRM started</B></FONT>
+23/07 20:59:06 <FONT color="#0033CC"><B>Queue Monitor started</B></FONT>
+23/07 20:59:23 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+23/07 20:59:31 <FONT color="#CC6622"><U>User 'system' disconnected</U></FONT>
+23/07 20:59:32 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+23/07 20:59:39 User 'system' try to start thread 'CP Sync'
+23/07 20:59:40 <FONT color="#0033CC"><B>CP Sync started</B></FONT>
+23/07 20:59:43 User 'system' try to start thread 'Viettel 8x26'
+23/07 20:59:44 <FONT color="#0033CC"><B>Viettel 8x26 started</B></FONT>
+23/07 21:09:05 <FONT color="#CC6622"><U>User 'system' disconnected</U></FONT>
+23/07 21:10:01 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+23/07 21:10:16 User 'system' try to update parameter of thread 'Order Response'
+23/07 21:10:16 Parameter of thread 'Order Response' updated
+23/07 21:10:18 User 'system' try to start thread 'Order Response'
+23/07 21:10:19 <FONT color="#CC0033"><B>Order Response stopped</B></FONT>
+23/07 21:10:21 <FONT color="#0033CC"><B>Order Response started</B></FONT>
+23/07 21:24:27 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+23/07 21:24:27 <FONT color="#0033CC"><B>Command Statistc started</B></FONT>
+23/07 21:24:27 <FONT color="#0033CC"><B>Order Response started</B></FONT>
+23/07 21:24:28 <FONT color="#0033CC"><B>Command Routing started</B></FONT>
+23/07 21:24:28 <FONT color="#0033CC"><B>CRM started</B></FONT>
+23/07 21:24:29 <FONT color="#0033CC"><B>Queue Monitor started</B></FONT>
+23/07 21:24:32 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+23/07 21:24:38 <FONT color="#CC6622"><U>User 'system' disconnected</U></FONT>
+23/07 21:24:39 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+23/07 21:24:46 User 'system' try to start thread 'CP Sync'
+23/07 21:24:47 <FONT color="#0033CC"><B>CP Sync started</B></FONT>
+23/07 21:24:49 User 'system' try to start thread 'Viettel 8x26'
+23/07 21:24:50 <FONT color="#0033CC"><B>Viettel 8x26 started</B></FONT>
+23/07 21:26:18 User 'system' try to update parameter of thread 'Order Response'
+23/07 21:26:19 Parameter of thread 'Order Response' updated
+23/07 21:26:21 User 'system' try to start thread 'Order Response'
+23/07 21:26:21 <FONT color="#CC0033"><B>Order Response stopped</B></FONT>
+23/07 21:26:23 <FONT color="#0033CC"><B>Order Response started</B></FONT>
+24/07 08:32:09 <FONT color="#CC6622"><U>User 'system' disconnected</U></FONT>
+24/07 08:32:10 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+24/07 08:43:05 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+24/07 08:43:05 <FONT color="#0033CC"><B>Command Statistc started</B></FONT>
+24/07 08:43:05 <FONT color="#0033CC"><B>Order Response started</B></FONT>
+24/07 08:43:06 <FONT color="#0033CC"><B>Command Routing started</B></FONT>
+24/07 08:43:06 <FONT color="#0033CC"><B>CRM started</B></FONT>
+24/07 08:43:07 <FONT color="#0033CC"><B>Queue Monitor started</B></FONT>
+24/07 08:43:08 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+24/07 08:43:13 <FONT color="#CC6622"><U>User 'system' disconnected</U></FONT>
+24/07 08:43:14 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+24/07 08:43:19 User 'system' try to start thread 'CP Sync'
+24/07 08:43:19 <FONT color="#0033CC"><B>CP Sync started</B></FONT>
+24/07 08:43:22 User 'system' try to start thread 'Viettel 8x26'
+24/07 08:43:22 <FONT color="#0033CC"><B>Viettel 8x26 started</B></FONT>
+24/07 09:18:50 User 'system' try to update parameter of thread 'Order Response'
+24/07 09:18:50 Parameter of thread 'Order Response' updated
+24/07 09:18:52 User 'system' try to start thread 'Order Response'
+24/07 09:18:52 <FONT color="#CC0033"><B>Order Response stopped</B></FONT>
+24/07 09:18:54 <FONT color="#0033CC"><B>Order Response started</B></FONT>
+24/07 09:20:58 User 'system' try to update parameter of thread 'Order Response'
+24/07 09:20:58 Parameter of thread 'Order Response' updated
+24/07 09:20:59 User 'system' try to start thread 'Order Response'
+24/07 09:21:00 <FONT color="#CC0033"><B>Order Response stopped</B></FONT>
+24/07 09:21:02 <FONT color="#0033CC"><B>Order Response started</B></FONT>
+24/07 09:27:32 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+24/07 09:27:32 <FONT color="#0033CC"><B>Command Statistc started</B></FONT>
+24/07 09:27:32 <FONT color="#0033CC"><B>Order Response started</B></FONT>
+24/07 09:27:34 <FONT color="#0033CC"><B>Command Routing started</B></FONT>
+24/07 09:27:34 <FONT color="#0033CC"><B>CRM started</B></FONT>
+24/07 09:27:35 <FONT color="#0033CC"><B>Queue Monitor started</B></FONT>
+24/07 09:28:29 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+24/07 09:28:33 <FONT color="#CC6622"><U>User 'system' disconnected</U></FONT>
+24/07 09:28:35 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+24/07 09:28:39 User 'system' try to start thread 'CP Sync'
+24/07 09:28:40 <FONT color="#0033CC"><B>CP Sync started</B></FONT>
+24/07 09:28:42 User 'system' try to start thread 'Viettel 8x26'
+24/07 09:28:43 <FONT color="#0033CC"><B>Viettel 8x26 started</B></FONT>
+24/07 09:34:16 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+24/07 09:34:16 <FONT color="#0033CC"><B>Command Statistc started</B></FONT>
+24/07 09:34:16 <FONT color="#0033CC"><B>Order Response started</B></FONT>
+24/07 09:34:17 <FONT color="#0033CC"><B>CRM started</B></FONT>
+24/07 09:34:17 <FONT color="#0033CC"><B>Command Routing started</B></FONT>
+24/07 09:34:18 <FONT color="#0033CC"><B>Queue Monitor started</B></FONT>
+24/07 09:34:19 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+24/07 09:34:22 <FONT color="#CC6622"><U>User 'system' disconnected</U></FONT>
+24/07 09:34:24 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+24/07 09:34:28 User 'system' try to start thread 'CP Sync'
+24/07 09:34:29 <FONT color="#0033CC"><B>CP Sync started</B></FONT>
+24/07 09:34:32 User 'system' try to start thread 'Viettel 8x26'
+24/07 09:34:33 <FONT color="#0033CC"><B>Viettel 8x26 started</B></FONT>
+24/07 10:13:59 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+24/07 10:13:59 <FONT color="#0033CC"><B>Command Statistc started</B></FONT>
+24/07 10:13:59 <FONT color="#0033CC"><B>Order Response started</B></FONT>
+24/07 10:14:00 <FONT color="#0033CC"><B>Command Routing started</B></FONT>
+24/07 10:14:00 <FONT color="#0033CC"><B>CRM started</B></FONT>
+24/07 10:14:01 <FONT color="#0033CC"><B>Queue Monitor started</B></FONT>
+24/07 10:14:07 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+24/07 10:14:11 <FONT color="#CC6622"><U>User 'system' disconnected</U></FONT>
+24/07 10:14:12 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+24/07 10:14:17 User 'system' try to start thread 'CP Sync'
+24/07 10:14:17 <FONT color="#0033CC"><B>CP Sync started</B></FONT>
+24/07 10:14:20 User 'system' try to start thread 'Viettel 8x26'
+24/07 10:14:20 <FONT color="#0033CC"><B>Viettel 8x26 started</B></FONT>
+24/07 10:18:46 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+24/07 10:18:46 <FONT color="#0033CC"><B>Command Statistc started</B></FONT>
+24/07 10:18:46 <FONT color="#0033CC"><B>Order Response started</B></FONT>
+24/07 10:18:47 <FONT color="#0033CC"><B>Command Routing started</B></FONT>
+24/07 10:18:47 <FONT color="#0033CC"><B>CRM started</B></FONT>
+24/07 10:18:48 <FONT color="#0033CC"><B>Queue Monitor started</B></FONT>
+24/07 10:19:51 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+24/07 10:19:55 <FONT color="#CC6622"><U>User 'system' disconnected</U></FONT>
+24/07 10:19:56 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+24/07 10:20:00 User 'system' try to start thread 'CP Sync'
+24/07 10:20:01 <FONT color="#0033CC"><B>CP Sync started</B></FONT>
+24/07 10:20:02 User 'system' try to start thread 'Viettel 8x26'
+24/07 10:20:03 <FONT color="#0033CC"><B>Viettel 8x26 started</B></FONT>
+24/07 10:21:47 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+24/07 10:21:47 <FONT color="#0033CC"><B>Command Statistc started</B></FONT>
+24/07 10:21:47 <FONT color="#0033CC"><B>Order Response started</B></FONT>
+24/07 10:21:48 <FONT color="#0033CC"><B>Command Routing started</B></FONT>
+24/07 10:21:48 <FONT color="#0033CC"><B>CRM started</B></FONT>
+24/07 10:21:49 <FONT color="#0033CC"><B>Queue Monitor started</B></FONT>
+24/07 10:21:50 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+24/07 10:21:54 <FONT color="#CC6622"><U>User 'system' disconnected</U></FONT>
+24/07 10:21:56 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+24/07 10:22:03 User 'system' try to start thread 'CP Sync'
+24/07 10:22:03 <FONT color="#0033CC"><B>CP Sync started</B></FONT>
+24/07 10:22:06 User 'system' try to start thread 'Viettel 8x26'
+24/07 10:22:06 <FONT color="#0033CC"><B>Viettel 8x26 started</B></FONT>
+24/07 10:39:34 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+24/07 10:39:35 <FONT color="#0033CC"><B>Command Statistc started</B></FONT>
+24/07 10:39:35 <FONT color="#0033CC"><B>Order Response started</B></FONT>
+24/07 10:39:36 <FONT color="#0033CC"><B>Command Routing started</B></FONT>
+24/07 10:39:36 <FONT color="#0033CC"><B>CRM started</B></FONT>
+24/07 10:39:37 <FONT color="#0033CC"><B>Queue Monitor started</B></FONT>
+24/07 10:39:49 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+24/07 10:39:53 <FONT color="#CC6622"><U>User 'system' disconnected</U></FONT>
+24/07 10:39:54 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+24/07 10:39:59 User 'system' try to start thread 'CP Sync'
+24/07 10:40:00 <FONT color="#0033CC"><B>CP Sync started</B></FONT>
+24/07 10:40:01 User 'system' try to start thread 'Viettel 8x26'
+24/07 10:40:02 <FONT color="#0033CC"><B>Viettel 8x26 started</B></FONT>
+24/07 10:55:56 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+24/07 10:55:56 <FONT color="#0033CC"><B>Command Statistc started</B></FONT>
+24/07 10:55:56 <FONT color="#0033CC"><B>Order Response started</B></FONT>
+24/07 10:55:57 <FONT color="#0033CC"><B>Command Routing started</B></FONT>
+24/07 10:55:57 <FONT color="#0033CC"><B>CRM started</B></FONT>
+24/07 10:55:57 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+24/07 10:55:58 <FONT color="#0033CC"><B>Queue Monitor started</B></FONT>
+24/07 10:56:01 <FONT color="#CC6622"><U>User 'system' disconnected</U></FONT>
+24/07 10:56:07 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+24/07 10:56:12 User 'system' try to start thread 'CP Sync'
+24/07 10:56:12 <FONT color="#0033CC"><B>CP Sync started</B></FONT>
+24/07 10:56:14 User 'system' try to start thread 'Viettel 8x26'
+24/07 10:56:14 <FONT color="#0033CC"><B>Viettel 8x26 started</B></FONT>
+24/07 11:46:14 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+24/07 11:46:14 <FONT color="#0033CC"><B>Command Statistc started</B></FONT>
+24/07 11:46:14 <FONT color="#0033CC"><B>Order Response started</B></FONT>
+24/07 11:46:15 <FONT color="#0033CC"><B>CRM started</B></FONT>
+24/07 11:46:15 <FONT color="#0033CC"><B>Command Routing started</B></FONT>
+24/07 11:46:16 <FONT color="#0033CC"><B>Queue Monitor started</B></FONT>
+24/07 11:46:17 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+24/07 11:46:21 <FONT color="#CC6622"><U>User 'system' disconnected</U></FONT>
+24/07 11:46:23 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+24/07 11:46:26 User 'system' try to start thread 'CP Sync'
+24/07 11:46:27 <FONT color="#0033CC"><B>CP Sync started</B></FONT>
+24/07 11:46:28 User 'system' try to start thread 'Viettel 8x26'
+24/07 11:46:29 <FONT color="#0033CC"><B>Viettel 8x26 started</B></FONT>
+24/07 13:30:57 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+24/07 13:30:57 <FONT color="#0033CC"><B>Command Statistc started</B></FONT>
+24/07 13:30:57 <FONT color="#0033CC"><B>Order Response started</B></FONT>
+24/07 13:30:58 <FONT color="#0033CC"><B>Command Routing started</B></FONT>
+24/07 13:30:58 <FONT color="#0033CC"><B>CRM started</B></FONT>
+24/07 13:30:59 <FONT color="#0033CC"><B>Queue Monitor started</B></FONT>
+24/07 13:30:59 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+24/07 13:31:04 <FONT color="#CC6622"><U>User 'system' disconnected</U></FONT>
+24/07 13:31:15 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+24/07 13:31:20 User 'system' try to start thread 'CP Sync'
+24/07 13:31:20 <FONT color="#0033CC"><B>CP Sync started</B></FONT>
+24/07 13:31:23 User 'system' try to start thread 'Viettel 8x26'
+24/07 13:31:23 <FONT color="#0033CC"><B>Viettel 8x26 started</B></FONT>
+24/07 13:33:36 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+24/07 13:33:36 <FONT color="#0033CC"><B>Command Statistc started</B></FONT>
+24/07 13:33:36 <FONT color="#0033CC"><B>Order Response started</B></FONT>
+24/07 13:33:37 <FONT color="#0033CC"><B>Command Routing started</B></FONT>
+24/07 13:33:37 <FONT color="#0033CC"><B>CRM started</B></FONT>
+24/07 13:33:38 <FONT color="#0033CC"><B>Queue Monitor started</B></FONT>
+24/07 13:33:48 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+24/07 13:33:52 <FONT color="#CC6622"><U>User 'system' disconnected</U></FONT>
+24/07 13:33:54 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+24/07 13:35:39 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+24/07 13:35:39 <FONT color="#0033CC"><B>Command Statistc started</B></FONT>
+24/07 13:35:39 <FONT color="#0033CC"><B>Order Response started</B></FONT>
+24/07 13:35:41 <FONT color="#0033CC"><B>Command Routing started</B></FONT>
+24/07 13:35:41 <FONT color="#0033CC"><B>CRM started</B></FONT>
+24/07 13:35:42 <FONT color="#0033CC"><B>Queue Monitor started</B></FONT>
+24/07 13:35:47 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+24/07 13:35:55 <FONT color="#CC6622"><U>User 'system' disconnected</U></FONT>
+24/07 13:35:56 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+24/07 13:36:48 User 'system' try to start thread 'CP Sync'
+24/07 13:36:49 <FONT color="#0033CC"><B>CP Sync started</B></FONT>
+24/07 13:36:50 User 'system' try to start thread 'Viettel 8x26'
+24/07 13:36:51 <FONT color="#0033CC"><B>Viettel 8x26 started</B></FONT>
+24/07 14:34:33 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+24/07 14:34:33 <FONT color="#0033CC"><B>Command Statistc started</B></FONT>
+24/07 14:34:33 <FONT color="#0033CC"><B>Order Response started</B></FONT>
+24/07 14:34:35 <FONT color="#0033CC"><B>Command Routing started</B></FONT>
+24/07 14:34:35 <FONT color="#0033CC"><B>CRM started</B></FONT>
+24/07 14:34:36 <FONT color="#0033CC"><B>Queue Monitor started</B></FONT>
+24/07 14:34:36 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+24/07 14:34:39 <FONT color="#CC6622"><U>User 'system' disconnected</U></FONT>
+24/07 14:34:41 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+24/07 14:34:45 User 'system' try to start thread 'CP Sync'
+24/07 14:34:46 <FONT color="#0033CC"><B>CP Sync started</B></FONT>
+24/07 14:34:47 User 'system' try to start thread 'Viettel 8x26'
+24/07 14:34:48 <FONT color="#0033CC"><B>Viettel 8x26 started</B></FONT>
+24/07 14:39:41 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+24/07 14:39:41 <FONT color="#0033CC"><B>Command Statistc started</B></FONT>
+24/07 14:39:41 <FONT color="#0033CC"><B>Order Response started</B></FONT>
+24/07 14:39:42 <FONT color="#0033CC"><B>Command Routing started</B></FONT>
+24/07 14:39:42 <FONT color="#0033CC"><B>CRM started</B></FONT>
+24/07 14:39:43 <FONT color="#0033CC"><B>Queue Monitor started</B></FONT>
+24/07 14:39:44 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+24/07 14:39:48 <FONT color="#CC6622"><U>User 'system' disconnected</U></FONT>
+24/07 14:39:50 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+24/07 14:40:35 User 'system' try to start thread 'Viettel 8x26'
+24/07 14:40:36 <FONT color="#0033CC"><B>Viettel 8x26 started</B></FONT>
+24/07 14:40:40 User 'system' try to start thread 'CP Sync'
+24/07 14:40:41 <FONT color="#0033CC"><B>CP Sync started</B></FONT>
+24/07 15:59:27 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+24/07 15:59:27 <FONT color="#0033CC"><B>Command Statistc started</B></FONT>
+24/07 15:59:27 <FONT color="#0033CC"><B>Order Response started</B></FONT>
+24/07 15:59:28 <FONT color="#0033CC"><B>Command Routing started</B></FONT>
+24/07 15:59:28 <FONT color="#0033CC"><B>CRM started</B></FONT>
+24/07 15:59:29 <FONT color="#0033CC"><B>Queue Monitor started</B></FONT>
+24/07 15:59:33 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+24/07 15:59:37 <FONT color="#CC6622"><U>User 'system' disconnected</U></FONT>
+24/07 15:59:38 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+24/07 15:59:42 User 'system' try to start thread 'CP Sync'
+24/07 15:59:43 <FONT color="#0033CC"><B>CP Sync started</B></FONT>
+24/07 15:59:45 User 'system' try to start thread 'Viettel 8x26'
+24/07 15:59:46 <FONT color="#0033CC"><B>Viettel 8x26 started</B></FONT>
+24/07 16:32:12 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+24/07 16:32:12 <FONT color="#0033CC"><B>Command Statistc started</B></FONT>
+24/07 16:32:12 <FONT color="#0033CC"><B>Order Response started</B></FONT>
+24/07 16:32:13 <FONT color="#0033CC"><B>CRM started</B></FONT>
+24/07 16:32:13 <FONT color="#0033CC"><B>Command Routing started</B></FONT>
+24/07 16:32:14 <FONT color="#0033CC"><B>Queue Monitor started</B></FONT>
+24/07 16:32:21 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+24/07 16:32:24 <FONT color="#CC6622"><U>User 'system' disconnected</U></FONT>
+24/07 16:32:26 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+24/07 16:32:31 User 'system' try to start thread 'Viettel 8x26'
+24/07 16:32:31 <FONT color="#0033CC"><B>Viettel 8x26 started</B></FONT>
+24/07 16:32:33 User 'system' try to start thread 'CP Sync'
+24/07 16:32:33 <FONT color="#0033CC"><B>CP Sync started</B></FONT>
+24/07 16:32:44 User 'system' try to start thread 'Send MT Viettel daily'
+24/07 16:32:44 <FONT color="#0033CC"><B>Send MT Viettel daily started</B></FONT>
+24/07 16:34:59 User 'system' try to update parameter of thread 'Send MT Viettel daily'
+24/07 16:34:59 Parameter of thread 'Send MT Viettel daily' updated
+24/07 16:35:02 User 'system' try to start thread 'Send MT Viettel daily'
+24/07 16:35:02 <FONT color="#CC0033"><B>Send MT Viettel daily stopped</B></FONT>
+24/07 16:35:04 <FONT color="#0033CC"><B>Send MT Viettel daily started</B></FONT>
+24/07 16:37:31 User 'system' try to start thread 'Order Routing'
+24/07 16:37:31 <FONT color="#CC0033"><B>Order Routing stopped</B></FONT>
+24/07 16:37:33 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+24/07 16:45:42 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+24/07 16:45:42 <FONT color="#0033CC"><B>Command Statistc started</B></FONT>
+24/07 16:45:42 <FONT color="#0033CC"><B>Order Response started</B></FONT>
+24/07 16:45:43 <FONT color="#0033CC"><B>Command Routing started</B></FONT>
+24/07 16:45:43 <FONT color="#0033CC"><B>CRM started</B></FONT>
+24/07 16:45:44 <FONT color="#0033CC"><B>Queue Monitor started</B></FONT>
+24/07 16:45:44 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+24/07 16:45:52 User 'system' try to start thread 'Viettel 8x26'
+24/07 16:45:52 <FONT color="#0033CC"><B>Viettel 8x26 started</B></FONT>
+24/07 16:46:04 User 'system' try to start thread 'CP Sync'
+24/07 16:46:04 <FONT color="#0033CC"><B>CP Sync started</B></FONT>
+24/07 16:46:10 <FONT color="#CC6622"><U>User 'system' disconnected</U></FONT>
+24/07 16:46:11 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+24/07 16:46:45 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+24/07 16:46:45 <FONT color="#0033CC"><B>Command Statistc started</B></FONT>
+24/07 16:46:45 <FONT color="#0033CC"><B>Order Response started</B></FONT>
+24/07 16:46:46 <FONT color="#0033CC"><B>Command Routing started</B></FONT>
+24/07 16:46:46 <FONT color="#0033CC"><B>CRM started</B></FONT>
+24/07 16:46:47 <FONT color="#0033CC"><B>Queue Monitor started</B></FONT>
+24/07 16:46:48 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+24/07 16:46:52 <FONT color="#CC6622"><U>User 'system' disconnected</U></FONT>
+24/07 16:46:53 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+24/07 16:47:42 User 'system' try to start thread 'CP Sync'
+24/07 16:47:43 <FONT color="#0033CC"><B>CP Sync started</B></FONT>
+24/07 16:47:44 User 'system' try to start thread 'Viettel 8x26'
+24/07 16:47:45 <FONT color="#0033CC"><B>Viettel 8x26 started</B></FONT>
+24/07 16:47:52 User 'system' try to start thread 'Order Routing'
+24/07 16:47:54 <FONT color="#CC0033"><B>Order Routing stopped</B></FONT>
+24/07 16:47:55 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+24/07 16:47:58 User 'system' try to start thread 'Command Routing'
+24/07 16:47:59 <FONT color="#CC0033"><B>Command Routing stopped</B></FONT>
+24/07 16:48:01 <FONT color="#0033CC"><B>Command Routing started</B></FONT>
+24/07 16:48:02 User 'system' try to start thread 'Command Statistc'
+24/07 16:48:03 <FONT color="#CC0033"><B>Command Statistc stopped</B></FONT>
+24/07 16:48:05 <FONT color="#0033CC"><B>Command Statistc started</B></FONT>
+24/07 16:48:05 User 'system' try to start thread 'Order Response'
+24/07 16:48:06 <FONT color="#CC0033"><B>Order Response stopped</B></FONT>
+24/07 16:48:08 User 'system' try to start thread 'CRM'
+24/07 16:48:08 <FONT color="#0033CC"><B>Order Response started</B></FONT>
+24/07 16:48:09 <FONT color="#CC0033"><B>CRM stopped</B></FONT>
+24/07 16:48:11 <FONT color="#0033CC"><B>CRM started</B></FONT>
+24/07 16:52:05 User 'system' try to start thread 'Send MT Viettel daily'
+24/07 16:52:06 <FONT color="#0033CC"><B>Send MT Viettel daily started</B></FONT>
+24/07 16:54:48 User 'system' try to start thread 'Order Routing'
+24/07 16:54:49 <FONT color="#CC0033"><B>Order Routing stopped</B></FONT>
+24/07 16:54:51 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+24/07 17:12:35 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+24/07 17:12:35 <FONT color="#0033CC"><B>Command Statistc started</B></FONT>
+24/07 17:12:35 <FONT color="#0033CC"><B>Order Response started</B></FONT>
+24/07 17:12:36 <FONT color="#0033CC"><B>Command Routing started</B></FONT>
+24/07 17:12:36 <FONT color="#0033CC"><B>CRM started</B></FONT>
+24/07 17:12:37 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+24/07 17:12:37 <FONT color="#0033CC"><B>Queue Monitor started</B></FONT>
+24/07 17:12:41 <FONT color="#CC6622"><U>User 'system' disconnected</U></FONT>
+24/07 17:12:42 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+24/07 17:12:47 User 'system' try to start thread 'Viettel 8x26'
+24/07 17:12:48 <FONT color="#0033CC"><B>Viettel 8x26 started</B></FONT>
+24/07 17:12:48 User 'system' try to start thread 'CP Sync'
+24/07 17:12:49 <FONT color="#0033CC"><B>CP Sync started</B></FONT>
+24/07 17:12:53 User 'system' try to start thread 'Send MT Viettel daily'
+24/07 17:12:54 <FONT color="#0033CC"><B>Send MT Viettel daily started</B></FONT>
+24/07 17:19:44 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+24/07 17:19:44 <FONT color="#0033CC"><B>Command Statistc started</B></FONT>
+24/07 17:19:44 <FONT color="#0033CC"><B>Order Response started</B></FONT>
+24/07 17:19:45 <FONT color="#0033CC"><B>Command Routing started</B></FONT>
+24/07 17:19:45 <FONT color="#0033CC"><B>CRM started</B></FONT>
+24/07 17:19:46 <FONT color="#0033CC"><B>Queue Monitor started</B></FONT>
+24/07 17:19:48 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+24/07 17:19:54 <FONT color="#CC6622"><U>User 'system' disconnected</U></FONT>
+24/07 17:19:55 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+24/07 17:19:59 User 'system' try to start thread 'Viettel 8x26'
+24/07 17:19:59 <FONT color="#0033CC"><B>Viettel 8x26 started</B></FONT>
+24/07 17:20:01 User 'system' try to start thread 'CP Sync'
+24/07 17:20:01 <FONT color="#0033CC"><B>CP Sync started</B></FONT>
+24/07 17:20:03 User 'system' try to start thread 'Send MT Viettel daily'
+24/07 17:20:03 <FONT color="#0033CC"><B>Send MT Viettel daily started</B></FONT>
+24/07 17:27:43 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+24/07 17:27:43 <FONT color="#0033CC"><B>Command Statistc started</B></FONT>
+24/07 17:27:43 <FONT color="#0033CC"><B>Order Response started</B></FONT>
+24/07 17:27:44 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+24/07 17:27:44 <FONT color="#0033CC"><B>Command Routing started</B></FONT>
+24/07 17:27:44 <FONT color="#0033CC"><B>CRM started</B></FONT>
+24/07 17:27:45 <FONT color="#0033CC"><B>Queue Monitor started</B></FONT>
+24/07 17:27:48 <FONT color="#CC6622"><U>User 'system' disconnected</U></FONT>
+24/07 17:27:50 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+24/07 17:27:53 User 'system' try to start thread 'Viettel 8x26'
+24/07 17:27:54 <FONT color="#0033CC"><B>Viettel 8x26 started</B></FONT>
+24/07 17:27:55 User 'system' try to start thread 'CP Sync'
+24/07 17:27:56 <FONT color="#0033CC"><B>CP Sync started</B></FONT>
+24/07 17:27:58 User 'system' try to start thread 'Send MT Viettel daily'
+24/07 17:27:58 <FONT color="#0033CC"><B>Send MT Viettel daily started</B></FONT>
+24/07 21:18:22 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+24/07 21:18:22 <FONT color="#0033CC"><B>Command Statistc started</B></FONT>
+24/07 21:18:22 <FONT color="#0033CC"><B>Order Response started</B></FONT>
+24/07 21:18:23 <FONT color="#0033CC"><B>Command Routing started</B></FONT>
+24/07 21:18:23 <FONT color="#0033CC"><B>CRM started</B></FONT>
+24/07 21:18:24 <FONT color="#0033CC"><B>Queue Monitor started</B></FONT>
+24/07 21:18:27 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+24/07 21:18:32 <FONT color="#CC6622"><U>User 'system' disconnected</U></FONT>
+24/07 21:18:33 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+24/07 21:18:39 User 'system' try to start thread 'CP Sync'
+24/07 21:18:40 <FONT color="#0033CC"><B>CP Sync started</B></FONT>
+24/07 21:18:44 User 'system' try to start thread 'Viettel 8x26'
+24/07 21:18:45 <FONT color="#0033CC"><B>Viettel 8x26 started</B></FONT>
+24/07 21:18:48 User 'system' try to start thread 'AutoUregister VT nonsub'
+24/07 21:18:49 <FONT color="#0033CC"><B>AutoUregister VT nonsub started</B></FONT>
+25/07 15:05:30 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+25/07 15:05:30 <FONT color="#0033CC"><B>Order Response started</B></FONT>
+25/07 15:05:30 <FONT color="#0033CC"><B>Command Statistc started</B></FONT>
+25/07 15:05:31 <FONT color="#0033CC"><B>Command Routing started</B></FONT>
+25/07 15:05:31 <FONT color="#0033CC"><B>CRM started</B></FONT>
+25/07 15:05:32 <FONT color="#0033CC"><B>Queue Monitor started</B></FONT>
+25/07 15:05:45 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+25/07 15:05:54 User 'system' try to start thread 'Mobifone SDP'
+25/07 15:05:55 <FONT color="#0033CC"><B>Mobifone SDP started</B></FONT>
+25/07 15:05:57 User 'system' try to start thread 'Viettel 8x26'
+25/07 15:05:58 <FONT color="#0033CC"><B>Viettel 8x26 started</B></FONT>
+25/07 15:06:00 User 'system' try to start thread 'CP Sync'
+25/07 15:06:01 <FONT color="#0033CC"><B>CP Sync started</B></FONT>
+25/07 15:17:43 User 'system' try to start thread 'Order Routing'
+25/07 15:17:44 <FONT color="#CC0033"><B>Order Routing stopped</B></FONT>
+25/07 15:17:46 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+25/07 15:17:47 User 'system' try to start thread 'Command Routing'
+25/07 15:17:48 <FONT color="#CC0033"><B>Command Routing stopped</B></FONT>
+25/07 15:17:50 <FONT color="#0033CC"><B>Command Routing started</B></FONT>
+25/07 15:18:43 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+25/07 15:18:43 <FONT color="#0033CC"><B>Command Statistc started</B></FONT>
+25/07 15:18:43 <FONT color="#0033CC"><B>Order Response started</B></FONT>
+25/07 15:18:44 <FONT color="#0033CC"><B>Command Routing started</B></FONT>
+25/07 15:18:44 <FONT color="#0033CC"><B>CRM started</B></FONT>
+25/07 15:18:45 <FONT color="#0033CC"><B>Queue Monitor started</B></FONT>
+25/07 15:18:50 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+25/07 15:18:53 <FONT color="#CC6622"><U>User 'system' disconnected</U></FONT>
+25/07 15:18:55 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+25/07 15:18:59 User 'system' try to start thread 'Mobifone SDP'
+25/07 15:18:59 <FONT color="#0033CC"><B>Mobifone SDP started</B></FONT>
+25/07 15:20:30 User 'system' try to start thread 'Mobifone SDP'
+25/07 15:20:31 <FONT color="#CC0033"><B>Mobifone SDP stopped</B></FONT>
+25/07 15:20:32 <FONT color="#0033CC"><B>Mobifone SDP started</B></FONT>
+25/07 15:21:07 User 'system' try to update parameter of thread 'Mobifone SDP'
+25/07 15:21:07 Parameter of thread 'Mobifone SDP' updated
+25/07 15:21:09 User 'system' try to start thread 'Mobifone SDP'
+25/07 15:21:10 <FONT color="#CC0033"><B>Mobifone SDP stopped</B></FONT>
+25/07 15:21:11 <FONT color="#0033CC"><B>Mobifone SDP started</B></FONT>
+25/07 15:22:21 User 'system' try to update parameter of thread 'Vinaphone SDP'
+25/07 15:22:21 Parameter of thread 'Vinaphone SDP' updated
+25/07 15:22:40 User 'system' try to start thread 'Mobifone OTP'
+25/07 15:22:40 <FONT color="#0033CC"><B>Mobifone OTP started</B></FONT>
+25/07 15:24:14 User 'system' try to start thread 'Command Routing'
+25/07 15:24:14 <FONT color="#CC0033"><B>Command Routing stopped</B></FONT>
+25/07 15:24:16 User 'system' try to start thread 'Order Routing'
+25/07 15:24:17 <FONT color="#0033CC"><B>Command Routing started</B></FONT>
+25/07 15:24:18 <FONT color="#CC0033"><B>Order Routing stopped</B></FONT>
+25/07 15:24:20 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+25/07 15:28:03 User 'system' try to update parameter of thread 'MT SMS'
+25/07 15:28:03 Parameter of thread 'MT SMS' updated
+25/07 15:28:05 User 'system' try to start thread 'MT SMS'
+25/07 15:28:06 <FONT color="#0033CC"><B>MT SMS started</B></FONT>
+25/07 15:30:53 User 'system' try to start thread 'Order Routing'
+25/07 15:30:54 <FONT color="#CC0033"><B>Order Routing stopped</B></FONT>
+25/07 15:30:56 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+25/07 15:33:15 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+25/07 15:33:15 <FONT color="#0033CC"><B>Command Statistc started</B></FONT>
+25/07 15:33:15 <FONT color="#0033CC"><B>Order Response started</B></FONT>
+25/07 15:33:16 <FONT color="#0033CC"><B>Command Routing started</B></FONT>
+25/07 15:33:17 <FONT color="#0033CC"><B>CRM started</B></FONT>
+25/07 15:33:17 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+25/07 15:33:17 <FONT color="#0033CC"><B>Queue Monitor started</B></FONT>
+25/07 15:33:20 <FONT color="#CC6622"><U>User 'system' disconnected</U></FONT>
+25/07 15:33:21 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+25/07 15:33:26 User 'system' try to start thread 'MT SMS'
+25/07 15:33:26 <FONT color="#0033CC"><B>MT SMS started</B></FONT>
+25/07 15:34:37 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+25/07 15:34:37 <FONT color="#0033CC"><B>Command Statistc started</B></FONT>
+25/07 15:34:37 <FONT color="#0033CC"><B>Order Response started</B></FONT>
+25/07 15:34:38 <FONT color="#0033CC"><B>Command Routing started</B></FONT>
+25/07 15:34:38 <FONT color="#0033CC"><B>CRM started</B></FONT>
+25/07 15:34:39 <FONT color="#0033CC"><B>Queue Monitor started</B></FONT>
+25/07 15:36:09 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+25/07 15:36:13 <FONT color="#CC6622"><U>User 'system' disconnected</U></FONT>
+25/07 15:36:14 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+25/07 15:36:19 User 'system' try to start thread 'MT SMS'
+25/07 15:36:19 <FONT color="#0033CC"><B>MT SMS started</B></FONT>
+25/07 15:38:02 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+25/07 15:38:02 <FONT color="#0033CC"><B>Command Statistc started</B></FONT>
+25/07 15:38:02 <FONT color="#0033CC"><B>Order Response started</B></FONT>
+25/07 15:38:03 <FONT color="#0033CC"><B>Command Routing started</B></FONT>
+25/07 15:38:03 <FONT color="#0033CC"><B>CRM started</B></FONT>
+25/07 15:38:03 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+25/07 15:38:04 <FONT color="#0033CC"><B>Queue Monitor started</B></FONT>
+25/07 15:38:07 <FONT color="#CC6622"><U>User 'system' disconnected</U></FONT>
+25/07 15:38:08 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+25/07 15:38:12 User 'system' try to start thread 'MT SMS'
+25/07 15:38:12 <FONT color="#0033CC"><B>MT SMS started</B></FONT>
+25/07 15:40:56 <FONT color="#CC6622"><U>User 'system' disconnected</U></FONT>
+25/07 15:42:57 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+25/07 15:48:50 User 'system' try to start thread 'MT SMS'
+25/07 15:48:50 <FONT color="#CC0033"><B>MT SMS stopped</B></FONT>
+25/07 15:48:52 <FONT color="#0033CC"><B>MT SMS started</B></FONT>
+25/07 15:49:10 User 'system' try to update parameter of thread 'MT SMS'
+25/07 15:49:10 Parameter of thread 'MT SMS' updated
+25/07 15:49:12 User 'system' try to start thread 'MT SMS'
+25/07 15:49:12 <FONT color="#CC0033"><B>MT SMS stopped</B></FONT>
+25/07 15:49:14 <FONT color="#0033CC"><B>MT SMS started</B></FONT>
+25/07 16:30:58 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+25/07 16:30:58 <FONT color="#0033CC"><B>Command Statistc started</B></FONT>
+25/07 16:30:58 <FONT color="#0033CC"><B>Order Response started</B></FONT>
+25/07 16:31:00 <FONT color="#0033CC"><B>Command Routing started</B></FONT>
+25/07 16:31:00 <FONT color="#0033CC"><B>CRM started</B></FONT>
+25/07 16:31:01 <FONT color="#0033CC"><B>Queue Monitor started</B></FONT>
+25/07 16:31:01 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+25/07 16:31:05 <FONT color="#CC6622"><U>User 'system' disconnected</U></FONT>
+25/07 16:31:06 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+25/07 16:31:10 User 'system' try to start thread 'Viettel 8x26'
+25/07 16:31:11 <FONT color="#0033CC"><B>Viettel 8x26 started</B></FONT>
+25/07 16:31:14 User 'system' try to start thread 'CP Sync'
+25/07 16:31:15 <FONT color="#0033CC"><B>CP Sync started</B></FONT>
+25/07 16:32:24 <FONT color="#CC6622"><U>User 'system' disconnected</U></FONT>
+25/07 16:33:38 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+25/07 16:33:52 <FONT color="#CC6622"><U>User 'system' disconnected</U></FONT>
+25/07 17:23:34 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+25/07 17:23:34 <FONT color="#0033CC"><B>Command Statistc started</B></FONT>
+25/07 17:23:34 <FONT color="#0033CC"><B>Order Response started</B></FONT>
+25/07 17:23:35 <FONT color="#0033CC"><B>Command Routing started</B></FONT>
+25/07 17:23:35 <FONT color="#0033CC"><B>CRM started</B></FONT>
+25/07 17:23:36 <FONT color="#0033CC"><B>Queue Monitor started</B></FONT>
+25/07 17:23:43 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+25/07 17:23:48 User 'system' try to start thread 'Viettel 8x26'
+25/07 17:23:49 <FONT color="#0033CC"><B>Viettel 8x26 started</B></FONT>
+25/07 17:23:58 User 'system' try to update parameter of thread 'Simulator'
+25/07 17:23:58 Parameter of thread 'Simulator' updated
+25/07 17:24:00 User 'system' try to start thread 'Simulator'
+25/07 17:24:00 <FONT color="#0033CC"><B>Simulator started</B></FONT>
+25/07 17:24:04 User 'system' try to stop thread 'Simulator'
+25/07 17:24:05 <FONT color="#CC0033"><B>Simulator stopped</B></FONT>
+25/07 17:28:23 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+25/07 17:28:23 <FONT color="#0033CC"><B>Command Statistc started</B></FONT>
+25/07 17:28:23 <FONT color="#0033CC"><B>Order Response started</B></FONT>
+25/07 17:28:24 <FONT color="#0033CC"><B>Command Routing started</B></FONT>
+25/07 17:28:24 <FONT color="#0033CC"><B>CRM started</B></FONT>
+25/07 17:28:25 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+25/07 17:28:25 <FONT color="#0033CC"><B>Queue Monitor started</B></FONT>
+25/07 17:28:29 <FONT color="#CC6622"><U>User 'system' disconnected</U></FONT>
+25/07 17:28:31 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+25/07 17:28:36 User 'system' try to start thread 'Viettel 8x26'
+25/07 17:28:36 <FONT color="#0033CC"><B>Viettel 8x26 started</B></FONT>
+25/07 17:28:40 User 'system' try to start thread 'Simulator'
+25/07 17:28:41 <FONT color="#0033CC"><B>Simulator started</B></FONT>
+25/07 17:28:44 User 'system' try to stop thread 'Simulator'
+25/07 17:28:44 <FONT color="#CC0033"><B>Simulator stopped</B></FONT>
+25/07 17:32:10 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+25/07 17:32:10 <FONT color="#0033CC"><B>Command Statistc started</B></FONT>
+25/07 17:32:10 <FONT color="#0033CC"><B>Order Response started</B></FONT>
+25/07 17:32:11 <FONT color="#0033CC"><B>Command Routing started</B></FONT>
+25/07 17:32:11 <FONT color="#0033CC"><B>CRM started</B></FONT>
+25/07 17:32:12 <FONT color="#0033CC"><B>Queue Monitor started</B></FONT>
+25/07 17:32:14 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+25/07 17:32:18 <FONT color="#CC6622"><U>User 'system' disconnected</U></FONT>
+25/07 17:32:19 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+25/07 17:32:24 User 'system' try to start thread 'Viettel 8x26'
+25/07 17:32:24 <FONT color="#0033CC"><B>Viettel 8x26 started</B></FONT>
+25/07 17:32:32 User 'system' try to start thread 'Simulator'
+25/07 17:32:32 <FONT color="#0033CC"><B>Simulator started</B></FONT>
+25/07 17:32:37 User 'system' try to stop thread 'Simulator'
+25/07 17:32:37 <FONT color="#CC0033"><B>Simulator stopped</B></FONT>
+25/07 23:37:12 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+25/07 23:37:12 <FONT color="#0033CC"><B>Command Statistc started</B></FONT>
+25/07 23:37:12 <FONT color="#0033CC"><B>Order Response started</B></FONT>
+25/07 23:37:13 <FONT color="#0033CC"><B>CRM started</B></FONT>
+25/07 23:37:13 <FONT color="#0033CC"><B>Command Routing started</B></FONT>
+25/07 23:37:14 <FONT color="#0033CC"><B>Queue Monitor started</B></FONT>
+25/07 23:37:46 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+25/07 23:37:53 User 'system' try to start thread 'Viettel 8x26'
+25/07 23:37:53 <FONT color="#0033CC"><B>Viettel 8x26 started</B></FONT>
+25/07 23:38:14 <FONT color="#CC6622"><U>User 'system' disconnected</U></FONT>
+26/07 10:05:46 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+26/07 10:05:46 <FONT color="#0033CC"><B>Command Statistc started</B></FONT>
+26/07 10:05:46 <FONT color="#0033CC"><B>Order Response started</B></FONT>
+26/07 10:05:47 <FONT color="#0033CC"><B>Command Routing started</B></FONT>
+26/07 10:05:47 <FONT color="#0033CC"><B>CRM started</B></FONT>
+26/07 10:05:48 <FONT color="#0033CC"><B>Queue Monitor started</B></FONT>
+26/07 10:06:49 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+26/07 10:06:55 User 'system' try to start thread 'Viettel 8x26'
+26/07 10:06:56 <FONT color="#0033CC"><B>Viettel 8x26 started</B></FONT>
+27/07 17:38:14 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+27/07 17:38:14 <FONT color="#0033CC"><B>Order Response started</B></FONT>
+27/07 17:38:14 <FONT color="#0033CC"><B>Command Statistc started</B></FONT>
+27/07 17:38:15 <FONT color="#0033CC"><B>Command Routing started</B></FONT>
+27/07 17:38:15 <FONT color="#0033CC"><B>CRM started</B></FONT>
+27/07 17:38:16 <FONT color="#0033CC"><B>Queue Monitor started</B></FONT>
+27/07 17:38:17 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+27/07 17:38:21 <FONT color="#CC6622"><U>User 'system' disconnected</U></FONT>
+27/07 17:38:23 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+27/07 17:38:57 User 'system' try to start thread 'MT SMS'
+27/07 17:38:57 <FONT color="#0033CC"><B>MT SMS started</B></FONT>
+27/07 17:56:28 User 'system' try to start thread 'Queue Monitor'
+27/07 17:56:28 <FONT color="#CC0033"><B>Queue Monitor stopped</B></FONT>
+27/07 17:56:30 <FONT color="#0033CC"><B>Queue Monitor started</B></FONT>
+27/07 17:58:59 User 'system' try to start thread 'Command Routing'
+27/07 17:58:59 <FONT color="#CC0033"><B>Command Routing stopped</B></FONT>
+27/07 17:59:01 <FONT color="#0033CC"><B>Command Routing started</B></FONT>
+27/07 17:59:33 User 'system' try to start thread 'Order Response'
+27/07 17:59:33 <FONT color="#CC0033"><B>Order Response stopped</B></FONT>
+27/07 17:59:35 <FONT color="#0033CC"><B>Order Response started</B></FONT>
+28/07 09:42:32 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+28/07 09:42:32 <FONT color="#0033CC"><B>Command Statistc started</B></FONT>
+28/07 09:42:32 <FONT color="#0033CC"><B>Order Response started</B></FONT>
+28/07 09:42:32 <FONT color="#0033CC"><B>CRM started</B></FONT>
+28/07 09:42:33 <FONT color="#0033CC"><B>Command Routing started</B></FONT>
+28/07 09:42:33 <FONT color="#0033CC"><B>VT Order Response started</B></FONT>
+28/07 09:42:34 <FONT color="#0033CC"><B>Queue Monitor started</B></FONT>
+28/07 09:43:03 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+28/07 09:43:08 <FONT color="#CC6622"><U>User 'system' disconnected</U></FONT>
+28/07 09:43:09 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+28/07 09:43:14 User 'system' try to start thread 'Viettel 8x26'
+28/07 09:43:14 <FONT color="#0033CC"><B>Viettel 8x26 started</B></FONT>
+28/07 09:43:17 User 'system' try to start thread 'MT SMS'
+28/07 09:43:17 <FONT color="#0033CC"><B>MT SMS started</B></FONT>
+28/07 09:43:35 User 'system' try to update parameter of thread 'VT Order Response'
+28/07 09:43:35 Parameter of thread 'VT Order Response' updated
+28/07 09:43:36 User 'system' try to start thread 'VT Order Response'
+28/07 09:43:36 <FONT color="#CC0033"><B>VT Order Response stopped</B></FONT>
+28/07 09:43:38 <FONT color="#0033CC"><B>VT Order Response started</B></FONT>
+28/07 09:46:04 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+28/07 09:46:04 <FONT color="#0033CC"><B>Command Statistc started</B></FONT>
+28/07 09:46:04 <FONT color="#0033CC"><B>Order Response started</B></FONT>
+28/07 09:46:04 <FONT color="#0033CC"><B>CRM started</B></FONT>
+28/07 09:46:05 <FONT color="#0033CC"><B>Command Routing started</B></FONT>
+28/07 09:46:05 <FONT color="#0033CC"><B>VT Order Response started</B></FONT>
+28/07 09:46:06 <FONT color="#0033CC"><B>Queue Monitor started</B></FONT>
+28/07 09:46:09 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+28/07 09:46:13 <FONT color="#CC6622"><U>User 'system' disconnected</U></FONT>
+28/07 09:46:14 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+28/07 09:46:18 User 'system' try to start thread 'Viettel 8x26'
+28/07 09:46:18 <FONT color="#0033CC"><B>Viettel 8x26 started</B></FONT>
+28/07 09:46:43 User 'system' try to start thread 'MT SMS'
+28/07 09:46:43 <FONT color="#0033CC"><B>MT SMS started</B></FONT>
+28/07 10:00:00 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+28/07 10:00:00 <FONT color="#0033CC"><B>Command Statistc started</B></FONT>
+28/07 10:00:00 <FONT color="#0033CC"><B>Order Response started</B></FONT>
+28/07 10:00:00 <FONT color="#0033CC"><B>CRM started</B></FONT>
+28/07 10:00:01 <FONT color="#0033CC"><B>Command Routing started</B></FONT>
+28/07 10:00:01 <FONT color="#0033CC"><B>VT Order Response started</B></FONT>
+28/07 10:00:02 <FONT color="#0033CC"><B>Queue Monitor started</B></FONT>
+28/07 10:00:07 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+28/07 10:00:13 <FONT color="#CC6622"><U>User 'system' disconnected</U></FONT>
+28/07 10:00:14 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+28/07 10:01:11 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+28/07 10:01:11 <FONT color="#0033CC"><B>Command Statistc started</B></FONT>
+28/07 10:01:11 <FONT color="#0033CC"><B>Order Response started</B></FONT>
+28/07 10:01:11 <FONT color="#0033CC"><B>CRM started</B></FONT>
+28/07 10:01:11 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+28/07 10:01:12 <FONT color="#0033CC"><B>VT Order Response started</B></FONT>
+28/07 10:01:12 <FONT color="#0033CC"><B>Command Routing started</B></FONT>
+28/07 10:01:13 <FONT color="#0033CC"><B>Queue Monitor started</B></FONT>
+28/07 10:01:15 <FONT color="#CC6622"><U>User 'system' disconnected</U></FONT>
+28/07 10:01:16 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+28/07 10:01:31 User 'system' try to start thread 'MOListener'
+28/07 10:01:32 <FONT color="#0033CC"><B>MOListener started</B></FONT>
+28/07 10:01:36 User 'system' try to start thread 'MT SMS'
+28/07 10:01:37 <FONT color="#0033CC"><B>MT SMS started</B></FONT>
+28/07 10:01:39 User 'system' try to start thread 'CP Sync'
+28/07 10:01:40 <FONT color="#0033CC"><B>CP Sync started</B></FONT>
+28/07 10:03:05 <FONT color="#CC6622"><U>User 'system' disconnected</U></FONT>
+28/07 10:03:08 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+28/07 10:05:09 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+28/07 10:05:09 <FONT color="#0033CC"><B>Command Statistc started</B></FONT>
+28/07 10:05:09 <FONT color="#0033CC"><B>Order Response started</B></FONT>
+28/07 10:05:09 <FONT color="#0033CC"><B>SUB Order Response started</B></FONT>
+28/07 10:05:10 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+28/07 10:05:10 <FONT color="#0033CC"><B>Command Routing started</B></FONT>
+28/07 10:05:10 <FONT color="#0033CC"><B>VT Order Response started</B></FONT>
+28/07 10:05:11 <FONT color="#0033CC"><B>Queue Monitor started</B></FONT>
+28/07 10:05:12 <FONT color="#0033CC"><B>CRM started</B></FONT>
+28/07 10:05:14 <FONT color="#CC6622"><U>User 'system' disconnected</U></FONT>
+28/07 10:05:15 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+28/07 10:05:27 User 'system' try to start thread 'MT SMS'
+28/07 10:05:27 <FONT color="#0033CC"><B>MT SMS started</B></FONT>
+28/07 10:05:30 User 'system' try to start thread 'Viettel 8x26'
+28/07 10:05:30 <FONT color="#0033CC"><B>Viettel 8x26 started</B></FONT>
+28/07 10:05:32 User 'system' try to start thread 'MOListener'
+28/07 10:05:32 <FONT color="#0033CC"><B>MOListener started</B></FONT>
+28/07 10:06:00 User 'system' try to start thread 'CP Sync'
+28/07 10:06:00 <FONT color="#0033CC"><B>CP Sync started</B></FONT>
+28/07 15:28:43 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+28/07 15:28:43 <FONT color="#0033CC"><B>SUB Order Response started</B></FONT>
+28/07 15:28:43 <FONT color="#0033CC"><B>Order Response started</B></FONT>
+28/07 15:28:43 <FONT color="#0033CC"><B>Command Statistc started</B></FONT>
+28/07 15:28:44 <FONT color="#0033CC"><B>Command Routing started</B></FONT>
+28/07 15:28:44 <FONT color="#0033CC"><B>VT Order Response started</B></FONT>
+28/07 15:28:46 <FONT color="#0033CC"><B>CRM started</B></FONT>
+28/07 15:28:46 <FONT color="#0033CC"><B>Queue Monitor started</B></FONT>
+28/07 15:28:51 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+28/07 15:28:57 <FONT color="#CC6622"><U>User 'system' disconnected</U></FONT>
+28/07 15:28:59 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+28/07 15:29:06 User 'system' try to start thread 'Viettel 8x26'
+28/07 15:29:06 <FONT color="#0033CC"><B>Viettel 8x26 started</B></FONT>
+28/07 15:29:08 User 'system' try to start thread 'CP Sync'
+28/07 15:29:08 <FONT color="#0033CC"><B>CP Sync started</B></FONT>
+28/07 15:33:40 User 'system' try to start thread 'Order Routing'
+28/07 15:33:40 <FONT color="#CC0033"><B>Order Routing stopped</B></FONT>
+28/07 15:33:42 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+31/07 16:44:12 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+31/07 16:44:12 <FONT color="#0033CC"><B>Command Statistc started</B></FONT>
+31/07 16:44:12 <FONT color="#0033CC"><B>Order Response started</B></FONT>
+31/07 16:44:12 <FONT color="#0033CC"><B>SUB Order Response started</B></FONT>
+31/07 16:44:13 <FONT color="#0033CC"><B>VT Order Response started</B></FONT>
+31/07 16:44:13 <FONT color="#0033CC"><B>Command Routing started</B></FONT>
+31/07 16:44:14 <FONT color="#0033CC"><B>Queue Monitor started</B></FONT>
+31/07 16:44:15 <FONT color="#0033CC"><B>CRM started</B></FONT>
+31/07 16:45:08 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+31/07 16:45:13 User 'system' try to start thread 'CP Sync'
+31/07 16:45:14 <FONT color="#0033CC"><B>CP Sync started</B></FONT>
+31/07 16:45:16 User 'system' try to start thread 'Mobifone SDP'
+31/07 16:45:17 <FONT color="#0033CC"><B>Mobifone SDP started</B></FONT>
+31/07 16:45:19 User 'system' try to start thread 'Mobifone OTP'
+31/07 16:45:20 <FONT color="#0033CC"><B>Mobifone OTP started</B></FONT>
+31/07 16:49:51 <FONT color="#CC6622"><U>User 'system' disconnected</U></FONT>

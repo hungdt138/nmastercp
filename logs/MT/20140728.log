@@ -1,0 +1,24 @@
+28/07 09:43:17:661 MT SMS started
+28/07 09:43:17:688 Starting process session
+28/07 09:43:27:709 Testing connection ...
+28/07 09:43:27:939 Created provisioning instance for MTSMS
+28/07 09:43:27:939 Testing connection are success
+28/07 09:46:43:803 MT SMS started
+28/07 09:46:43:828 Starting process session
+28/07 09:46:53:872 Testing connection ...
+28/07 09:46:54:064 Created provisioning instance for MTSMS
+28/07 09:46:54:064 Testing connection are success
+28/07 09:48:18:042 SEND: ID=21001: SendMT(8926, ACOM_SS, 84923962323, hungdt)
+28/07 09:48:19:317 RECEIVE: ID=21001: SVC0000: costTime=1274
+28/07 09:48:20:125 orderId = 482862679, orderDate = 28/07 09:48:17:943, status = 0, cause = success, description = , cost = 2124
+28/07 09:48:24:085 ID=465, ALIAS=, SUCCESS=1, FAILURE=0, STARTTIME=28/07/2014 09:48:20., 15000
+28/07 10:01:37:317 MT SMS started
+28/07 10:01:37:342 Starting process session
+28/07 10:01:47:362 Testing connection ...
+28/07 10:01:47:678 Created provisioning instance for MTSMS
+28/07 10:01:47:678 Testing connection are success
+28/07 10:05:27:896 MT SMS started
+28/07 10:05:27:922 Starting process session
+28/07 10:05:37:943 Testing connection ...
+28/07 10:05:38:162 Created provisioning instance for MTSMS
+28/07 10:05:38:162 Testing connection are success

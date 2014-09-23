@@ -1,0 +1,40 @@
+25/07 15:05:58:666 Viettel 8x26 started
+25/07 15:05:58:690 Starting process session
+25/07 15:05:58:719 Testing connection ...
+25/07 15:05:58:719 Testing connection are success
+25/07 16:31:11:148 Viettel 8x26 started
+25/07 16:31:11:180 Starting process session
+25/07 16:31:11:212 Testing connection ...
+25/07 16:31:11:217 Testing connection are success
+25/07 16:31:31:247 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289983) (MsgContent: Ban dang tham gia tro choi tich diem trung IPod. Tong so diem cua ban la 0. Ban se nhan duoc cau hoi mien phi de tiep tuc dich vu.)
+25/07 16:31:32:252 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289983) (MsgContent: C.Ronaldo la vua pha luoi o World Cup 1994? 1-Dung, 2-Sai. Gui 1 hoac 2 den 9999)
+25/07 16:33:14:026 orderId = 482862622, orderDate = 25/07 16:31:31:238, status = 4, cause = error, description = null, cost = 102779
+25/07 16:33:14:099 disconnected
+25/07 16:33:26:245 ID=948, ALIAS=, SUCCESS=0, FAILURE=1, STARTTIME=25/07/2014 16:33:14., 15000
+25/07 16:33:45:194 orderId = 482862622, orderDate = 25/07 16:31:31:341, status = 4, cause = error, description = null, cost = 132943
+25/07 16:33:45:227 disconnected
+25/07 17:23:49:927 Viettel 8x26 started
+25/07 17:23:49:950 Starting process session
+25/07 17:23:49:980 Testing connection ...
+25/07 17:23:49:985 Testing connection are success
+25/07 17:24:12:834 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289990) (MsgContent: Ban dang tham gia tro choi tich diem trung IPod. Tong so diem cua ban la 130. Ban se nhan duoc cau hoi mien phi de tiep tuc dich vu.)
+25/07 17:25:20:314 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289990) (MsgContent: Pele la vua pha luoi o World Cup 1966? 1- Dung, 2-Sai. Gui 1 hoac 2 den 9999)
+25/07 17:28:36:519 Viettel 8x26 started
+25/07 17:28:36:562 Starting process session
+25/07 17:28:36:594 Testing connection ...
+25/07 17:28:36:598 Testing connection are success
+25/07 17:29:07:223 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289990) (MsgContent: )
+25/07 17:32:24:896 Viettel 8x26 started
+25/07 17:32:24:919 Starting process session
+25/07 17:32:24:954 Testing connection ...
+25/07 17:32:24:958 Testing connection are success
+25/07 17:32:48:007 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289990) (MsgContent: Ban dang tham gia tro choi tich diem trung IPod. Tong so diem cua ban la 130. Ban se nhan duoc cau hoi mien phi de tiep tuc dich vu.)
+25/07 17:33:20:285 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289990) (MsgContent: Pele la vua pha luoi o World Cup 1966? 1- Dung, 2-Sai. Gui 1 hoac 2 den 9999)
+25/07 17:33:45:743 orderId = 482862645, orderDate = 25/07 17:32:41:523, status = 4, cause = error, description = null, cost = 64208
+25/07 17:33:45:790 disconnected
+25/07 23:37:53:744 Viettel 8x26 started
+25/07 23:37:53:766 Starting process session
+25/07 23:37:53:802 Testing connection ...
+25/07 23:37:53:802 Testing connection are success
+25/07 23:38:00:794 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289983) (MsgContent: Ban dang tham gia tro choi tich diem trung IPod. Tong so diem cua ban la 0. Ban se nhan duoc cau hoi mien phi de tiep tuc dich vu.)
+25/07 23:38:01:832 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289983) (MsgContent: C.Ronaldo la vua pha luoi o World Cup 1994? 1-Dung, 2-Sai. Gui 1 hoac 2 den 9999)

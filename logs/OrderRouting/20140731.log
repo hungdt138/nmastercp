@@ -1,0 +1,11 @@
+31/07 16:44:12:033 Order Routing started
+31/07 16:44:12:156 Starting process session
+31/07 16:44:51:496 Testing connection ...
+31/07 16:44:51:499 Created provisioning instance for NMSCHARGING
+31/07 16:44:51:500 Testing connection are success
+31/07 16:46:39:568 84906130890: MSPSAM800002 - MOBIFONEOTP.SUBREQUEST
+31/07 16:46:39:569 orderId = 482880633 | requestId = 11023 | orderDate = 2014/07/31 16:46:39 | userName = test | merchantId = 3001 | agentId = 54001 | opId = 1 | subProductId = 0 | channel = web | serviceAddress = 8926 | keyword = SUBREQ_MSPSAM800002 | isdn = 84906130890 | subscriberType = 1 | shipTo =  | actionType = sub-req | productId = 1125 | amount = 0.0 | provisioningType = MOBIFONEOTP | commandId = 895 | cause =  | status = 1 | description =  | cgw_status = null | scenario = 0 | timeout = 60000
+31/07 16:46:39:569 orderId = 482880633 , orderDate = Thu Jul 31 16:46:39 ICT 2014 , isdn = 84906130890 , total execute time = 91, validation cost = 68 , create order cost = 23 , update order cost = 0
+31/07 16:48:16:226 84906130890: MSPSAM800002 - MOBIFONEOTP.SUBREQUEST
+31/07 16:48:16:226 orderId = 482880634 | requestId = 11023 | orderDate = 2014/07/31 16:48:16 | userName = test | merchantId = 3001 | agentId = 54001 | opId = 1 | subProductId = 2140421 | channel = web | serviceAddress = 8926 | keyword = SUBREQ_MSPSAM800002 | isdn = 84906130890 | subscriberType = 1 | shipTo =  | actionType = sub-req | productId = 1125 | amount = 0.0 | provisioningType = MOBIFONEOTP | commandId = 895 | cause =  | status = 1 | description =  | cgw_status = null | scenario = 0 | timeout = 60000
+31/07 16:48:16:227 orderId = 482880634 , orderDate = Thu Jul 31 16:48:16 ICT 2014 , isdn = 84906130890 , total execute time = 50, validation cost = 36 , create order cost = 14 , update order cost = 0

@@ -1,0 +1,265 @@
+24/07 08:32:30:087 sendNotify: 84967289976 - Ban se nhan duoc noi dung dich vu va cau hoi mien phi de "Tich diem trung iPod sanh dieu". Tra loi dung duoc 10d, sai khong co diem. Ap dung theo T&C
+24/07 08:32:30:187 sendNotify: 84967289976 - Doi tuyen Anh nam o Bang D World Cup 2014? 1-Dung, 2-Sai. Gui 1 hoac 2 den 9999
+24/07 08:32:30:187 orderId = 482862443, orderDate = 24/07 08:32:29:559, status = 0, cause = success, description = , cost = 158
+24/07 08:32:38:010 ID=380, ALIAS=CRM.REGIST_GO_SERVICES, SUCCESS=1, FAILURE=0, STARTTIME=23/07/2014 22:49:16., 15000
+24/07 08:32:39:679 sendNotify: 84967289976 - Dung, ban co: 100 d.CH tiep Doi tuyen Anh nam o Bang A World Cup 2014? 1-Dung, 2-Sai. Gui 1 hoac 2 den 9999
+24/07 08:32:39:679 orderId = 482862444, orderDate = 24/07 08:32:39:580, status = 4, cause = correct, description = , cost = 39
+24/07 08:32:53:013 ID=381, ALIAS=CRM.QUESTION_CONFIRM, SUCCESS=0, FAILURE=1, STARTTIME=23/07/2014 21:28:45., 15000
+24/07 08:43:06:610 CRM started
+24/07 08:43:06:691 Starting process session
+24/07 08:43:07:983 Testing connection ...
+24/07 08:43:07:984 Created provisioning instance for CRM
+24/07 08:43:07:986 Testing connection are success
+24/07 08:44:00:075 sendNotify: 84967289976 - Sai, ban co 500 d.CH tiep Doi tuyen Anh nam o Bang H World Cup 2014? 1-Dung, 2-Sai. Gui 1 hoac 2 den 9999
+24/07 08:44:00:085 orderId = 482862450, orderDate = 24/07 08:43:59:974, status = 4, cause = wrong, description = , cost = 46
+24/07 08:44:08:000 ID=381, ALIAS=, SUCCESS=0, FAILURE=1, STARTTIME=24/07/2014 08:44:00., 15000
+24/07 08:44:59:835 sendNotify: 84967289976 - Sai, ban co 500 d.CH tiep Doi tuyen Y nam o Bang D World Cup 2014? 1-Dung, 2-Sai. Gui 1 hoac 2 den 9999
+24/07 08:44:59:835 orderId = 482862451, orderDate = 24/07 08:44:59:759, status = 4, cause = wrong, description = , cost = 33
+24/07 08:45:05:110 sendNotify: 84967289976 - Dung, ban co: 600 d.CH tiep Doi tuyen Y nam o Bang A World Cup 2014? 1-Dung, 2-Sai. Gui 1 hoac 2 den 9999
+24/07 08:45:05:111 orderId = 482862452, orderDate = 24/07 08:45:05:057, status = 4, cause = correct, description = , cost = 27
+24/07 08:45:08:009 ID=381, ALIAS=CRM.QUESTION_CONFIRM, SUCCESS=0, FAILURE=2, STARTTIME=24/07/2014 08:44:08., 15000
+24/07 08:48:38:318 sendNotify: 84967289976 - Sai, ban co 600 d.CH tiep Doi tuyen Y nam o Bang B World Cup 2014? 1-Dung, 2-Sai. Gui 1 hoac 2 den 9999
+24/07 08:48:38:319 orderId = 482862453, orderDate = 24/07 08:48:38:234, status = 4, cause = wrong, description = , cost = 40
+24/07 08:48:53:049 ID=381, ALIAS=CRM.QUESTION_CONFIRM, SUCCESS=0, FAILURE=1, STARTTIME=24/07/2014 08:45:08., 15000
+24/07 09:27:34:084 CRM started
+24/07 09:27:34:140 Starting process session
+24/07 09:27:35:333 Testing connection ...
+24/07 09:27:35:334 Created provisioning instance for CRM
+24/07 09:27:35:336 Testing connection are success
+24/07 09:28:57:493 sendNotify: 84967289977 - Ban se nhan duoc noi dung dich vu va cau hoi mien phi de "Tich diem trung iPod sanh dieu". Tra loi dung duoc 10d, sai khong co diem. Ap dung theo T&C
+24/07 09:28:57:593 sendNotify: 84967289977 - "Amaranto" la biet danh cua doi bong Livorno? 1-Dung, 2-Sai. Gui 1 hoac 2 den 9999
+24/07 09:28:57:596 orderId = 482862476, orderDate = 24/07 09:28:57:263, status = 0, cause = success, description = , cost = 153
+24/07 09:29:05:350 ID=380, ALIAS=, SUCCESS=1, FAILURE=0, STARTTIME=24/07/2014 09:28:57., 15000
+24/07 09:29:14:378 sendNotify: 84967289977 - Dung, ban co: 100 d.CH tiep "Rosanero" la biet danh cua doi bong Palermo? 1-Dung, 2-Sai. Gui 1 hoac 2 den 9999
+24/07 09:29:14:379 orderId = 482862477, orderDate = 24/07 09:29:14:286, status = 4, cause = correct, description = , cost = 43
+24/07 09:29:20:355 ID=381, ALIAS=, SUCCESS=0, FAILURE=1, STARTTIME=24/07/2014 09:29:14., 15000
+24/07 09:34:17:849 CRM started
+24/07 09:34:17:911 Starting process session
+24/07 09:34:19:247 Testing connection ...
+24/07 09:34:19:248 Created provisioning instance for CRM
+24/07 09:34:19:250 Testing connection are success
+24/07 09:34:41:692 sendNotify: 84967289977 - Dung, ban co: 200 d.CH tiep "Blucerchiati" la biet danh cua doi bong Sampdoria? 1-Dung, 2-Sai. Gui 1 hoac 2 den 9999
+24/07 09:34:41:696 orderId = 482862478, orderDate = 24/07 09:34:41:590, status = 4, cause = correct, description = , cost = 39
+24/07 09:34:49:256 ID=381, ALIAS=, SUCCESS=0, FAILURE=1, STARTTIME=24/07/2014 09:34:41., 15000
+24/07 09:34:58:340 sendNotify: 84967289977 - Dung, ban co: 300 d.CH tiep "Robur" la biet danh cua doi bong Siena? 1-Dung, 2-Sai. Gui 1 hoac 2 den 9999
+24/07 09:34:58:341 orderId = 482862479, orderDate = 24/07 09:34:58:255, status = 4, cause = correct, description = , cost = 42
+24/07 09:35:04:260 ID=381, ALIAS=CRM.QUESTION_CONFIRM, SUCCESS=0, FAILURE=1, STARTTIME=24/07/2014 09:34:49., 15000
+24/07 09:36:38:436 sendNotify: 84967289977 - Dung, ban co: 400 d.CH tiep "Zebrette" la biet danh cua doi bong Udinese? 1-Dung, 2-Sai. Gui 1 hoac 2 den 9999
+24/07 09:36:38:437 orderId = 482862480, orderDate = 24/07 09:36:38:352, status = 4, cause = correct, description = , cost = 40
+24/07 09:36:45:618 sendNotify: 84967289977 - Dung, ban co: 500 d.CH tiep "Nhung Chu Lua Bay" la biet danh cua doi bong Swansea? 1-Dung, 2-Sai. Gui 1 hoac 2 den 9999
+24/07 09:36:45:619 orderId = 482862481, orderDate = 24/07 09:36:45:536, status = 4, cause = correct, description = , cost = 38
+24/07 09:36:49:278 ID=381, ALIAS=CRM.QUESTION_CONFIRM, SUCCESS=0, FAILURE=2, STARTTIME=24/07/2014 09:35:04., 15000
+24/07 09:37:19:994 sendNotify: 84967289977 - Sai, ban co 500 d.CH tiep "Gialloblu" la biet danh cua doi bong Parma? 1-Dung, 2-Sai. Gui 1 hoac 2 den 9999
+24/07 09:37:19:995 orderId = 482862482, orderDate = 24/07 09:37:19:914, status = 4, cause = wrong, description = , cost = 39
+24/07 09:37:34:288 ID=381, ALIAS=CRM.QUESTION_CONFIRM, SUCCESS=0, FAILURE=1, STARTTIME=24/07/2014 09:36:49., 15000
+24/07 09:38:12:218 sendNotify: 84967289977 - Dung, ban co: 600 d.CH tiep "Juventus Arena" la SVD cua doi bong LA Galaxy? 1-Dung, 2-Sai. Gui 1 hoac 2 den 9999
+24/07 09:38:12:218 orderId = 482862483, orderDate = 24/07 09:38:12:112, status = 4, cause = correct, description = , cost = 38
+24/07 09:38:19:295 ID=381, ALIAS=CRM.QUESTION_CONFIRM, SUCCESS=0, FAILURE=1, STARTTIME=24/07/2014 09:37:34., 15000
+24/07 09:38:59:768 sendNotify: 84967289977 - Sai, ban co 600 d.CH tiep "Olimpico" la SVD cua doi bong Parma? 1-Dung, 2-Sai. Gui 1 hoac 2 den 9999
+24/07 09:38:59:769 orderId = 482862484, orderDate = 24/07 09:38:59:686, status = 4, cause = wrong, description = , cost = 38
+24/07 09:39:04:302 ID=381, ALIAS=CRM.QUESTION_CONFIRM, SUCCESS=0, FAILURE=1, STARTTIME=24/07/2014 09:38:19., 15000
+24/07 09:39:05:425 sendNotify: 84967289977 - Sai, ban co 600 d.CH tiep "San Paolo" la SVD cua doi bong Arsenal? 1-Dung, 2-Sai. Gui 1 hoac 2 den 9999
+24/07 09:39:05:426 orderId = 482862485, orderDate = 24/07 09:39:05:353, status = 4, cause = wrong, description = , cost = 31
+24/07 09:39:19:306 ID=381, ALIAS=CRM.QUESTION_CONFIRM, SUCCESS=0, FAILURE=1, STARTTIME=24/07/2014 09:39:04., 15000
+24/07 09:39:29:572 sendNotify: 84967289977 - Sai, ban co 600 d.CH tiep "Artemio Franchi" la SVD cua doi bong Bologna? 1-Dung, 2-Sai. Gui 1 hoac 2 den 9999
+24/07 09:39:29:573 orderId = 482862486, orderDate = 24/07 09:39:29:493, status = 4, cause = wrong, description = , cost = 35
+24/07 09:39:34:308 ID=381, ALIAS=CRM.QUESTION_CONFIRM, SUCCESS=0, FAILURE=1, STARTTIME=24/07/2014 09:39:19., 15000
+24/07 10:14:00:272 CRM started
+24/07 10:14:00:317 Starting process session
+24/07 10:14:01:587 Testing connection ...
+24/07 10:14:01:588 Created provisioning instance for CRM
+24/07 10:14:01:590 Testing connection are success
+24/07 10:15:13:022 sendNotify: 84967289978 - Ban se nhan duoc noi dung dich vu va cau hoi mien phi de "Tich diem trung iPod sanh dieu". Tra loi dung duoc 10d, sai khong co diem. Ap dung theo T&C
+24/07 10:15:13:122 sendNotify: 84967289978 - Federico Peluso, cau thu cua Juventus  sinh nam 1984? 1-Dung, 2-Sai. Gui 1 hoac 2 den 9999
+24/07 10:15:13:127 orderId = 482862501, orderDate = 24/07 10:15:12:783, status = 0, cause = success, description = , cost = 159
+24/07 10:15:16:603 ID=380, ALIAS=, SUCCESS=1, FAILURE=0, STARTTIME=24/07/2014 10:15:13., 15000
+24/07 10:18:47:291 CRM started
+24/07 10:18:47:363 Starting process session
+24/07 10:18:48:565 Testing connection ...
+24/07 10:18:48:566 Created provisioning instance for CRM
+24/07 10:18:48:567 Testing connection are success
+24/07 10:20:29:762 sendNotify: 84967289978 - Dung, ban co: 100 d.CH tiep Joel Untersee, cau thu cua Juventus  sinh nam 1994? 1-Dung, 2-Sai. Gui 1 hoac 2 den 9999
+24/07 10:20:29:766 orderId = 482862502, orderDate = 24/07 10:20:19:723, status = 4, cause = correct, description = , cost = 52
+24/07 10:21:48:921 CRM started
+24/07 10:21:49:038 Starting process session
+24/07 10:21:50:364 Testing connection ...
+24/07 10:21:50:365 Created provisioning instance for CRM
+24/07 10:21:50:367 Testing connection are success
+24/07 10:22:14:006 sendNotify: 84967289978 - Dung, ban co: 200 d.CH tiep Andrea Pirlo, cau thu cua Juventus  sinh nam 1984? 1-Dung, 2-Sai. Gui 1 hoac 2 den 9999
+24/07 10:22:14:015 orderId = 482862503, orderDate = 24/07 10:22:13:504, status = 4, cause = correct, description = , cost = 56
+24/07 10:22:20:373 ID=381, ALIAS=, SUCCESS=0, FAILURE=1, STARTTIME=24/07/2014 10:22:14., 15000
+24/07 10:39:36:172 CRM started
+24/07 10:39:36:286 Starting process session
+24/07 10:39:38:003 Testing connection ...
+24/07 10:39:38:004 Created provisioning instance for CRM
+24/07 10:39:38:005 Testing connection are success
+24/07 10:40:15:083 sendNotify: 84967289978 - Sai, ban co 200 d.CH tiep Simone Pepe, cau thu cua Juventus  sinh nam 1983? 1-Dung, 2-Sai. Gui 1 hoac 2 den 9999
+24/07 10:40:15:087 orderId = 482862504, orderDate = 24/07 10:40:13:298, status = 4, cause = wrong, description = Confirm success, cost = 44
+24/07 10:40:23:015 ID=381, ALIAS=, SUCCESS=0, FAILURE=1, STARTTIME=24/07/2014 10:40:15., 15000
+24/07 10:55:57:254 CRM started
+24/07 10:55:57:322 Starting process session
+24/07 10:55:58:784 Testing connection ...
+24/07 10:55:58:784 Created provisioning instance for CRM
+24/07 10:55:58:784 Testing connection are success
+24/07 10:56:33:580 sendNotify: 84967289978 - Dung, ban co: 210 d.CH tiep Simone Padoin, cau thu cua Juventus  sinh nam 1983? 1-Dung, 2-Sai. Gui 1 hoac 2 den 9999
+24/07 10:56:33:589 orderId = 482862505, orderDate = 24/07 10:56:26:362, status = 0, cause = correct, description = Confirm success, cost = 5828
+24/07 10:56:43:790 ID=381, ALIAS=, SUCCESS=1, FAILURE=0, STARTTIME=24/07/2014 10:56:33., 15000
+24/07 11:46:15:368 CRM started
+24/07 11:46:15:411 Starting process session
+24/07 11:46:16:753 Testing connection ...
+24/07 11:46:16:753 Created provisioning instance for CRM
+24/07 11:46:16:756 Testing connection are success
+24/07 13:30:58:776 CRM started
+24/07 13:30:58:821 Starting process session
+24/07 13:31:07:348 Testing connection ...
+24/07 13:31:07:349 Created provisioning instance for CRM
+24/07 13:31:07:349 Testing connection are success
+24/07 13:33:37:633 CRM started
+24/07 13:33:37:657 Starting process session
+24/07 13:33:46:782 Testing connection ...
+24/07 13:33:46:783 Created provisioning instance for CRM
+24/07 13:33:46:785 Testing connection are success
+24/07 13:35:41:086 CRM started
+24/07 13:35:41:120 Starting process session
+24/07 13:35:41:588 Testing connection ...
+24/07 13:35:41:588 Created provisioning instance for CRM
+24/07 13:35:41:589 Testing connection are success
+24/07 14:34:35:066 CRM started
+24/07 14:34:35:121 Starting process session
+24/07 14:34:35:846 Testing connection ...
+24/07 14:34:35:846 Created provisioning instance for CRM
+24/07 14:34:35:850 Testing connection are success
+24/07 14:39:42:856 CRM started
+24/07 14:39:42:882 Starting process session
+24/07 14:39:43:386 Testing connection ...
+24/07 14:39:43:386 Created provisioning instance for CRM
+24/07 14:39:43:387 Testing connection are success
+24/07 14:42:29:788 sendNotify: 84967289979 - Sai, ban co 0 d.CH tiep C.Ronaldo la vua pha luoi o World Cup 1994? 1-Dung
+24/07 14:42:29:789 orderId = 482862522, orderDate = 24/07 14:42:29:634, status = 0, cause = wrong, description = Confirm success, cost = 101
+24/07 14:42:43:428 ID=381, ALIAS=, SUCCESS=1, FAILURE=0, STARTTIME=24/07/2014 14:42:29., 15000
+24/07 14:42:46:672 sendNotify: 84967289979 - Sai, ban co 0 d.CH tiep Phap la nuoc chu nha trong ky World Cup 1998? 1-Dung
+24/07 14:42:46:673 orderId = 482862523, orderDate = 24/07 14:42:46:564, status = 0, cause = wrong, description = Confirm success, cost = 59
+24/07 14:42:57:220 sendNotify: 84967289979 - Dung, ban co: 10 d.CH tiep Italia la doi vo dich o World Cup 1998? 1-Dung
+24/07 14:42:57:221 orderId = 482862524, orderDate = 24/07 14:42:57:145, status = 0, cause = correct, description = Confirm success, cost = 39
+24/07 14:42:58:433 ID=381, ALIAS=CRM.QUESTION_CONFIRM, SUCCESS=2, FAILURE=0, STARTTIME=24/07/2014 14:42:43., 15000
+24/07 14:44:02:091 sendNotify: 84967289979 - Sai, ban co 10 d.CH tiep Braisl la doi A Quan o vong World Cup 1998?1-Dung
+24/07 14:44:02:093 orderId = 482862525, orderDate = 24/07 14:44:01:983, status = 0, cause = wrong, description = Confirm success, cost = 60
+24/07 14:44:09:585 sendNotify: 84967289979 - Dung, ban co: 20 d.CH tiep Pele la vua pha luoi o World Cup 1966? 1- Dung
+24/07 14:44:09:586 orderId = 482862526, orderDate = 24/07 14:44:09:475, status = 0, cause = correct, description = Confirm success, cost = 64
+24/07 14:44:13:448 ID=381, ALIAS=CRM.QUESTION_CONFIRM, SUCCESS=2, FAILURE=0, STARTTIME=24/07/2014 14:42:58., 15000
+24/07 14:44:13:597 sendNotify: 84967289979 - Sai, ban co 20 d.CH tiep Lionel Messi la cau thu vua pha luoi o World Cup 1998? 1-Dung
+24/07 14:44:13:598 orderId = 482862527, orderDate = 24/07 14:44:13:501, status = 0, cause = wrong, description = Confirm success, cost = 59
+24/07 14:44:20:103 sendNotify: 84967289979 - Sai, ban co 20 d.CH tiep Ronaldo la cau thu xuat sac nhat o World Cup 1998? 1-Dung
+24/07 14:44:20:103 orderId = 482862528, orderDate = 24/07 14:44:20:035, status = 0, cause = wrong, description = Confirm success, cost = 37
+24/07 14:44:23:156 sendNotify: 84967289979 - Dung, ban co: 30 d.CH tiep Trong tran Chung Ket World Cup 1998 Phap da thang Brasil? 1-Dung
+24/07 14:44:23:157 orderId = 482862529, orderDate = 24/07 14:44:22:854, status = 0, cause = correct, description = Confirm success, cost = 271
+24/07 14:44:26:698 sendNotify: 84967289979 - Dung, ban co: 40 d.CH tiep Bai hat chinh thuc o World Cup 2006 la Mua He Italia? 1-Dung
+24/07 14:44:26:698 orderId = 482862530, orderDate = 24/07 14:44:26:622, status = 0, cause = correct, description = Confirm success, cost = 41
+24/07 14:44:28:451 ID=381, ALIAS=CRM.QUESTION_CONFIRM, SUCCESS=4, FAILURE=0, STARTTIME=24/07/2014 14:44:13., 15000
+24/07 14:44:30:355 sendNotify: 84967289979 - Sai, ban co 40 d.CH tiep Pele la cau thu gia nhat tung ghi ban o mot ky World Cup? 1-Dung
+24/07 14:44:30:356 orderId = 482862531, orderDate = 24/07 14:44:30:293, status = 0, cause = wrong, description = Confirm success, cost = 35
+24/07 14:44:43:453 ID=381, ALIAS=CRM.QUESTION_CONFIRM, SUCCESS=1, FAILURE=0, STARTTIME=24/07/2014 14:44:28., 15000
+24/07 14:45:18:640 sendNotify: 84967289979 - Sai, ban co 40 d.CH tiep Juste Fontaine la cau thu ghi nhieu ban thang nhat o mot ky World Cup? 1-Dung
+24/07 14:45:18:641 orderId = 482862532, orderDate = 24/07 14:45:18:530, status = 0, cause = wrong, description = Confirm success, cost = 65
+24/07 14:45:22:317 sendNotify: 84967289979 - Dung, ban co: 50 d.CH tiep Brasil la doi vo dich World Cup 2002? 1-Dung
+24/07 14:45:22:317 orderId = 482862533, orderDate = 24/07 14:45:22:221, status = 0, cause = correct, description = Confirm success, cost = 50
+24/07 14:45:24:751 sendNotify: 84967289979 - Dung, ban co: 60 d.CH tiep Brasil la nuoc vo dich World Cup 1994? 1-Dung
+24/07 14:45:24:752 orderId = 482862534, orderDate = 24/07 14:45:24:656, status = 0, cause = correct, description = Confirm success, cost = 61
+24/07 14:45:27:167 sendNotify: 84967289979 - Dung, ban co: 70 d.CH tiep Robben la cau thu xuat sac nhat o World Cup 2002? 1-Dung
+24/07 14:45:27:168 orderId = 482862535, orderDate = 24/07 14:45:27:087, status = 0, cause = correct, description = Confirm success, cost = 44
+24/07 14:45:28:459 ID=381, ALIAS=CRM.QUESTION_CONFIRM, SUCCESS=4, FAILURE=0, STARTTIME=24/07/2014 14:44:43., 15000
+24/07 14:45:29:547 sendNotify: 84967289979 - Sai, ban co 70 d.CH tiep Romario la cau thu xuat sac nhat o World Cup 1994? 1-Dung
+24/07 14:45:29:547 orderId = 482862536, orderDate = 24/07 14:45:29:460, status = 0, cause = wrong, description = Confirm success, cost = 55
+24/07 14:45:43:462 ID=381, ALIAS=CRM.QUESTION_CONFIRM, SUCCESS=1, FAILURE=0, STARTTIME=24/07/2014 14:45:28., 15000
+24/07 15:59:28:709 CRM started
+24/07 15:59:28:752 Starting process session
+24/07 15:59:29:153 Testing connection ...
+24/07 15:59:29:153 Created provisioning instance for CRM
+24/07 15:59:29:153 Testing connection are success
+24/07 15:59:57:421 sendNotify: 84967289981 - Ban se nhan duoc noi dung dich vu va cau hoi mien phi de "Tich diem trung may nghe nhac MP3". Tra loi dung duoc 10d, sai khong co diem. Ap dung theo T&C
+24/07 15:59:57:521 sendNotify: 84967289981 - 1
+24/07 15:59:57:525 orderId = 482862540, orderDate = 24/07 15:59:57:116, status = 0, cause = success, description = , cost = 188
+24/07 15:59:59:159 ID=380, ALIAS=, SUCCESS=1, FAILURE=0, STARTTIME=24/07/2014 15:59:57., 15000
+24/07 16:00:05:168 sendNotify: 84967289981 - Sai, ban co 0 d.CH tiep C.Ronaldo la vua pha luoi o World Cup 1994? 1-Dung
+24/07 16:00:05:169 orderId = 482862541, orderDate = 24/07 16:00:04:985, status = 0, cause = wrong, description = Confirm success, cost = 125
+24/07 16:00:14:164 ID=381, ALIAS=, SUCCESS=1, FAILURE=0, STARTTIME=24/07/2014 16:00:05., 15000
+24/07 16:00:14:683 sendNotify: 84967289981 - Sai, ban co 0 d.CH tiep Phap la nuoc chu nha trong ky World Cup 1998? 1-Dung
+24/07 16:00:14:684 orderId = 482862542, orderDate = 24/07 16:00:14:590, status = 0, cause = wrong, description = Confirm success, cost = 63
+24/07 16:00:18:110 sendNotify: 84967289981 - Dung, ban co: 10 d.CH tiep Italia la doi vo dich o World Cup 1998? 1-Dung
+24/07 16:00:18:110 orderId = 482862543, orderDate = 24/07 16:00:18:025, status = 0, cause = correct, description = Confirm success, cost = 41
+24/07 16:00:20:600 sendNotify: 84967289981 - Sai, ban co 10 d.CH tiep Braisl la doi A Quan o vong World Cup 1998?1-Dung
+24/07 16:00:20:601 orderId = 482862544, orderDate = 24/07 16:00:20:542, status = 0, cause = wrong, description = Confirm success, cost = 31
+24/07 16:00:23:138 sendNotify: 84967289981 - Dung, ban co: 20 d.CH tiep Pele la vua pha luoi o World Cup 1966? 1- Dung
+24/07 16:00:23:139 orderId = 482862545, orderDate = 24/07 16:00:23:054, status = 0, cause = correct, description = Confirm success, cost = 49
+24/07 16:00:25:311 sendNotify: 84967289981 - Sai, ban co 20 d.CH tiep Lionel Messi la cau thu vua pha luoi o World Cup 1998? 1-Dung
+24/07 16:00:25:311 orderId = 482862546, orderDate = 24/07 16:00:25:255, status = 0, cause = wrong, description = Confirm success, cost = 30
+24/07 16:00:27:543 sendNotify: 84967289981 - Sai, ban co 20 d.CH tiep Ronaldo la cau thu xuat sac nhat o World Cup 1998? 1-Dung
+24/07 16:00:27:543 orderId = 482862547, orderDate = 24/07 16:00:27:481, status = 0, cause = wrong, description = Confirm success, cost = 31
+24/07 16:00:29:167 ID=381, ALIAS=CRM.QUESTION_CONFIRM, SUCCESS=6, FAILURE=0, STARTTIME=24/07/2014 16:00:14., 15000
+24/07 16:00:30:485 sendNotify: 84967289981 - Dung, ban co: 30 d.CH tiep Trong tran Chung Ket World Cup 1998 Phap da thang Brasil? 1-Dung
+24/07 16:00:30:485 orderId = 482862548, orderDate = 24/07 16:00:30:400, status = 0, cause = correct, description = Confirm success, cost = 46
+24/07 16:00:44:171 ID=381, ALIAS=CRM.QUESTION_CONFIRM, SUCCESS=1, FAILURE=0, STARTTIME=24/07/2014 16:00:29., 15000
+24/07 16:32:13:756 CRM started
+24/07 16:32:13:787 Starting process session
+24/07 16:32:14:285 Testing connection ...
+24/07 16:32:14:286 Created provisioning instance for CRM
+24/07 16:32:14:287 Testing connection are success
+24/07 16:46:46:726 CRM started
+24/07 16:46:46:780 Starting process session
+24/07 16:47:36:779 Testing connection ...
+24/07 16:47:36:780 Created provisioning instance for CRM
+24/07 16:47:36:780 Testing connection are success
+24/07 16:48:09:946 Close pool
+24/07 16:48:09:946 End of process session
+24/07 16:48:09:947 CRM stopped
+24/07 16:48:11:981 CRM started
+24/07 16:48:11:999 Starting process session
+24/07 16:48:20:846 Close pool
+24/07 16:48:20:847 Close pool
+24/07 16:48:20:847 Testing connection ...
+24/07 16:48:20:847 Created provisioning instance for CRM
+24/07 16:48:20:847 Testing connection are success
+24/07 16:48:38:549 sendNotify: 84967289982 - Ban se nhan duoc noi dung dich vu va cau hoi mien phi de "Tich diem trung may nghe nhac MP3". Tra loi dung duoc 10d, sai khong co diem. Ap dung theo T&C
+24/07 16:48:38:649 sendNotify: 84967289982 - 1
+24/07 16:48:38:655 orderId = 482862553, orderDate = 24/07 16:48:30:919, status = 0, cause = success, description = , cost = 165
+24/07 16:48:50:855 ID=380, ALIAS=, SUCCESS=1, FAILURE=0, STARTTIME=24/07/2014 16:48:38., 15000
+24/07 16:48:56:787 sendNotify: 84967289982 - Sai, ban co 0 d.CH tiep C.Ronaldo la vua pha luoi o World Cup 1994? 1-Dung
+24/07 16:48:56:788 orderId = 482862555, orderDate = 24/07 16:48:56:708, status = 0, cause = wrong, description = Confirm success, cost = 45
+24/07 16:48:58:156 sendNotify: 84967289982 - Sai, ban co 0 d.CH tiep Phap la nuoc chu nha trong ky World Cup 1998? 1-Dung
+24/07 16:48:58:157 orderId = 482862556, orderDate = 24/07 16:48:58:023, status = 0, cause = wrong, description = Confirm success, cost = 48
+24/07 16:48:59:000 sendNotify: 84967289982 - Dung, ban co: 10 d.CH tiep Italia la doi vo dich o World Cup 1998? 1-Dung
+24/07 16:48:59:001 orderId = 482862557, orderDate = 24/07 16:48:58:938, status = 0, cause = correct, description = Confirm success, cost = 33
+24/07 16:48:59:762 sendNotify: 84967289982 - Sai, ban co 10 d.CH tiep Braisl la doi A Quan o vong World Cup 1998?1-Dung
+24/07 16:48:59:763 orderId = 482862558, orderDate = 24/07 16:48:59:702, status = 0, cause = wrong, description = Confirm success, cost = 32
+24/07 16:49:00:444 sendNotify: 84967289982 - Dung, ban co: 20 d.CH tiep Pele la vua pha luoi o World Cup 1966? 1- Dung
+24/07 16:49:00:444 orderId = 482862559, orderDate = 24/07 16:49:00:379, status = 0, cause = correct, description = Confirm success, cost = 41
+24/07 16:49:01:130 sendNotify: 84967289982 - Sai, ban co 20 d.CH tiep Lionel Messi la cau thu vua pha luoi o World Cup 1998? 1-Dung
+24/07 16:49:01:131 orderId = 482862560, orderDate = 24/07 16:49:01:058, status = 0, cause = wrong, description = Confirm success, cost = 40
+24/07 16:49:05:861 ID=381, ALIAS=, SUCCESS=6, FAILURE=0, STARTTIME=24/07/2014 16:48:56., 15000
+24/07 17:12:36:531 CRM started
+24/07 17:12:36:563 Starting process session
+24/07 17:12:37:117 Testing connection ...
+24/07 17:12:37:118 Created provisioning instance for CRM
+24/07 17:12:37:119 Testing connection are success
+24/07 17:19:45:532 CRM started
+24/07 17:19:45:565 Starting process session
+24/07 17:19:45:932 Testing connection ...
+24/07 17:19:45:933 Created provisioning instance for CRM
+24/07 17:19:45:934 Testing connection are success
+24/07 17:20:15:179 sendNotify: 84967289982 - Sai, ban co 20 d.CH tiep Ronaldo la cau thu xuat sac nhat o World Cup 1998? 1-Dung
+24/07 17:20:15:196 orderId = 482862585, orderDate = 24/07 17:20:13:372, status = 0, cause = wrong, description = Confirm success, cost = 84
+24/07 17:20:15:938 ID=381, ALIAS=, SUCCESS=1, FAILURE=0, STARTTIME=24/07/2014 17:20:15., 15000
+24/07 17:27:44:459 CRM started
+24/07 17:27:44:483 Starting process session
+24/07 17:27:44:926 Testing connection ...
+24/07 17:27:44:927 Created provisioning instance for CRM
+24/07 17:27:44:927 Testing connection are success
+24/07 21:18:23:479 CRM started
+24/07 21:18:23:613 Starting process session
+24/07 21:18:24:036 Testing connection ...
+24/07 21:18:24:036 Created provisioning instance for CRM
+24/07 21:18:24:038 Testing connection are success
+24/07 21:20:58:965 orderId = 482862600, orderDate = 24/07 21:20:58:766, status = 0, cause = success, description = , cost = 13
+24/07 21:20:59:066 orderId = 482862601, orderDate = 24/07 21:20:58:826, status = 0, cause = success, description = , cost = 9
+24/07 21:20:59:163 orderId = 482862602, orderDate = 24/07 21:20:58:852, status = 0, cause = success, description = , cost = 6
+24/07 21:21:09:066 ID=410, ALIAS=, SUCCESS=3, FAILURE=0, STARTTIME=24/07/2014 21:20:58., 15000

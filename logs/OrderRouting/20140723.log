@@ -1,0 +1,345 @@
+23/07 09:01:22:355 Order Routing started
+23/07 09:01:22:386 Starting process session
+23/07 09:02:14:227 Testing connection ...
+23/07 09:02:14:230 Created provisioning instance for NMSCHARGING
+23/07 09:02:14:232 Testing connection are success
+23/07 09:57:28:978 Order Routing started
+23/07 09:57:29:020 Starting process session
+23/07 09:57:30:701 Testing connection ...
+23/07 09:57:30:703 Created provisioning instance for NMSCHARGING
+23/07 09:57:30:704 Testing connection are success
+23/07 10:20:08:400 com.sun.messaging.jms.IllegalStateException: [C4063]: Cannot perform operation, consumer is closed.
+23/07 10:20:08:400 Close pool
+23/07 10:20:08:401 End of process session
+23/07 10:21:49:335 Starting process session
+23/07 10:21:50:246 Close pool
+23/07 10:21:50:247 Close pool
+23/07 10:21:50:247 Testing connection ...
+23/07 10:21:50:247 Created provisioning instance for NMSCHARGING
+23/07 10:21:50:247 Testing connection are success
+23/07 15:05:18:120 Order Routing started
+23/07 15:05:21:079 Testing connection ...
+23/07 15:05:21:082 Created provisioning instance for NMSCHARGING
+23/07 15:05:21:083 Testing connection are success
+23/07 15:11:48:733 Order Routing started
+23/07 15:11:48:783 Starting process session
+23/07 15:11:51:369 Testing connection ...
+23/07 15:11:51:372 Created provisioning instance for NMSCHARGING
+23/07 15:11:51:373 Testing connection are success
+23/07 15:13:09:107 Order Routing started
+23/07 15:13:11:469 Testing connection ...
+23/07 15:13:11:471 Created provisioning instance for NMSCHARGING
+23/07 15:13:11:472 Testing connection are success
+23/07 15:13:39:415 Order Routing started
+23/07 15:13:39:461 Starting process session
+23/07 15:13:42:030 Testing connection ...
+23/07 15:13:42:031 Created provisioning instance for NMSCHARGING
+23/07 15:13:42:031 Testing connection are success
+23/07 15:14:00:196 84967289993: ACOMVT00001 - CP.MO
+23/07 15:14:00:197 orderId = 482862379 | requestId = 0 | orderDate = 2014/07/23 15:14:00 | userName = vt8x26 | merchantId = 883 | agentId = 0 | opId = 0 | subProductId = 1982712 | channel = web | serviceAddress = 8626 | keyword = VTREG_GET | isdn = 84967289993 | subscriberType = 1 | shipTo =  | actionType = register | productId = 910 | amount = 0.0 | provisioningType = CP | commandId = 880 | cause =  | status = 1 | description =  | cgw_status =  | scenario = 0
+23/07 15:14:00:197 orderId = 482862379 , orderDate = Wed Jul 23 15:14:00 ICT 2014 , isdn = 84967289993 , total execute time = 75, validation cost = 52 , create order cost = 23 , update order cost = 0
+23/07 15:15:16:899 Order Routing started
+23/07 15:15:16:952 Starting process session
+23/07 15:15:19:522 Testing connection ...
+23/07 15:15:19:524 Created provisioning instance for NMSCHARGING
+23/07 15:15:19:525 Testing connection are success
+23/07 15:15:41:565 84967289994: ACOMVT00001 - CP.MO
+23/07 15:15:41:565 orderId = 482862380 | requestId = 0 | orderDate = 2014/07/23 15:15:41 | userName = vt8x26 | merchantId = 883 | agentId = 0 | opId = 0 | subProductId = 0 | channel = web | serviceAddress = 8626 | keyword = VTREG_GET | isdn = 84967289994 | subscriberType = 1 | shipTo =  | actionType = register | productId = 910 | amount = 0.0 | provisioningType = CP | commandId = 880 | cause =  | status = 1 | description =  | cgw_status =  | scenario = 0
+23/07 15:15:41:566 orderId = 482862380 , orderDate = Wed Jul 23 15:15:41 ICT 2014 , isdn = 84967289994 , total execute time = 58, validation cost = 40 , create order cost = 18 , update order cost = 0
+23/07 15:23:06:451 Order Routing started
+23/07 15:23:06:502 Starting process session
+23/07 15:23:08:897 Testing connection ...
+23/07 15:23:08:898 Created provisioning instance for NMSCHARGING
+23/07 15:23:08:900 Testing connection are success
+23/07 15:23:34:527 84967289995: ACOMVT00001 - CP.MO
+23/07 15:23:34:527 orderId = 482862381 | requestId = 0 | orderDate = 2014/07/23 15:23:34 | userName = vt8x26 | merchantId = 883 | agentId = 0 | opId = 0 | subProductId = 0 | channel = web | serviceAddress = 8626 | keyword = VTREG_GET | isdn = 84967289995 | subscriberType = 1 | shipTo =  | actionType = register | productId = 910 | amount = 0.0 | provisioningType = CP | commandId = 880 | cause =  | status = 1 | description =  | cgw_status =  | scenario = 0
+23/07 15:23:34:527 orderId = 482862381 , orderDate = Wed Jul 23 15:23:34 ICT 2014 , isdn = 84967289995 , total execute time = 60, validation cost = 40 , create order cost = 20 , update order cost = 0
+23/07 15:29:35:181 84967289996: ACOMVT00001 - CP.MO
+23/07 15:29:35:181 orderId = 482862382 | requestId = 0 | orderDate = 2014/07/23 15:29:35 | userName = vt8x26 | merchantId = 883 | agentId = 0 | opId = 0 | subProductId = 0 | channel = web | serviceAddress = 8626 | keyword = VTREG_GET | isdn = 84967289996 | subscriberType = 1 | shipTo =  | actionType = register | productId = 910 | amount = 0.0 | provisioningType = CP | commandId = 880 | cause =  | status = 1 | description =  | cgw_status =  | scenario = 0
+23/07 15:29:35:181 orderId = 482862382 , orderDate = Wed Jul 23 15:29:35 ICT 2014 , isdn = 84967289996 , total execute time = 34, validation cost = 19 , create order cost = 15 , update order cost = 0
+23/07 15:32:21:665 84967289997: ACOMVT00001 - CP.MO
+23/07 15:32:21:666 orderId = 482862383 | requestId = 0 | orderDate = 2014/07/23 15:32:21 | userName = vt8x26 | merchantId = 883 | agentId = 0 | opId = 0 | subProductId = 0 | channel = web | serviceAddress = 8626 | keyword = VTREG_GET | isdn = 84967289997 | subscriberType = 1 | shipTo =  | actionType = register | productId = 910 | amount = 0.0 | provisioningType = CP | commandId = 880 | cause =  | status = 1 | description =  | cgw_status =  | scenario = 0
+23/07 15:32:21:666 orderId = 482862383 , orderDate = Wed Jul 23 15:32:21 ICT 2014 , isdn = 84967289997 , total execute time = 35, validation cost = 18 , create order cost = 17 , update order cost = 0
+23/07 15:32:39:385 84967289998: ACOMVT00001 - CP.MO
+23/07 15:32:39:385 orderId = 482862384 | requestId = 0 | orderDate = 2014/07/23 15:32:39 | userName = vt8x26 | merchantId = 883 | agentId = 0 | opId = 0 | subProductId = 0 | channel = web | serviceAddress = 8626 | keyword = VTREG_GET | isdn = 84967289998 | subscriberType = 1 | shipTo =  | actionType = register | productId = 910 | amount = 0.0 | provisioningType = CP | commandId = 880 | cause =  | status = 1 | description =  | cgw_status =  | scenario = 0
+23/07 15:32:39:385 orderId = 482862384 , orderDate = Wed Jul 23 15:32:39 ICT 2014 , isdn = 84967289998 , total execute time = 34, validation cost = 17 , create order cost = 17 , update order cost = 0
+23/07 15:35:39:772 84967289999: ACOMVT00001 - CP.MO
+23/07 15:35:39:772 orderId = 482862385 | requestId = 0 | orderDate = 2014/07/23 15:35:39 | userName = vt8x26 | merchantId = 883 | agentId = 0 | opId = 0 | subProductId = 0 | channel = web | serviceAddress = 8626 | keyword = VTREG_GET | isdn = 84967289999 | subscriberType = 1 | shipTo =  | actionType = register | productId = 910 | amount = 0.0 | provisioningType = CP | commandId = 880 | cause =  | status = 1 | description =  | cgw_status =  | scenario = 0
+23/07 15:35:39:772 orderId = 482862385 , orderDate = Wed Jul 23 15:35:39 ICT 2014 , isdn = 84967289999 , total execute time = 39, validation cost = 23 , create order cost = 16 , update order cost = 0
+23/07 15:41:27:962 Close pool
+23/07 15:41:27:965 End of process session
+23/07 15:41:27:965 Order Routing stopped
+23/07 15:41:29:980 Order Routing started
+23/07 15:41:30:007 Starting process session
+23/07 15:41:30:844 Close pool
+23/07 15:41:30:845 Close pool
+23/07 15:41:30:845 Testing connection ...
+23/07 15:41:30:845 Created provisioning instance for NMSCHARGING
+23/07 15:41:30:845 Testing connection are success
+23/07 15:41:53:217 84967289919: ACOMVT00001 - CP.MO
+23/07 15:41:53:217 orderId = 482862386 | requestId = 0 | orderDate = 2014/07/23 15:41:53 | userName = vt8x26 | merchantId = 883 | agentId = 0 | opId = 0 | subProductId = 0 | channel = web | serviceAddress = 8626 | keyword = VTREG_GET | isdn = 84967289919 | subscriberType = 1 | shipTo =  | actionType = register | productId = 910 | amount = 0.0 | provisioningType = CP | commandId = 880 | cause =  | status = 1 | description =  | cgw_status =  | scenario = 0
+23/07 15:41:53:217 orderId = 482862386 , orderDate = Wed Jul 23 15:41:53 ICT 2014 , isdn = 84967289919 , total execute time = 33, validation cost = 18 , create order cost = 15 , update order cost = 0
+23/07 15:44:56:407 Order Routing started
+23/07 15:44:56:463 Starting process session
+23/07 15:44:59:151 Testing connection ...
+23/07 15:44:59:154 Created provisioning instance for NMSCHARGING
+23/07 15:44:59:155 Testing connection are success
+23/07 15:45:18:642 84967289929: ACOMVT00001 - CP.MO
+23/07 15:45:18:643 orderId = 482862387 | requestId = 0 | orderDate = 2014/07/23 15:45:18 | userName = vt8x26 | merchantId = 883 | agentId = 0 | opId = 0 | subProductId = 0 | channel = web | serviceAddress = 8626 | keyword = VTREG_GET | isdn = 84967289929 | subscriberType = 1 | shipTo =  | actionType = register | productId = 910 | amount = 0.0 | provisioningType = CP | commandId = 880 | cause =  | status = 1 | description =  | cgw_status =  | scenario = 0
+23/07 15:45:18:643 orderId = 482862387 , orderDate = Wed Jul 23 15:45:18 ICT 2014 , isdn = 84967289929 , total execute time = 59, validation cost = 37 , create order cost = 22 , update order cost = 0
+23/07 15:48:08:917 Order Routing started
+23/07 15:48:08:967 Starting process session
+23/07 15:48:11:470 Testing connection ...
+23/07 15:48:11:471 Created provisioning instance for NMSCHARGING
+23/07 15:48:11:472 Testing connection are success
+23/07 15:48:32:974 84967289929: ACOMVT00001 - CRM.QUESTION_CONFIRM
+23/07 15:48:32:975 orderId = 482862388 | requestId = 0 | orderDate = 2014/07/23 15:48:32 | userName = vt8x26 | merchantId = 883 | agentId = 0 | opId = 0 | subProductId = 1982721 | channel = web | serviceAddress = 8626 | keyword = GET_A | isdn = 84967289929 | subscriberType = 1 | shipTo =  | actionType = confirm | productId = 910 | amount = 0.0 | provisioningType = CRM | commandId = 381 | cause =  | status = 1 | description =  | cgw_status =  | scenario = 0
+23/07 15:48:32:975 orderId = 482862388 , orderDate = Wed Jul 23 15:48:32 ICT 2014 , isdn = 84967289929 , total execute time = 61, validation cost = 43 , create order cost = 18 , update order cost = 0
+23/07 15:54:07:843 Order Routing started
+23/07 15:54:07:894 Starting process session
+23/07 15:54:10:396 Testing connection ...
+23/07 15:54:10:398 Created provisioning instance for NMSCHARGING
+23/07 15:54:10:399 Testing connection are success
+23/07 15:54:32:913 84967289929: ACOMVT00001 - CRM.QUESTION_CONFIRM
+23/07 15:54:32:913 orderId = 482862389 | requestId = 0 | orderDate = 2014/07/23 15:54:32 | userName = vt8x26 | merchantId = 883 | agentId = 0 | opId = 0 | subProductId = 1982721 | channel = web | serviceAddress = 8626 | keyword = GET_A | isdn = 84967289929 | subscriberType = 1 | shipTo =  | actionType = confirm | productId = 910 | amount = 0.0 | provisioningType = CRM | commandId = 381 | cause =  | status = 1 | description =  | cgw_status =  | scenario = 0
+23/07 15:54:32:913 orderId = 482862389 , orderDate = Wed Jul 23 15:54:32 ICT 2014 , isdn = 84967289929 , total execute time = 69, validation cost = 47 , create order cost = 22 , update order cost = 0
+23/07 15:55:32:599 Order Routing started
+23/07 15:55:32:680 Starting process session
+23/07 15:55:35:298 Testing connection ...
+23/07 15:55:35:300 Created provisioning instance for NMSCHARGING
+23/07 15:55:35:301 Testing connection are success
+23/07 15:55:48:823 84967289929: ACOMVT00001 - CRM.QUESTION_CONFIRM
+23/07 15:55:48:823 orderId = 482862390 | requestId = 0 | orderDate = 2014/07/23 15:55:48 | userName = vt8x26 | merchantId = 883 | agentId = 0 | opId = 0 | subProductId = 1982721 | channel = web | serviceAddress = 8626 | keyword = GET_A | isdn = 84967289929 | subscriberType = 1 | shipTo =  | actionType = confirm | productId = 910 | amount = 0.0 | provisioningType = CRM | commandId = 381 | cause =  | status = 1 | description =  | cgw_status =  | scenario = 0
+23/07 15:55:48:823 orderId = 482862390 , orderDate = Wed Jul 23 15:55:48 ICT 2014 , isdn = 84967289929 , total execute time = 61, validation cost = 43 , create order cost = 18 , update order cost = 0
+23/07 15:56:09:501 orderId = 482862391 | requestId = 0 | orderDate = 2014/07/23 15:56:09 | userName = vt8x26 | merchantId = 883 | agentId = 0 | opId = 0 | subProductId = 0 | channel = web | serviceAddress = 8626 | keyword = GET_A | isdn = 84967289939 | subscriberType = -1 | shipTo =  | actionType = confirm | productId = 910 | amount = 0.0 | provisioningType =  | commandId = 0 | cause = invalid-confirm | status = 4 | description =  | cgw_status =  | scenario = 0
+23/07 15:56:09:503 orderId = 482862391 , orderDate = Wed Jul 23 15:56:09 ICT 2014 , isdn = 84967289939 , total execute time = 36, validation cost = 21 , create order cost = 15 , update order cost = 0
+23/07 15:56:48:020 84967289939: ACOMVT00001 - CP.MO
+23/07 15:56:48:020 orderId = 482862392 | requestId = 0 | orderDate = 2014/07/23 15:56:47 | userName = vt8x26 | merchantId = 883 | agentId = 0 | opId = 0 | subProductId = 0 | channel = web | serviceAddress = 8626 | keyword = VTREG_GET | isdn = 84967289939 | subscriberType = 1 | shipTo =  | actionType = register | productId = 910 | amount = 0.0 | provisioningType = CP | commandId = 880 | cause =  | status = 1 | description =  | cgw_status =  | scenario = 0
+23/07 15:56:48:021 orderId = 482862392 , orderDate = Wed Jul 23 15:56:47 ICT 2014 , isdn = 84967289939 , total execute time = 33, validation cost = 18 , create order cost = 15 , update order cost = 0
+23/07 16:05:33:577 Order Routing started
+23/07 16:05:33:627 Starting process session
+23/07 16:05:36:037 Testing connection ...
+23/07 16:05:36:039 Created provisioning instance for NMSCHARGING
+23/07 16:05:36:039 Testing connection are success
+23/07 16:06:08:035 84967289939: ACOMVT00001 - CRM.QUESTION_CONFIRM
+23/07 16:06:08:036 orderId = 482862393 | requestId = 0 | orderDate = 2014/07/23 16:06:07 | userName = vt8x26 | merchantId = 883 | agentId = 0 | opId = 0 | subProductId = 1982722 | channel = web | serviceAddress = 8626 | keyword = GET_A | isdn = 84967289939 | subscriberType = 1 | shipTo =  | actionType = confirm | productId = 910 | amount = 0.0 | provisioningType = CRM | commandId = 381 | cause =  | status = 1 | description =  | cgw_status =  | scenario = 0
+23/07 16:06:08:036 orderId = 482862393 , orderDate = Wed Jul 23 16:06:07 ICT 2014 , isdn = 84967289939 , total execute time = 79, validation cost = 55 , create order cost = 24 , update order cost = 0
+23/07 16:21:08:969 Order Routing started
+23/07 16:21:09:020 Starting process session
+23/07 16:21:11:306 Testing connection ...
+23/07 16:21:11:309 Created provisioning instance for NMSCHARGING
+23/07 16:21:11:309 Testing connection are success
+23/07 16:21:43:468 84967289939: ACOMVT00001 - CRM.QUESTION_CONFIRM
+23/07 16:21:43:468 orderId = 482862394 | requestId = 0 | orderDate = 2014/07/23 16:21:43 | userName = vt8x26 | merchantId = 883 | agentId = 0 | opId = 0 | subProductId = 1982722 | channel = web | serviceAddress = 8626 | keyword = GET_A | isdn = 84967289939 | subscriberType = 1 | shipTo =  | actionType = confirm | productId = 910 | amount = 0.0 | provisioningType = CRM | commandId = 381 | cause =  | status = 1 | description =  | cgw_status =  | scenario = 0
+23/07 16:21:43:469 orderId = 482862394 , orderDate = Wed Jul 23 16:21:43 ICT 2014 , isdn = 84967289939 , total execute time = 84, validation cost = 61 , create order cost = 23 , update order cost = 0
+23/07 16:24:51:691 84967289939: ACOMVT00001 - CRM.QUESTION_CONFIRM
+23/07 16:24:51:692 orderId = 482862395 | requestId = 0 | orderDate = 2014/07/23 16:24:51 | userName = vt8x26 | merchantId = 883 | agentId = 0 | opId = 0 | subProductId = 1982722 | channel = web | serviceAddress = 8626 | keyword = GET_A | isdn = 84967289939 | subscriberType = 1 | shipTo =  | actionType = confirm | productId = 910 | amount = 0.0 | provisioningType = CRM | commandId = 381 | cause =  | status = 1 | description =  | cgw_status =  | scenario = 0
+23/07 16:24:51:692 orderId = 482862395 , orderDate = Wed Jul 23 16:24:51 ICT 2014 , isdn = 84967289939 , total execute time = 41, validation cost = 26 , create order cost = 15 , update order cost = 0
+23/07 16:29:36:275 Order Routing started
+23/07 16:29:36:325 Starting process session
+23/07 16:29:38:799 Testing connection ...
+23/07 16:29:38:802 Created provisioning instance for NMSCHARGING
+23/07 16:29:38:802 Testing connection are success
+23/07 16:35:43:951 Order Routing started
+23/07 16:35:44:021 Starting process session
+23/07 16:35:46:432 Testing connection ...
+23/07 16:35:46:434 Created provisioning instance for NMSCHARGING
+23/07 16:35:46:435 Testing connection are success
+23/07 16:36:10:013 84967289949: ACOMVT00001 - CP.MO
+23/07 16:36:10:013 orderId = 482862396 | requestId = 0 | orderDate = 2014/07/23 16:36:09 | userName = vt8x26 | merchantId = 883 | agentId = 0 | opId = 0 | subProductId = 0 | channel = web | serviceAddress = 8626 | keyword = VTREG_GET | isdn = 84967289949 | subscriberType = 1 | shipTo =  | actionType = register | productId = 910 | amount = 0.0 | provisioningType = CP | commandId = 880 | cause =  | status = 1 | description =  | cgw_status =  | scenario = 0
+23/07 16:36:10:013 orderId = 482862396 , orderDate = Wed Jul 23 16:36:09 ICT 2014 , isdn = 84967289949 , total execute time = 55, validation cost = 38 , create order cost = 17 , update order cost = 0
+23/07 16:37:04:653 Order Routing started
+23/07 16:37:04:711 Starting process session
+23/07 16:37:07:177 Testing connection ...
+23/07 16:37:07:179 Created provisioning instance for NMSCHARGING
+23/07 16:37:07:179 Testing connection are success
+23/07 16:37:33:511 84967289959: ACOMVT00001 - CP.MO
+23/07 16:37:33:511 orderId = 482862397 | requestId = 0 | orderDate = 2014/07/23 16:37:33 | userName = vt8x26 | merchantId = 883 | agentId = 0 | opId = 0 | subProductId = 0 | channel = web | serviceAddress = 8626 | keyword = VTREG_GET | isdn = 84967289959 | subscriberType = 1 | shipTo =  | actionType = register | productId = 910 | amount = 0.0 | provisioningType = CP | commandId = 880 | cause =  | status = 1 | description =  | cgw_status =  | scenario = 0
+23/07 16:37:33:511 orderId = 482862397 , orderDate = Wed Jul 23 16:37:33 ICT 2014 , isdn = 84967289959 , total execute time = 53, validation cost = 36 , create order cost = 17 , update order cost = 0
+23/07 16:38:30:492 Order Routing started
+23/07 16:38:30:547 Starting process session
+23/07 16:38:33:101 Testing connection ...
+23/07 16:38:33:103 Created provisioning instance for NMSCHARGING
+23/07 16:38:33:104 Testing connection are success
+23/07 16:38:54:790 84967289969: ACOMVT00001 - CP.MO
+23/07 16:38:54:791 orderId = 482862398 | requestId = 0 | orderDate = 2014/07/23 16:38:54 | userName = vt8x26 | merchantId = 883 | agentId = 0 | opId = 0 | subProductId = 0 | channel = web | serviceAddress = 8626 | keyword = VTREG_GET | isdn = 84967289969 | subscriberType = 1 | shipTo =  | actionType = register | productId = 910 | amount = 0.0 | provisioningType = CP | commandId = 880 | cause =  | status = 1 | description =  | cgw_status =  | scenario = 0
+23/07 16:38:54:791 orderId = 482862398 , orderDate = Wed Jul 23 16:38:54 ICT 2014 , isdn = 84967289969 , total execute time = 65, validation cost = 40 , create order cost = 25 , update order cost = 0
+23/07 16:40:01:629 Order Routing started
+23/07 16:40:01:682 Starting process session
+23/07 16:40:04:342 Testing connection ...
+23/07 16:40:04:344 Created provisioning instance for NMSCHARGING
+23/07 16:40:04:346 Testing connection are success
+23/07 16:40:28:801 84967289979: ACOMVT00001 - CP.MO
+23/07 16:40:28:801 orderId = 482862399 | requestId = 0 | orderDate = 2014/07/23 16:40:28 | userName = vt8x26 | merchantId = 883 | agentId = 0 | opId = 0 | subProductId = 0 | channel = web | serviceAddress = 8626 | keyword = VTREG_GET | isdn = 84967289979 | subscriberType = 1 | shipTo =  | actionType = register | productId = 910 | amount = 0.0 | provisioningType = CP | commandId = 880 | cause =  | status = 1 | description =  | cgw_status =  | scenario = 0
+23/07 16:40:28:801 orderId = 482862399 , orderDate = Wed Jul 23 16:40:28 ICT 2014 , isdn = 84967289979 , total execute time = 53, validation cost = 36 , create order cost = 17 , update order cost = 0
+23/07 16:50:04:853 Order Routing started
+23/07 16:50:04:903 Starting process session
+23/07 16:50:07:258 Testing connection ...
+23/07 16:50:07:259 Created provisioning instance for NMSCHARGING
+23/07 16:50:07:261 Testing connection are success
+23/07 16:50:35:236 84967289971: ACOMVT00001 - CP.MO
+23/07 16:50:35:237 orderId = 482862400 | requestId = 0 | orderDate = 2014/07/23 16:50:35 | userName = vt8x26 | merchantId = 883 | agentId = 0 | opId = 0 | subProductId = 0 | channel = web | serviceAddress = 8626 | keyword = VTREG_GET | isdn = 84967289971 | subscriberType = 1 | shipTo =  | actionType = register | productId = 910 | amount = 0.0 | provisioningType = CP | commandId = 880 | cause =  | status = 1 | description =  | cgw_status =  | scenario = 0
+23/07 16:50:35:237 orderId = 482862400 , orderDate = Wed Jul 23 16:50:35 ICT 2014 , isdn = 84967289971 , total execute time = 54, validation cost = 36 , create order cost = 18 , update order cost = 0
+23/07 16:53:55:124 84967289971: ACOMVT00001 - CRM.QUESTION_CONFIRM
+23/07 16:53:55:124 orderId = 482862401 | requestId = 0 | orderDate = 2014/07/23 16:53:55 | userName = vt8x26 | merchantId = 883 | agentId = 0 | opId = 0 | subProductId = 1982727 | channel = web | serviceAddress = 8626 | keyword = GET_A | isdn = 84967289971 | subscriberType = 1 | shipTo =  | actionType = confirm | productId = 910 | amount = 0.0 | provisioningType = CRM | commandId = 381 | cause =  | status = 1 | description =  | cgw_status =  | scenario = 0
+23/07 16:53:55:124 orderId = 482862401 , orderDate = Wed Jul 23 16:53:55 ICT 2014 , isdn = 84967289971 , total execute time = 42, validation cost = 28 , create order cost = 14 , update order cost = 0
+23/07 16:55:17:832 84967289971: ACOMVT00001 - CRM.QUESTION_CONFIRM
+23/07 16:55:17:833 orderId = 482862402 | requestId = 0 | orderDate = 2014/07/23 16:55:17 | userName = vt8x26 | merchantId = 883 | agentId = 0 | opId = 0 | subProductId = 1982727 | channel = web | serviceAddress = 8626 | keyword = GET_A | isdn = 84967289971 | subscriberType = 1 | shipTo =  | actionType = confirm | productId = 910 | amount = 0.0 | provisioningType = CRM | commandId = 381 | cause =  | status = 1 | description =  | cgw_status =  | scenario = 0
+23/07 16:55:17:833 orderId = 482862402 , orderDate = Wed Jul 23 16:55:17 ICT 2014 , isdn = 84967289971 , total execute time = 41, validation cost = 26 , create order cost = 15 , update order cost = 0
+23/07 16:57:13:358 84967289971: ACOMVT00001 - CRM.QUESTION_CONFIRM
+23/07 16:57:13:359 orderId = 482862403 | requestId = 0 | orderDate = 2014/07/23 16:57:13 | userName = vt8x26 | merchantId = 883 | agentId = 0 | opId = 0 | subProductId = 1982727 | channel = web | serviceAddress = 8626 | keyword = GET_A | isdn = 84967289971 | subscriberType = 1 | shipTo =  | actionType = confirm | productId = 910 | amount = 0.0 | provisioningType = CRM | commandId = 381 | cause =  | status = 1 | description =  | cgw_status =  | scenario = 0
+23/07 16:57:13:359 orderId = 482862403 , orderDate = Wed Jul 23 16:57:13 ICT 2014 , isdn = 84967289971 , total execute time = 41, validation cost = 26 , create order cost = 15 , update order cost = 0
+23/07 17:00:20:158 84967289971: ACOMVT00001 - CRM.QUESTION_CONFIRM
+23/07 17:00:20:158 orderId = 482862404 | requestId = 0 | orderDate = 2014/07/23 17:00:20 | userName = vt8x26 | merchantId = 883 | agentId = 0 | opId = 0 | subProductId = 1982727 | channel = web | serviceAddress = 8626 | keyword = GET_A | isdn = 84967289971 | subscriberType = 1 | shipTo =  | actionType = confirm | productId = 910 | amount = 0.0 | provisioningType = CRM | commandId = 381 | cause =  | status = 1 | description =  | cgw_status =  | scenario = 0
+23/07 17:00:20:159 orderId = 482862404 , orderDate = Wed Jul 23 17:00:20 ICT 2014 , isdn = 84967289971 , total execute time = 43, validation cost = 29 , create order cost = 14 , update order cost = 0
+23/07 17:03:54:716 Order Routing started
+23/07 17:03:54:765 Starting process session
+23/07 17:03:57:268 Testing connection ...
+23/07 17:03:57:269 Created provisioning instance for NMSCHARGING
+23/07 17:03:57:270 Testing connection are success
+23/07 17:05:20:972 Order Routing started
+23/07 17:05:21:022 Starting process session
+23/07 17:05:23:389 Testing connection ...
+23/07 17:05:23:391 Created provisioning instance for NMSCHARGING
+23/07 17:05:23:391 Testing connection are success
+23/07 17:05:44:698 84967289971: ACOMVT00001 - CRM.QUESTION_CONFIRM
+23/07 17:05:44:698 orderId = 482862405 | requestId = 0 | orderDate = 2014/07/23 17:05:44 | userName = vt8x26 | merchantId = 883 | agentId = 0 | opId = 0 | subProductId = 1982727 | channel = web | serviceAddress = 8626 | keyword = GET_A | isdn = 84967289971 | subscriberType = 1 | shipTo =  | actionType = confirm | productId = 910 | amount = 0.0 | provisioningType = CRM | commandId = 381 | cause =  | status = 1 | description =  | cgw_status =  | scenario = 0 | timeout = 0
+23/07 17:05:44:698 orderId = 482862405 , orderDate = Wed Jul 23 17:05:44 ICT 2014 , isdn = 84967289971 , total execute time = 70, validation cost = 50 , create order cost = 20 , update order cost = 0
+23/07 17:12:28:678 Order Routing started
+23/07 17:12:28:752 Starting process session
+23/07 17:12:31:087 Testing connection ...
+23/07 17:12:31:375 Created provisioning instance for NMSCHARGING
+23/07 17:12:31:376 Testing connection are success
+23/07 17:12:46:593 84967289971: ACOMVT00001 - CRM.QUESTION_CONFIRM
+23/07 17:12:46:593 orderId = 482862406 | requestId = 0 | orderDate = 2014/07/23 17:12:46 | userName = vt8x26 | merchantId = 883 | agentId = 0 | opId = 0 | subProductId = 1982727 | channel = web | serviceAddress = 8626 | keyword = GET_A | isdn = 84967289971 | subscriberType = 1 | shipTo =  | actionType = confirm | productId = 910 | amount = 0.0 | provisioningType = CRM | commandId = 381 | cause =  | status = 1 | description =  | cgw_status =  | scenario = 0 | timeout = 0
+23/07 17:12:46:594 orderId = 482862406 , orderDate = Wed Jul 23 17:12:46 ICT 2014 , isdn = 84967289971 , total execute time = 78, validation cost = 57 , create order cost = 21 , update order cost = 0
+23/07 17:18:12:971 Order Routing started
+23/07 17:18:13:022 Starting process session
+23/07 17:18:15:657 Testing connection ...
+23/07 17:18:15:660 Created provisioning instance for NMSCHARGING
+23/07 17:18:15:660 Testing connection are success
+23/07 17:18:28:802 84967289971: ACOMVT00001 - CRM.QUESTION_CONFIRM
+23/07 17:18:28:803 orderId = 482862407 | requestId = 0 | orderDate = 2014/07/23 17:18:28 | userName = vt8x26 | merchantId = 883 | agentId = 0 | opId = 0 | subProductId = 1982727 | channel = web | serviceAddress = 8626 | keyword = GET_A | isdn = 84967289971 | subscriberType = 1 | shipTo =  | actionType = confirm | productId = 910 | amount = 0.0 | provisioningType = CRM | commandId = 381 | cause =  | status = 1 | description =  | cgw_status =  | scenario = 0 | timeout = 0
+23/07 17:18:28:803 orderId = 482862407 , orderDate = Wed Jul 23 17:18:28 ICT 2014 , isdn = 84967289971 , total execute time = 71, validation cost = 51 , create order cost = 20 , update order cost = 0
+23/07 17:24:40:940 84967289972: ACOMVT00001 - CP.MO
+23/07 17:24:40:941 orderId = 482862408 | requestId = 0 | orderDate = 2014/07/23 17:24:40 | userName = vt8x26 | merchantId = 883 | agentId = 0 | opId = 0 | subProductId = 0 | channel = web | serviceAddress = 8626 | keyword = VTREG_GET | isdn = 84967289972 | subscriberType = 1 | shipTo =  | actionType = register | productId = 910 | amount = 0.0 | provisioningType = CP | commandId = 880 | cause =  | status = 1 | description =  | cgw_status =  | scenario = 0 | timeout = 0
+23/07 17:24:40:941 orderId = 482862408 , orderDate = Wed Jul 23 17:24:40 ICT 2014 , isdn = 84967289972 , total execute time = 42, validation cost = 19 , create order cost = 23 , update order cost = 0
+23/07 17:24:58:920 Order Routing started
+23/07 17:24:58:971 Starting process session
+23/07 17:25:01:508 Testing connection ...
+23/07 17:25:01:510 Created provisioning instance for NMSCHARGING
+23/07 17:25:01:511 Testing connection are success
+23/07 17:28:57:492 Order Routing started
+23/07 17:29:00:203 Testing connection ...
+23/07 17:29:00:205 Created provisioning instance for NMSCHARGING
+23/07 17:29:00:206 Testing connection are success
+23/07 17:29:19:995 84967289972: ACOMVT00001 - CP.MO
+23/07 17:29:19:995 orderId = 482862409 | requestId = 0 | orderDate = 2014/07/23 17:29:19 | userName = vt8x26 | merchantId = 883 | agentId = 0 | opId = 0 | subProductId = 0 | channel = web | serviceAddress = 8626 | keyword = VTREG_GET | isdn = 84967289972 | subscriberType = 1 | shipTo =  | actionType = register | productId = 910 | amount = 0.0 | provisioningType = CP | commandId = 880 | cause =  | status = 1 | description =  | cgw_status =  | scenario = 0 | timeout = 0
+23/07 17:29:19:995 orderId = 482862409 , orderDate = Wed Jul 23 17:29:19 ICT 2014 , isdn = 84967289972 , total execute time = 54, validation cost = 33 , create order cost = 21 , update order cost = 0
+23/07 17:31:16:971 Order Routing started
+23/07 17:31:19:600 Testing connection ...
+23/07 17:31:19:601 Created provisioning instance for NMSCHARGING
+23/07 17:31:19:602 Testing connection are success
+23/07 17:31:46:040 84967289972: ACOMVT00001 - CP.MO
+23/07 17:31:46:041 orderId = 482862410 | requestId = 0 | orderDate = 2014/07/23 17:31:45 | userName = vt8x26 | merchantId = 883 | agentId = 0 | opId = 0 | subProductId = 0 | channel = web | serviceAddress = 8626 | keyword = VTREG_GET | isdn = 84967289972 | subscriberType = 1 | shipTo =  | actionType = register | productId = 910 | amount = 0.0 | provisioningType = CP | commandId = 880 | cause =  | status = 1 | description =  | cgw_status =  | scenario = 0 | timeout = 0
+23/07 17:31:46:041 orderId = 482862410 , orderDate = Wed Jul 23 17:31:45 ICT 2014 , isdn = 84967289972 , total execute time = 77, validation cost = 44 , create order cost = 33 , update order cost = 0
+23/07 17:37:48:740 84967289972: ACOMVT00001 - CRM.QUESTION_CONFIRM
+23/07 17:37:48:741 orderId = 482862411 | requestId = 0 | orderDate = 2014/07/23 17:37:48 | userName = vt8x26 | merchantId = 883 | agentId = 0 | opId = 0 | subProductId = 1982728 | channel = web | serviceAddress = 8626 | keyword = GET_A | isdn = 84967289972 | subscriberType = 1 | shipTo =  | actionType = confirm | productId = 910 | amount = 0.0 | provisioningType = CRM | commandId = 381 | cause =  | status = 1 | description =  | cgw_status =  | scenario = 0 | timeout = 0
+23/07 17:37:48:741 orderId = 482862411 , orderDate = Wed Jul 23 17:37:48 ICT 2014 , isdn = 84967289972 , total execute time = 51, validation cost = 29 , create order cost = 22 , update order cost = 0
+23/07 17:39:14:612 Order Routing started
+23/07 17:39:17:445 Testing connection ...
+23/07 17:39:17:447 Created provisioning instance for NMSCHARGING
+23/07 17:39:17:448 Testing connection are success
+23/07 17:39:36:207 84967289972: ACOMVT00001 - CRM.QUESTION_CONFIRM
+23/07 17:39:36:207 orderId = 482862412 | requestId = 0 | orderDate = 2014/07/23 17:39:36 | userName = vt8x26 | merchantId = 883 | agentId = 0 | opId = 0 | subProductId = 1982728 | channel = web | serviceAddress = 8626 | keyword = GET_A | isdn = 84967289972 | subscriberType = 1 | shipTo =  | actionType = confirm | productId = 910 | amount = 0.0 | provisioningType = CRM | commandId = 381 | cause =  | status = 1 | description =  | cgw_status =  | scenario = 0 | timeout = 0
+23/07 17:39:36:208 orderId = 482862412 , orderDate = Wed Jul 23 17:39:36 ICT 2014 , isdn = 84967289972 , total execute time = 100, validation cost = 67 , create order cost = 33 , update order cost = 0
+23/07 17:41:31:940 84967289972: ACOMVT00001 - CRM.QUESTION_CONFIRM
+23/07 17:41:31:941 orderId = 482862413 | requestId = 0 | orderDate = 2014/07/23 17:41:31 | userName = vt8x26 | merchantId = 883 | agentId = 0 | opId = 0 | subProductId = 1982728 | channel = web | serviceAddress = 8626 | keyword = GET_A | isdn = 84967289972 | subscriberType = 1 | shipTo =  | actionType = confirm | productId = 910 | amount = 0.0 | provisioningType = CRM | commandId = 381 | cause =  | status = 1 | description =  | cgw_status =  | scenario = 0 | timeout = 0
+23/07 17:41:31:941 orderId = 482862413 , orderDate = Wed Jul 23 17:41:31 ICT 2014 , isdn = 84967289972 , total execute time = 72, validation cost = 44 , create order cost = 28 , update order cost = 0
+23/07 17:45:20:054 Order Routing started
+23/07 17:45:20:194 Starting process session
+23/07 17:45:23:293 Testing connection ...
+23/07 17:45:23:294 Created provisioning instance for NMSCHARGING
+23/07 17:45:23:294 Testing connection are success
+23/07 17:46:01:693 84967289972: ACOMVT00001 - CRM.QUESTION_CONFIRM
+23/07 17:46:01:694 orderId = 482862414 | requestId = 0 | orderDate = 2014/07/23 17:46:01 | userName = vt8x26 | merchantId = 883 | agentId = 0 | opId = 0 | subProductId = 1982728 | channel = web | serviceAddress = 8626 | keyword = GET_A | isdn = 84967289972 | subscriberType = 1 | shipTo =  | actionType = confirm | productId = 910 | amount = 0.0 | provisioningType = CRM | commandId = 381 | cause =  | status = 1 | description =  | cgw_status =  | scenario = 0 | timeout = 0
+23/07 17:46:01:694 orderId = 482862414 , orderDate = Wed Jul 23 17:46:01 ICT 2014 , isdn = 84967289972 , total execute time = 116, validation cost = 49 , create order cost = 67 , update order cost = 0
+23/07 17:47:05:734 84967289972: ACOMVT00001 - CRM.QUESTION_CONFIRM
+23/07 17:47:05:735 orderId = 482862415 | requestId = 0 | orderDate = 2014/07/23 17:47:05 | userName = vt8x26 | merchantId = 883 | agentId = 0 | opId = 0 | subProductId = 1982728 | channel = web | serviceAddress = 8626 | keyword = GET_A | isdn = 84967289972 | subscriberType = 1 | shipTo =  | actionType = confirm | productId = 910 | amount = 0.0 | provisioningType = CRM | commandId = 381 | cause =  | status = 1 | description =  | cgw_status =  | scenario = 0 | timeout = 0
+23/07 17:47:05:735 orderId = 482862415 , orderDate = Wed Jul 23 17:47:05 ICT 2014 , isdn = 84967289972 , total execute time = 84, validation cost = 45 , create order cost = 39 , update order cost = 0
+23/07 17:48:19:827 84967289972: ACOMVT00001 - CRM.QUESTION_CONFIRM
+23/07 17:48:19:827 orderId = 482862416 | requestId = 0 | orderDate = 2014/07/23 17:48:19 | userName = vt8x26 | merchantId = 883 | agentId = 0 | opId = 0 | subProductId = 1982728 | channel = web | serviceAddress = 8626 | keyword = GET_A | isdn = 84967289972 | subscriberType = 1 | shipTo =  | actionType = confirm | productId = 910 | amount = 0.0 | provisioningType = CRM | commandId = 381 | cause =  | status = 1 | description =  | cgw_status =  | scenario = 0 | timeout = 0
+23/07 17:48:19:828 orderId = 482862416 , orderDate = Wed Jul 23 17:48:19 ICT 2014 , isdn = 84967289972 , total execute time = 74, validation cost = 32 , create order cost = 42 , update order cost = 0
+23/07 20:59:03:996 Order Routing started
+23/07 20:59:04:048 Starting process session
+23/07 20:59:06:651 Testing connection ...
+23/07 20:59:06:653 Created provisioning instance for NMSCHARGING
+23/07 20:59:06:654 Testing connection are success
+23/07 21:00:11:218 84967289973: ACOMVT00001 - CRM.QUESTION_CONFIRM
+23/07 21:00:11:219 orderId = 482862422 | requestId = 0 | orderDate = 2014/07/23 21:00:11 | userName = vt8x26 | merchantId = 883 | agentId = 0 | opId = 0 | subProductId = 1982730 | channel = web | serviceAddress = 8626 | keyword = GET_A | isdn = 84967289973 | subscriberType = 1 | shipTo =  | actionType = confirm | productId = 910 | amount = 0.0 | provisioningType = CRM | commandId = 381 | cause =  | status = 1 | description =  | cgw_status =  | scenario = 0 | timeout = 0
+23/07 21:00:11:219 orderId = 482862422 , orderDate = Wed Jul 23 21:00:11 ICT 2014 , isdn = 84967289973 , total execute time = 111, validation cost = 68 , create order cost = 43 , update order cost = 0
+23/07 21:01:30:825 84967289973: ACOMVT00001 - CRM.QUESTION_CONFIRM
+23/07 21:01:30:825 orderId = 482862423 | requestId = 0 | orderDate = 2014/07/23 21:01:30 | userName = vt8x26 | merchantId = 883 | agentId = 0 | opId = 0 | subProductId = 1982730 | channel = web | serviceAddress = 8626 | keyword = GET_A | isdn = 84967289973 | subscriberType = 1 | shipTo =  | actionType = confirm | productId = 910 | amount = 0.0 | provisioningType = CRM | commandId = 381 | cause =  | status = 1 | description =  | cgw_status =  | scenario = 0 | timeout = 0
+23/07 21:01:30:825 orderId = 482862423 , orderDate = Wed Jul 23 21:01:30 ICT 2014 , isdn = 84967289973 , total execute time = 62, validation cost = 37 , create order cost = 25 , update order cost = 0
+23/07 21:02:04:282 84967289974: ACOMVT00001 - CP.MO
+23/07 21:02:04:282 orderId = 482862424 | requestId = 0 | orderDate = 2014/07/23 21:02:04 | userName = vt8x26 | merchantId = 883 | agentId = 0 | opId = 0 | subProductId = 0 | channel = web | serviceAddress = 8626 | keyword = VTREG_GET | isdn = 84967289974 | subscriberType = 1 | shipTo =  | actionType = register | productId = 910 | amount = 0.0 | provisioningType = CP | commandId = 880 | cause =  | status = 1 | description =  | cgw_status =  | scenario = 0 | timeout = 0
+23/07 21:02:04:283 orderId = 482862424 , orderDate = Wed Jul 23 21:02:04 ICT 2014 , isdn = 84967289974 , total execute time = 57, validation cost = 20 , create order cost = 37 , update order cost = 0
+23/07 21:02:26:206 84967289974: ACOMVT00001 - CRM.QUESTION_CONFIRM
+23/07 21:02:26:207 orderId = 482862425 | requestId = 0 | orderDate = 2014/07/23 21:02:26 | userName = vt8x26 | merchantId = 883 | agentId = 0 | opId = 0 | subProductId = 1982731 | channel = web | serviceAddress = 8626 | keyword = GET_A | isdn = 84967289974 | subscriberType = 1 | shipTo =  | actionType = confirm | productId = 910 | amount = 0.0 | provisioningType = CRM | commandId = 381 | cause =  | status = 1 | description =  | cgw_status =  | scenario = 0 | timeout = 0
+23/07 21:02:26:207 orderId = 482862425 , orderDate = Wed Jul 23 21:02:26 ICT 2014 , isdn = 84967289974 , total execute time = 38, validation cost = 29 , create order cost = 9 , update order cost = 0
+23/07 21:04:42:046 84967289974: ACOMVT00001 - CP.MO
+23/07 21:04:42:046 orderId = 482862426 | requestId = 0 | orderDate = 2014/07/23 21:04:42 | userName = vt8x26 | merchantId = 883 | agentId = 0 | opId = 0 | subProductId = 1982731 | channel = web | serviceAddress = 8626 | keyword = VTUNREG_GET | isdn = 84967289974 | subscriberType = 1 | shipTo =  | actionType = unregister | productId = 910 | amount = 0.0 | provisioningType = CP | commandId = 880 | cause =  | status = 1 | description =  | cgw_status =  | scenario = 0 | timeout = 0
+23/07 21:04:42:047 orderId = 482862426 , orderDate = Wed Jul 23 21:04:42 ICT 2014 , isdn = 84967289974 , total execute time = 25, validation cost = 10 , create order cost = 15 , update order cost = 0
+23/07 21:04:58:640 84967289974: ACOMVT00001 - CP.MO
+23/07 21:04:58:641 orderId = 482862427 | requestId = 0 | orderDate = 2014/07/23 21:04:58 | userName = vt8x26 | merchantId = 883 | agentId = 0 | opId = 0 | subProductId = 0 | channel = web | serviceAddress = 8626 | keyword = VTREG_GET | isdn = 84967289974 | subscriberType = 1 | shipTo =  | actionType = register | productId = 910 | amount = 0.0 | provisioningType = CP | commandId = 880 | cause =  | status = 1 | description =  | cgw_status =  | scenario = 0 | timeout = 0
+23/07 21:04:58:641 orderId = 482862427 , orderDate = Wed Jul 23 21:04:58 ICT 2014 , isdn = 84967289974 , total execute time = 39, validation cost = 22 , create order cost = 17 , update order cost = 0
+23/07 21:06:59:014 84967289974: ACOMVT00001 - CP.MO
+23/07 21:06:59:014 orderId = 482862428 | requestId = 0 | orderDate = 2014/07/23 21:06:58 | userName = vt8x26 | merchantId = 883 | agentId = 0 | opId = 0 | subProductId = 1982732 | channel = web | serviceAddress = 8626 | keyword = VTUNREG_GET | isdn = 84967289974 | subscriberType = 1 | shipTo =  | actionType = unregister | productId = 910 | amount = 0.0 | provisioningType = CP | commandId = 880 | cause =  | status = 1 | description =  | cgw_status =  | scenario = 0 | timeout = 0
+23/07 21:06:59:015 orderId = 482862428 , orderDate = Wed Jul 23 21:06:58 ICT 2014 , isdn = 84967289974 , total execute time = 24, validation cost = 10 , create order cost = 14 , update order cost = 0
+23/07 21:07:35:748 84967289974: ACOMVT00001 - CP.MO
+23/07 21:07:35:748 orderId = 482862429 | requestId = 0 | orderDate = 2014/07/23 21:07:35 | userName = vt8x26 | merchantId = 883 | agentId = 0 | opId = 0 | subProductId = 0 | channel = web | serviceAddress = 8626 | keyword = VTREG_GET | isdn = 84967289974 | subscriberType = 1 | shipTo =  | actionType = register | productId = 910 | amount = 0.0 | provisioningType = CP | commandId = 880 | cause =  | status = 1 | description =  | cgw_status =  | scenario = 0 | timeout = 0
+23/07 21:07:35:748 orderId = 482862429 , orderDate = Wed Jul 23 21:07:35 ICT 2014 , isdn = 84967289974 , total execute time = 59, validation cost = 43 , create order cost = 16 , update order cost = 0
+23/07 21:10:32:488 84967289974: ACOMVT00001 - CP.MO
+23/07 21:10:32:488 orderId = 482862430 | requestId = 0 | orderDate = 2014/07/23 21:10:32 | userName = vt8x26 | merchantId = 883 | agentId = 0 | opId = 0 | subProductId = 1982733 | channel = web | serviceAddress = 8626 | keyword = VTUNREG_GET | isdn = 84967289974 | subscriberType = 1 | shipTo =  | actionType = unregister | productId = 910 | amount = 0.0 | provisioningType = CP | commandId = 880 | cause =  | status = 1 | description =  | cgw_status =  | scenario = 0 | timeout = 0
+23/07 21:10:32:488 orderId = 482862430 , orderDate = Wed Jul 23 21:10:32 ICT 2014 , isdn = 84967289974 , total execute time = 30, validation cost = 12 , create order cost = 18 , update order cost = 0
+23/07 21:24:27:492 Order Routing started
+23/07 21:24:27:550 Starting process session
+23/07 21:24:29:986 Testing connection ...
+23/07 21:24:29:988 Created provisioning instance for NMSCHARGING
+23/07 21:24:29:988 Testing connection are success
+23/07 21:25:19:123 84967289974: ACOMVT00001 - CP.MO
+23/07 21:25:19:124 orderId = 482862431 | requestId = 0 | orderDate = 2014/07/23 21:25:19 | userName = vt8x26 | merchantId = 883 | agentId = 0 | opId = 0 | subProductId = 0 | channel = web | serviceAddress = 8626 | keyword = VTREG_GET | isdn = 84967289974 | subscriberType = 1 | shipTo =  | actionType = register | productId = 910 | amount = 0.0 | provisioningType = CP | commandId = 880 | cause =  | status = 1 | description =  | cgw_status =  | scenario = 0 | timeout = 0
+23/07 21:25:19:124 orderId = 482862431 , orderDate = Wed Jul 23 21:25:19 ICT 2014 , isdn = 84967289974 , total execute time = 73, validation cost = 52 , create order cost = 21 , update order cost = 0
+23/07 21:26:36:883 84967289974: ACOMVT00001 - CRM.QUESTION_CONFIRM
+23/07 21:26:36:884 orderId = 482862432 | requestId = 0 | orderDate = 2014/07/23 21:26:36 | userName = vt8x26 | merchantId = 883 | agentId = 0 | opId = 0 | subProductId = 1982734 | channel = web | serviceAddress = 8626 | keyword = GET_A | isdn = 84967289974 | subscriberType = 1 | shipTo =  | actionType = confirm | productId = 910 | amount = 0.0 | provisioningType = CRM | commandId = 381 | cause =  | status = 1 | description =  | cgw_status =  | scenario = 0 | timeout = 0
+23/07 21:26:36:884 orderId = 482862432 , orderDate = Wed Jul 23 21:26:36 ICT 2014 , isdn = 84967289974 , total execute time = 40, validation cost = 26 , create order cost = 14 , update order cost = 0
+23/07 21:27:20:435 84967289974: ACOMVT00001 - CRM.QUESTION_CONFIRM
+23/07 21:27:20:435 orderId = 482862433 | requestId = 0 | orderDate = 2014/07/23 21:27:20 | userName = vt8x26 | merchantId = 883 | agentId = 0 | opId = 0 | subProductId = 1982734 | channel = web | serviceAddress = 8626 | keyword = GET_A | isdn = 84967289974 | subscriberType = 1 | shipTo =  | actionType = confirm | productId = 910 | amount = 0.0 | provisioningType = CRM | commandId = 381 | cause =  | status = 1 | description =  | cgw_status =  | scenario = 0 | timeout = 0
+23/07 21:27:20:436 orderId = 482862433 , orderDate = Wed Jul 23 21:27:20 ICT 2014 , isdn = 84967289974 , total execute time = 49, validation cost = 26 , create order cost = 23 , update order cost = 0
+23/07 21:27:58:804 84967289974: ACOMVT00001 - CRM.QUESTION_CONFIRM
+23/07 21:27:58:805 orderId = 482862434 | requestId = 0 | orderDate = 2014/07/23 21:27:58 | userName = vt8x26 | merchantId = 883 | agentId = 0 | opId = 0 | subProductId = 1982734 | channel = web | serviceAddress = 8626 | keyword = GET_A | isdn = 84967289974 | subscriberType = 1 | shipTo =  | actionType = confirm | productId = 910 | amount = 0.0 | provisioningType = CRM | commandId = 381 | cause =  | status = 1 | description =  | cgw_status =  | scenario = 0 | timeout = 0
+23/07 21:27:58:805 orderId = 482862434 , orderDate = Wed Jul 23 21:27:58 ICT 2014 , isdn = 84967289974 , total execute time = 42, validation cost = 26 , create order cost = 16 , update order cost = 0
+23/07 21:28:21:662 84967289974: ACOMVT00001 - CRM.QUESTION_CONFIRM
+23/07 21:28:21:662 orderId = 482862435 | requestId = 0 | orderDate = 2014/07/23 21:28:21 | userName = vt8x26 | merchantId = 883 | agentId = 0 | opId = 0 | subProductId = 1982734 | channel = web | serviceAddress = 8626 | keyword = GET_A | isdn = 84967289974 | subscriberType = 1 | shipTo =  | actionType = confirm | productId = 910 | amount = 0.0 | provisioningType = CRM | commandId = 381 | cause =  | status = 1 | description =  | cgw_status =  | scenario = 0 | timeout = 0
+23/07 21:28:21:662 orderId = 482862435 , orderDate = Wed Jul 23 21:28:21 ICT 2014 , isdn = 84967289974 , total execute time = 28, validation cost = 17 , create order cost = 11 , update order cost = 0
+23/07 21:28:33:696 84967289974: ACOMVT00001 - CRM.QUESTION_CONFIRM
+23/07 21:28:33:696 orderId = 482862436 | requestId = 0 | orderDate = 2014/07/23 21:28:33 | userName = vt8x26 | merchantId = 883 | agentId = 0 | opId = 0 | subProductId = 1982734 | channel = web | serviceAddress = 8626 | keyword = GET_A | isdn = 84967289974 | subscriberType = 1 | shipTo =  | actionType = confirm | productId = 910 | amount = 0.0 | provisioningType = CRM | commandId = 381 | cause =  | status = 1 | description =  | cgw_status =  | scenario = 0 | timeout = 0
+23/07 21:28:33:696 orderId = 482862436 , orderDate = Wed Jul 23 21:28:33 ICT 2014 , isdn = 84967289974 , total execute time = 39, validation cost = 26 , create order cost = 13 , update order cost = 0
+23/07 21:29:33:856 orderId = 482862437 | requestId = 0 | orderDate = 2014/07/23 21:29:33 | userName = vt8x26 | merchantId = 883 | agentId = 0 | opId = 0 | subProductId = 1982734 | channel = web | serviceAddress = 8626 | keyword = GET_A | isdn = 84967289974 | subscriberType = -1 | shipTo =  | actionType = confirm | productId = 910 | amount = 0.0 | provisioningType =  | commandId = 0 | cause = over-confirm | status = 4 | description =  | cgw_status =  | scenario = 0 | timeout = 0
+23/07 21:29:33:858 sendNotify: 84967289974 - Tong so diem hom nay cua ban la: . Tro choi se tiep tuc vao ngay mai.
+23/07 21:29:33:858 orderId = 482862437 , orderDate = Wed Jul 23 21:29:33 ICT 2014 , isdn = 84967289974 , total execute time = 43, validation cost = 21 , create order cost = 22 , update order cost = 0
+23/07 21:29:36:716 orderId = 482862438 | requestId = 0 | orderDate = 2014/07/23 21:29:36 | userName = vt8x26 | merchantId = 883 | agentId = 0 | opId = 0 | subProductId = 1982734 | channel = web | serviceAddress = 8626 | keyword = GET_A | isdn = 84967289974 | subscriberType = -1 | shipTo =  | actionType = confirm | productId = 910 | amount = 0.0 | provisioningType =  | commandId = 0 | cause = over-confirm | status = 4 | description =  | cgw_status =  | scenario = 0 | timeout = 0
+23/07 21:29:36:718 sendNotify: 84967289974 - Tong so diem hom nay cua ban la: . Tro choi se tiep tuc vao ngay mai.
+23/07 21:29:36:718 orderId = 482862438 , orderDate = Wed Jul 23 21:29:36 ICT 2014 , isdn = 84967289974 , total execute time = 38, validation cost = 20 , create order cost = 18 , update order cost = 0
+23/07 21:30:20:976 orderId = 482862439 | requestId = 0 | orderDate = 2014/07/23 21:30:20 | userName = vt8x26 | merchantId = 883 | agentId = 0 | opId = 0 | subProductId = 1982734 | channel = web | serviceAddress = 8626 | keyword = GET_A | isdn = 84967289974 | subscriberType = -1 | shipTo =  | actionType = confirm | productId = 910 | amount = 0.0 | provisioningType =  | commandId = 0 | cause = over-confirm | status = 4 | description =  | cgw_status =  | scenario = 0 | timeout = 0
+23/07 21:30:20:978 sendNotify: 84967289974 - Tong so diem hom nay cua ban la: . Tro choi se tiep tuc vao ngay mai.
+23/07 21:30:20:978 orderId = 482862439 , orderDate = Wed Jul 23 21:30:20 ICT 2014 , isdn = 84967289974 , total execute time = 41, validation cost = 20 , create order cost = 21 , update order cost = 0
+23/07 22:28:21:416 84967289975: ACOMVT00001 - CP.MO
+23/07 22:28:21:417 orderId = 482862440 | requestId = 0 | orderDate = 2014/07/23 22:28:21 | userName = vt8x26 | merchantId = 883 | agentId = 0 | opId = 0 | subProductId = 0 | channel = web | serviceAddress = 8626 | keyword = VTREG_GET | isdn = 84967289975 | subscriberType = 1 | shipTo =  | actionType = register | productId = 910 | amount = 0.0 | provisioningType = CP | commandId = 880 | cause =  | status = 1 | description =  | cgw_status =  | scenario = 0 | timeout = 0
+23/07 22:28:21:417 orderId = 482862440 , orderDate = Wed Jul 23 22:28:21 ICT 2014 , isdn = 84967289975 , total execute time = 33, validation cost = 18 , create order cost = 15 , update order cost = 0
+23/07 22:49:15:056 84967289975: ACOMVT00001 - CP.MO
+23/07 22:49:15:056 orderId = 482862441 | requestId = 0 | orderDate = 2014/07/23 22:49:15 | userName = vt8x26 | merchantId = 883 | agentId = 0 | opId = 0 | subProductId = 1982735 | channel = web | serviceAddress = 8626 | keyword = VTREG_GET | isdn = 84967289975 | subscriberType = 1 | shipTo =  | actionType = register | productId = 910 | amount = 0.0 | provisioningType = CP | commandId = 880 | cause =  | status = 1 | description =  | cgw_status =  | scenario = 0 | timeout = 0
+23/07 22:49:15:056 orderId = 482862441 , orderDate = Wed Jul 23 22:49:15 ICT 2014 , isdn = 84967289975 , total execute time = 42, validation cost = 28 , create order cost = 14 , update order cost = 0
+23/07 22:49:36:348 84967289975: ACOMVT00001 - CP.MO
+23/07 22:49:36:349 orderId = 482862442 | requestId = 0 | orderDate = 2014/07/23 22:49:36 | userName = vt8x26 | merchantId = 883 | agentId = 0 | opId = 0 | subProductId = 1982736 | channel = web | serviceAddress = 8626 | keyword = VTUNREG_GET | isdn = 84967289975 | subscriberType = 1 | shipTo =  | actionType = unregister | productId = 910 | amount = 0.0 | provisioningType = CP | commandId = 880 | cause =  | status = 1 | description =  | cgw_status =  | scenario = 0 | timeout = 0
+23/07 22:49:36:349 orderId = 482862442 , orderDate = Wed Jul 23 22:49:36 ICT 2014 , isdn = 84967289975 , total execute time = 25, validation cost = 11 , create order cost = 14 , update order cost = 0

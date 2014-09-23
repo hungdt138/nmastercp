@@ -1,0 +1,154 @@
+25/07 15:05:30:503 Order Routing started
+25/07 15:05:30:644 Starting process session
+25/07 15:05:34:056 Testing connection ...
+25/07 15:05:34:110 Created provisioning instance for NMSCHARGING
+25/07 15:05:34:112 Testing connection are success
+25/07 15:12:58:778 invalid-syntax
+25/07 15:12:58:779 orderId = 0 | requestId = 0 | orderDate = 2014/07/25 15:06:33 | userName = test | merchantId = 883 | agentId = 933 | opId = 0 | subProductId = 0 | channel = web | serviceAddress = null | keyword = DELIVERY_MSPSAM800002 | isdn = 84906130890 | subscriberType = -1 | shipTo =  | actionType =  | productId = 0 | amount = 0.0 | provisioningType =  | commandId = 0 | cause = invalid-syntax | status = 4 | description = null | cgw_status = null | scenario = 0 | timeout = 60000
+25/07 15:12:58:781 orderId = 0 , orderDate = Fri Jul 25 15:06:33 ICT 2014 , isdn = 84906130890 , total execute time = 3, validation cost = 3 , create order cost = 0 , update order cost = 0
+25/07 15:16:42:110 84906130890: MSPSAM800002 - MOBIFONESUB.SENDMT
+25/07 15:16:42:110 orderId = 482862605 | requestId = 0 | orderDate = 2014/07/25 15:16:42 | userName = test | merchantId = 883 | agentId = 933 | opId = 1 | subProductId = 0 | channel = web | serviceAddress = 8926 | keyword = DELIVERY_MSPSAM800002 | isdn = 84906130890 | subscriberType = 1 | shipTo =  | actionType = send-mt | productId = 1125 | amount = 0.0 | provisioningType = MOBIFONESUB | commandId = 874 | cause =  | status = 1 | description =  | cgw_status = null | scenario = 0 | timeout = 60000
+25/07 15:16:42:110 orderId = 482862605 , orderDate = Fri Jul 25 15:16:42 ICT 2014 , isdn = 84906130890 , total execute time = 50, validation cost = 27 , create order cost = 23 , update order cost = 0
+25/07 15:17:44:799 Close pool
+25/07 15:17:44:803 End of process session
+25/07 15:17:44:821 Order Routing stopped
+25/07 15:17:46:812 Order Routing started
+25/07 15:17:46:833 Starting process session
+25/07 15:17:47:270 Close pool
+25/07 15:17:47:270 Close pool
+25/07 15:17:47:270 Testing connection ...
+25/07 15:17:47:270 Created provisioning instance for NMSCHARGING
+25/07 15:17:47:270 Testing connection are success
+25/07 15:17:56:734 84906130890: MSPSAM800002 - MOBIFONESUB.SENDMT
+25/07 15:17:56:734 orderId = 482862606 | requestId = 0 | orderDate = 2014/07/25 15:17:56 | userName = test | merchantId = 883 | agentId = 933 | opId = 1 | subProductId = 0 | channel = web | serviceAddress = 8926 | keyword = DELIVERY_MSPSAM800002 | isdn = 84906130890 | subscriberType = 1 | shipTo =  | actionType = send-mt | productId = 1125 | amount = 0.0 | provisioningType = MOBIFONESUB | commandId = 874 | cause =  | status = 1 | description =  | cgw_status = null | scenario = 0 | timeout = 60000
+25/07 15:17:56:735 orderId = 482862606 , orderDate = Fri Jul 25 15:17:56 ICT 2014 , isdn = 84906130890 , total execute time = 25, validation cost = 11 , create order cost = 14 , update order cost = 0
+25/07 15:18:43:651 Order Routing started
+25/07 15:18:43:702 Starting process session
+25/07 15:18:45:483 Testing connection ...
+25/07 15:18:45:527 Created provisioning instance for NMSCHARGING
+25/07 15:18:45:527 Testing connection are success
+25/07 15:19:07:947 84906130890: MSPSAM800002 - MOBIFONESUB.SENDMT
+25/07 15:19:07:948 orderId = 482862607 | requestId = 0 | orderDate = 2014/07/25 15:19:07 | userName = test | merchantId = 883 | agentId = 933 | opId = 1 | subProductId = 0 | channel = web | serviceAddress = 8926 | keyword = DELIVERY_MSPSAM800002 | isdn = 84906130890 | subscriberType = 1 | shipTo =  | actionType = send-mt | productId = 1125 | amount = 0.0 | provisioningType = MOBIFONESUB | commandId = 874 | cause =  | status = 1 | description =  | cgw_status = null | scenario = 0 | timeout = 60000
+25/07 15:19:07:948 orderId = 482862607 , orderDate = Fri Jul 25 15:19:07 ICT 2014 , isdn = 84906130890 , total execute time = 46, validation cost = 26 , create order cost = 20 , update order cost = 0
+25/07 15:23:31:584 84906130890: MSPSAM800002 - MOBIFONEOTP.OTPREQUEST
+25/07 15:23:31:584 orderId = 482862608 | requestId = 1102 | orderDate = 2014/07/25 15:23:31 | userName = test | merchantId = 883 | agentId = 933 | opId = 1 | subProductId = 0 | channel = web | serviceAddress = 8926 | keyword = OTPREQ_MSPSAM800002 | isdn = 84906130890 | subscriberType = 1 | shipTo =  | actionType = otp-req | productId = 1125 | amount = 0.0 | provisioningType = MOBIFONEOTP | commandId = 894 | cause =  | status = 1 | description =  | cgw_status = null | scenario = 0 | timeout = 60000
+25/07 15:23:31:584 orderId = 482862608 , orderDate = Fri Jul 25 15:23:31 ICT 2014 , isdn = 84906130890 , total execute time = 31, validation cost = 10 , create order cost = 21 , update order cost = 0
+25/07 15:24:18:020 Close pool
+25/07 15:24:18:023 End of process session
+25/07 15:24:18:023 Order Routing stopped
+25/07 15:24:20:040 Order Routing started
+25/07 15:24:20:067 Starting process session
+25/07 15:24:20:488 Close pool
+25/07 15:24:20:488 Close pool
+25/07 15:24:20:488 Testing connection ...
+25/07 15:24:20:488 Created provisioning instance for NMSCHARGING
+25/07 15:24:20:488 Testing connection are success
+25/07 15:24:29:366 84906130890: MSPSAM800002 - MOBIFONEOTP.OTPREQUEST
+25/07 15:24:29:366 orderId = 482862609 | requestId = 1102 | orderDate = 2014/07/25 15:24:29 | userName = test | merchantId = 883 | agentId = 933 | opId = 1 | subProductId = 0 | channel = web | serviceAddress = 8926 | keyword = OTPREQ_MSPSAM800002 | isdn = 84906130890 | subscriberType = 1 | shipTo =  | actionType = otp-req | productId = 1125 | amount = 0.0 | provisioningType = MOBIFONEOTP | commandId = 894 | cause =  | status = 1 | description =  | cgw_status = null | scenario = 0 | timeout = 60000
+25/07 15:24:29:366 orderId = 482862609 , orderDate = Fri Jul 25 15:24:29 ICT 2014 , isdn = 84906130890 , total execute time = 37, validation cost = 10 , create order cost = 27 , update order cost = 0
+25/07 15:25:38:008 84906130890: MSPSAM800002 - MOBIFONEOTP.SUBREQUEST
+25/07 15:25:38:008 orderId = 482862610 | requestId = 1102 | orderDate = 2014/07/25 15:25:37 | userName = test | merchantId = 883 | agentId = 933 | opId = 1 | subProductId = 0 | channel = web | serviceAddress = 8926 | keyword = SUBREQ_MSPSAM800002 | isdn = 84906130890 | subscriberType = 1 | shipTo =  | actionType = sub-req | productId = 1125 | amount = 0.0 | provisioningType = MOBIFONEOTP | commandId = 895 | cause =  | status = 1 | description =  | cgw_status = null | scenario = 0 | timeout = 60000
+25/07 15:25:38:008 orderId = 482862610 , orderDate = Fri Jul 25 15:25:37 ICT 2014 , isdn = 84906130890 , total execute time = 35, validation cost = 14 , create order cost = 21 , update order cost = 0
+25/07 15:28:38:288 84923962323: MSPSAM800008 - MT.SEND_SMS
+25/07 15:28:38:288 orderId = 482862611 | requestId = 0 | orderDate = 2014/07/25 15:28:38 | userName = test | merchantId = 883 | agentId = 933 | opId = 4 | subProductId = 0 | channel = web | serviceAddress = 8926 | keyword = DELIVERY_MSPSAM800008 | isdn = 84923962323 | subscriberType = 1 | shipTo =  | actionType = send-mt | productId = 960 | amount = 0.0 | provisioningType = MTSMS | commandId = 465 | cause =  | status = 1 | description =  | cgw_status = null | scenario = 0 | timeout = 60000
+25/07 15:28:38:289 orderId = 482862611 , orderDate = Fri Jul 25 15:28:38 ICT 2014 , isdn = 84923962323 , total execute time = 32, validation cost = 10 , create order cost = 22 , update order cost = 0
+25/07 15:29:39:460 84923962323: MSPSAM800008 - MT.SEND_SMS
+25/07 15:29:39:460 orderId = 482862612 | requestId = 0 | orderDate = 2014/07/25 15:29:39 | userName = test | merchantId = 883 | agentId = 933 | opId = 4 | subProductId = 0 | channel = web | serviceAddress = 8926 | keyword = DELIVERY_MSPSAM800008 | isdn = 84923962323 | subscriberType = 1 | shipTo =  | actionType = send-mt | productId = 960 | amount = 0.0 | provisioningType = MTSMS | commandId = 465 | cause =  | status = 1 | description =  | cgw_status = null | scenario = 0 | timeout = 60000
+25/07 15:29:39:460 orderId = 482862612 , orderDate = Fri Jul 25 15:29:39 ICT 2014 , isdn = 84923962323 , total execute time = 31, validation cost = 9 , create order cost = 22 , update order cost = 0
+25/07 15:30:54:112 Close pool
+25/07 15:30:54:115 End of process session
+25/07 15:30:54:115 Order Routing stopped
+25/07 15:30:56:132 Order Routing started
+25/07 15:30:56:157 Starting process session
+25/07 15:30:56:590 Close pool
+25/07 15:30:56:590 Close pool
+25/07 15:30:56:590 Testing connection ...
+25/07 15:30:56:590 Created provisioning instance for NMSCHARGING
+25/07 15:30:56:590 Testing connection are success
+25/07 15:31:00:508 84923962323: MSPSAM800008 - MT.SEND_SMS
+25/07 15:31:00:508 orderId = 482862613 | requestId = 0 | orderDate = 2014/07/25 15:31:00 | userName = test | merchantId = 883 | agentId = 933 | opId = 4 | subProductId = 0 | channel = web | serviceAddress = 8926 | keyword = DELIVERY_MSPSAM800008 | isdn = 84923962323 | subscriberType = 1 | shipTo =  | actionType = send-mt | productId = 960 | amount = 0.0 | provisioningType = MTSMS | commandId = 465 | cause =  | status = 1 | description =  | cgw_status = null | scenario = 0 | timeout = 60000
+25/07 15:31:00:508 orderId = 482862613 , orderDate = Fri Jul 25 15:31:00 ICT 2014 , isdn = 84923962323 , total execute time = 24, validation cost = 10 , create order cost = 14 , update order cost = 0
+25/07 15:31:32:783 84923962323: MSPSAM800008 - MT.SEND_SMS
+25/07 15:31:32:783 orderId = 482862614 | requestId = 0 | orderDate = 2014/07/25 15:31:32 | userName = test | merchantId = 883 | agentId = 933 | opId = 4 | subProductId = 0 | channel = web | serviceAddress = 8926 | keyword = DELIVERY_MSPSAM800008 | isdn = 84923962323 | subscriberType = 1 | shipTo =  | actionType = send-mt | productId = 960 | amount = 0.0 | provisioningType = MTSMS | commandId = 465 | cause =  | status = 1 | description =  | cgw_status = null | scenario = 0 | timeout = 60000
+25/07 15:31:32:784 orderId = 482862614 , orderDate = Fri Jul 25 15:31:32 ICT 2014 , isdn = 84923962323 , total execute time = 25, validation cost = 10 , create order cost = 15 , update order cost = 0
+25/07 15:31:44:652 84923962323: MSPSAM800008 - MT.SEND_SMS
+25/07 15:31:44:652 orderId = 482862615 | requestId = 0 | orderDate = 2014/07/25 15:31:44 | userName = test | merchantId = 883 | agentId = 933 | opId = 4 | subProductId = 0 | channel = web | serviceAddress = 8926 | keyword = DELIVERY_MSPSAM800008 | isdn = 84923962323 | subscriberType = 1 | shipTo =  | actionType = send-mt | productId = 960 | amount = 0.0 | provisioningType = MTSMS | commandId = 465 | cause =  | status = 1 | description =  | cgw_status = null | scenario = 0 | timeout = 60000
+25/07 15:31:44:652 orderId = 482862615 , orderDate = Fri Jul 25 15:31:44 ICT 2014 , isdn = 84923962323 , total execute time = 23, validation cost = 9 , create order cost = 14 , update order cost = 0
+25/07 15:33:15:783 Order Routing started
+25/07 15:33:15:834 Starting process session
+25/07 15:33:17:584 Testing connection ...
+25/07 15:33:17:586 Created provisioning instance for NMSCHARGING
+25/07 15:33:17:587 Testing connection are success
+25/07 15:33:35:114 84923962323: MSPSAM800008 - MT.SEND_SMS
+25/07 15:33:35:114 orderId = 482862616 | requestId = 0 | orderDate = 2014/07/25 15:33:35 | userName = test | merchantId = 883 | agentId = 933 | opId = 4 | subProductId = 0 | channel = web | serviceAddress = 8926 | keyword = DELIVERY_MSPSAM800008 | isdn = 84923962323 | subscriberType = 1 | shipTo =  | actionType = send-mt | productId = 960 | amount = 0.0 | provisioningType = MTSMS | commandId = 465 | cause =  | status = 1 | description =  | cgw_status = null | scenario = 0 | timeout = 60000
+25/07 15:33:35:114 orderId = 482862616 , orderDate = Fri Jul 25 15:33:35 ICT 2014 , isdn = 84923962323 , total execute time = 45, validation cost = 27 , create order cost = 18 , update order cost = 0
+25/07 15:34:37:754 Order Routing started
+25/07 15:34:37:802 Starting process session
+25/07 15:34:39:535 Testing connection ...
+25/07 15:34:39:536 Created provisioning instance for NMSCHARGING
+25/07 15:34:39:537 Testing connection are success
+25/07 15:36:38:823 84923962323: MSPSAM800008 - MT.SEND_SMS
+25/07 15:36:38:824 orderId = 482862617 | requestId = 0 | orderDate = 2014/07/25 15:34:48 | userName = test | merchantId = 883 | agentId = 933 | opId = 4 | subProductId = 0 | channel = web | serviceAddress = 8926 | keyword = DELIVERY_MSPSAM800008 | isdn = 84923962323 | subscriberType = 1 | shipTo =  | actionType = send-mt | productId = 960 | amount = 0.0 | provisioningType = MTSMS | commandId = 465 | cause =  | status = 1 | description =  | cgw_status = null | scenario = 0 | timeout = 60000
+25/07 15:36:38:824 orderId = 482862617 , orderDate = Fri Jul 25 15:34:48 ICT 2014 , isdn = 84923962323 , total execute time = 110495, validation cost = 110477 , create order cost = 18 , update order cost = 0
+25/07 15:38:02:561 Order Routing started
+25/07 15:38:02:617 Starting process session
+25/07 15:38:04:745 Testing connection ...
+25/07 15:38:04:747 Created provisioning instance for NMSCHARGING
+25/07 15:38:04:748 Testing connection are success
+25/07 15:38:25:172 84923962323: MSPSAM800008 - MT.SEND_SMS
+25/07 15:38:25:173 orderId = 482862618 | requestId = 0 | orderDate = 2014/07/25 15:38:22 | userName = test | merchantId = 883 | agentId = 933 | opId = 4 | subProductId = 0 | channel = web | serviceAddress = 8926 | keyword = DELIVERY_MSPSAM800008 | isdn = 84923962323 | subscriberType = 1 | shipTo =  | actionType = send-mt | productId = 960 | amount = 0.0 | provisioningType = MTSMS | commandId = 465 | cause =  | status = 1 | description =  | cgw_status = null | scenario = 0 | timeout = 60000
+25/07 15:38:25:173 orderId = 482862618 , orderDate = Fri Jul 25 15:38:22 ICT 2014 , isdn = 84923962323 , total execute time = 2911, validation cost = 2887 , create order cost = 24 , update order cost = 0
+25/07 15:41:38:990 84923962323: MSPSAM800008 - MT.SEND_SMS
+25/07 15:41:38:991 orderId = 482862619 | requestId = 0 | orderDate = 2014/07/25 15:41:34 | userName = test | merchantId = 883 | agentId = 933 | opId = 4 | subProductId = 0 | channel = web | serviceAddress = 8926 | keyword = DELIVERY_MSPSAM800008 | isdn = 84923962323 | subscriberType = 1 | shipTo =  | actionType = send-mt | productId = 960 | amount = 0.0 | provisioningType = MTSMS | commandId = 465 | cause =  | status = 1 | description =  | cgw_status = null | scenario = 0 | timeout = 60000
+25/07 15:41:38:991 orderId = 482862619 , orderDate = Fri Jul 25 15:41:34 ICT 2014 , isdn = 84923962323 , total execute time = 4024, validation cost = 4007 , create order cost = 17 , update order cost = 0
+25/07 15:48:35:405 84923962323: MSPSAM800008 - MT.SEND_SMS
+25/07 15:48:35:405 orderId = 482862620 | requestId = 0 | orderDate = 2014/07/25 15:48:35 | userName = test | merchantId = 883 | agentId = 933 | opId = 4 | subProductId = 0 | channel = web | serviceAddress = 8926 | keyword = DELIVERY_MSPSAM800008 | isdn = 84923962323 | subscriberType = 1 | shipTo =  | actionType = send-mt | productId = 960 | amount = 0.0 | provisioningType = MTSMS | commandId = 465 | cause =  | status = 1 | description =  | cgw_status = null | scenario = 0 | timeout = 60000
+25/07 15:48:35:405 orderId = 482862620 , orderDate = Fri Jul 25 15:48:35 ICT 2014 , isdn = 84923962323 , total execute time = 24, validation cost = 9 , create order cost = 15 , update order cost = 0
+25/07 15:49:23:121 84923962323: MSPSAM800008 - MT.SEND_SMS
+25/07 15:49:23:121 orderId = 482862621 | requestId = 0 | orderDate = 2014/07/25 15:49:23 | userName = test | merchantId = 883 | agentId = 933 | opId = 4 | subProductId = 0 | channel = web | serviceAddress = 8926 | keyword = DELIVERY_MSPSAM800008 | isdn = 84923962323 | subscriberType = 1 | shipTo =  | actionType = send-mt | productId = 960 | amount = 0.0 | provisioningType = MTSMS | commandId = 465 | cause =  | status = 1 | description =  | cgw_status = null | scenario = 0 | timeout = 60000
+25/07 15:49:23:121 orderId = 482862621 , orderDate = Fri Jul 25 15:49:23 ICT 2014 , isdn = 84923962323 , total execute time = 29, validation cost = 9 , create order cost = 20 , update order cost = 0
+25/07 16:30:58:916 Order Routing started
+25/07 16:30:58:964 Starting process session
+25/07 16:31:00:716 Testing connection ...
+25/07 16:31:00:719 Created provisioning instance for NMSCHARGING
+25/07 16:31:00:720 Testing connection are success
+25/07 16:31:31:234 orderId = 482862622 | requestId = 0 | orderDate = 2014/07/25 16:31:31 | userName = vt8x26 | merchantId = 883 | agentId = 0 | opId = 3 | subProductId = 0 | channel = web | serviceAddress = 8626 | keyword = VTREG_GET | isdn = 84967289983 | subscriberType = -1 | shipTo =  | actionType = register | productId = 910 | amount = 0.0 | provisioningType =  | commandId = 0 | cause = registered | status = 4 | description =  | cgw_status = null | scenario = 0 | timeout = 30000
+25/07 16:31:31:240 sendNotify: 84967289983 - Ban dang tham gia tro choi tich diem trung IPod. Tong so diem cua ban la 0. Ban se nhan duoc cau hoi mien phi de tiep tuc dich vu.
+25/07 16:31:31:341 sendNotify: 84967289983 - C.Ronaldo la vua pha luoi o World Cup 1994? 1-Dung, 2-Sai. Gui 1 hoac 2 den 9999
+25/07 16:31:31:346 orderId = 482862622 , orderDate = Fri Jul 25 16:31:31 ICT 2014 , isdn = 84967289983 , total execute time = 219, validation cost = 188 , create order cost = 31 , update order cost = 0
+25/07 17:23:34:684 Order Routing started
+25/07 17:23:34:738 Starting process session
+25/07 17:23:36:595 Testing connection ...
+25/07 17:23:36:596 Created provisioning instance for NMSCHARGING
+25/07 17:23:36:597 Testing connection are success
+25/07 17:24:01:736 orderId = 482862643 | requestId = 0 | orderDate = 2014/07/25 17:24:01 | userName =  | merchantId = 883 | agentId = 0 | opId = 3 | subProductId = 0 | channel = web | serviceAddress = 8626 | keyword = VTREG_GET | isdn = 84967289990 | subscriberType = -1 | shipTo =  | actionType = register | productId = 910 | amount = 0.0 | provisioningType =  | commandId = 0 | cause = registered | status = 4 | description =  | cgw_status =  | scenario = 0 | timeout = 0
+25/07 17:24:01:741 sendNotify: 84967289990 - Ban dang tham gia tro choi tich diem trung IPod. Tong so diem cua ban la 130. Ban se nhan duoc cau hoi mien phi de tiep tuc dich vu.
+25/07 17:24:01:841 sendNotify: 84967289990 - Pele la vua pha luoi o World Cup 1966? 1- Dung, 2-Sai. Gui 1 hoac 2 den 9999
+25/07 17:24:01:846 orderId = 482862643 , orderDate = Fri Jul 25 17:24:01 ICT 2014 , isdn = 84967289990 , total execute time = 213, validation cost = 163 , create order cost = 50 , update order cost = 0
+25/07 17:28:23:347 Order Routing started
+25/07 17:28:23:425 Starting process session
+25/07 17:28:25:827 Testing connection ...
+25/07 17:28:25:828 Created provisioning instance for NMSCHARGING
+25/07 17:28:25:829 Testing connection are success
+25/07 17:29:01:916 orderId = 482862644 | requestId = 0 | orderDate = 2014/07/25 17:28:41 | userName =  | merchantId = 883 | agentId = 0 | opId = 3 | subProductId = 0 | channel = web | serviceAddress = 8626 | keyword = VTREG_GET | isdn = 84967289990 | subscriberType = -1 | shipTo =  | actionType = register | productId = 910 | amount = 0.0 | provisioningType =  | commandId = 0 | cause = registered | status = 4 | description =  | cgw_status =  | scenario = 0 | timeout = 0
+25/07 17:29:01:922 sendNotify: 84967289990 - Ban dang tham gia tro choi tich diem trung IPod. Tong so diem cua ban la 130. Ban se nhan duoc cau hoi mien phi de tiep tuc dich vu.
+25/07 17:29:02:022 sendNotify: 84967289990 - Pele la vua pha luoi o World Cup 1966? 1- Dung, 2-Sai. Gui 1 hoac 2 den 9999
+25/07 17:29:02:025 orderId = 482862644 , orderDate = Fri Jul 25 17:28:41 ICT 2014 , isdn = 84967289990 , total execute time = 20171, validation cost = 20148 , create order cost = 23 , update order cost = 0
+25/07 17:32:10:730 Order Routing started
+25/07 17:32:10:781 Starting process session
+25/07 17:32:12:597 Testing connection ...
+25/07 17:32:12:599 Created provisioning instance for NMSCHARGING
+25/07 17:32:12:602 Testing connection are success
+25/07 17:32:41:517 orderId = 482862645 | requestId = 0 | orderDate = 2014/07/25 17:32:33 | userName =  | merchantId = 883 | agentId = 0 | opId = 3 | subProductId = 0 | channel = web | serviceAddress = 8626 | keyword = VTREG_GET | isdn = 84967289990 | subscriberType = -1 | shipTo =  | actionType = register | productId = 910 | amount = 0.0 | provisioningType =  | commandId = 0 | cause = registered | status = 4 | description =  | cgw_status =  | scenario = 0 | timeout = 0
+25/07 17:32:41:524 sendNotify: 84967289990 - Ban dang tham gia tro choi tich diem trung IPod. Tong so diem cua ban la 130. Ban se nhan duoc cau hoi mien phi de tiep tuc dich vu.
+25/07 17:32:41:624 sendNotify: 84967289990 - Pele la vua pha luoi o World Cup 1966? 1- Dung, 2-Sai. Gui 1 hoac 2 den 9999
+25/07 17:32:41:627 orderId = 482862645 , orderDate = Fri Jul 25 17:32:33 ICT 2014 , isdn = 84967289990 , total execute time = 7987, validation cost = 7962 , create order cost = 25 , update order cost = 0
+25/07 23:37:12:370 Order Routing started
+25/07 23:37:12:423 Starting process session
+25/07 23:37:39:833 Testing connection ...
+25/07 23:37:39:835 Created provisioning instance for NMSCHARGING
+25/07 23:37:39:844 Testing connection are success
+25/07 23:38:00:781 orderId = 482862654 | requestId = 0 | orderDate = 2014/07/25 23:38:00 | userName = vt8x26 | merchantId = 883 | agentId = 0 | opId = 3 | subProductId = 0 | channel = web | serviceAddress = 8626 | keyword = VTREG_GET | isdn = 84967289983 | subscriberType = -1 | shipTo =  | actionType = register | productId = 910 | amount = 0.0 | provisioningType =  | commandId = 0 | cause = registered | status = 4 | description =  | cgw_status = null | scenario = 0 | timeout = 30000
+25/07 23:38:00:787 sendNotify: 84967289983 - Ban dang tham gia tro choi tich diem trung IPod. Tong so diem cua ban la 0. Ban se nhan duoc cau hoi mien phi de tiep tuc dich vu.
+25/07 23:38:00:887 sendNotify: 84967289983 - C.Ronaldo la vua pha luoi o World Cup 1994? 1-Dung, 2-Sai. Gui 1 hoac 2 den 9999
+25/07 23:38:00:889 orderId = 482862654 , orderDate = Fri Jul 25 23:38:00 ICT 2014 , isdn = 84967289983 , total execute time = 181, validation cost = 155 , create order cost = 26 , update order cost = 0

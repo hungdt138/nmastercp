@@ -1,0 +1,56 @@
+27/07 17:38:14:465 Order Routing started
+27/07 17:38:14:655 Starting process session
+27/07 17:38:55:247 Testing connection ...
+27/07 17:38:55:251 Created provisioning instance for NMSCHARGING
+27/07 17:38:55:251 Testing connection are success
+27/07 17:39:16:991 84923962323: MSPSAM800008 - MT.SEND_SMS
+27/07 17:39:16:992 orderId = 482862671 | requestId = 0 | orderDate = 2014/07/27 17:39:16 | userName = test | merchantId = 883 | agentId = 933 | opId = 4 | subProductId = 0 | channel = web | serviceAddress = 8926 | keyword = DELIVERY_MSPSAM800008 | isdn = 84923962323 | subscriberType = 1 | shipTo =  | actionType = send-mt | productId = 960 | amount = 0.0 | provisioningType = MTSMS | commandId = 465 | cause =  | status = 1 | description =  | cgw_status = null | scenario = 0 | timeout = 60000
+27/07 17:39:16:992 orderId = 482862671 , orderDate = Sun Jul 27 17:39:16 ICT 2014 , isdn = 84923962323 , total execute time = 158, validation cost = 84 , create order cost = 74 , update order cost = 0
+27/07 17:41:00:875 84923962323: MSPSAM800008 - MT.SEND_SMS
+27/07 17:41:00:875 orderId = 482862672 | requestId = 0 | orderDate = 2014/07/27 17:41:00 | userName = test | merchantId = 883 | agentId = 933 | opId = 4 | subProductId = 0 | channel = web | serviceAddress = 8926 | keyword = DELIVERY_MSPSAM800008 | isdn = 84923962323 | subscriberType = 1 | shipTo =  | actionType = send-mt | productId = 960 | amount = 0.0 | provisioningType = MTSMS | commandId = 465 | cause =  | status = 1 | description =  | cgw_status = null | scenario = 0 | timeout = 60000
+27/07 17:41:00:875 orderId = 482862672 , orderDate = Sun Jul 27 17:41:00 ICT 2014 , isdn = 84923962323 , total execute time = 47, validation cost = 10 , create order cost = 37 , update order cost = 0
+27/07 17:44:06:961 84923962323: MSPSAM800008 - MT.SEND_SMS
+27/07 17:44:06:962 orderId = 482862673 | requestId = 0 | orderDate = 2014/07/27 17:44:06 | userName = test | merchantId = 883 | agentId = 933 | opId = 4 | subProductId = 0 | channel = web | serviceAddress = 8926 | keyword = DELIVERY_MSPSAM800008 | isdn = 84923962323 | subscriberType = 1 | shipTo =  | actionType = send-mt | productId = 960 | amount = 0.0 | provisioningType = MTSMS | commandId = 465 | cause =  | status = 1 | description =  | cgw_status = null | scenario = 0 | timeout = 60000
+27/07 17:44:06:962 orderId = 482862673 , orderDate = Sun Jul 27 17:44:06 ICT 2014 , isdn = 84923962323 , total execute time = 39, validation cost = 11 , create order cost = 28 , update order cost = 0
+27/07 17:55:27:334 com.sun.messaging.jms.IllegalStateException: [C4063]: Cannot perform operation, consumer is closed.
+27/07 17:55:27:334 Close pool
+27/07 17:55:27:335 End of process session
+27/07 17:57:07:352 Starting process session
+27/07 17:57:17:913 Close pool
+27/07 17:57:17:914 Close pool
+27/07 17:57:17:914 Testing connection ...
+27/07 17:57:17:914 Created provisioning instance for NMSCHARGING
+27/07 17:57:17:914 Testing connection are success
+27/07 17:58:40:590 84923962323: MSPSAM800008 - MT.SEND_SMS
+27/07 17:58:40:591 orderId = 482862674 | requestId = 0 | orderDate = 2014/07/27 17:58:40 | userName = test | merchantId = 883 | agentId = 933 | opId = 4 | subProductId = 0 | channel = web | serviceAddress = 8926 | keyword = DELIVERY_MSPSAM800008 | isdn = 84923962323 | subscriberType = 1 | shipTo =  | actionType = send-mt | productId = 960 | amount = 0.0 | provisioningType = MTSMS | commandId = 465 | cause =  | status = 1 | description =  | cgw_status = null | scenario = 0 | timeout = 60000
+27/07 17:58:40:591 orderId = 482862674 , orderDate = Sun Jul 27 17:58:40 ICT 2014 , isdn = 84923962323 , total execute time = 41, validation cost = 13 , create order cost = 28 , update order cost = 0
+27/07 18:00:01:121 84923962323: MSPSAM800008 - MT.SEND_SMS
+27/07 18:00:01:122 orderId = 482862675 | requestId = 0 | orderDate = 2014/07/27 18:00:01 | userName = test | merchantId = 883 | agentId = 933 | opId = 4 | subProductId = 0 | channel = web | serviceAddress = 8926 | keyword = DELIVERY_MSPSAM800008 | isdn = 84923962323 | subscriberType = 1 | shipTo =  | actionType = send-mt | productId = 960 | amount = 0.0 | provisioningType = MTSMS | commandId = 465 | cause =  | status = 1 | description =  | cgw_status = null | scenario = 0 | timeout = 60000
+27/07 18:00:01:122 orderId = 482862675 , orderDate = Sun Jul 27 18:00:01 ICT 2014 , isdn = 84923962323 , total execute time = 34, validation cost = 11 , create order cost = 23 , update order cost = 0
+27/07 18:01:04:548 84923962323: MSPSAM800008 - MT.SEND_SMS
+27/07 18:01:04:548 orderId = 482862676 | requestId = 0 | orderDate = 2014/07/27 18:01:04 | userName = test | merchantId = 883 | agentId = 933 | opId = 4 | subProductId = 0 | channel = web | serviceAddress = 8926 | keyword = DELIVERY_MSPSAM800008 | isdn = 84923962323 | subscriberType = 1 | shipTo =  | actionType = send-mt | productId = 960 | amount = 0.0 | provisioningType = MTSMS | commandId = 465 | cause =  | status = 1 | description =  | cgw_status = null | scenario = 0 | timeout = 60000
+27/07 18:01:04:548 orderId = 482862676 , orderDate = Sun Jul 27 18:01:04 ICT 2014 , isdn = 84923962323 , total execute time = 27, validation cost = 10 , create order cost = 17 , update order cost = 0
+27/07 18:01:14:411 invalid-syntax
+27/07 18:01:14:412 orderId = 0 | requestId = 0 | orderDate = 2014/07/25 15:06:33 | userName = test | merchantId = 883 | agentId = 933 | opId = 0 | subProductId = 0 | channel = web | serviceAddress = 8926 | keyword = DELIVERY_MSPSAM800007 | isdn = 84923962323 | subscriberType = -1 | shipTo =  | actionType =  | productId = 0 | amount = 0.0 | provisioningType =  | commandId = 0 | cause = invalid-syntax | status = 4 | description = null | cgw_status = null | scenario = 0 | timeout = 60000
+27/07 18:01:14:412 orderId = 0 , orderDate = Fri Jul 25 15:06:33 ICT 2014 , isdn = 84923962323 , total execute time = 2, validation cost = 2 , create order cost = 0 , update order cost = 0
+27/07 18:01:32:598 invalid-syntax
+27/07 18:01:32:599 orderId = 0 | requestId = 0 | orderDate = 2014/07/25 15:06:33 | userName = test | merchantId = 883 | agentId = 933 | opId = 0 | subProductId = 0 | channel = web | serviceAddress = 8926 | keyword = DELIVERY_MSPSAM800007 | isdn = 84923962323 | subscriberType = -1 | shipTo =  | actionType =  | productId = 0 | amount = 0.0 | provisioningType =  | commandId = 0 | cause = invalid-syntax | status = 4 | description = null | cgw_status = null | scenario = 0 | timeout = 60000
+27/07 18:01:32:599 orderId = 0 , orderDate = Fri Jul 25 15:06:33 ICT 2014 , isdn = 84923962323 , total execute time = 3, validation cost = 3 , create order cost = 0 , update order cost = 0
+27/07 18:01:57:428 invalid-syntax
+27/07 18:01:57:429 orderId = 0 | requestId = 0 | orderDate = 2014/07/25 15:06:33 | userName = test | merchantId = 883 | agentId = 933 | opId = 0 | subProductId = 0 | channel = web | serviceAddress = 8926 | keyword = DELIVERY_MSPSAM800007 | isdn = 84923962323 | subscriberType = -1 | shipTo =  | actionType =  | productId = 0 | amount = 0.0 | provisioningType =  | commandId = 0 | cause = invalid-syntax | status = 4 | description = null | cgw_status = null | scenario = 0 | timeout = 60000
+27/07 18:01:57:429 orderId = 0 , orderDate = Fri Jul 25 15:06:33 ICT 2014 , isdn = 84923962323 , total execute time = 3, validation cost = 3 , create order cost = 0 , update order cost = 0
+27/07 18:02:36:759 invalid-syntax
+27/07 18:02:36:760 orderId = 0 | requestId = 0 | orderDate = 2014/07/25 15:06:33 | userName = test | merchantId = 883 | agentId = 933 | opId = 0 | subProductId = 0 | channel = web | serviceAddress = 8926 | keyword = DELIVERY_MSPSAM800007 | isdn = 84923962323 | subscriberType = -1 | shipTo =  | actionType =  | productId = 0 | amount = 0.0 | provisioningType =  | commandId = 0 | cause = invalid-syntax | status = 4 | description = null | cgw_status = null | scenario = 0 | timeout = 60000
+27/07 18:02:36:760 orderId = 0 , orderDate = Fri Jul 25 15:06:33 ICT 2014 , isdn = 84923962323 , total execute time = 2, validation cost = 2 , create order cost = 0 , update order cost = 0
+27/07 18:04:37:703 invalid-syntax
+27/07 18:04:37:703 orderId = 0 | requestId = 0 | orderDate = 2014/07/27 18:06:33 | userName = test | merchantId = 883 | agentId = 933 | opId = 0 | subProductId = 0 | channel = web | serviceAddress = 8926 | keyword = DELIVERY_MSPSAM800007 | isdn = 84923962323 | subscriberType = -1 | shipTo =  | actionType =  | productId = 0 | amount = 0.0 | provisioningType =  | commandId = 0 | cause = invalid-syntax | status = 4 | description = null | cgw_status = null | scenario = 0 | timeout = 60000
+27/07 18:04:37:703 orderId = 0 , orderDate = Sun Jul 27 18:06:33 ICT 2014 , isdn = 84923962323 , total execute time = 2, validation cost = 2 , create order cost = 0 , update order cost = 0
+27/07 20:08:56:009 invalid-syntax
+27/07 20:08:56:011 orderId = 0 | requestId = 0 | orderDate = 2014/07/27 18:06:33 | userName = test | merchantId = 883 | agentId = 933 | opId = 0 | subProductId = 0 | channel = web | serviceAddress = 8926 | keyword = DELIVERY_MSPSAM800007 | isdn = 84923962323 | subscriberType = -1 | shipTo =  | actionType =  | productId = 0 | amount = 0.0 | provisioningType =  | commandId = 0 | cause = invalid-syntax | status = 4 | description = null | cgw_status = null | scenario = 0 | timeout = 60000
+27/07 20:08:56:012 orderId = 0 , orderDate = Sun Jul 27 18:06:33 ICT 2014 , isdn = 84923962323 , total execute time = 5, validation cost = 5 , create order cost = 0 , update order cost = 0
+27/07 20:09:20:159 invalid-syntax
+27/07 20:09:20:160 orderId = 0 | requestId = 0 | orderDate = 2014/07/27 18:06:33 | userName = test | merchantId = 883 | agentId = 933 | opId = 0 | subProductId = 0 | channel = web | serviceAddress = 8926 | keyword = DELIVERY_MSPSAM800007 | isdn = 84923962323 | subscriberType = -1 | shipTo =  | actionType =  | productId = 0 | amount = 0.0 | provisioningType =  | commandId = 0 | cause = invalid-syntax | status = 4 | description = null | cgw_status = null | scenario = 0 | timeout = 60000
+27/07 20:09:20:160 orderId = 0 , orderDate = Sun Jul 27 18:06:33 ICT 2014 , isdn = 84923962323 , total execute time = 2, validation cost = 2 , create order cost = 0 , update order cost = 0
+27/07 20:10:08:214 invalid-syntax
+27/07 20:10:08:214 orderId = 0 | requestId = 0 | orderDate = 2014/07/27 20:06:33 | userName = test | merchantId = 883 | agentId = 933 | opId = 0 | subProductId = 0 | channel = web | serviceAddress = 8926 | keyword = DELIVERY_MSPSAM800007 | isdn = 84923962323 | subscriberType = -1 | shipTo =  | actionType =  | productId = 0 | amount = 0.0 | provisioningType =  | commandId = 0 | cause = invalid-syntax | status = 4 | description = null | cgw_status = null | scenario = 0 | timeout = 60000
+27/07 20:10:08:215 orderId = 0 , orderDate = Sun Jul 27 20:06:33 ICT 2014 , isdn = 84923962323 , total execute time = 2, validation cost = 2 , create order cost = 0 , update order cost = 0

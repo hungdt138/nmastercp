@@ -1,0 +1,38 @@
+25/07 15:05:30:526 Order Response started
+25/07 15:05:30:644 Starting process session
+25/07 15:12:58:789 orderId = 0, orderDate = 25/07 15:06:33:000, isdn = 84906130890, status = 4, cause = invalid-syntax, description = null, response date: , order cost: 385789, update cost: 0, Queue cost: 0, Create cost: 3
+25/07 15:18:43:703 Order Response started
+25/07 15:18:43:751 Starting process session
+25/07 15:21:51:655 orderId = 482862607, orderDate = 25/07 15:19:07:905, isdn = 84906130890, status = 4, cause = timeout, description = , response date: 25/07 15:21:51:593, order cost: 163750, update cost: 31, Queue cost: 0, Create cost: 4
+25/07 15:24:33:188 orderId = 482862609, orderDate = 25/07 15:24:29:340, isdn = 84906130890, status = 0, cause = success, description = , response date: 25/07 15:24:33:168, order cost: 3848, update cost: 10, Queue cost: 1, Create cost: 1
+25/07 15:25:39:354 orderId = 482862610, orderDate = 25/07 15:25:37:974, isdn = 84906130890, status = 4, cause = Method-not-allowed, description = , response date: 25/07 15:25:39:329, order cost: 1380, update cost: 17, Queue cost: 0, Create cost: 1
+25/07 15:28:38:315 orderId = 482862611, orderDate = 25/07 15:28:38:259, isdn = 84923962323, status = 4, cause = error, description = , response date: 25/07 15:28:38:297, order cost: 56, update cost: 12, Queue cost: 0, Create cost: 1
+25/07 15:30:01:030 orderId = 482862612, orderDate = 25/07 15:29:39:435, isdn = 84923962323, status = 4, cause = error, description = , response date: 25/07 15:30:00:994, order cost: 21595, update cost: 11, Queue cost: 0, Create cost: 1
+25/07 15:31:14:899 orderId = 482862613, orderDate = 25/07 15:31:00:485, isdn = 84923962323, status = 4, cause = error, description = , response date: 25/07 15:31:14:872, order cost: 14414, update cost: 14, Queue cost: 0, Create cost: 1
+25/07 15:31:41:667 orderId = 482862614, orderDate = 25/07 15:31:32:759, isdn = 84923962323, status = 4, cause = error, description = , response date: 25/07 15:31:41:632, order cost: 8908, update cost: 10, Queue cost: 0, Create cost: 1
+25/07 15:32:01:434 orderId = 482862615, orderDate = 25/07 15:31:44:629, isdn = 84923962323, status = 4, cause = error, description = , response date: 25/07 15:32:01:391, order cost: 16805, update cost: 11, Queue cost: 0, Create cost: 15
+25/07 15:33:15:831 Order Response started
+25/07 15:33:15:886 Starting process session
+25/07 15:34:37:803 Order Response started
+25/07 15:34:37:857 Starting process session
+25/07 15:38:02:614 Order Response started
+25/07 15:38:02:695 Starting process session
+25/07 15:38:43:366 orderId = 482862618, orderDate = 25/07 15:38:22:264, isdn = 84923962323, status = 4, cause = error, description = , response date: 25/07 15:38:43:338, order cost: 21102, update cost: 9, Queue cost: 0, Create cost: 4
+25/07 15:42:42:217 orderId = 482862619, orderDate = 25/07 15:41:34:970, isdn = 84923962323, status = 4, cause = timeout, description = , response date: 25/07 15:42:42:200, order cost: 67247, update cost: 10, Queue cost: 0, Create cost: 0
+25/07 15:48:47:343 orderId = 482862620, orderDate = 25/07 15:48:35:382, isdn = 84923962323, status = 4, cause = error, description = , response date: 25/07 15:48:47:327, order cost: 11961, update cost: 10, Queue cost: 0, Create cost: 0
+25/07 15:49:26:056 orderId = 482862621, orderDate = 25/07 15:49:23:096, isdn = 84923962323, status = 0, cause = success, description = , response date: 25/07 15:49:26:020, order cost: 2960, update cost: 9, Queue cost: 0, Create cost: 1
+25/07 16:30:58:965 Order Response started
+25/07 16:30:59:013 Starting process session
+25/07 16:31:31:374 orderId = 482862622, orderDate = 25/07 16:31:31:130, isdn = 84967289983, status = 4, cause = registered, description = , response date: , order cost: 244, update cost: 9, Queue cost: 0, Create cost: 8
+25/07 17:23:34:735 Order Response started
+25/07 17:23:34:799 Starting process session
+25/07 17:24:01:868 orderId = 482862643, orderDate = 25/07 17:24:01:642, isdn = 84967289990, status = 4, cause = registered, description = , response date: , order cost: 226, update cost: 10, Queue cost: 0, Create cost: 0
+25/07 17:28:23:347 Order Response started
+25/07 17:28:23:425 Starting process session
+25/07 17:29:02:045 orderId = 482862644, orderDate = 25/07 17:28:41:861, isdn = 84967289990, status = 4, cause = registered, description = , response date: , order cost: 20184, update cost: 14, Queue cost: 0, Create cost: 0
+25/07 17:32:10:778 Order Response started
+25/07 17:32:10:834 Starting process session
+25/07 17:32:41:643 orderId = 482862645, orderDate = 25/07 17:32:33:649, isdn = 84967289990, status = 4, cause = registered, description = , response date: , order cost: 7994, update cost: 13, Queue cost: 0, Create cost: 0
+25/07 23:37:12:420 Order Response started
+25/07 23:37:12:480 Starting process session
+25/07 23:38:00:914 orderId = 482862654, orderDate = 25/07 23:38:00:716, isdn = 84967289983, status = 4, cause = registered, description = , response date: , order cost: 198, update cost: 10, Queue cost: 1, Create cost: 4

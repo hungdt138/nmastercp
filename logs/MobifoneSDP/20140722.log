@@ -1,0 +1,13 @@
+22/07 15:30:50:282 Value of 'host' can not be null
+Context: ManageableThread.loadMandatory
+Additional info: host : ManageableThread.loadMandatory
+22/07 15:31:57:159 Mobifone SDP started
+22/07 15:31:57:181 Starting process session
+22/07 15:31:57:992 Testing connection ...
+22/07 15:31:57:996 Created provisioning instance for MOBIFONESUB
+22/07 15:31:57:996 Testing connection are success
+22/07 15:51:09:711 Mobifone SDP started
+22/07 15:51:09:739 Starting process session
+22/07 15:51:11:302 Testing connection ...
+22/07 15:51:11:304 Created provisioning instance for MOBIFONESUB
+22/07 15:51:11:305 Testing connection are success

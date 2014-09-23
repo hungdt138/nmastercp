@@ -1,0 +1,38 @@
+25/07 15:05:55:639 Mobifone SDP started
+25/07 15:05:55:660 Starting process session
+25/07 15:05:56:111 Testing connection ...
+25/07 15:05:56:114 Created provisioning instance for MOBIFONESUB
+25/07 15:05:56:114 Testing connection are success
+25/07 15:17:57:108 java.lang.ClassNotFoundException: 10
+25/07 15:17:57:108 Close pool
+25/07 15:17:57:109 End of process session
+25/07 15:18:59:896 Mobifone SDP started
+25/07 15:18:59:928 Starting process session
+25/07 15:19:00:334 Testing connection ...
+25/07 15:19:00:337 Created provisioning instance for MOBIFONESUB
+25/07 15:19:00:337 Testing connection are success
+25/07 15:19:08:405 java.lang.ClassNotFoundException: 10
+25/07 15:19:08:405 Close pool
+25/07 15:19:08:407 End of process session
+25/07 15:20:31:415 Mobifone SDP stopped
+25/07 15:20:32:933 Mobifone SDP started
+25/07 15:20:32:961 Starting process session
+25/07 15:20:33:388 Close pool
+25/07 15:20:33:388 Close pool
+25/07 15:20:33:389 Testing connection ...
+25/07 15:20:33:389 Created provisioning instance for MOBIFONESUB
+25/07 15:20:33:389 Testing connection are success
+25/07 15:20:33:446 java.lang.ClassNotFoundException: 10
+25/07 15:20:33:446 Close pool
+25/07 15:20:33:448 End of process session
+25/07 15:21:10:458 Mobifone SDP stopped
+25/07 15:21:11:958 Mobifone SDP started
+25/07 15:21:11:988 Starting process session
+25/07 15:21:12:407 Close pool
+25/07 15:21:12:407 Close pool
+25/07 15:21:12:407 Testing connection ...
+25/07 15:21:12:408 Created provisioning instance for MOBIFONESUB
+25/07 15:21:12:408 Testing connection are success
+25/07 15:21:24:000 SEND: ID=18001: com.crm.provisioning.impl.mobifone.sendMT SMS{spid= 130304,sid= 1303042000071764,productid= MDSP2000157373,isdn= 84906130890,description= ,content= }
+25/07 15:21:51:604 orderId = 482862607, orderDate = 25/07 15:19:07:905, status = 4, cause = timeout, description = , cost = 39194
+25/07 15:21:57:417 ID=874, ALIAS=, SUCCESS=0, FAILURE=1, STARTTIME=25/07/2014 15:21:51., 15000

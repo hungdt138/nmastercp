@@ -1,0 +1,32 @@
+27/07 17:38:15:622 Command Routing started
+27/07 17:38:15:791 Starting process session
+27/07 17:39:16:994 84923962323: MTSMS - MT.SEND_SMS
+27/07 17:41:00:877 84923962323: MTSMS - MT.SEND_SMS
+27/07 17:44:06:964 84923962323: MTSMS - MT.SEND_SMS
+27/07 17:58:40:627 javax.jms.IllegalStateException: [C4062]: Cannot perform operation, connection is closed.
+27/07 17:58:41:066 javax.jms.IllegalStateException: [C4062]: Cannot perform operation, connection is closed.
+27/07 17:58:42:072 javax.jms.IllegalStateException: [C4062]: Cannot perform operation, connection is closed.
+27/07 17:58:43:074 javax.jms.IllegalStateException: [C4062]: Cannot perform operation, connection is closed.
+27/07 17:58:44:077 javax.jms.IllegalStateException: [C4062]: Cannot perform operation, connection is closed.
+27/07 17:58:45:077 javax.jms.IllegalStateException: [C4062]: Cannot perform operation, connection is closed.
+27/07 17:58:46:076 javax.jms.IllegalStateException: [C4062]: Cannot perform operation, connection is closed.
+27/07 17:58:46:091 javax.jms.IllegalStateException: [C4062]: Cannot perform operation, connection is closed.
+27/07 17:58:47:078 javax.jms.IllegalStateException: [C4062]: Cannot perform operation, connection is closed.
+27/07 17:58:48:088 javax.jms.IllegalStateException: [C4062]: Cannot perform operation, connection is closed.
+27/07 17:58:49:089 javax.jms.IllegalStateException: [C4062]: Cannot perform operation, connection is closed.
+27/07 17:58:50:082 javax.jms.IllegalStateException: [C4062]: Cannot perform operation, connection is closed.
+27/07 17:58:51:079 javax.jms.IllegalStateException: [C4062]: Cannot perform operation, connection is closed.
+27/07 17:58:52:092 javax.jms.IllegalStateException: [C4062]: Cannot perform operation, connection is closed.
+27/07 17:58:53:088 javax.jms.IllegalStateException: [C4062]: Cannot perform operation, connection is closed.
+27/07 17:58:54:095 javax.jms.IllegalStateException: [C4062]: Cannot perform operation, connection is closed.
+27/07 17:58:55:098 javax.jms.IllegalStateException: [C4062]: Cannot perform operation, connection is closed.
+27/07 17:58:56:099 javax.jms.IllegalStateException: [C4062]: Cannot perform operation, connection is closed.
+27/07 17:58:57:106 javax.jms.IllegalStateException: [C4062]: Cannot perform operation, connection is closed.
+27/07 17:58:58:102 javax.jms.IllegalStateException: [C4062]: Cannot perform operation, connection is closed.
+27/07 17:58:59:092 End of process session
+27/07 17:58:59:092 Command Routing stopped
+27/07 17:59:01:112 Command Routing started
+27/07 17:59:01:139 Starting process session
+27/07 17:59:11:205 84923962323: MTSMS - MT.SEND_SMS
+27/07 18:00:01:123 84923962323: MTSMS - MT.SEND_SMS
+27/07 18:01:04:550 84923962323: MTSMS - MT.SEND_SMS

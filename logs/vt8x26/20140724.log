@@ -1,0 +1,383 @@
+24/07 08:32:30:092 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: ) (MsgContent: Ban se nhan duoc noi dung dich vu va cau hoi mien phi de "Tich diem trung iPod sanh dieu". Tra loi dung duoc 10d, sai khong co diem. Ap dung theo T&C)
+24/07 08:32:30:092 response received (MTResult: Ok)
+24/07 08:32:30:194 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: ) (MsgContent: Doi tuyen Anh nam o Bang D World Cup 2014? 1-Dung, 2-Sai. Gui 1 hoac 2 den 9999)
+24/07 08:32:30:194 response received (MTResult: Ok)
+24/07 08:32:39:682 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: ) (MsgContent: Dung, ban co: 100 d.CH tiep Doi tuyen Anh nam o Bang A World Cup 2014? 1-Dung, 2-Sai. Gui 1 hoac 2 den 9999)
+24/07 08:32:39:682 response received (MTResult: Ok)
+24/07 08:32:43:831 ID=948, ALIAS=VT8X26.SENDSMS, SUCCESS=3, FAILURE=0, STARTTIME=23/07/2014 22:49:36., 15000
+24/07 08:43:22:644 Viettel 8x26 started
+24/07 08:43:22:664 Starting process session
+24/07 08:43:22:695 Testing connection ...
+24/07 08:43:22:696 Testing connection are success
+24/07 08:44:00:111 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: ) (MsgContent: Sai, ban co 500 d.CH tiep Doi tuyen Anh nam o Bang H World Cup 2014? 1-Dung, 2-Sai. Gui 1 hoac 2 den 9999)
+24/07 08:44:00:118 response received (MTResult: Ok)
+24/07 08:44:07:702 ID=948, ALIAS=, SUCCESS=1, FAILURE=0, STARTTIME=24/07/2014 08:44:00., 15000
+24/07 08:44:59:846 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: ) (MsgContent: Sai, ban co 500 d.CH tiep Doi tuyen Y nam o Bang D World Cup 2014? 1-Dung, 2-Sai. Gui 1 hoac 2 den 9999)
+24/07 08:44:59:846 response received (MTResult: Ok)
+24/07 08:45:05:116 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: ) (MsgContent: Dung, ban co: 600 d.CH tiep Doi tuyen Y nam o Bang A World Cup 2014? 1-Dung, 2-Sai. Gui 1 hoac 2 den 9999)
+24/07 08:45:05:116 response received (MTResult: Ok)
+24/07 08:45:07:714 ID=948, ALIAS=VT8X26.SENDSMS, SUCCESS=2, FAILURE=0, STARTTIME=24/07/2014 08:44:07., 15000
+24/07 08:48:38:321 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: ) (MsgContent: Sai, ban co 600 d.CH tiep Doi tuyen Y nam o Bang B World Cup 2014? 1-Dung, 2-Sai. Gui 1 hoac 2 den 9999)
+24/07 08:48:38:322 response received (MTResult: Ok)
+24/07 08:48:52:759 ID=948, ALIAS=VT8X26.SENDSMS, SUCCESS=1, FAILURE=0, STARTTIME=24/07/2014 08:45:07., 15000
+24/07 08:48:54:987 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: ) (MsgContent: Tong so diem hom nay cua ban la: . Tro choi se tiep tuc vao ngay mai.)
+24/07 08:48:54:987 response received (MTResult: Ok)
+24/07 08:49:07:381 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: ) (MsgContent: Tong so diem hom nay cua ban la: . Tro choi se tiep tuc vao ngay mai.)
+24/07 08:49:07:381 response received (MTResult: Ok)
+24/07 08:49:07:763 ID=948, ALIAS=VT8X26.SENDSMS, SUCCESS=2, FAILURE=0, STARTTIME=24/07/2014 08:48:52., 15000
+24/07 08:49:12:328 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: ) (MsgContent: Tong so diem hom nay cua ban la: . Tro choi se tiep tuc vao ngay mai.)
+24/07 08:49:12:328 response received (MTResult: Ok)
+24/07 08:49:22:768 ID=948, ALIAS=VT8X26.SENDSMS, SUCCESS=1, FAILURE=0, STARTTIME=24/07/2014 08:49:07., 15000
+24/07 09:14:18:204 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: ) (MsgContent: Tong so diem hom nay cua ban la: . Tro choi se tiep tuc vao ngay mai.)
+24/07 09:14:18:205 response received (MTResult: Ok)
+24/07 09:14:22:087 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: ) (MsgContent: Tong so diem hom nay cua ban la: . Tro choi se tiep tuc vao ngay mai.)
+24/07 09:14:22:088 response received (MTResult: Ok)
+24/07 09:14:23:068 ID=948, ALIAS=VT8X26.SENDSMS, SUCCESS=2, FAILURE=0, STARTTIME=24/07/2014 08:49:22., 15000
+24/07 09:14:54:382 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: ) (MsgContent: Tong so diem hom nay cua ban la: . Tro choi se tiep tuc vao ngay mai.)
+24/07 09:14:54:385 response received (MTResult: Ok)
+24/07 09:15:08:081 ID=948, ALIAS=VT8X26.SENDSMS, SUCCESS=1, FAILURE=0, STARTTIME=24/07/2014 09:14:23., 15000
+24/07 09:17:46:961 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: ) (MsgContent: Tong so diem hom nay cua ban la: . Tro choi se tiep tuc vao ngay mai.)
+24/07 09:17:46:962 response received (MTResult: Ok)
+24/07 09:17:53:119 ID=948, ALIAS=VT8X26.SENDSMS, SUCCESS=1, FAILURE=0, STARTTIME=24/07/2014 09:15:08., 15000
+24/07 09:18:12:610 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: ) (MsgContent: Tong so diem hom nay cua ban la: . Tro choi se tiep tuc vao ngay mai.)
+24/07 09:18:12:610 response received (MTResult: Ok)
+24/07 09:18:23:187 ID=948, ALIAS=VT8X26.SENDSMS, SUCCESS=1, FAILURE=0, STARTTIME=24/07/2014 09:17:53., 15000
+24/07 09:19:01:728 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: ) (MsgContent: Tong so diem hom nay cua ban la: . Tro choi se tiep tuc vao ngay mai.)
+24/07 09:19:01:729 response received (MTResult: Ok)
+24/07 09:19:07:158 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: ) (MsgContent: Tong so diem hom nay cua ban la: . Tro choi se tiep tuc vao ngay mai.)
+24/07 09:19:07:159 response received (MTResult: Ok)
+24/07 09:19:08:199 ID=948, ALIAS=VT8X26.SENDSMS, SUCCESS=2, FAILURE=0, STARTTIME=24/07/2014 09:18:23., 15000
+24/07 09:19:11:887 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: ) (MsgContent: Tong so diem hom nay cua ban la: . Tro choi se tiep tuc vao ngay mai.)
+24/07 09:19:11:888 response received (MTResult: Ok)
+24/07 09:19:23:204 ID=948, ALIAS=VT8X26.SENDSMS, SUCCESS=1, FAILURE=0, STARTTIME=24/07/2014 09:19:08., 15000
+24/07 09:19:25:372 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: ) (MsgContent: Tong so diem hom nay cua ban la: . Tro choi se tiep tuc vao ngay mai.)
+24/07 09:19:25:372 response received (MTResult: Ok)
+24/07 09:19:28:766 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: ) (MsgContent: Tong so diem hom nay cua ban la: . Tro choi se tiep tuc vao ngay mai.)
+24/07 09:19:28:766 response received (MTResult: Ok)
+24/07 09:19:38:205 ID=948, ALIAS=VT8X26.SENDSMS, SUCCESS=2, FAILURE=0, STARTTIME=24/07/2014 09:19:23., 15000
+24/07 09:19:45:006 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: ) (MsgContent: Tong so diem hom nay cua ban la: . Tro choi se tiep tuc vao ngay mai.)
+24/07 09:19:45:006 response received (MTResult: Ok)
+24/07 09:19:49:206 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: ) (MsgContent: Tong so diem hom nay cua ban la: . Tro choi se tiep tuc vao ngay mai.)
+24/07 09:19:49:207 response received (MTResult: Ok)
+24/07 09:19:53:208 ID=948, ALIAS=VT8X26.SENDSMS, SUCCESS=2, FAILURE=0, STARTTIME=24/07/2014 09:19:38., 15000
+24/07 09:20:08:095 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: ) (MsgContent: Tong so diem hom nay cua ban la: . Tro choi se tiep tuc vao ngay mai.)
+24/07 09:20:08:095 response received (MTResult: Ok)
+24/07 09:20:08:211 ID=948, ALIAS=VT8X26.SENDSMS, SUCCESS=1, FAILURE=0, STARTTIME=24/07/2014 09:19:53., 15000
+24/07 09:20:11:874 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: ) (MsgContent: Tong so diem hom nay cua ban la: . Tro choi se tiep tuc vao ngay mai.)
+24/07 09:20:11:878 response received (MTResult: Ok)
+24/07 09:20:23:212 ID=948, ALIAS=VT8X26.SENDSMS, SUCCESS=1, FAILURE=0, STARTTIME=24/07/2014 09:20:08., 15000
+24/07 09:21:06:293 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: ) (MsgContent: Tong so diem hom nay cua ban la: . Tro choi se tiep tuc vao ngay mai.)
+24/07 09:21:06:293 response received (MTResult: Ok)
+24/07 09:21:08:224 ID=948, ALIAS=VT8X26.SENDSMS, SUCCESS=1, FAILURE=0, STARTTIME=24/07/2014 09:20:23., 15000
+24/07 09:21:11:117 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: ) (MsgContent: Tong so diem hom nay cua ban la: . Tro choi se tiep tuc vao ngay mai.)
+24/07 09:21:11:117 response received (MTResult: Ok)
+24/07 09:21:15:194 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: ) (MsgContent: Tong so diem hom nay cua ban la: . Tro choi se tiep tuc vao ngay mai.)
+24/07 09:21:15:196 response received (MTResult: Ok)
+24/07 09:21:23:229 ID=948, ALIAS=VT8X26.SENDSMS, SUCCESS=2, FAILURE=0, STARTTIME=24/07/2014 09:21:08., 15000
+24/07 09:21:28:159 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: ) (MsgContent: Tong so diem hom nay cua ban la: . Tro choi se tiep tuc vao ngay mai.)
+24/07 09:21:28:160 response received (MTResult: Ok)
+24/07 09:21:29:810 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: ) (MsgContent: Tong so diem hom nay cua ban la: . Tro choi se tiep tuc vao ngay mai.)
+24/07 09:21:29:810 response received (MTResult: Ok)
+24/07 09:21:38:230 ID=948, ALIAS=VT8X26.SENDSMS, SUCCESS=2, FAILURE=0, STARTTIME=24/07/2014 09:21:23., 15000
+24/07 09:28:43:208 Viettel 8x26 started
+24/07 09:28:43:237 Starting process session
+24/07 09:28:43:268 Testing connection ...
+24/07 09:28:43:269 Testing connection are success
+24/07 09:28:57:503 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: ) (MsgContent: Ban se nhan duoc noi dung dich vu va cau hoi mien phi de "Tich diem trung iPod sanh dieu". Tra loi dung duoc 10d, sai khong co diem. Ap dung theo T&C)
+24/07 09:28:57:515 response received (MTResult: Ok)
+24/07 09:28:57:609 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: ) (MsgContent: "Amaranto" la biet danh cua doi bong Livorno? 1-Dung, 2-Sai. Gui 1 hoac 2 den 9999)
+24/07 09:28:57:609 response received (MTResult: Ok)
+24/07 09:28:58:270 ID=948, ALIAS=, SUCCESS=2, FAILURE=0, STARTTIME=24/07/2014 09:28:57., 15000
+24/07 09:29:14:387 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: ) (MsgContent: Dung, ban co: 100 d.CH tiep "Rosanero" la biet danh cua doi bong Palermo? 1-Dung, 2-Sai. Gui 1 hoac 2 den 9999)
+24/07 09:29:14:387 response received (MTResult: Ok)
+24/07 09:29:28:276 ID=948, ALIAS=VT8X26.SENDSMS, SUCCESS=1, FAILURE=0, STARTTIME=24/07/2014 09:28:58., 15000
+24/07 09:34:33:907 Viettel 8x26 started
+24/07 09:34:33:933 Starting process session
+24/07 09:34:33:966 Testing connection ...
+24/07 09:34:33:967 Testing connection are success
+24/07 09:34:41:710 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289977) (MsgContent: Dung, ban co: 200 d.CH tiep "Blucerchiati" la biet danh cua doi bong Sampdoria? 1-Dung, 2-Sai. Gui 1 hoac 2 den 9999)
+24/07 09:34:41:718 response received (MTResult: Ok)
+24/07 09:34:48:971 ID=948, ALIAS=, SUCCESS=1, FAILURE=0, STARTTIME=24/07/2014 09:34:41., 15000
+24/07 09:34:58:351 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289977) (MsgContent: Dung, ban co: 300 d.CH tiep "Robur" la biet danh cua doi bong Siena? 1-Dung, 2-Sai. Gui 1 hoac 2 den 9999)
+24/07 09:34:58:351 response received (MTResult: Ok)
+24/07 09:35:03:975 ID=948, ALIAS=VT8X26.SENDSMS, SUCCESS=1, FAILURE=0, STARTTIME=24/07/2014 09:34:48., 15000
+24/07 09:36:38:439 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289977) (MsgContent: Dung, ban co: 400 d.CH tiep "Zebrette" la biet danh cua doi bong Udinese? 1-Dung, 2-Sai. Gui 1 hoac 2 den 9999)
+24/07 09:36:38:439 response received (MTResult: Ok)
+24/07 09:36:45:623 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289977) (MsgContent: Dung, ban co: 500 d.CH tiep "Nhung Chu Lua Bay" la biet danh cua doi bong Swansea? 1-Dung, 2-Sai. Gui 1 hoac 2 den 9999)
+24/07 09:36:45:623 response received (MTResult: Ok)
+24/07 09:36:48:991 ID=948, ALIAS=VT8X26.SENDSMS, SUCCESS=2, FAILURE=0, STARTTIME=24/07/2014 09:35:03., 15000
+24/07 09:37:19:996 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289977) (MsgContent: Sai, ban co 500 d.CH tiep "Gialloblu" la biet danh cua doi bong Parma? 1-Dung, 2-Sai. Gui 1 hoac 2 den 9999)
+24/07 09:37:19:998 response received (MTResult: Ok)
+24/07 09:37:33:998 ID=948, ALIAS=VT8X26.SENDSMS, SUCCESS=1, FAILURE=0, STARTTIME=24/07/2014 09:36:48., 15000
+24/07 09:38:12:226 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289977) (MsgContent: Dung, ban co: 600 d.CH tiep "Juventus Arena" la SVD cua doi bong LA Galaxy? 1-Dung, 2-Sai. Gui 1 hoac 2 den 9999)
+24/07 09:38:12:229 response received (MTResult: Ok)
+24/07 09:38:19:008 ID=948, ALIAS=VT8X26.SENDSMS, SUCCESS=1, FAILURE=0, STARTTIME=24/07/2014 09:37:33., 15000
+24/07 09:38:59:781 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289977) (MsgContent: Sai, ban co 600 d.CH tiep "Olimpico" la SVD cua doi bong Parma? 1-Dung, 2-Sai. Gui 1 hoac 2 den 9999)
+24/07 09:38:59:781 response received (MTResult: Ok)
+24/07 09:39:04:012 ID=948, ALIAS=VT8X26.SENDSMS, SUCCESS=1, FAILURE=0, STARTTIME=24/07/2014 09:38:19., 15000
+24/07 09:39:05:428 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289977) (MsgContent: Sai, ban co 600 d.CH tiep "San Paolo" la SVD cua doi bong Arsenal? 1-Dung, 2-Sai. Gui 1 hoac 2 den 9999)
+24/07 09:39:05:430 response received (MTResult: Ok)
+24/07 09:39:19:016 ID=948, ALIAS=VT8X26.SENDSMS, SUCCESS=1, FAILURE=0, STARTTIME=24/07/2014 09:39:04., 15000
+24/07 09:39:29:586 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289977) (MsgContent: Sai, ban co 600 d.CH tiep "Artemio Franchi" la SVD cua doi bong Bologna? 1-Dung, 2-Sai. Gui 1 hoac 2 den 9999)
+24/07 09:39:29:586 response received (MTResult: Ok)
+24/07 09:39:34:018 ID=948, ALIAS=VT8X26.SENDSMS, SUCCESS=1, FAILURE=0, STARTTIME=24/07/2014 09:39:19., 15000
+24/07 09:39:34:198 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289977) (MsgContent: Tong so diem hom nay cua ban la: . Tro choi se tiep tuc vao ngay mai.)
+24/07 09:39:34:199 response received (MTResult: Ok)
+24/07 09:39:49:023 ID=948, ALIAS=VT8X26.SENDSMS, SUCCESS=1, FAILURE=0, STARTTIME=24/07/2014 09:39:34., 15000
+24/07 09:40:10:698 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289977) (MsgContent: Tong so diem hom nay cua ban la: . Tro choi se tiep tuc vao ngay mai.)
+24/07 09:40:10:699 response received (MTResult: Ok)
+24/07 09:40:17:368 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289977) (MsgContent: Tong so diem hom nay cua ban la: . Tro choi se tiep tuc vao ngay mai.)
+24/07 09:40:17:368 response received (MTResult: Ok)
+24/07 09:40:19:029 ID=948, ALIAS=VT8X26.SENDSMS, SUCCESS=2, FAILURE=0, STARTTIME=24/07/2014 09:39:49., 15000
+24/07 09:41:15:815 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289977) (MsgContent: Tong so diem hom nay cua ban la: . Tro choi se tiep tuc vao ngay mai.)
+24/07 09:41:15:815 response received (MTResult: Ok)
+24/07 09:41:19:044 ID=948, ALIAS=VT8X26.SENDSMS, SUCCESS=1, FAILURE=0, STARTTIME=24/07/2014 09:40:19., 15000
+24/07 09:41:21:082 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289977) (MsgContent: Tong so diem hom nay cua ban la: . Tro choi se tiep tuc vao ngay mai.)
+24/07 09:41:21:084 response received (MTResult: Ok)
+24/07 09:41:26:000 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289977) (MsgContent: Tong so diem hom nay cua ban la: . Tro choi se tiep tuc vao ngay mai.)
+24/07 09:41:26:001 response received (MTResult: Ok)
+24/07 09:41:34:048 ID=948, ALIAS=VT8X26.SENDSMS, SUCCESS=2, FAILURE=0, STARTTIME=24/07/2014 09:41:19., 15000
+24/07 09:41:34:554 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289977) (MsgContent: Tong so diem hom nay cua ban la: . Tro choi se tiep tuc vao ngay mai.)
+24/07 09:41:34:554 response received (MTResult: Ok)
+24/07 09:41:35:873 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289977) (MsgContent: Tong so diem hom nay cua ban la: . Tro choi se tiep tuc vao ngay mai.)
+24/07 09:41:35:873 response received (MTResult: Ok)
+24/07 09:41:36:837 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289977) (MsgContent: Tong so diem hom nay cua ban la: . Tro choi se tiep tuc vao ngay mai.)
+24/07 09:41:36:837 response received (MTResult: Ok)
+24/07 09:41:37:530 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289977) (MsgContent: Tong so diem hom nay cua ban la: . Tro choi se tiep tuc vao ngay mai.)
+24/07 09:41:37:530 response received (MTResult: Ok)
+24/07 09:41:38:305 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289977) (MsgContent: Tong so diem hom nay cua ban la: . Tro choi se tiep tuc vao ngay mai.)
+24/07 09:41:38:306 response received (MTResult: Ok)
+24/07 09:41:49:052 ID=948, ALIAS=VT8X26.SENDSMS, SUCCESS=5, FAILURE=0, STARTTIME=24/07/2014 09:41:34., 15000
+24/07 09:41:52:286 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289977) (MsgContent: Tong so diem hom nay cua ban la: . Tro choi se tiep tuc vao ngay mai.)
+24/07 09:41:52:286 response received (MTResult: Ok)
+24/07 09:41:53:067 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289977) (MsgContent: Tong so diem hom nay cua ban la: . Tro choi se tiep tuc vao ngay mai.)
+24/07 09:41:53:067 response received (MTResult: Ok)
+24/07 09:41:53:835 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289977) (MsgContent: Tong so diem hom nay cua ban la: . Tro choi se tiep tuc vao ngay mai.)
+24/07 09:41:53:835 response received (MTResult: Ok)
+24/07 09:42:04:055 ID=948, ALIAS=VT8X26.SENDSMS, SUCCESS=3, FAILURE=0, STARTTIME=24/07/2014 09:41:49., 15000
+24/07 10:14:20:341 Viettel 8x26 started
+24/07 10:14:20:371 Starting process session
+24/07 10:14:20:404 Testing connection ...
+24/07 10:14:20:405 Testing connection are success
+24/07 10:15:13:033 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289978) (MsgContent: Ban se nhan duoc noi dung dich vu va cau hoi mien phi de "Tich diem trung iPod sanh dieu". Tra loi dung duoc 10d, sai khong co diem. Ap dung theo T&C)
+24/07 10:15:13:040 response received (MTResult: Ok)
+24/07 10:15:13:132 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289978) (MsgContent: Federico Peluso, cau thu cua Juventus  sinh nam 1984? 1-Dung, 2-Sai. Gui 1 hoac 2 den 9999)
+24/07 10:15:13:132 response received (MTResult: Ok)
+24/07 10:15:20:423 ID=948, ALIAS=, SUCCESS=2, FAILURE=0, STARTTIME=24/07/2014 10:15:13., 15000
+24/07 10:20:03:361 Viettel 8x26 started
+24/07 10:20:03:393 Starting process session
+24/07 10:20:03:426 Testing connection ...
+24/07 10:20:03:427 Testing connection are success
+24/07 10:20:29:786 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289978) (MsgContent: Dung, ban co: 100 d.CH tiep Joel Untersee, cau thu cua Juventus  sinh nam 1994? 1-Dung, 2-Sai. Gui 1 hoac 2 den 9999)
+24/07 10:20:29:795 response received (MTResult: Ok)
+24/07 10:22:06:991 Viettel 8x26 started
+24/07 10:22:07:020 Starting process session
+24/07 10:22:07:056 Testing connection ...
+24/07 10:22:07:056 Testing connection are success
+24/07 10:22:14:026 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289978) (MsgContent: Dung, ban co: 200 d.CH tiep Andrea Pirlo, cau thu cua Juventus  sinh nam 1984? 1-Dung, 2-Sai. Gui 1 hoac 2 den 9999)
+24/07 10:22:14:034 response received (MTResult: Ok)
+24/07 10:22:22:058 ID=948, ALIAS=, SUCCESS=1, FAILURE=0, STARTTIME=24/07/2014 10:22:14., 15000
+24/07 10:40:02:201 Viettel 8x26 started
+24/07 10:40:02:227 Starting process session
+24/07 10:40:02:258 Testing connection ...
+24/07 10:40:02:258 Testing connection are success
+24/07 10:40:17:907 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289978) (MsgContent: Sai, ban co 200 d.CH tiep Simone Pepe, cau thu cua Juventus  sinh nam 1983? 1-Dung, 2-Sai. Gui 1 hoac 2 den 9999)
+24/07 10:40:20:184 response received (MTResult: Ok)
+24/07 10:40:28:996 orderId = 0, orderDate = 24/07 10:40:15:083, status = 0, cause = success, description = , cost = 13886
+24/07 10:40:32:262 ID=948, ALIAS=, SUCCESS=1, FAILURE=0, STARTTIME=24/07/2014 10:40:28., 15000
+24/07 10:56:14:311 Viettel 8x26 started
+24/07 10:56:14:335 Starting process session
+24/07 10:56:14:365 Testing connection ...
+24/07 10:56:14:366 Testing connection are success
+24/07 10:56:35:241 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289978) (MsgContent: Dung, ban co: 210 d.CH tiep Simone Padoin, cau thu cua Juventus  sinh nam 1983? 1-Dung, 2-Sai. Gui 1 hoac 2 den 9999)
+24/07 10:56:35:251 response received (MTResult: Ok)
+24/07 10:56:36:654 orderId = 482862505, orderDate = 24/07 10:56:33:580, status = 0, cause = success, description = , cost = 3046
+24/07 10:56:44:370 ID=948, ALIAS=, SUCCESS=1, FAILURE=0, STARTTIME=24/07/2014 10:56:36., 15000
+24/07 11:46:29:428 Viettel 8x26 started
+24/07 11:46:29:459 Starting process session
+24/07 11:46:29:490 Testing connection ...
+24/07 11:46:29:490 Testing connection are success
+24/07 13:31:23:816 Viettel 8x26 started
+24/07 13:31:23:848 Starting process session
+24/07 13:31:23:878 Testing connection ...
+24/07 13:31:23:879 Testing connection are success
+24/07 13:36:51:164 Viettel 8x26 started
+24/07 13:36:51:189 Starting process session
+24/07 13:36:51:227 Testing connection ...
+24/07 13:36:51:227 Testing connection are success
+24/07 13:36:56:052 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289978) (MsgContent: Ban dang tham gia tro choi tich diem trung IPod. Tong so diem cua ban la 0. Ban se nhan duoc cau hoi mien phi de tiep tuc dich vu.)
+24/07 13:36:56:066 response received (MTResult: Ok)
+24/07 13:36:56:101 orderId = 482862515, orderDate = 24/07 13:36:33:228, status = 0, cause = success, description = , cost = 4861
+24/07 13:36:56:940 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289978) (MsgContent: Italia la doi vo dich World Cup 1938? 1-Dung, 2-Sai. Gui 1 hoac 2 den 9999)
+24/07 13:36:56:942 response received (MTResult: Ok)
+24/07 13:36:56:958 orderId = 482862515, orderDate = 24/07 13:36:34:437, status = 0, cause = success, description = , cost = 5712
+24/07 13:37:06:231 ID=948, ALIAS=, SUCCESS=2, FAILURE=0, STARTTIME=24/07/2014 13:36:56., 15000
+24/07 13:37:37:698 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289978) (MsgContent: Ban dang tham gia tro choi tich diem trung IPod. Tong so diem cua ban la 0. Ban se nhan duoc cau hoi mien phi de tiep tuc dich vu.)
+24/07 13:37:37:699 response received (MTResult: Ok)
+24/07 13:37:37:805 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289978) (MsgContent: Italia la doi vo dich World Cup 1938? 1-Dung, 2-Sai. Gui 1 hoac 2 den 9999)
+24/07 13:37:37:805 response received (MTResult: Ok)
+24/07 13:37:51:241 ID=948, ALIAS=VT8X26.SENDSMS, SUCCESS=2, FAILURE=0, STARTTIME=24/07/2014 13:37:06., 15000
+24/07 14:34:48:082 Viettel 8x26 started
+24/07 14:34:48:108 Starting process session
+24/07 14:34:48:137 Testing connection ...
+24/07 14:34:48:138 Testing connection are success
+24/07 14:40:36:851 Viettel 8x26 started
+24/07 14:40:36:877 Starting process session
+24/07 14:40:36:906 Testing connection ...
+24/07 14:40:36:906 Testing connection are success
+24/07 14:40:36:915 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289979) (MsgContent: Ban dang tham gia tro choi tich diem trung IPod. Tong so diem cua ban la 0. Ban se nhan duoc cau hoi mien phi de tiep tuc dich vu.)
+24/07 14:40:36:924 response received (MTResult: Ok)
+24/07 14:40:36:962 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289979) (MsgContent: Cristiano Ronaldo, cau thu cua Real Madrid sinh nam 1994? 1-Dung, 2-Sai. Gui 1 hoac 2 den 9999)
+24/07 14:40:36:962 response received (MTResult: Ok)
+24/07 14:40:51:910 ID=948, ALIAS=, SUCCESS=2, FAILURE=0, STARTTIME=24/07/2014 14:40:36., 15000
+24/07 14:42:29:798 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289979) (MsgContent: Sai, ban co 0 d.CH tiep C.Ronaldo la vua pha luoi o World Cup 1994? 1-Dung)
+24/07 14:42:29:799 response received (MTResult: Ok)
+24/07 14:42:36:938 ID=948, ALIAS=VT8X26.SENDSMS, SUCCESS=1, FAILURE=0, STARTTIME=24/07/2014 14:40:51., 15000
+24/07 14:42:46:674 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289979) (MsgContent: Sai, ban co 0 d.CH tiep Phap la nuoc chu nha trong ky World Cup 1998? 1-Dung)
+24/07 14:42:46:674 response received (MTResult: Ok)
+24/07 14:42:51:940 ID=948, ALIAS=VT8X26.SENDSMS, SUCCESS=1, FAILURE=0, STARTTIME=24/07/2014 14:42:36., 15000
+24/07 14:42:57:225 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289979) (MsgContent: Dung, ban co: 10 d.CH tiep Italia la doi vo dich o World Cup 1998? 1-Dung)
+24/07 14:42:57:226 response received (MTResult: Ok)
+24/07 14:43:06:945 ID=948, ALIAS=VT8X26.SENDSMS, SUCCESS=1, FAILURE=0, STARTTIME=24/07/2014 14:42:51., 15000
+24/07 14:44:02:102 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289979) (MsgContent: Sai, ban co 10 d.CH tiep Braisl la doi A Quan o vong World Cup 1998?1-Dung)
+24/07 14:44:02:102 response received (MTResult: Ok)
+24/07 14:44:06:956 ID=948, ALIAS=VT8X26.SENDSMS, SUCCESS=1, FAILURE=0, STARTTIME=24/07/2014 14:43:06., 15000
+24/07 14:44:09:601 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289979) (MsgContent: Dung, ban co: 20 d.CH tiep Pele la vua pha luoi o World Cup 1966? 1- Dung)
+24/07 14:44:09:602 response received (MTResult: Ok)
+24/07 14:44:13:608 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289979) (MsgContent: Sai, ban co 20 d.CH tiep Lionel Messi la cau thu vua pha luoi o World Cup 1998? 1-Dung)
+24/07 14:44:13:608 response received (MTResult: Ok)
+24/07 14:44:20:107 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289979) (MsgContent: Sai, ban co 20 d.CH tiep Ronaldo la cau thu xuat sac nhat o World Cup 1998? 1-Dung)
+24/07 14:44:20:107 response received (MTResult: Ok)
+24/07 14:44:21:960 ID=948, ALIAS=VT8X26.SENDSMS, SUCCESS=3, FAILURE=0, STARTTIME=24/07/2014 14:44:06., 15000
+24/07 14:44:23:165 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289979) (MsgContent: Dung, ban co: 30 d.CH tiep Trong tran Chung Ket World Cup 1998 Phap da thang Brasil? 1-Dung)
+24/07 14:44:23:166 response received (MTResult: Ok)
+24/07 14:44:26:709 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289979) (MsgContent: Dung, ban co: 40 d.CH tiep Bai hat chinh thuc o World Cup 2006 la Mua He Italia? 1-Dung)
+24/07 14:44:26:709 response received (MTResult: Ok)
+24/07 14:44:30:364 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289979) (MsgContent: Sai, ban co 40 d.CH tiep Pele la cau thu gia nhat tung ghi ban o mot ky World Cup? 1-Dung)
+24/07 14:44:30:364 response received (MTResult: Ok)
+24/07 14:44:36:961 ID=948, ALIAS=VT8X26.SENDSMS, SUCCESS=3, FAILURE=0, STARTTIME=24/07/2014 14:44:21., 15000
+24/07 14:45:18:650 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289979) (MsgContent: Sai, ban co 40 d.CH tiep Juste Fontaine la cau thu ghi nhieu ban thang nhat o mot ky World Cup? 1-Dung)
+24/07 14:45:18:650 response received (MTResult: Ok)
+24/07 14:45:21:971 ID=948, ALIAS=VT8X26.SENDSMS, SUCCESS=1, FAILURE=0, STARTTIME=24/07/2014 14:44:36., 15000
+24/07 14:45:22:324 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289979) (MsgContent: Dung, ban co: 50 d.CH tiep Brasil la doi vo dich World Cup 2002? 1-Dung)
+24/07 14:45:22:324 response received (MTResult: Ok)
+24/07 14:45:24:753 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289979) (MsgContent: Dung, ban co: 60 d.CH tiep Brasil la nuoc vo dich World Cup 1994? 1-Dung)
+24/07 14:45:24:754 response received (MTResult: Ok)
+24/07 14:45:27:176 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289979) (MsgContent: Dung, ban co: 70 d.CH tiep Robben la cau thu xuat sac nhat o World Cup 2002? 1-Dung)
+24/07 14:45:27:177 response received (MTResult: Ok)
+24/07 14:45:29:555 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289979) (MsgContent: Sai, ban co 70 d.CH tiep Romario la cau thu xuat sac nhat o World Cup 1994? 1-Dung)
+24/07 14:45:29:559 response received (MTResult: Ok)
+24/07 14:45:36:975 ID=948, ALIAS=VT8X26.SENDSMS, SUCCESS=4, FAILURE=0, STARTTIME=24/07/2014 14:45:21., 15000
+24/07 14:45:37:072 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289979) (MsgContent: Tong so diem hom nay cua ban la: . Tro choi se tiep tuc vao ngay mai.)
+24/07 14:45:37:073 response received (MTResult: Ok)
+24/07 14:45:51:980 ID=948, ALIAS=VT8X26.SENDSMS, SUCCESS=1, FAILURE=0, STARTTIME=24/07/2014 14:45:36., 15000
+24/07 14:45:57:200 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289979) (MsgContent: Tong so diem hom nay cua ban la: . Tro choi se tiep tuc vao ngay mai.)
+24/07 14:45:57:200 response received (MTResult: Ok)
+24/07 14:46:06:982 ID=948, ALIAS=VT8X26.SENDSMS, SUCCESS=1, FAILURE=0, STARTTIME=24/07/2014 14:45:51., 15000
+24/07 14:47:08:411 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289979) (MsgContent: Tong so diem hom nay cua ban la: 70. Tro choi se tiep tuc vao ngay mai.)
+24/07 14:47:08:411 response received (MTResult: Ok)
+24/07 14:47:22:000 ID=948, ALIAS=VT8X26.SENDSMS, SUCCESS=1, FAILURE=0, STARTTIME=24/07/2014 14:46:06., 15000
+24/07 15:59:46:763 Viettel 8x26 started
+24/07 15:59:46:788 Starting process session
+24/07 15:59:46:818 Testing connection ...
+24/07 15:59:46:818 Testing connection are success
+24/07 15:59:57:431 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289981) (MsgContent: Ban se nhan duoc noi dung dich vu va cau hoi mien phi de "Tich diem trung may nghe nhac MP3". Tra loi dung duoc 10d, sai khong co diem. Ap dung theo T&C)
+24/07 15:59:57:443 response received (MTResult: Ok)
+24/07 15:59:57:524 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289981) (MsgContent: 1)
+24/07 15:59:57:524 response received (MTResult: Ok)
+24/07 16:00:01:821 ID=948, ALIAS=, SUCCESS=2, FAILURE=0, STARTTIME=24/07/2014 15:59:57., 15000
+24/07 16:00:05:177 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289981) (MsgContent: Sai, ban co 0 d.CH tiep C.Ronaldo la vua pha luoi o World Cup 1994? 1-Dung)
+24/07 16:00:05:177 response received (MTResult: Ok)
+24/07 16:00:14:695 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289981) (MsgContent: Sai, ban co 0 d.CH tiep Phap la nuoc chu nha trong ky World Cup 1998? 1-Dung)
+24/07 16:00:14:695 response received (MTResult: Ok)
+24/07 16:00:16:826 ID=948, ALIAS=VT8X26.SENDSMS, SUCCESS=2, FAILURE=0, STARTTIME=24/07/2014 16:00:01., 15000
+24/07 16:00:18:120 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289981) (MsgContent: Dung, ban co: 10 d.CH tiep Italia la doi vo dich o World Cup 1998? 1-Dung)
+24/07 16:00:18:121 response received (MTResult: Ok)
+24/07 16:00:20:604 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289981) (MsgContent: Sai, ban co 10 d.CH tiep Braisl la doi A Quan o vong World Cup 1998?1-Dung)
+24/07 16:00:20:604 response received (MTResult: Ok)
+24/07 16:00:23:146 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289981) (MsgContent: Dung, ban co: 20 d.CH tiep Pele la vua pha luoi o World Cup 1966? 1- Dung)
+24/07 16:00:23:150 response received (MTResult: Ok)
+24/07 16:00:25:323 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289981) (MsgContent: Sai, ban co 20 d.CH tiep Lionel Messi la cau thu vua pha luoi o World Cup 1998? 1-Dung)
+24/07 16:00:25:323 response received (MTResult: Ok)
+24/07 16:00:27:551 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289981) (MsgContent: Sai, ban co 20 d.CH tiep Ronaldo la cau thu xuat sac nhat o World Cup 1998? 1-Dung)
+24/07 16:00:27:552 response received (MTResult: Ok)
+24/07 16:00:30:492 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289981) (MsgContent: Dung, ban co: 30 d.CH tiep Trong tran Chung Ket World Cup 1998 Phap da thang Brasil? 1-Dung)
+24/07 16:00:30:494 response received (MTResult: Ok)
+24/07 16:00:31:828 ID=948, ALIAS=VT8X26.SENDSMS, SUCCESS=6, FAILURE=0, STARTTIME=24/07/2014 16:00:16., 15000
+24/07 16:32:31:805 Viettel 8x26 started
+24/07 16:32:31:833 Starting process session
+24/07 16:32:31:865 Testing connection ...
+24/07 16:32:31:865 Testing connection are success
+24/07 16:47:45:868 Viettel 8x26 started
+24/07 16:47:45:900 Starting process session
+24/07 16:47:45:931 Testing connection ...
+24/07 16:47:45:932 Testing connection are success
+24/07 16:48:38:557 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289982) (MsgContent: Ban se nhan duoc noi dung dich vu va cau hoi mien phi de "Tich diem trung may nghe nhac MP3". Tra loi dung duoc 10d, sai khong co diem. Ap dung theo T&C)
+24/07 16:48:38:566 response received (MTResult: Ok)
+24/07 16:48:38:667 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289982) (MsgContent: 1)
+24/07 16:48:38:667 response received (MTResult: Ok)
+24/07 16:48:45:962 ID=948, ALIAS=, SUCCESS=2, FAILURE=0, STARTTIME=24/07/2014 16:48:38., 15000
+24/07 16:48:49:806 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289982) (MsgContent: Ban dang tham gia tro choi tich diem trung IPod. Tong so diem cua ban la 0. Ban se nhan duoc cau hoi mien phi de tiep tuc dich vu.)
+24/07 16:48:49:806 response received (MTResult: Ok)
+24/07 16:48:49:913 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289982) (MsgContent: C.Ronaldo la vua pha luoi o World Cup 1994? 1-Dung, 2-Sai. Gui 1 hoac 2 den 9999)
+24/07 16:48:49:913 response received (MTResult: Ok)
+24/07 16:48:56:796 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289982) (MsgContent: Sai, ban co 0 d.CH tiep C.Ronaldo la vua pha luoi o World Cup 1994? 1-Dung)
+24/07 16:48:56:796 response received (MTResult: Ok)
+24/07 16:48:58:160 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289982) (MsgContent: Sai, ban co 0 d.CH tiep Phap la nuoc chu nha trong ky World Cup 1998? 1-Dung)
+24/07 16:48:58:161 response received (MTResult: Ok)
+24/07 16:48:59:010 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289982) (MsgContent: Dung, ban co: 10 d.CH tiep Italia la doi vo dich o World Cup 1998? 1-Dung)
+24/07 16:48:59:010 response received (MTResult: Ok)
+24/07 16:48:59:772 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289982) (MsgContent: Sai, ban co 10 d.CH tiep Braisl la doi A Quan o vong World Cup 1998?1-Dung)
+24/07 16:48:59:772 response received (MTResult: Ok)
+24/07 16:49:00:459 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289982) (MsgContent: Dung, ban co: 20 d.CH tiep Pele la vua pha luoi o World Cup 1966? 1- Dung)
+24/07 16:49:00:459 response received (MTResult: Ok)
+24/07 16:49:00:964 ID=948, ALIAS=VT8X26.SENDSMS, SUCCESS=7, FAILURE=0, STARTTIME=24/07/2014 16:48:45., 15000
+24/07 16:49:01:132 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289982) (MsgContent: Sai, ban co 20 d.CH tiep Lionel Messi la cau thu vua pha luoi o World Cup 1998? 1-Dung)
+24/07 16:49:01:132 response received (MTResult: Ok)
+24/07 16:49:15:966 ID=948, ALIAS=VT8X26.SENDSMS, SUCCESS=1, FAILURE=0, STARTTIME=24/07/2014 16:49:00., 15000
+24/07 17:12:48:537 Viettel 8x26 started
+24/07 17:12:48:564 Starting process session
+24/07 17:12:48:594 Testing connection ...
+24/07 17:12:48:595 Testing connection are success
+24/07 17:13:13:111 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289971) (MsgContent: )
+24/07 17:13:13:121 response received (MTResult: Ok)
+24/07 17:13:13:592 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289972) (MsgContent: )
+24/07 17:13:13:593 response received (MTResult: Ok)
+24/07 17:13:14:156 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289979) (MsgContent: )
+24/07 17:13:14:156 response received (MTResult: Ok)
+24/07 17:13:18:599 ID=948, ALIAS=, SUCCESS=3, FAILURE=0, STARTTIME=24/07/2014 17:13:13., 15000
+24/07 17:19:59:538 Viettel 8x26 started
+24/07 17:19:59:559 Starting process session
+24/07 17:19:59:589 Testing connection ...
+24/07 17:19:59:589 Testing connection are success
+24/07 17:20:15:184 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289982) (MsgContent: Sai, ban co 20 d.CH tiep Ronaldo la cau thu xuat sac nhat o World Cup 1998? 1-Dung)
+24/07 17:20:15:193 response received (MTResult: Ok)
+24/07 17:20:29:592 ID=948, ALIAS=, SUCCESS=1, FAILURE=0, STARTTIME=24/07/2014 17:20:15., 15000
+24/07 17:20:36:415 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289959) (MsgContent: Bai hat chinh thuc o World Cup 2006 la Mua He Italia? 1-Dung, 2-Sai. Gui 1 hoac 2 den 9999)
+24/07 17:20:36:415 response received (MTResult: Ok)
+24/07 17:20:36:445 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289969) (MsgContent: Bai hat chinh thuc o World Cup 2006 la Mua He Italia? 1-Dung, 2-Sai. Gui 1 hoac 2 den 9999)
+24/07 17:20:36:445 response received (MTResult: Ok)
+24/07 17:20:44:597 ID=948, ALIAS=VT8X26.SENDSMS, SUCCESS=2, FAILURE=0, STARTTIME=24/07/2014 17:20:29., 15000
+24/07 17:21:42:586 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289979) (MsgContent: Bai hat chinh thuc o World Cup 2006 la Mua He Italia? 1-Dung, 2-Sai. Gui 1 hoac 2 den 9999)
+24/07 17:21:42:586 response received (MTResult: Ok)
+24/07 17:21:44:611 ID=948, ALIAS=VT8X26.SENDSMS, SUCCESS=1, FAILURE=0, STARTTIME=24/07/2014 17:20:44., 15000
+24/07 17:24:04:537 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289971) (MsgContent: Bai hat chinh thuc o World Cup 2006 la Mua He Italia? 1-Dung, 2-Sai. Gui 1 hoac 2 den 9999)
+24/07 17:24:04:537 response received (MTResult: Ok)
+24/07 17:24:14:650 ID=948, ALIAS=VT8X26.SENDSMS, SUCCESS=1, FAILURE=0, STARTTIME=24/07/2014 17:21:44., 15000
+24/07 17:27:54:462 Viettel 8x26 started
+24/07 17:27:54:502 Starting process session
+24/07 17:27:54:534 Testing connection ...
+24/07 17:27:54:534 Testing connection are success
+24/07 17:28:16:919 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289969) (MsgContent: Bai hat chinh thuc o World Cup 2006 la Mua He Italia? 1-Dung, 2-Sai. Gui 1 hoac 2 den 9999)
+24/07 17:28:16:928 response received (MTResult: Ok)
+24/07 17:28:17:003 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289979) (MsgContent: Bai hat chinh thuc o World Cup 2006 la Mua He Italia? 1-Dung, 2-Sai. Gui 1 hoac 2 den 9999)
+24/07 17:28:17:003 response received (MTResult: Ok)
+24/07 17:28:17:042 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289971) (MsgContent: Bai hat chinh thuc o World Cup 2006 la Mua He Italia? 1-Dung, 2-Sai. Gui 1 hoac 2 den 9999)
+24/07 17:28:17:042 response received (MTResult: Ok)
+24/07 17:28:17:065 submit request (RequestId: 0) (MoId: 0) (SrcNum: 8626) (DstNum: 84967289973) (MsgContent: Bai hat chinh thuc o World Cup 2006 la Mua He Italia? 1-Dung, 2-Sai. Gui 1 hoac 2 den 9999)
+24/07 17:28:17:065 response received (MTResult: Ok)
+24/07 17:28:24:540 ID=948, ALIAS=, SUCCESS=4, FAILURE=0, STARTTIME=24/07/2014 17:28:17., 15000
+24/07 21:18:45:524 Viettel 8x26 started
+24/07 21:18:45:552 Starting process session
+24/07 21:18:45:584 Testing connection ...
+24/07 21:18:45:584 Testing connection are success

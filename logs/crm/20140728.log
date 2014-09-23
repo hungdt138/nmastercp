@@ -1,0 +1,51 @@
+28/07 09:42:32:627 CRM started
+28/07 09:42:32:664 Starting process session
+28/07 09:42:35:417 Testing connection ...
+28/07 09:42:35:417 Created provisioning instance for CRM
+28/07 09:42:35:418 Testing connection are success
+28/07 09:44:07:984 sendNotify: 84967289981 - Dung, ban co: 40 d.CH tiep Bai hat chinh thuc o World Cup 2006 la Mua He Italia? 1-Dung, 2-Sai. Gui 1 hoac 2 den 9999
+28/07 09:44:32:820 orderId = 482862677, orderDate = 28/07 09:44:07:739, status = 0, cause = correct, description = Confirm success, cost = 24934
+28/07 09:46:04:778 CRM started
+28/07 09:46:04:819 Starting process session
+28/07 09:46:07:317 Testing connection ...
+28/07 09:46:07:318 Created provisioning instance for CRM
+28/07 09:46:07:320 Testing connection are success
+28/07 09:46:26:358 sendNotify: 84967289981 - Sai, ban co 40 d.CH tiep Pele la cau thu gia nhat tung ghi ban o mot ky World Cup? 1-Dung, 2-Sai. Gui 1 hoac 2 den 9999
+28/07 09:46:32:457 orderId = 482862678, orderDate = 28/07 09:46:26:180, status = 0, cause = wrong, description = Confirm success, cost = 6159
+28/07 09:46:37:326 ID=381, ALIAS=, SUCCESS=1, FAILURE=0, STARTTIME=28/07/2014 09:46:32., 15000
+28/07 10:00:00:810 CRM started
+28/07 10:00:00:886 Starting process session
+28/07 10:00:02:962 Testing connection ...
+28/07 10:00:02:963 Created provisioning instance for CRM
+28/07 10:00:02:964 Testing connection are success
+28/07 10:01:11:324 CRM started
+28/07 10:01:11:365 Starting process session
+28/07 10:01:13:541 Testing connection ...
+28/07 10:01:13:542 Created provisioning instance for CRM
+28/07 10:01:13:543 Testing connection are success
+28/07 10:04:20:097 orderId = 482862680, orderDate = 28/07 10:04:08:929, status = 0, cause = success, description = , cost = 10997
+28/07 10:04:28:582 ID=971, ALIAS=, SUCCESS=1, FAILURE=0, STARTTIME=28/07/2014 10:04:20., 15000
+28/07 10:05:12:876 CRM started
+28/07 10:05:12:893 Starting process session
+28/07 10:05:13:546 Testing connection ...
+28/07 10:05:13:547 Created provisioning instance for CRM
+28/07 10:05:13:548 Testing connection are success
+28/07 10:06:16:935 orderId = 482862681, orderDate = 28/07 10:05:45:587, status = 0, cause = success, description = , cost = 5781
+28/07 10:06:28:565 ID=971, ALIAS=, SUCCESS=1, FAILURE=0, STARTTIME=28/07/2014 10:06:16., 15000
+28/07 10:07:14:423 orderId = 482862682, orderDate = 28/07 10:07:11:514, status = 0, cause = success, description = , cost = 2766
+28/07 10:07:28:580 ID=973, ALIAS=, SUCCESS=1, FAILURE=0, STARTTIME=28/07/2014 10:07:14., 15000
+28/07 15:28:46:730 CRM started
+28/07 15:28:46:864 Starting process session
+28/07 15:28:57:407 Testing connection ...
+28/07 15:28:57:408 Created provisioning instance for CRM
+28/07 15:28:57:423 Testing connection are success
+28/07 15:29:28:072 sendNotify: 84967289990 - Ban se nhan duoc noi dung dich vu va cau hoi mien phi de "Tich diem trung may nghe nhac MP3". Tra loi dung duoc 10d, sai khong co diem. Ap dung theo T&C
+28/07 15:29:28:172 sendNotify: 84967289990 - 69509189
+28/07 15:29:28:290 orderId = 482862684, orderDate = 28/07 15:29:27:648, status = 0, cause = success, description = , cost = 309
+28/07 15:29:42:432 ID=380, ALIAS=, SUCCESS=1, FAILURE=0, STARTTIME=28/07/2014 15:29:28., 15000
+28/07 15:34:14:269 sendNotify: 84967289990 - Ban se nhan duoc noi dung dich vu va cau hoi mien phi de "Tich diem trung may nghe nhac MP3". Tra loi dung duoc 10d, sai khong co diem. Ap dung theo T&C
+N?i dung: Ban se nhan duoc noi dung dich vu va cau hoi mien phi de "Tich diem trung may nghe nhac MP3". Tra loi dung duoc 10d, sai khong co diem. Ap dung theo T&C
+28/07 15:34:17:733 sendNotify: 84967289990 - Link tai game cua ban la: goo.gl/XSXoDB
+28/07 15:34:17:833 sendNotify: 84967289990 - Phan mem chat truc tuyen cho phep chat cung luc voi nhieu hon 5 nguoi?A-Dung, B-Sai.Gui CHAT A hoac CHAT B den 8626
+28/07 15:34:17:833 orderId = 482862685, orderDate = 28/07 15:33:53:257, status = 0, cause = success, description = , cost = 24433
+28/07 15:34:27:489 ID=380, ALIAS=CRM.REGIST_GO_SERVICES, SUCCESS=1, FAILURE=0, STARTTIME=28/07/2014 15:29:42., 15000

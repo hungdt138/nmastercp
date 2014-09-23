@@ -1,0 +1,15 @@
+25/07 15:22:40:985 Mobifone OTP started
+25/07 15:22:41:010 Starting process session
+25/07 15:22:41:490 Testing connection ...
+25/07 15:22:41:491 Created provisioning instance for MOBIFONEOTP
+25/07 15:22:41:491 Testing connection are success
+25/07 15:24:29:370 SEND: ID=18002: com.crm.provisioning.impl.mobifone.otp.OTPCommandImpl.OTPRequest{spid= 883,productid= 1125,isdn= 84906130890,action= sub}
+25/07 15:24:29:370 http://42.116.23.105/~wssite/siteConnect/migration/sp1/otp-request.php?msisdn=84906130890&request_id=1102&product_code=MDSP2000157373&action=sub&username=acom_cp&password=9cc3ed8f7118649696f77817ad5c93f0
+25/07 15:24:33:168 RECEIVE: ID=18002: success: costTime=3798
+25/07 15:24:33:170 orderId = 482862609, orderDate = 25/07 15:24:29:340, status = 0, cause = success, description = , cost = 3801
+25/07 15:24:41:514 ID=894, ALIAS=, SUCCESS=1, FAILURE=0, STARTTIME=25/07/2014 15:24:33., 15000
+25/07 15:25:38:011 SEND: ID=18003: com.crm.provisioning.impl.mobifone.otp.OTPCommandImpl.SubRequest{spid= 883,productid= 1125,isdn= 84906130890,otp= 123456}
+25/07 15:25:38:011 http://42.116.23.105/~wssite/siteConnect/migration/sp1/sub-request.php?msisdn=84906130890&request_id=1102&otp=123456&username=acom_cp&password=f33ac69bc6bff78d89ab5a73370cc8c0
+25/07 15:25:39:329 RECEIVE: ID=18003: Method-not-allowed: costTime=1318
+25/07 15:25:39:330 orderId = 482862610, orderDate = 25/07 15:25:37:974, status = 4, cause = Method-not-allowed, description = , cost = 1319
+25/07 15:25:41:528 ID=895, ALIAS=, SUCCESS=0, FAILURE=1, STARTTIME=25/07/2014 15:25:39., 15000

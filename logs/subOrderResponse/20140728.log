@@ -1,0 +1,6 @@
+28/07 10:05:09:867 SUB Order Response started
+28/07 10:05:09:911 Starting process session
+28/07 10:06:15:730 orderId = 482862681, orderDate = 28/07 10:05:45:587, isdn = 84923962323, status = 0, cause = success, description = , response date: 28/07 10:06:11:176, order cost: 30143, update cost: 26, Queue cost: 0, Create cost: 0
+28/07 10:07:14:474 orderId = 482862682, orderDate = 28/07 10:07:11:514, isdn = 84923962323, status = 0, cause = success, description = , response date: 28/07 10:07:11:664, order cost: 2960, update cost: 36, Queue cost: 0, Create cost: 0
+28/07 15:28:43:623 SUB Order Response started
+28/07 15:28:43:772 Starting process session

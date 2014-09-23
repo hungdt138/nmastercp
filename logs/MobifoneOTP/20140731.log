@@ -1,0 +1,13 @@
+31/07 16:45:20:459 Mobifone OTP started
+31/07 16:45:20:484 Starting process session
+31/07 16:45:21:379 Testing connection ...
+31/07 16:45:21:380 Created provisioning instance for MOBIFONEOTP
+31/07 16:45:21:381 Testing connection are success
+31/07 16:46:59:025 SEND: ID=25001: com.crm.provisioning.impl.mobifone.otp.OTPCommandImpl.SubRequest{spid= 3001,productid= 1125,isdn= 84906130890,otp= 123456}
+31/07 16:47:00:498 RECEIVE: ID=25001: success: costTime=1472
+31/07 16:47:01:470 orderId = 482880633, orderDate = 31/07 16:46:39:481, status = 1, cause = success, description = , cost = 8674
+31/07 16:47:06:402 ID=895, ALIAS=, SUCCESS=1, FAILURE=0, STARTTIME=31/07/2014 16:47:01., 15000
+31/07 16:48:18:225 SEND: ID=25003: com.crm.provisioning.impl.mobifone.otp.OTPCommandImpl.SubRequest{spid= 3001,productid= 1125,isdn= 84906130890,otp= 123456}
+31/07 16:48:18:225 RECEIVE: ID=25003: success: costTime=0
+31/07 16:48:18:225 orderId = 482880634, orderDate = 31/07 16:48:16:179, status = 1, cause = success, description = , cost = 521
+31/07 16:48:21:419 ID=895, ALIAS=MOBIFONEOTP.SUBREQUEST, SUCCESS=1, FAILURE=0, STARTTIME=31/07/2014 16:47:06., 15000

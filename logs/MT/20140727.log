@@ -1,0 +1,38 @@
+27/07 17:38:57:760 MT SMS started
+27/07 17:38:57:790 Starting process session
+27/07 17:39:07:806 Testing connection ...
+27/07 17:39:08:249 Created provisioning instance for MTSMS
+27/07 17:39:08:249 Testing connection are success
+27/07 17:39:17:078 SEND: ID=20001: SendMT(8926, ACOM_SS, 84923962323, test)
+27/07 17:39:17:609 RECEIVE: ID=20001: SVC0000: costTime=531
+27/07 17:39:17:688 orderId = 482862671, orderDate = 27/07 17:39:16:863, status = 0, cause = success, description = , cost = 690
+27/07 17:39:23:254 ID=465, ALIAS=, SUCCESS=1, FAILURE=0, STARTTIME=27/07/2014 17:39:17., 15000
+27/07 17:41:00:878 SEND: ID=20002: SendMT(8926, ACOM_SS, 84923962323, test)
+27/07 17:41:01:279 RECEIVE: ID=20002: SVC0000: costTime=401
+27/07 17:41:01:280 orderId = 482862672, orderDate = 27/07 17:41:00:849, status = 0, cause = success, description = , cost = 403
+27/07 17:41:08:282 ID=465, ALIAS=MT.SEND_SMS, SUCCESS=1, FAILURE=0, STARTTIME=27/07/2014 17:39:23., 15000
+27/07 17:44:06:978 SEND: ID=20003: SendMT(8926, ACOM_SS, 84923962323, test)
+27/07 17:44:07:391 RECEIVE: ID=20003: SVC0000: costTime=412
+27/07 17:44:07:392 orderId = 482862673, orderDate = 27/07 17:44:06:937, status = 0, cause = success, description = , cost = 415
+27/07 17:44:08:319 ID=465, ALIAS=MT.SEND_SMS, SUCCESS=1, FAILURE=0, STARTTIME=27/07/2014 17:41:08., 15000
+27/07 17:55:27:305 com.sun.messaging.jms.IllegalStateException: [C4063]: Cannot perform operation, consumer is closed.
+27/07 17:55:27:305 Close pool
+27/07 17:55:27:306 End of process session
+27/07 17:57:07:353 Starting process session
+27/07 17:57:17:379 Close pool
+27/07 17:57:17:380 Close pool
+27/07 17:57:17:380 Testing connection ...
+27/07 17:57:17:387 Created provisioning instance for MTSMS
+27/07 17:57:17:387 Testing connection are success
+27/07 17:59:11:210 SEND: ID=20004: SendMT(8926, ACOM_SS, 84923962323, test)
+27/07 17:59:11:592 RECEIVE: ID=20004: SVC0000: costTime=382
+27/07 17:59:11:593 orderId = 482862674, orderDate = 27/07 17:58:40:553, status = 0, cause = success, description = , cost = 384
+27/07 17:59:17:405 ID=465, ALIAS=MT.SEND_SMS, SUCCESS=1, FAILURE=0, STARTTIME=27/07/2014 17:44:08., 15000
+27/07 18:00:01:137 SEND: ID=20005: SendMT(8926, ACOM_SS, 84923962323, test)
+27/07 18:00:01:547 RECEIVE: ID=20005: SVC0000: costTime=410
+27/07 18:00:01:548 orderId = 482862675, orderDate = 27/07 18:00:01:095, status = 0, cause = success, description = , cost = 412
+27/07 18:00:02:414 ID=465, ALIAS=MT.SEND_SMS, SUCCESS=1, FAILURE=0, STARTTIME=27/07/2014 17:59:17., 15000
+27/07 18:01:04:553 SEND: ID=20006: SendMT(8926, ACOM_SS, 84923962323, test)
+27/07 18:01:04:933 RECEIVE: ID=20006: SVC0000: costTime=380
+27/07 18:01:04:934 orderId = 482862676, orderDate = 27/07 18:01:04:522, status = 0, cause = success, description = , cost = 382
+27/07 18:01:17:426 ID=465, ALIAS=MT.SEND_SMS, SUCCESS=1, FAILURE=0, STARTTIME=27/07/2014 18:00:02., 15000

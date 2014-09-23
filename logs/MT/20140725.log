@@ -1,0 +1,68 @@
+25/07 15:28:06:079 MT SMS started
+25/07 15:28:06:109 Starting process session
+25/07 15:28:06:144 Testing connection ...
+25/07 15:28:06:505 Created provisioning instance for MTSMS
+25/07 15:28:06:505 Testing connection are success
+25/07 15:28:38:298 orderId = 482862611, orderDate = 25/07 15:28:38:259, status = 4, cause = error, description = , cost = 2
+25/07 15:28:51:512 ID=465, ALIAS=, SUCCESS=0, FAILURE=1, STARTTIME=25/07/2014 15:28:38., 15000
+25/07 15:30:01:005 orderId = 482862612, orderDate = 25/07 15:29:39:435, status = 4, cause = error, description = , cost = 21541
+25/07 15:30:06:527 ID=465, ALIAS=MT.SEND_SMS, SUCCESS=0, FAILURE=1, STARTTIME=25/07/2014 15:28:51., 15000
+25/07 15:31:14:873 orderId = 482862613, orderDate = 25/07 15:31:00:485, status = 4, cause = error, description = , cost = 14363
+25/07 15:31:21:543 ID=465, ALIAS=MT.SEND_SMS, SUCCESS=0, FAILURE=1, STARTTIME=25/07/2014 15:30:06., 15000
+25/07 15:31:41:633 orderId = 482862614, orderDate = 25/07 15:31:32:759, status = 4, cause = error, description = , cost = 8843
+25/07 15:31:51:551 ID=465, ALIAS=MT.SEND_SMS, SUCCESS=0, FAILURE=1, STARTTIME=25/07/2014 15:31:21., 15000
+25/07 15:32:01:392 orderId = 482862615, orderDate = 25/07 15:31:44:629, status = 4, cause = error, description = , cost = 16738
+25/07 15:32:06:555 ID=465, ALIAS=MT.SEND_SMS, SUCCESS=0, FAILURE=1, STARTTIME=25/07/2014 15:31:51., 15000
+25/07 15:33:26:969 MT SMS started
+25/07 15:33:26:996 Starting process session
+25/07 15:33:27:027 Testing connection ...
+25/07 15:33:27:224 Created provisioning instance for MTSMS
+25/07 15:33:27:224 Testing connection are success
+25/07 15:36:19:991 MT SMS started
+25/07 15:36:20:026 Starting process session
+25/07 15:36:20:056 Testing connection ...
+25/07 15:36:20:260 Created provisioning instance for MTSMS
+25/07 15:36:20:260 Testing connection are success
+25/07 15:38:12:863 MT SMS started
+25/07 15:38:12:892 Starting process session
+25/07 15:38:12:923 Testing connection ...
+25/07 15:38:13:122 Created provisioning instance for MTSMS
+25/07 15:38:13:122 Testing connection are success
+25/07 15:38:32:894 SEND: ID=19001: SendMT(8926, ACOM_SS, 84923962323, )
+25/07 15:38:43:338 org.apache.axis.AxisFault: ; nested exception is: 
+	java.net.UnknownHostException: http
+25/07 15:38:43:342 orderId = 482862618, orderDate = 25/07 15:38:22:264, status = 4, cause = error, description = , cost = 18162
+25/07 15:38:58:135 ID=465, ALIAS=, SUCCESS=0, FAILURE=1, STARTTIME=25/07/2014 15:38:43., 15000
+25/07 15:41:46:996 SEND: ID=19002: SendMT(8926, ACOM_SS, 84923962323, test)
+25/07 15:42:42:199 org.apache.axis.AxisFault: ; nested exception is: 
+	java.net.UnknownHostException: http
+25/07 15:42:42:200 orderId = 482862619, orderDate = 25/07 15:41:34:970, status = 4, cause = timeout, description = , cost = 63187
+25/07 15:42:43:177 ID=465, ALIAS=MT.SEND_SMS, SUCCESS=0, FAILURE=1, STARTTIME=25/07/2014 15:38:58., 15000
+25/07 15:48:38:090 SEND: ID=19003: SendMT(8926, ACOM_SS, 84923962323, test)
+25/07 15:48:47:327 org.apache.axis.AxisFault: ; nested exception is: 
+	java.net.UnknownHostException: http
+25/07 15:48:47:327 orderId = 482862620, orderDate = 25/07 15:48:35:382, status = 4, cause = error, description = , cost = 11917
+25/07 15:48:50:920 Close pool
+25/07 15:48:50:923 End of process session
+25/07 15:48:50:925 MT SMS stopped
+25/07 15:48:52:938 MT SMS started
+25/07 15:48:52:970 Starting process session
+25/07 15:48:53:000 Close pool
+25/07 15:48:53:000 Close pool
+25/07 15:48:53:000 Testing connection ...
+25/07 15:49:00:698 Created provisioning instance for MTSMS
+25/07 15:49:00:699 Testing connection are success
+25/07 15:49:12:940 Close pool
+25/07 15:49:12:943 End of process session
+25/07 15:49:12:943 MT SMS stopped
+25/07 15:49:14:961 MT SMS started
+25/07 15:49:14:990 Starting process session
+25/07 15:49:15:019 Close pool
+25/07 15:49:15:019 Close pool
+25/07 15:49:15:019 Testing connection ...
+25/07 15:49:20:667 Created provisioning instance for MTSMS
+25/07 15:49:20:667 Testing connection are success
+25/07 15:49:24:768 SEND: ID=19004: SendMT(8926, ACOM_SS, 84923962323, test)
+25/07 15:49:26:020 RECEIVE: ID=19004: SVC0000: costTime=1251
+25/07 15:49:26:035 orderId = 482862621, orderDate = 25/07 15:49:23:096, status = 0, cause = success, description = , cost = 2907
+25/07 15:49:35:670 ID=465, ALIAS=MT.SEND_SMS, SUCCESS=1, FAILURE=1, STARTTIME=25/07/2014 15:42:43., 15000

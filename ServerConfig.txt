@@ -1,0 +1,30 @@
+PortID=3323
+MaxConnectionAllowed=10
+LoadingMethod=1
+
+queueServerEnable=true
+connectionFactory=30
+
+c3p0-config=c3p0-config.xml
+
+queue.factory=jms/CCS
+queue.connection=dedicated
+# queue.connection=sharing
+queue.factory.imqAddressList=192.168.88.223:7676
+queue.factory.imqAckTimeout=60000
+queue.factory.imqConsumerFlowLimitPrefetch=true
+queue.factory.imqConsumerFlowLimit=100
+queue.factory.imqSocketConnectTimeout=60000
+queue.factory.imqOverrideJMSDeliveryMode=true
+#imqJMSDeliveryMode: 2 persistent, 1 non-persistent
+queue.factory.imqJMSDeliveryMode=1
+
+queue.orderRoute=queue/OrderRoute
+queue.orderResponse=queue/OrderResponse
+vt.orderResponse=vt/OrderResponse
+sub.orderResponse=sub/OrderResponse
+queue.alarm=queue/Alarm
+queue.commandRoute=queue/CommandRoute
+queue.commandLog=queue/CommandLog
+queue.commandCallback=queue/CommandCallback
+queue.commandStatistic=queue/CommandStatistic

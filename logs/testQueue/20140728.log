@@ -1,0 +1,21 @@
+28/07 09:42:32:512 Order Response started
+28/07 09:42:32:561 Starting process session
+28/07 09:42:33:600 VT Order Response started
+28/07 09:42:33:682 Starting process session
+28/07 09:43:36:666 End of process session
+28/07 09:43:36:667 VT Order Response stopped
+28/07 09:43:38:681 VT Order Response started
+28/07 09:43:38:713 Starting process session
+28/07 09:46:04:637 Order Response started
+28/07 09:46:04:684 Starting process session
+28/07 09:47:39:311 orderId = 0, orderDate = 27/07 20:06:33:000, isdn = 84923962323, status = 4, cause = invalid-syntax, description = null, response date: , order cost: 49266311, update cost: 0, Queue cost: 0, Create cost: 1
+28/07 09:48:00:501 orderId = 0, orderDate = 28/07 09:47:33:000, isdn = 84923962323, status = 4, cause = invalid-syntax, description = null, response date: , order cost: 27501, update cost: 0, Queue cost: 0, Create cost: 1
+28/07 09:48:20:150 orderId = 482862679, orderDate = 28/07 09:48:17:943, isdn = 84923962323, status = 0, cause = success, description = , response date: 28/07 09:48:19:317, order cost: 2207, update cost: 14, Queue cost: 0, Create cost: 1
+28/07 10:00:00:684 Order Response started
+28/07 10:00:00:777 Starting process session
+28/07 10:01:11:128 Order Response started
+28/07 10:01:11:248 Starting process session
+28/07 10:05:09:799 Order Response started
+28/07 10:05:09:865 Starting process session
+28/07 15:28:43:623 Order Response started
+28/07 15:28:43:767 Starting process session

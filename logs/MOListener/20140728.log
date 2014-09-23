@@ -1,0 +1,17 @@
+28/07 10:01:32:296 MOListener started
+28/07 10:01:32:316 Starting process session
+28/07 10:01:50:610 REQ: /
+28/07 10:01:50:612 RESP: requestId=,isdn=,400
+28/07 10:01:50:647 REQ: /favicon.ico
+28/07 10:01:50:648 RESP: requestId=,isdn=,400
+28/07 10:04:08:873 REQ: /?Username=acom&Password=acomvnm123&shortcode=8926&MSISDN=84923962323&requestId=53126685&requestDate=20140728093108&productCode=ACOM_SS&cmdcode=DKSS&msgbody=DK%20SS&amount=5000.0
+28/07 10:05:32:936 MOListener started
+28/07 10:05:32:963 Starting process session
+28/07 10:05:45:516 REQ: /?Username=acom&Password=acomvnm123&shortcode=8926&MSISDN=84923962323&requestId=53126685&requestDate=20140728093108&productCode=ACOM_SS&cmdcode=DKSS&msgbody=DK%20SS&amount=5000.0
+28/07 10:06:15:704 RESP: requestId=53126685,isdn=84923962323,202
+28/07 10:06:16:069 REQ: /favicon.ico
+28/07 10:06:16:069 RESP: requestId=,isdn=,400
+28/07 10:07:11:495 REQ: /?Username=acom&Password=acomvnm123&shortcode=8926&MSISDN=84923962323&requestId=53126686&requestDate=20140728093108&productCode=ACOM_SS&cmdcode=HUYSS&msgbody=HUY%20SS&amount=5000.0
+28/07 10:07:14:439 RESP: requestId=53126686,isdn=84923962323,202
+28/07 10:07:14:533 REQ: /favicon.ico
+28/07 10:07:14:533 RESP: requestId=,isdn=,400

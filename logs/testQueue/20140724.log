@@ -1,0 +1,200 @@
+24/07 08:32:30:569 orderId = 482862443, orderDate = 24/07 08:32:29:559, isdn = 84967289976, status = 0, cause = success, description = , response date: 24/07 08:32:30:086, order cost: 1010, update cost: 17, Queue cost: 1, Create cost: 1
+24/07 08:32:40:586 orderId = 482862444, orderDate = 24/07 08:32:39:580, isdn = 84967289976, status = 4, cause = correct, description = , response date: 24/07 08:32:39:678, order cost: 1006, update cost: 18, Queue cost: 0, Create cost: 2
+24/07 08:43:05:466 Order Response started
+24/07 08:43:05:523 Starting process session
+24/07 08:44:16:728 orderId = 482862450, orderDate = 24/07 08:43:59:974, isdn = 84967289976, status = 4, cause = wrong, description = , response date: 24/07 08:44:00:072, order cost: 16754, update cost: 16, Queue cost: 10777, Create cost: 4743
+24/07 08:45:01:193 orderId = 482862451, orderDate = 24/07 08:44:59:759, isdn = 84967289976, status = 4, cause = wrong, description = , response date: 24/07 08:44:59:834, order cost: 1434, update cost: 22, Queue cost: 0, Create cost: 1330
+24/07 08:45:06:446 orderId = 482862452, orderDate = 24/07 08:45:05:057, isdn = 84967289976, status = 4, cause = correct, description = , response date: 24/07 08:45:05:109, order cost: 1389, update cost: 11, Queue cost: 0, Create cost: 1321
+24/07 08:48:51:494 orderId = 482862453, orderDate = 24/07 08:48:38:234, isdn = 84967289976, status = 4, cause = wrong, description = , response date: 24/07 08:48:38:317, order cost: 13260, update cost: 13, Queue cost: 9819, Create cost: 3086
+24/07 08:49:00:966 orderId = 482862454, orderDate = 24/07 08:48:54:948, isdn = 84967289976, status = 4, cause = over-confirm, description = , response date: , order cost: 6018, update cost: 24, Queue cost: 4109, Create cost: 1570
+24/07 08:49:08:923 orderId = 482862455, orderDate = 24/07 08:49:07:334, isdn = 84967289976, status = 4, cause = over-confirm, description = , response date: , order cost: 1589, update cost: 20, Queue cost: 1, Create cost: 1522
+24/07 08:49:13:517 orderId = 482862456, orderDate = 24/07 08:49:12:287, isdn = 84967289976, status = 4, cause = over-confirm, description = , response date: , order cost: 1230, update cost: 13, Queue cost: 1, Create cost: 1172
+24/07 09:14:19:904 orderId = 482862457, orderDate = 24/07 09:14:18:168, isdn = 84967289976, status = 4, cause = over-confirm, description = , response date: , order cost: 1736, update cost: 20, Queue cost: 0, Create cost: 1676
+24/07 09:14:23:400 orderId = 482862458, orderDate = 24/07 09:14:22:048, isdn = 84967289976, status = 4, cause = over-confirm, description = , response date: , order cost: 1352, update cost: 11, Queue cost: 1, Create cost: 1301
+24/07 09:14:56:112 orderId = 482862459, orderDate = 24/07 09:14:54:345, isdn = 84967289976, status = 4, cause = over-confirm, description = , response date: , order cost: 1767, update cost: 23, Queue cost: 0, Create cost: 1697
+24/07 09:17:50:217 take long time when database connection : 323
+24/07 09:17:51:120 orderId = 482862460, orderDate = 24/07 09:17:46:917, isdn = 84967289976, status = 4, cause = over-confirm, description = , response date: , order cost: 4203, update cost: 13, Queue cost: 0, Create cost: 889
+24/07 09:18:20:905 orderId = 482862461, orderDate = 24/07 09:18:12:555, isdn = 84967289976, status = 4, cause = over-confirm, description = , response date: , order cost: 8350, update cost: 15, Queue cost: 0, Create cost: 177
+24/07 09:18:52:859 End of process session
+24/07 09:18:52:860 Order Response stopped
+24/07 09:18:54:876 Order Response started
+24/07 09:18:54:905 Starting process session
+24/07 09:19:03:894 orderId = 482862462, orderDate = 24/07 09:19:01:657, isdn = 84967289976, status = 4, cause = over-confirm, description = , response date: , order cost: 2237, update cost: 15, Queue cost: 1, Create cost: 518
+24/07 09:19:08:871 orderId = 482862463, orderDate = 24/07 09:19:07:134, isdn = 84967289976, status = 4, cause = over-confirm, description = , response date: , order cost: 1725, update cost: 16, Queue cost: 0, Create cost: 441
+24/07 09:19:13:226 orderId = 482862464, orderDate = 24/07 09:19:11:843, isdn = 84967289976, status = 4, cause = over-confirm, description = , response date: , order cost: 1383, update cost: 15, Queue cost: 0, Create cost: 346
+24/07 09:19:15:295 orderId = 482862464, orderDate = 24/07 09:19:11:843, isdn = 84967289976, status = 4, cause = over-confirm, description = , response date: , order cost: 3452, update cost: 12, Queue cost: 0, Create cost: 1026
+24/07 09:19:26:649 orderId = 482862465, orderDate = 24/07 09:19:25:328, isdn = 84967289976, status = 4, cause = over-confirm, description = , response date: , order cost: 1321, update cost: 37, Queue cost: 0, Create cost: 1243
+24/07 09:19:29:784 orderId = 482862466, orderDate = 24/07 09:19:28:710, isdn = 84967289976, status = 4, cause = over-confirm, description = , response date: , order cost: 1074, update cost: 12, Queue cost: 1, Create cost: 1007
+24/07 09:19:33:103 orderId = 482862466, orderDate = 24/07 09:19:28:710, isdn = 84967289976, status = 4, cause = over-confirm, description = , response date: , order cost: 4393, update cost: 13, Queue cost: 0, Create cost: 3276
+24/07 09:19:46:855 orderId = 482862467, orderDate = 24/07 09:19:44:970, isdn = 84967289976, status = 4, cause = over-confirm, description = , response date: , order cost: 1885, update cost: 16, Queue cost: 0, Create cost: 1826
+24/07 09:19:55:421 orderId = 482862468, orderDate = 24/07 09:19:49:170, isdn = 84967289976, status = 4, cause = over-confirm, description = , response date: , order cost: 6251, update cost: 12, Queue cost: 0, Create cost: 6198
+24/07 09:20:04:300 orderId = 482862468, orderDate = 24/07 09:19:49:170, isdn = 84967289976, status = 4, cause = over-confirm, description = , response date: , order cost: 15130, update cost: 11, Queue cost: 0, Create cost: 8865
+24/07 09:20:09:319 orderId = 482862469, orderDate = 24/07 09:20:08:070, isdn = 84967289976, status = 4, cause = over-confirm, description = , response date: , order cost: 1249, update cost: 28, Queue cost: 0, Create cost: 1192
+24/07 09:20:24:427 orderId = 482862470, orderDate = 24/07 09:20:11:845, isdn = 84967289976, status = 4, cause = over-confirm, description = , response date: , order cost: 12582, update cost: 10, Queue cost: 1, Create cost: 12536
+24/07 09:20:36:574 orderId = 482862470, orderDate = 24/07 09:20:11:845, isdn = 84967289976, status = 4, cause = over-confirm, description = , response date: , order cost: 24729, update cost: 11, Queue cost: 0, Create cost: 12103
+24/07 09:21:00:912 End of process session
+24/07 09:21:00:912 Order Response stopped
+24/07 09:21:02:928 Order Response started
+24/07 09:21:02:949 Starting process session
+24/07 09:21:07:982 orderId = 482862471, orderDate = 24/07 09:21:06:253, isdn = 84967289976, status = 4, cause = over-confirm, description = , response date: , order cost: 1729, update cost: 29, Queue cost: 0, Create cost: 1659
+24/07 09:21:12:189 orderId = 482862472, orderDate = 24/07 09:21:11:079, isdn = 84967289976, status = 4, cause = over-confirm, description = , response date: , order cost: 1110, update cost: 14, Queue cost: 0, Create cost: 1058
+24/07 09:21:16:654 orderId = 482862473, orderDate = 24/07 09:21:15:173, isdn = 84967289976, status = 4, cause = over-confirm, description = , response date: , order cost: 1481, update cost: 12, Queue cost: 1, Create cost: 1443
+24/07 09:21:28:173 orderId = 482862474, orderDate = 24/07 09:21:28:119, isdn = 84967289976, status = 4, cause = over-confirm, description = , response date: , order cost: 54, update cost: 13, Queue cost: 0, Create cost: 0
+24/07 09:21:29:824 orderId = 482862475, orderDate = 24/07 09:21:29:785, isdn = 84967289976, status = 4, cause = over-confirm, description = , response date: , order cost: 39, update cost: 10, Queue cost: 0, Create cost: 1
+24/07 09:27:32:886 Order Response started
+24/07 09:27:32:930 Starting process session
+24/07 09:28:57:622 orderId = 482862476, orderDate = 24/07 09:28:57:263, isdn = 84967289977, status = 0, cause = success, description = , response date: 24/07 09:28:57:488, order cost: 359, update cost: 8, Queue cost: 0, Create cost: 4
+24/07 09:29:14:400 orderId = 482862477, orderDate = 24/07 09:29:14:286, isdn = 84967289977, status = 4, cause = correct, description = , response date: 24/07 09:29:14:377, order cost: 114, update cost: 15, Queue cost: 0, Create cost: 1
+24/07 09:34:16:765 Order Response started
+24/07 09:34:16:830 Starting process session
+24/07 09:34:41:733 orderId = 482862478, orderDate = 24/07 09:34:41:590, isdn = 84967289977, status = 4, cause = correct, description = , response date: 24/07 09:34:41:689, order cost: 143, update cost: 22, Queue cost: 1, Create cost: 4
+24/07 09:34:58:359 orderId = 482862479, orderDate = 24/07 09:34:58:255, isdn = 84967289977, status = 4, cause = correct, description = , response date: 24/07 09:34:58:339, order cost: 104, update cost: 13, Queue cost: 0, Create cost: 1
+24/07 09:36:42:560 orderId = 482862480, orderDate = 24/07 09:36:38:352, isdn = 84967289977, status = 4, cause = correct, description = , response date: 24/07 09:36:38:435, order cost: 4208, update cost: 15, Queue cost: 0, Create cost: 2
+24/07 09:36:57:099 orderId = 482862481, orderDate = 24/07 09:36:45:536, isdn = 84967289977, status = 4, cause = correct, description = , response date: 24/07 09:36:45:617, order cost: 11563, update cost: 6865, Queue cost: 3, Create cost: 1
+24/07 09:37:40:162 orderId = 482862482, orderDate = 24/07 09:37:19:914, isdn = 84967289977, status = 4, cause = wrong, description = , response date: 24/07 09:37:19:993, order cost: 19602, update cost: 11118, Queue cost: 1321, Create cost: 413
+24/07 09:38:14:502 orderId = 482862483, orderDate = 24/07 09:38:12:112, isdn = 84967289977, status = 4, cause = correct, description = , response date: 24/07 09:38:12:217, order cost: 2390, update cost: 12, Queue cost: 0, Create cost: 1
+24/07 09:39:01:822 orderId = 482862484, orderDate = 24/07 09:38:59:686, isdn = 84967289977, status = 4, cause = wrong, description = , response date: 24/07 09:38:59:767, order cost: 2136, update cost: 13, Queue cost: 0, Create cost: 9
+24/07 09:39:06:586 orderId = 482862485, orderDate = 24/07 09:39:05:353, isdn = 84967289977, status = 4, cause = wrong, description = , response date: 24/07 09:39:05:424, order cost: 1233, update cost: 24, Queue cost: 1, Create cost: 1
+24/07 09:39:30:946 orderId = 482862486, orderDate = 24/07 09:39:29:493, isdn = 84967289977, status = 4, cause = wrong, description = , response date: 24/07 09:39:29:571, order cost: 1453, update cost: 12, Queue cost: 0, Create cost: 1
+24/07 09:39:35:525 orderId = 482862487, orderDate = 24/07 09:39:34:172, isdn = 84967289977, status = 4, cause = over-confirm, description = , response date: , order cost: 1353, update cost: 24, Queue cost: 0, Create cost: 5
+24/07 09:40:12:961 orderId = 482862488, orderDate = 24/07 09:40:10:642, isdn = 84967289977, status = 4, cause = over-confirm, description = , response date: , order cost: 2319, update cost: 45, Queue cost: 0, Create cost: 1
+24/07 09:40:28:148 orderId = 482862489, orderDate = 24/07 09:40:17:331, isdn = 84967289977, status = 4, cause = over-confirm, description = , response date: , order cost: 10817, update cost: 12, Queue cost: 5067, Create cost: 1375
+24/07 09:41:17:725 orderId = 482862490, orderDate = 24/07 09:41:15:774, isdn = 84967289977, status = 4, cause = over-confirm, description = , response date: , order cost: 1951, update cost: 13, Queue cost: 0, Create cost: 1
+24/07 09:41:22:637 orderId = 482862491, orderDate = 24/07 09:41:21:048, isdn = 84967289977, status = 4, cause = over-confirm, description = , response date: , order cost: 1589, update cost: 14, Queue cost: 0, Create cost: 1
+24/07 09:41:27:383 orderId = 482862492, orderDate = 24/07 09:41:25:978, isdn = 84967289977, status = 4, cause = over-confirm, description = , response date: , order cost: 1405, update cost: 14, Queue cost: 1, Create cost: 1
+24/07 09:41:34:567 orderId = 482862493, orderDate = 24/07 09:41:34:517, isdn = 84967289977, status = 4, cause = over-confirm, description = , response date: , order cost: 50, update cost: 11, Queue cost: 0, Create cost: 2
+24/07 09:41:35:891 orderId = 482862494, orderDate = 24/07 09:41:35:843, isdn = 84967289977, status = 4, cause = over-confirm, description = , response date: , order cost: 48, update cost: 15, Queue cost: 1, Create cost: 0
+24/07 09:41:36:870 orderId = 482862495, orderDate = 24/07 09:41:36:797, isdn = 84967289977, status = 4, cause = over-confirm, description = , response date: , order cost: 73, update cost: 31, Queue cost: 0, Create cost: 1
+24/07 09:41:37:565 orderId = 482862496, orderDate = 24/07 09:41:37:508, isdn = 84967289977, status = 4, cause = over-confirm, description = , response date: , order cost: 57, update cost: 22, Queue cost: 1, Create cost: 4
+24/07 09:41:38:335 orderId = 482862497, orderDate = 24/07 09:41:38:256, isdn = 84967289977, status = 4, cause = over-confirm, description = , response date: , order cost: 79, update cost: 20, Queue cost: 0, Create cost: 2
+24/07 09:41:52:298 orderId = 482862498, orderDate = 24/07 09:41:52:255, isdn = 84967289977, status = 4, cause = over-confirm, description = , response date: , order cost: 43, update cost: 14, Queue cost: 0, Create cost: 0
+24/07 09:41:53:080 orderId = 482862499, orderDate = 24/07 09:41:53:031, isdn = 84967289977, status = 4, cause = over-confirm, description = , response date: , order cost: 49, update cost: 11, Queue cost: 1, Create cost: 0
+24/07 09:41:53:850 orderId = 482862500, orderDate = 24/07 09:41:53:814, isdn = 84967289977, status = 4, cause = over-confirm, description = , response date: , order cost: 36, update cost: 11, Queue cost: 0, Create cost: 1
+24/07 10:13:59:175 Order Response started
+24/07 10:13:59:225 Starting process session
+24/07 10:15:13:158 orderId = 482862501, orderDate = 24/07 10:15:12:783, isdn = 84967289978, status = 0, cause = success, description = , response date: 24/07 10:15:13:019, order cost: 375, update cost: 10, Queue cost: 2, Create cost: 5
+24/07 10:18:46:193 Order Response started
+24/07 10:18:46:249 Starting process session
+24/07 10:20:29:818 orderId = 482862502, orderDate = 24/07 10:20:19:723, isdn = 84967289978, status = 4, cause = correct, description = , response date: 24/07 10:20:29:759, order cost: 10095, update cost: 18, Queue cost: 1, Create cost: 3
+24/07 10:21:47:747 Order Response started
+24/07 10:21:47:802 Starting process session
+24/07 10:22:14:053 orderId = 482862503, orderDate = 24/07 10:22:13:504, isdn = 84967289978, status = 4, cause = correct, description = , response date: 24/07 10:22:13:996, order cost: 549, update cost: 15, Queue cost: 1, Create cost: 10
+24/07 10:39:35:041 Order Response started
+24/07 10:39:35:108 Starting process session
+24/07 10:40:15:130 orderId = 482862504, orderDate = 24/07 10:40:13:298, isdn = 84967289978, status = 4, cause = wrong, description = Confirm success, response date: 24/07 10:40:15:079, order cost: 1832, update cost: 25, Queue cost: 0, Create cost: 4
+24/07 10:55:56:085 Order Response started
+24/07 10:55:56:135 Starting process session
+24/07 10:56:33:636 orderId = 482862505, orderDate = 24/07 10:56:26:362, isdn = 84967289978, status = 0, cause = correct, description = Confirm success, response date: 24/07 10:56:27:798, order cost: 7274, update cost: 20, Queue cost: 1, Create cost: 3
+24/07 11:46:14:351 Order Response started
+24/07 11:46:14:394 Starting process session
+24/07 11:47:36:812 orderId = 482862511, orderDate = 24/07 11:46:39:803, isdn = 84967289978, status = 4, cause = registered, description = , response date: , order cost: 57009, update cost: 38, Queue cost: 0, Create cost: 7
+24/07 13:30:57:534 Order Response started
+24/07 13:30:57:595 Starting process session
+24/07 13:31:40:883 orderId = 482862512, orderDate = 24/07 13:31:31:909, isdn = 84967289978, status = 4, cause = registered, description = , response date: , order cost: 8974, update cost: 15, Queue cost: 1, Create cost: 3
+24/07 13:33:36:453 Order Response started
+24/07 13:33:36:517 Starting process session
+24/07 13:35:39:926 Order Response started
+24/07 13:35:39:979 Starting process session
+24/07 13:36:36:512 orderId = 482862515, orderDate = 24/07 13:36:04:802, isdn = 84967289978, status = 4, cause = registered, description = , response date: , order cost: 31710, update cost: 10, Queue cost: 0, Create cost: 9
+24/07 13:37:37:824 orderId = 482862516, orderDate = 24/07 13:37:37:645, isdn = 84967289978, status = 4, cause = registered, description = , response date: , order cost: 179, update cost: 13, Queue cost: 1, Create cost: 2
+24/07 14:34:33:954 Order Response started
+24/07 14:34:34:008 Starting process session
+24/07 14:35:22:289 orderId = 482862517, orderDate = 24/07 14:35:22:122, isdn = 84967289979, status = 4, cause = error, description = null, response date: , order cost: 167, update cost: 19, Queue cost: 0, Create cost: 8
+24/07 14:38:39:570 orderId = 482862518, orderDate = 24/07 14:37:38:386, isdn = 84967289979, status = 4, cause = error, description = null, response date: , order cost: 61184, update cost: 13, Queue cost: 0, Create cost: 6
+24/07 14:39:41:448 Order Response started
+24/07 14:39:41:501 Starting process session
+24/07 14:40:32:711 orderId = 482862520, orderDate = 24/07 14:39:57:018, isdn = 84967289979, status = 4, cause = registered, description = , response date: , order cost: 35693, update cost: 18, Queue cost: 0, Create cost: 4
+24/07 14:40:54:710 orderId = 482862521, orderDate = 24/07 14:40:54:335, isdn = 84967289979, status = 4, cause = error, description = null, response date: , order cost: 375, update cost: 22, Queue cost: 1, Create cost: 1
+24/07 14:42:29:812 orderId = 482862522, orderDate = 24/07 14:42:29:634, isdn = 84967289979, status = 0, cause = wrong, description = Confirm success, response date: 24/07 14:42:29:786, order cost: 178, update cost: 18, Queue cost: 1, Create cost: 1
+24/07 14:42:46:691 orderId = 482862523, orderDate = 24/07 14:42:46:564, isdn = 84967289979, status = 0, cause = wrong, description = Confirm success, response date: 24/07 14:42:46:671, order cost: 127, update cost: 14, Queue cost: 0, Create cost: 1
+24/07 14:42:57:240 orderId = 482862524, orderDate = 24/07 14:42:57:145, isdn = 84967289979, status = 0, cause = correct, description = Confirm success, response date: 24/07 14:42:57:219, order cost: 95, update cost: 12, Queue cost: 0, Create cost: 2
+24/07 14:44:02:117 orderId = 482862525, orderDate = 24/07 14:44:01:983, isdn = 84967289979, status = 0, cause = wrong, description = Confirm success, response date: 24/07 14:44:02:090, order cost: 134, update cost: 14, Queue cost: 0, Create cost: 1
+24/07 14:44:09:615 orderId = 482862526, orderDate = 24/07 14:44:09:475, isdn = 84967289979, status = 0, cause = correct, description = Confirm success, response date: 24/07 14:44:09:583, order cost: 140, update cost: 13, Queue cost: 0, Create cost: 12
+24/07 14:44:13:625 orderId = 482862527, orderDate = 24/07 14:44:13:501, isdn = 84967289979, status = 0, cause = wrong, description = Confirm success, response date: 24/07 14:44:13:595, order cost: 124, update cost: 19, Queue cost: 0, Create cost: 1
+24/07 14:44:20:121 orderId = 482862528, orderDate = 24/07 14:44:20:035, isdn = 84967289979, status = 0, cause = wrong, description = Confirm success, response date: 24/07 14:44:20:102, order cost: 86, update cost: 12, Queue cost: 0, Create cost: 0
+24/07 14:44:23:175 orderId = 482862529, orderDate = 24/07 14:44:22:854, isdn = 84967289979, status = 0, cause = correct, description = Confirm success, response date: 24/07 14:44:23:153, order cost: 321, update cost: 12, Queue cost: 0, Create cost: 1
+24/07 14:44:26:716 orderId = 482862530, orderDate = 24/07 14:44:26:622, isdn = 84967289979, status = 0, cause = correct, description = Confirm success, response date: 24/07 14:44:26:697, order cost: 94, update cost: 13, Queue cost: 0, Create cost: 1
+24/07 14:44:30:375 orderId = 482862531, orderDate = 24/07 14:44:30:293, isdn = 84967289979, status = 0, cause = wrong, description = Confirm success, response date: 24/07 14:44:30:355, order cost: 82, update cost: 12, Queue cost: 0, Create cost: 1
+24/07 14:45:18:662 orderId = 482862532, orderDate = 24/07 14:45:18:530, isdn = 84967289979, status = 0, cause = wrong, description = Confirm success, response date: 24/07 14:45:18:638, order cost: 132, update cost: 16, Queue cost: 0, Create cost: 1
+24/07 14:45:22:337 orderId = 482862533, orderDate = 24/07 14:45:22:221, isdn = 84967289979, status = 0, cause = correct, description = Confirm success, response date: 24/07 14:45:22:315, order cost: 116, update cost: 12, Queue cost: 0, Create cost: 1
+24/07 14:45:24:774 orderId = 482862534, orderDate = 24/07 14:45:24:656, isdn = 84967289979, status = 0, cause = correct, description = Confirm success, response date: 24/07 14:45:24:750, order cost: 118, update cost: 15, Queue cost: 0, Create cost: 1
+24/07 14:45:27:188 orderId = 482862535, orderDate = 24/07 14:45:27:087, isdn = 84967289979, status = 0, cause = correct, description = Confirm success, response date: 24/07 14:45:27:166, order cost: 101, update cost: 15, Queue cost: 0, Create cost: 2
+24/07 14:45:29:564 orderId = 482862536, orderDate = 24/07 14:45:29:460, isdn = 84967289979, status = 0, cause = wrong, description = Confirm success, response date: 24/07 14:45:29:546, order cost: 104, update cost: 12, Queue cost: 0, Create cost: 1
+24/07 14:45:37:098 orderId = 482862537, orderDate = 24/07 14:45:37:030, isdn = 84967289979, status = 4, cause = over-confirm, description = , response date: , order cost: 68, update cost: 20, Queue cost: 0, Create cost: 1
+24/07 14:45:57:206 orderId = 482862538, orderDate = 24/07 14:45:57:149, isdn = 84967289979, status = 4, cause = over-confirm, description = , response date: , order cost: 57, update cost: 11, Queue cost: 0, Create cost: 1
+24/07 14:47:08:426 orderId = 482862539, orderDate = 24/07 14:47:08:366, isdn = 84967289979, status = 4, cause = over-confirm, description = , response date: , order cost: 60, update cost: 14, Queue cost: 0, Create cost: 1
+24/07 15:59:27:532 Order Response started
+24/07 15:59:27:588 Starting process session
+24/07 15:59:57:562 orderId = 482862540, orderDate = 24/07 15:59:57:116, isdn = 84967289981, status = 0, cause = success, description = , response date: 24/07 15:59:57:416, order cost: 446, update cost: 18, Queue cost: 1, Create cost: 5
+24/07 16:00:05:197 orderId = 482862541, orderDate = 24/07 16:00:04:985, isdn = 84967289981, status = 0, cause = wrong, description = Confirm success, response date: 24/07 16:00:05:167, order cost: 212, update cost: 14, Queue cost: 1, Create cost: 5
+24/07 16:00:14:709 orderId = 482862542, orderDate = 24/07 16:00:14:590, isdn = 84967289981, status = 0, cause = wrong, description = Confirm success, response date: 24/07 16:00:14:682, order cost: 119, update cost: 16, Queue cost: 0, Create cost: 2
+24/07 16:00:18:127 orderId = 482862543, orderDate = 24/07 16:00:18:025, isdn = 84967289981, status = 0, cause = correct, description = Confirm success, response date: 24/07 16:00:18:109, order cost: 102, update cost: 11, Queue cost: 0, Create cost: 2
+24/07 16:00:20:618 orderId = 482862544, orderDate = 24/07 16:00:20:542, isdn = 84967289981, status = 0, cause = wrong, description = Confirm success, response date: 24/07 16:00:20:599, order cost: 75, update cost: 11, Queue cost: 0, Create cost: 1
+24/07 16:00:23:166 orderId = 482862545, orderDate = 24/07 16:00:23:054, isdn = 84967289981, status = 0, cause = correct, description = Confirm success, response date: 24/07 16:00:23:130, order cost: 112, update cost: 14, Queue cost: 0, Create cost: 1
+24/07 16:00:25:338 orderId = 482862546, orderDate = 24/07 16:00:25:255, isdn = 84967289981, status = 0, cause = wrong, description = Confirm success, response date: 24/07 16:00:25:310, order cost: 83, update cost: 17, Queue cost: 0, Create cost: 7
+24/07 16:00:27:560 orderId = 482862547, orderDate = 24/07 16:00:27:481, isdn = 84967289981, status = 0, cause = wrong, description = Confirm success, response date: 24/07 16:00:27:542, order cost: 79, update cost: 12, Queue cost: 0, Create cost: 1
+24/07 16:00:30:501 orderId = 482862548, orderDate = 24/07 16:00:30:400, isdn = 84967289981, status = 0, cause = correct, description = Confirm success, response date: 24/07 16:00:30:484, order cost: 101, update cost: 12, Queue cost: 0, Create cost: 0
+24/07 16:32:12:647 Order Response started
+24/07 16:32:12:704 Starting process session
+24/07 16:35:32:035 orderId = 482862549, orderDate = 24/07 16:35:31:978, isdn = 84967289995, status = 4, cause = invalid-syntax, description = Send MT Vietel Nonsub Daily, response date: , order cost: 57, update cost: 9, Queue cost: 0, Create cost: 16
+24/07 16:35:32:044 orderId = 482862550, orderDate = 24/07 16:35:32:005, isdn = 84967289996, status = 4, cause = invalid-syntax, description = Send MT Vietel Nonsub Daily, response date: , order cost: 38, update cost: 7, Queue cost: 0, Create cost: 0
+24/07 16:35:32:052 orderId = 482862551, orderDate = 24/07 16:35:32:024, isdn = 84967289974, status = 4, cause = invalid-syntax, description = Send MT Vietel Nonsub Daily, response date: , order cost: 28, update cost: 7, Queue cost: 0, Create cost: 0
+24/07 16:35:32:062 orderId = 482862552, orderDate = 24/07 16:35:32:039, isdn = 84967289991, status = 4, cause = invalid-syntax, description = Send MT Vietel Nonsub Daily, response date: , order cost: 23, update cost: 8, Queue cost: 0, Create cost: 0
+24/07 16:46:45:618 Order Response started
+24/07 16:46:45:669 Starting process session
+24/07 16:47:07:872 com.sun.messaging.jms.JMSException: [C4003]: Error occurred on connection creation [192.168.88.223:7676]. - cause: java.net.ConnectException: Connection timed out: connect
+24/07 16:47:07:872 End of process session
+24/07 16:47:08:873 Starting process session
+24/07 16:47:25:569 com.sun.messaging.jms.JMSException: [C4003]: Error occurred on connection creation [192.168.88.223:7676]. - cause: java.net.SocketException: Software caused connection abort: connect
+24/07 16:47:25:569 End of process session
+24/07 16:47:26:569 Starting process session
+24/07 16:48:06:932 End of process session
+24/07 16:48:06:933 Order Response stopped
+24/07 16:48:08:946 Order Response started
+24/07 16:48:08:968 Starting process session
+24/07 16:48:38:710 orderId = 482862553, orderDate = 24/07 16:48:30:919, isdn = 84967289982, status = 0, cause = success, description = , response date: 24/07 16:48:38:545, order cost: 7791, update cost: 22, Queue cost: 1, Create cost: 19
+24/07 16:48:49:924 orderId = 482862554, orderDate = 24/07 16:48:49:757, isdn = 84967289982, status = 4, cause = registered, description = , response date: , order cost: 167, update cost: 15, Queue cost: 0, Create cost: 2
+24/07 16:48:56:810 orderId = 482862555, orderDate = 24/07 16:48:56:708, isdn = 84967289982, status = 0, cause = wrong, description = Confirm success, response date: 24/07 16:48:56:786, order cost: 102, update cost: 18, Queue cost: 0, Create cost: 1
+24/07 16:48:58:175 orderId = 482862556, orderDate = 24/07 16:48:58:023, isdn = 84967289982, status = 0, cause = wrong, description = Confirm success, response date: 24/07 16:48:58:155, order cost: 151, update cost: 11, Queue cost: 1, Create cost: 0
+24/07 16:48:59:017 orderId = 482862557, orderDate = 24/07 16:48:58:938, isdn = 84967289982, status = 0, cause = correct, description = Confirm success, response date: 24/07 16:48:59:000, order cost: 79, update cost: 12, Queue cost: 0, Create cost: 1
+24/07 16:48:59:781 orderId = 482862558, orderDate = 24/07 16:48:59:702, isdn = 84967289982, status = 0, cause = wrong, description = Confirm success, response date: 24/07 16:48:59:761, order cost: 79, update cost: 13, Queue cost: 0, Create cost: 1
+24/07 16:49:00:469 orderId = 482862559, orderDate = 24/07 16:49:00:379, isdn = 84967289982, status = 0, cause = correct, description = Confirm success, response date: 24/07 16:49:00:443, order cost: 90, update cost: 17, Queue cost: 0, Create cost: 4
+24/07 16:49:01:153 orderId = 482862560, orderDate = 24/07 16:49:01:058, isdn = 84967289982, status = 0, cause = wrong, description = Confirm success, response date: 24/07 16:49:01:130, order cost: 95, update cost: 18, Queue cost: 0, Create cost: 1
+24/07 16:52:55:762 orderId = 482862561, orderDate = 24/07 16:52:55:733, isdn = 84967289959, status = 4, cause = invalid-syntax, description = Send MT Vietel Nonsub Daily, response date: , order cost: 29, update cost: 10, Queue cost: 0, Create cost: 1
+24/07 16:52:55:780 orderId = 482862562, orderDate = 24/07 16:52:55:749, isdn = 84967289979, status = 4, cause = invalid-syntax, description = Send MT Vietel Nonsub Daily, response date: , order cost: 31, update cost: 7, Queue cost: 0, Create cost: 0
+24/07 16:52:55:788 orderId = 482862563, orderDate = 24/07 16:52:55:764, isdn = 84967289971, status = 4, cause = invalid-syntax, description = Send MT Vietel Nonsub Daily, response date: , order cost: 24, update cost: 7, Queue cost: 0, Create cost: 0
+24/07 16:52:55:798 orderId = 482862564, orderDate = 24/07 16:52:55:772, isdn = 84967289973, status = 4, cause = invalid-syntax, description = Send MT Vietel Nonsub Daily, response date: , order cost: 26, update cost: 9, Queue cost: 0, Create cost: 0
+24/07 16:55:51:517 orderId = 482862565, orderDate = 24/07 16:55:51:467, isdn = 84967289979, status = 4, cause = invalid-syntax, description = Send MT Vietel Nonsub Daily, response date: , order cost: 50, update cost: 15, Queue cost: 0, Create cost: 0
+24/07 16:55:51:527 orderId = 482862566, orderDate = 24/07 16:55:51:467, isdn = 84967289974, status = 4, cause = invalid-syntax, description = Send MT Vietel Nonsub Daily, response date: , order cost: 60, update cost: 9, Queue cost: 0, Create cost: 0
+24/07 16:55:51:538 orderId = 482862567, orderDate = 24/07 16:55:51:467, isdn = 84967289959, status = 4, cause = invalid-syntax, description = Send MT Vietel Nonsub Daily, response date: , order cost: 71, update cost: 9, Queue cost: 0, Create cost: 0
+24/07 16:55:51:550 orderId = 482862568, orderDate = 24/07 16:55:51:473, isdn = 84967289971, status = 4, cause = invalid-syntax, description = Send MT Vietel Nonsub Daily, response date: , order cost: 77, update cost: 10, Queue cost: 0, Create cost: 1
+24/07 16:55:51:564 orderId = 482862569, orderDate = 24/07 16:55:51:495, isdn = 84967289972, status = 4, cause = invalid-syntax, description = Send MT Vietel Nonsub Daily, response date: , order cost: 69, update cost: 12, Queue cost: 0, Create cost: 0
+24/07 16:55:51:572 orderId = 482862570, orderDate = 24/07 16:55:51:513, isdn = 84967289973, status = 4, cause = invalid-syntax, description = Send MT Vietel Nonsub Daily, response date: , order cost: 59, update cost: 7, Queue cost: 0, Create cost: 0
+24/07 16:55:51:580 orderId = 482862571, orderDate = 24/07 16:55:51:513, isdn = 84967289929, status = 4, cause = invalid-syntax, description = Send MT Vietel Nonsub Daily, response date: , order cost: 67, update cost: 7, Queue cost: 0, Create cost: 0
+24/07 16:55:51:588 orderId = 482862572, orderDate = 24/07 16:55:51:524, isdn = 84967289969, status = 4, cause = invalid-syntax, description = Send MT Vietel Nonsub Daily, response date: , order cost: 64, update cost: 7, Queue cost: 0, Create cost: 0
+24/07 16:58:56:449 orderId = 482862573, orderDate = 24/07 16:58:56:404, isdn = 84967289974, status = 4, cause = invalid-syntax, description = Send MT Vietel Nonsub Daily, response date: , order cost: 45, update cost: 10, Queue cost: 0, Create cost: 1
+24/07 17:00:42:021 orderId = 482862574, orderDate = 24/07 17:00:25:458, isdn = 84967289974, status = 4, cause = invalid-syntax, description = Send MT Vietel Nonsub Daily, response date: , order cost: 16563, update cost: 37, Queue cost: 0, Create cost: 2
+24/07 17:02:35:106 orderId = 482862575, orderDate = 24/07 17:02:09:244, isdn = 84967289973, status = 4, cause = invalid-syntax, description = Send MT Vietel Nonsub Daily, response date: , order cost: 25862, update cost: 10, Queue cost: 0, Create cost: 0
+24/07 17:03:35:788 take long time when database connection : 7304
+24/07 17:03:46:652 orderId = 482862576, orderDate = 24/07 17:03:25:834, isdn = 84967289972, status = 4, cause = invalid-syntax, description = Send MT Vietel Nonsub Daily, response date: , order cost: 20818, update cost: 1118, Queue cost: 6104, Create cost: 472
+24/07 17:06:14:783 orderId = 482862577, orderDate = 24/07 17:05:28:181, isdn = 84967289972, status = 4, cause = invalid-syntax, description = Send MT Vietel Nonsub Daily, response date: , order cost: 46602, update cost: 13, Queue cost: 0, Create cost: 1
+24/07 17:07:25:760 orderId = 482862578, orderDate = 24/07 17:07:06:322, isdn = 84967289974, status = 4, cause = invalid-syntax, description = Send MT Vietel Nonsub Daily, response date: , order cost: 19438, update cost: 14, Queue cost: 0, Create cost: 1
+24/07 17:08:41:515 orderId = 482862579, orderDate = 24/07 17:08:09:440, isdn = 84967289972, status = 4, cause = invalid-syntax, description = Send MT Vietel Nonsub Daily, response date: , order cost: 32075, update cost: 11, Queue cost: 0, Create cost: 1
+24/07 17:09:04:203 orderId = 482862580, orderDate = 24/07 17:08:55:555, isdn = 84967289972, status = 4, cause = invalid-syntax, description = Send MT Vietel Nonsub Daily, response date: , order cost: 8648, update cost: 11, Queue cost: 0, Create cost: 0
+24/07 17:12:35:266 Order Response started
+24/07 17:12:35:324 Starting process session
+24/07 17:19:44:384 Order Response started
+24/07 17:19:44:435 Starting process session
+24/07 17:20:17:433 orderId = 482862585, orderDate = 24/07 17:20:13:372, isdn = 84967289982, status = 0, cause = wrong, description = Confirm success, response date: 24/07 17:20:15:177, order cost: 4061, update cost: 15, Queue cost: 1, Create cost: 6
+24/07 17:24:09:429 orderId = 482862589, orderDate = 24/07 17:24:04:501, isdn = 84967289971, status = 0, cause = success, description = Send MT Vietel Nonsub Daily, response date: 24/07 17:24:04:568, order cost: 4928, update cost: 1297, Queue cost: 0, Create cost: 1
+24/07 17:27:43:238 Order Response started
+24/07 17:27:43:296 Starting process session
+24/07 17:28:21:879 orderId = 482862590, orderDate = 24/07 17:28:16:846, isdn = 84967289969, status = 0, cause = success, description = Send MT Vietel Nonsub Daily, response date: 24/07 17:28:16:993, order cost: 5033, update cost: 14, Queue cost: 0, Create cost: 16
+24/07 17:28:22:985 orderId = 482862591, orderDate = 24/07 17:28:16:918, isdn = 84967289979, status = 0, cause = success, description = Send MT Vietel Nonsub Daily, response date: 24/07 17:28:17:041, order cost: 6067, update cost: 31, Queue cost: 0, Create cost: 1
+24/07 17:28:23:148 orderId = 482862592, orderDate = 24/07 17:28:16:946, isdn = 84967289971, status = 0, cause = success, description = Send MT Vietel Nonsub Daily, response date: 24/07 17:28:17:063, order cost: 6202, update cost: 13, Queue cost: 0, Create cost: 1
+24/07 17:28:23:342 orderId = 482862593, orderDate = 24/07 17:28:16:967, isdn = 84967289973, status = 0, cause = success, description = Send MT Vietel Nonsub Daily, response date: 24/07 17:28:17:086, order cost: 6375, update cost: 13, Queue cost: 0, Create cost: 1
+24/07 21:18:22:332 Order Response started
+24/07 21:18:22:389 Starting process session
+24/07 21:20:59:007 orderId = 482862600, orderDate = 24/07 21:20:58:766, isdn = 84967289972, status = 0, cause = success, description = , response date: 24/07 21:20:58:963, order cost: 241, update cost: 18, Queue cost: 0, Create cost: 13
+24/07 21:20:59:087 orderId = 482862601, orderDate = 24/07 21:20:58:826, isdn = 84967289974, status = 0, cause = success, description = , response date: 24/07 21:20:59:066, order cost: 261, update cost: 18, Queue cost: 0, Create cost: 1
+24/07 21:20:59:181 orderId = 482862602, orderDate = 24/07 21:20:58:852, isdn = 84967289973, status = 0, cause = success, description = , response date: 24/07 21:20:59:163, order cost: 329, update cost: 12, Queue cost: 0, Create cost: 1

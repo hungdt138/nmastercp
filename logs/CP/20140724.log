@@ -1,0 +1,129 @@
+24/07 08:32:29:920 SEND: ID=12005: http://corellinet.beezzi.com:8080/pixel/pixel_in.php?username=test&password=test&dest=8626&isdn=84967289976&reqid=482862443&requestDate=20140724083229&productCode=ACOMVT00001&cmdcode=GET&msgbody=GET&opid=3
+24/07 08:32:30:020 RECEIVE: ID=12005: success, cpResponse=200: costTime=100
+24/07 08:32:30:020 orderId = 482862443, orderDate = 24/07 08:32:29:559, status = 1, cause = success, description = , cost = 101
+24/07 08:32:40:753 ID=880, ALIAS=CP.MO, SUCCESS=1, FAILURE=0, STARTTIME=23/07/2014 22:49:48., 15000
+24/07 08:43:19:620 CP Sync started
+24/07 08:43:19:650 Starting process session
+24/07 08:43:19:681 Testing connection ...
+24/07 08:43:19:681 Created provisioning instance for CP
+24/07 08:43:19:681 Testing connection are success
+24/07 09:28:40:179 CP Sync started
+24/07 09:28:40:205 Starting process session
+24/07 09:28:40:236 Testing connection ...
+24/07 09:28:40:237 Created provisioning instance for CP
+24/07 09:28:40:237 Testing connection are success
+24/07 09:28:57:338 SEND: ID=13001: http://corellinet.beezzi.com:8080/pixel/pixel_in.php?username=test&password=test&dest=8626&isdn=84967289977&reqid=482862476&requestDate=20140724092857&productCode=ACOMVT00001&cmdcode=GET&msgbody=GET&opid=3
+24/07 09:28:57:438 RECEIVE: ID=13001: success, cpResponse=200: costTime=100
+24/07 09:28:57:441 orderId = 482862476, orderDate = 24/07 09:28:57:263, status = 1, cause = success, description = , cost = 120
+24/07 09:29:10:245 ID=880, ALIAS=, SUCCESS=1, FAILURE=0, STARTTIME=24/07/2014 09:28:57., 15000
+24/07 09:34:29:884 CP Sync started
+24/07 09:34:29:913 Starting process session
+24/07 09:34:29:943 Testing connection ...
+24/07 09:34:29:943 Created provisioning instance for CP
+24/07 09:34:29:943 Testing connection are success
+24/07 10:14:17:318 CP Sync started
+24/07 10:14:17:343 Starting process session
+24/07 10:14:17:373 Testing connection ...
+24/07 10:14:17:374 Created provisioning instance for CP
+24/07 10:14:17:374 Testing connection are success
+24/07 10:15:12:865 SEND: ID=14001: http://corellinet.beezzi.com:8080/pixel/pixel_in.php?username=test&password=test&dest=8626&isdn=84967289978&reqid=482862501&requestDate=20140724101512&productCode=ACOMVT00001&cmdcode=GET&msgbody=GET&opid=3
+24/07 10:15:12:965 RECEIVE: ID=14001: success, cpResponse=200: costTime=100
+24/07 10:15:12:967 orderId = 482862501, orderDate = 24/07 10:15:12:783, status = 1, cause = success, description = , cost = 119
+24/07 10:15:17:401 ID=880, ALIAS=, SUCCESS=1, FAILURE=0, STARTTIME=24/07/2014 10:15:12., 15000
+24/07 10:20:01:334 CP Sync started
+24/07 10:20:01:361 Starting process session
+24/07 10:20:01:391 Testing connection ...
+24/07 10:20:01:391 Created provisioning instance for CP
+24/07 10:20:01:392 Testing connection are success
+24/07 10:22:03:969 CP Sync started
+24/07 10:22:03:995 Starting process session
+24/07 10:22:04:025 Testing connection ...
+24/07 10:22:04:026 Created provisioning instance for CP
+24/07 10:22:04:026 Testing connection are success
+24/07 10:40:00:178 CP Sync started
+24/07 10:40:00:208 Starting process session
+24/07 10:40:00:239 Testing connection ...
+24/07 10:40:00:239 Created provisioning instance for CP
+24/07 10:40:00:239 Testing connection are success
+24/07 10:56:12:295 CP Sync started
+24/07 10:56:12:328 Starting process session
+24/07 10:56:12:358 Testing connection ...
+24/07 10:56:12:358 Created provisioning instance for CP
+24/07 10:56:12:358 Testing connection are success
+24/07 11:46:27:406 CP Sync started
+24/07 11:46:27:429 Starting process session
+24/07 11:46:27:460 Testing connection ...
+24/07 11:46:27:461 Created provisioning instance for CP
+24/07 11:46:27:461 Testing connection are success
+24/07 13:31:20:794 CP Sync started
+24/07 13:31:20:822 Starting process session
+24/07 13:31:20:853 Testing connection ...
+24/07 13:31:20:853 Created provisioning instance for CP
+24/07 13:31:20:853 Testing connection are success
+24/07 13:36:49:142 CP Sync started
+24/07 13:36:49:172 Starting process session
+24/07 13:36:49:203 Testing connection ...
+24/07 13:36:49:203 Created provisioning instance for CP
+24/07 13:36:49:203 Testing connection are success
+24/07 14:34:46:052 CP Sync started
+24/07 14:34:46:081 Starting process session
+24/07 14:34:46:119 Testing connection ...
+24/07 14:34:46:119 Created provisioning instance for CP
+24/07 14:34:46:119 Testing connection are success
+24/07 14:40:41:878 CP Sync started
+24/07 14:40:41:908 Starting process session
+24/07 14:40:41:944 Testing connection ...
+24/07 14:40:41:944 Created provisioning instance for CP
+24/07 14:40:41:944 Testing connection are success
+24/07 15:59:43:741 CP Sync started
+24/07 15:59:43:761 Starting process session
+24/07 15:59:43:793 Testing connection ...
+24/07 15:59:43:793 Created provisioning instance for CP
+24/07 15:59:43:793 Testing connection are success
+24/07 15:59:57:227 SEND: ID=15001: http://corellinet.beezzi.com:8080/pixel/pixel_in.php?username=test&password=test&dest=8626&isdn=84967289981&reqid=482862540&requestDate=20140724155957&productCode=ACOMVT00001&cmdcode=GET&msgbody=GET&opid=3
+24/07 15:59:57:327 RECEIVE: ID=15001: success, cpResponse=200: costTime=100
+24/07 15:59:57:329 orderId = 482862540, orderDate = 24/07 15:59:57:116, status = 1, cause = success, description = , cost = 153
+24/07 15:59:58:794 ID=880, ALIAS=, SUCCESS=1, FAILURE=0, STARTTIME=24/07/2014 15:59:57., 15000
+24/07 16:32:33:827 CP Sync started
+24/07 16:32:33:850 Starting process session
+24/07 16:32:33:883 Testing connection ...
+24/07 16:32:33:883 Created provisioning instance for CP
+24/07 16:32:33:883 Testing connection are success
+24/07 16:47:43:845 CP Sync started
+24/07 16:47:43:865 Starting process session
+24/07 16:47:43:901 Testing connection ...
+24/07 16:47:43:901 Created provisioning instance for CP
+24/07 16:47:43:901 Testing connection are success
+24/07 16:48:38:382 SEND: ID=16001: http://corellinet.beezzi.com:8080/pixel/pixel_in.php?username=test&password=test&dest=8626&isdn=84967289982&reqid=482862553&requestDate=20140724164830&productCode=ACOMVT00001&cmdcode=GET&msgbody=GET&opid=3
+24/07 16:48:38:482 RECEIVE: ID=16001: success, cpResponse=200: costTime=100
+24/07 16:48:38:483 orderId = 482862553, orderDate = 24/07 16:48:30:919, status = 1, cause = success, description = , cost = 124
+24/07 16:48:43:921 ID=880, ALIAS=, SUCCESS=1, FAILURE=0, STARTTIME=24/07/2014 16:48:38., 15000
+24/07 17:12:49:557 CP Sync started
+24/07 17:12:49:589 Starting process session
+24/07 17:12:49:630 Testing connection ...
+24/07 17:12:49:630 Created provisioning instance for CP
+24/07 17:20:01:559 CP Sync started
+24/07 17:20:01:589 Starting process session
+24/07 17:20:01:620 Testing connection ...
+24/07 17:20:01:620 Created provisioning instance for CP
+24/07 17:20:01:620 Testing connection are success
+24/07 17:27:56:483 CP Sync started
+24/07 17:27:56:520 Starting process session
+24/07 17:27:56:550 Testing connection ...
+24/07 17:27:56:550 Created provisioning instance for CP
+24/07 17:27:56:550 Testing connection are success
+24/07 21:18:40:510 CP Sync started
+24/07 21:18:40:537 Starting process session
+24/07 21:18:40:568 Testing connection ...
+24/07 21:18:40:569 Created provisioning instance for CP
+24/07 21:18:40:569 Testing connection are success
+24/07 21:20:58:848 SEND: ID=17001: http://corellinet.beezzi.com:8080/pixel/pixel_in.php?username=test&password=test&dest=8626&isdn=84967289972&reqid=482862600&requestDate=20140724212058&productCode=ACOMVT00001&cmdcode=ACOMVT00001_UNREG&msgbody=ACOMVT00001_UNREG&opid=3
+24/07 21:20:58:948 RECEIVE: ID=17001: success, cpResponse=200: costTime=100
+24/07 21:20:58:949 orderId = 482862600, orderDate = 24/07 21:20:58:766, status = 1, cause = success, description = , cost = 120
+24/07 21:20:58:950 SEND: ID=17002: http://corellinet.beezzi.com:8080/pixel/pixel_in.php?username=test&password=test&dest=8626&isdn=84967289974&reqid=482862601&requestDate=20140724212058&productCode=ACOMVT00001&cmdcode=ACOMVT00001_UNREG&msgbody=ACOMVT00001_UNREG&opid=3
+24/07 21:20:59:050 RECEIVE: ID=17002: success, cpResponse=200: costTime=100
+24/07 21:20:59:050 orderId = 482862601, orderDate = 24/07 21:20:58:826, status = 1, cause = success, description = , cost = 100
+24/07 21:20:59:051 SEND: ID=17003: http://corellinet.beezzi.com:8080/pixel/pixel_in.php?username=test&password=test&dest=8626&isdn=84967289973&reqid=482862602&requestDate=20140724212058&productCode=ACOMVT00001&cmdcode=ACOMVT00001_UNREG&msgbody=ACOMVT00001_UNREG&opid=3
+24/07 21:20:59:152 RECEIVE: ID=17003: success, cpResponse=200: costTime=101
+24/07 21:20:59:152 orderId = 482862602, orderDate = 24/07 21:20:58:852, status = 1, cause = success, description = , cost = 101
+24/07 21:21:10:600 ID=880, ALIAS=, SUCCESS=3, FAILURE=0, STARTTIME=24/07/2014 21:20:58., 15000

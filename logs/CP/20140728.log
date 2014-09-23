@@ -1,0 +1,35 @@
+28/07 10:01:40:330 CP Sync started
+28/07 10:01:40:352 Starting process session
+28/07 10:01:50:376 Testing connection ...
+28/07 10:01:50:377 Created provisioning instance for CP
+28/07 10:01:50:377 Testing connection are success
+28/07 10:04:08:996 SEND: ID=22001: http://corellinet.beezzi.com:8080/sms/mo/acom/group/apac/subscription?username=test&password=test&dest=8926&isdn=84923962323&reqid=482862680&requestDate=20140728100408&productCode=MSPSAM800008&cmdcode=&msgbody=&opid=4
+28/07 10:04:09:096 RECEIVE: ID=22001: success, cpResponse=200: costTime=100
+28/07 10:04:09:098 orderId = 482862680, orderDate = 28/07 10:04:08:929, status = 1, cause = success, description = , cost = 119
+28/07 10:04:20:411 ID=880, ALIAS=, SUCCESS=1, FAILURE=0, STARTTIME=28/07/2014 10:04:09., 15000
+28/07 10:06:00:967 CP Sync started
+28/07 10:06:00:992 Starting process session
+28/07 10:06:11:014 Testing connection ...
+28/07 10:06:11:014 Created provisioning instance for CP
+28/07 10:06:11:015 Testing connection are success
+28/07 10:06:11:047 SEND: ID=23001: http://corellinet.beezzi.com:8080/sms/mo/acom/group/apac/subscription?username=test&password=test&dest=8926&isdn=84923962323&reqid=482862681&requestDate=20140728100545&productCode=MSPSAM800008&cmdcode=&msgbody=&opid=4
+28/07 10:06:11:148 RECEIVE: ID=23001: success, cpResponse=200: costTime=100
+28/07 10:06:11:150 orderId = 482862681, orderDate = 28/07 10:05:45:587, status = 1, cause = success, description = , cost = 133
+28/07 10:06:26:020 ID=880, ALIAS=, SUCCESS=1, FAILURE=0, STARTTIME=28/07/2014 10:06:11., 15000
+28/07 10:07:11:556 SEND: ID=23002: http://corellinet.beezzi.com:8080/sms/mo/acom/group/apac/subscription?username=test&password=test&dest=8926&isdn=84923962323&reqid=482862682&requestDate=20140728100711&productCode=MSPSAM800008&cmdcode=&msgbody=&opid=4
+28/07 10:07:11:656 RECEIVE: ID=23002: success, cpResponse=200: costTime=100
+28/07 10:07:11:656 orderId = 482862682, orderDate = 28/07 10:07:11:514, status = 1, cause = success, description = , cost = 101
+28/07 10:07:26:033 ID=880, ALIAS=CP.MO, SUCCESS=1, FAILURE=0, STARTTIME=28/07/2014 10:06:26., 15000
+28/07 15:29:08:787 CP Sync started
+28/07 15:29:08:818 Starting process session
+28/07 15:29:08:849 Testing connection ...
+28/07 15:29:08:849 Created provisioning instance for CP
+28/07 15:29:08:849 Testing connection are success
+28/07 15:29:27:875 SEND: ID=24001: http://corellinet.beezzi.com:8080/pixel/pixel_in.php?username=test&password=test&dest=8626&isdn=84967289990&reqid=482862684&requestDate=20140728152927&productCode=ACOMVT00002&cmdcode=HOT&msgbody=HOT&opid=3
+28/07 15:29:27:975 RECEIVE: ID=24001: success, cpResponse=200: costTime=100
+28/07 15:29:28:001 orderId = 482862684, orderDate = 28/07 15:29:27:648, status = 1, cause = success, description = , cost = 179
+28/07 15:29:38:856 ID=880, ALIAS=, SUCCESS=1, FAILURE=0, STARTTIME=28/07/2014 15:29:28., 15000
+28/07 15:33:53:299 SEND: ID=24002: http://corellinet.beezzi.com:8080/pixel/pixel_in.php?username=test&password=test&dest=8626&isdn=84967289990&reqid=482862685&requestDate=20140728153353&productCode=ACOMVT00003&cmdcode=CHAT&msgbody=CHAT&opid=3
+28/07 15:33:53:399 RECEIVE: ID=24002: success, cpResponse=200: costTime=100
+28/07 15:33:53:399 orderId = 482862685, orderDate = 28/07 15:33:53:257, status = 1, cause = success, description = , cost = 104
+28/07 15:33:53:908 ID=880, ALIAS=CP.MO, SUCCESS=1, FAILURE=0, STARTTIME=28/07/2014 15:29:38., 15000

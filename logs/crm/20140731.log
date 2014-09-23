@@ -1,0 +1,9 @@
+31/07 16:44:15:305 CRM started
+31/07 16:44:15:350 Starting process session
+31/07 16:44:51:953 Testing connection ...
+31/07 16:44:51:953 Created provisioning instance for CRM
+31/07 16:44:51:953 Testing connection are success
+31/07 16:47:41:317 orderId = 482880633, orderDate = 31/07 16:46:39:481, status = 4, cause = timeout, description = , cost = 65
+31/07 16:47:51:990 ID=971, ALIAS=, SUCCESS=0, FAILURE=1, STARTTIME=31/07/2014 16:47:41., 15000
+31/07 16:48:21:513 orderId = 482880634, orderDate = 31/07 16:48:16:179, status = 4, cause = registered, description = , cost = 42
+31/07 16:48:21:996 ID=971, ALIAS=CRM.SUBSCRIPTION_REGIST, SUCCESS=0, FAILURE=1, STARTTIME=31/07/2014 16:47:51., 15000

@@ -1,0 +1,1042 @@
+26/07 10:05:48:632 Queue Monitor started
+26/07 10:05:48:687 Starting process session
+26/07 10:05:58:744 
+Memory information:
+	 :: Free memory            : 288 MB
+	 :: Allocated memory       : 309 MB
+	 :: Max memory             : 1,342 MB
+	 :: Total free memory      : 1,321 MB
+	 :: Total free memory      : 98 (%)
+	 :: Disk in used           : 70,599/154,805 MB, Used 45 (%) (/)
+	 :: Total running thread   : 42
+
+Database connection status: 
+	 Number database connection			: 10
+	 Number busy database connection	: 0
+	 Number idle database connection	: 10
+	 Number idle database connection	: 0
+
+Local queue status: 
+Local queue (queue/CommandLog): 0
+Local queue (queue/CommandStatistic): 0/500
+Local queue (queue/MonitorLog): 14/5000
+Local queue (): 0
+Local queue (queue/OrderRoute): 0/500
+Local queue (queue/CommandRoute): 0/500
+Local queue (queue/OrderResponse): 0/4000
+Local queue (queue/CRM): 0/500
+
+Remote queue status: 
+Total command request for queue/OrderRoute : 0
+Total command request for queue/OrderResponse : 0
+
+26/07 10:06:03:759 
+Memory information:
+	 :: Free memory            : 286 MB
+	 :: Allocated memory       : 309 MB
+	 :: Max memory             : 1,342 MB
+	 :: Total free memory      : 1,319 MB
+	 :: Total free memory      : 98 (%)
+	 :: Disk in used           : 70,599/154,805 MB, Used 45 (%) (/)
+	 :: Total running thread   : 41
+
+Database connection status: 
+	 Number database connection			: 10
+	 Number busy database connection	: 0
+	 Number idle database connection	: 10
+	 Number idle database connection	: 0
+
+Local queue status: 
+Local queue (queue/CommandLog): 0
+Local queue (queue/CommandStatistic): 0/500
+Local queue (queue/MonitorLog): 0/5000
+Local queue (): 0
+Local queue (queue/OrderRoute): 0/500
+Local queue (queue/CommandRoute): 0/500
+Local queue (queue/OrderResponse): 0/4000
+Local queue (queue/CRM): 0/500
+
+Remote queue status: 
+Total command request for queue/OrderRoute : 0
+Total command request for queue/OrderResponse : 0
+
+26/07 10:06:08:781 
+Memory information:
+	 :: Free memory            : 282 MB
+	 :: Allocated memory       : 309 MB
+	 :: Max memory             : 1,342 MB
+	 :: Total free memory      : 1,315 MB
+	 :: Total free memory      : 97 (%)
+	 :: Disk in used           : 70,599/154,805 MB, Used 45 (%) (/)
+	 :: Total running thread   : 41
+
+Database connection status: 
+	 Number database connection			: 5
+	 Number busy database connection	: 0
+	 Number idle database connection	: 5
+	 Number idle database connection	: 0
+
+Local queue status: 
+Local queue (queue/CommandLog): 0
+Local queue (queue/CommandStatistic): 0/500
+Local queue (queue/MonitorLog): 0/5000
+Local queue (): 0
+Local queue (queue/OrderRoute): 0/500
+Local queue (queue/CommandRoute): 0/500
+Local queue (queue/OrderResponse): 0/4000
+Local queue (queue/CRM): 0/500
+
+Remote queue status: 
+Total command request for queue/OrderRoute : 0
+Total command request for queue/OrderResponse : 0
+
+26/07 10:06:13:795 
+Memory information:
+	 :: Free memory            : 281 MB
+	 :: Allocated memory       : 309 MB
+	 :: Max memory             : 1,342 MB
+	 :: Total free memory      : 1,314 MB
+	 :: Total free memory      : 97 (%)
+	 :: Disk in used           : 70,599/154,805 MB, Used 45 (%) (/)
+	 :: Total running thread   : 41
+
+Database connection status: 
+	 Number database connection			: 5
+	 Number busy database connection	: 0
+	 Number idle database connection	: 5
+	 Number idle database connection	: 0
+
+Local queue status: 
+Local queue (queue/CommandLog): 0
+Local queue (queue/CommandStatistic): 0/500
+Local queue (queue/MonitorLog): 0/5000
+Local queue (): 0
+Local queue (queue/OrderRoute): 0/500
+Local queue (queue/CommandRoute): 0/500
+Local queue (queue/OrderResponse): 0/4000
+Local queue (queue/CRM): 0/500
+
+Remote queue status: 
+Total command request for queue/OrderRoute : 0
+Total command request for queue/OrderResponse : 0
+
+26/07 10:06:18:813 
+Memory information:
+	 :: Free memory            : 280 MB
+	 :: Allocated memory       : 309 MB
+	 :: Max memory             : 1,342 MB
+	 :: Total free memory      : 1,313 MB
+	 :: Total free memory      : 97 (%)
+	 :: Disk in used           : 70,599/154,805 MB, Used 45 (%) (/)
+	 :: Total running thread   : 41
+
+Database connection status: 
+	 Number database connection			: 5
+	 Number busy database connection	: 0
+	 Number idle database connection	: 5
+	 Number idle database connection	: 0
+
+Local queue status: 
+Local queue (queue/CommandLog): 0
+Local queue (queue/CommandStatistic): 0/500
+Local queue (queue/MonitorLog): 0/5000
+Local queue (): 0
+Local queue (queue/OrderRoute): 0/500
+Local queue (queue/CommandRoute): 0/500
+Local queue (queue/OrderResponse): 0/4000
+Local queue (queue/CRM): 0/500
+
+Remote queue status: 
+Total command request for queue/OrderRoute : 0
+Total command request for queue/OrderResponse : 0
+
+26/07 10:06:23:828 
+Memory information:
+	 :: Free memory            : 278 MB
+	 :: Allocated memory       : 309 MB
+	 :: Max memory             : 1,342 MB
+	 :: Total free memory      : 1,311 MB
+	 :: Total free memory      : 97 (%)
+	 :: Disk in used           : 70,599/154,805 MB, Used 45 (%) (/)
+	 :: Total running thread   : 41
+
+Database connection status: 
+	 Number database connection			: 5
+	 Number busy database connection	: 0
+	 Number idle database connection	: 5
+	 Number idle database connection	: 0
+
+Local queue status: 
+Local queue (queue/CommandLog): 0
+Local queue (queue/CommandStatistic): 0/500
+Local queue (queue/MonitorLog): 0/5000
+Local queue (): 0
+Local queue (queue/OrderRoute): 0/500
+Local queue (queue/CommandRoute): 0/500
+Local queue (queue/OrderResponse): 0/4000
+Local queue (queue/CRM): 0/500
+
+Remote queue status: 
+Total command request for queue/OrderRoute : 0
+Total command request for queue/OrderResponse : 0
+
+26/07 10:06:28:846 
+Memory information:
+	 :: Free memory            : 277 MB
+	 :: Allocated memory       : 309 MB
+	 :: Max memory             : 1,342 MB
+	 :: Total free memory      : 1,310 MB
+	 :: Total free memory      : 97 (%)
+	 :: Disk in used           : 70,599/154,805 MB, Used 45 (%) (/)
+	 :: Total running thread   : 41
+
+Database connection status: 
+	 Number database connection			: 5
+	 Number busy database connection	: 0
+	 Number idle database connection	: 5
+	 Number idle database connection	: 0
+
+Local queue status: 
+Local queue (queue/CommandLog): 0
+Local queue (queue/CommandStatistic): 0/500
+Local queue (queue/MonitorLog): 0/5000
+Local queue (): 0
+Local queue (queue/OrderRoute): 0/500
+Local queue (queue/CommandRoute): 0/500
+Local queue (queue/OrderResponse): 0/4000
+Local queue (queue/CRM): 0/500
+
+Remote queue status: 
+Total command request for queue/OrderRoute : 0
+Total command request for queue/OrderResponse : 0
+
+26/07 10:06:33:861 
+Memory information:
+	 :: Free memory            : 277 MB
+	 :: Allocated memory       : 309 MB
+	 :: Max memory             : 1,342 MB
+	 :: Total free memory      : 1,310 MB
+	 :: Total free memory      : 97 (%)
+	 :: Disk in used           : 70,599/154,805 MB, Used 45 (%) (/)
+	 :: Total running thread   : 41
+
+Database connection status: 
+	 Number database connection			: 5
+	 Number busy database connection	: 0
+	 Number idle database connection	: 5
+	 Number idle database connection	: 0
+
+Local queue status: 
+Local queue (queue/CommandLog): 0
+Local queue (queue/CommandStatistic): 0/500
+Local queue (queue/MonitorLog): 0/5000
+Local queue (): 0
+Local queue (queue/OrderRoute): 0/500
+Local queue (queue/CommandRoute): 0/500
+Local queue (queue/OrderResponse): 0/4000
+Local queue (queue/CRM): 0/500
+
+Remote queue status: 
+Total command request for queue/OrderRoute : 0
+Total command request for queue/OrderResponse : 0
+
+26/07 10:06:38:879 
+Memory information:
+	 :: Free memory            : 277 MB
+	 :: Allocated memory       : 309 MB
+	 :: Max memory             : 1,342 MB
+	 :: Total free memory      : 1,310 MB
+	 :: Total free memory      : 97 (%)
+	 :: Disk in used           : 70,599/154,805 MB, Used 45 (%) (/)
+	 :: Total running thread   : 41
+
+Database connection status: 
+	 Number database connection			: 5
+	 Number busy database connection	: 0
+	 Number idle database connection	: 5
+	 Number idle database connection	: 0
+
+Local queue status: 
+Local queue (queue/CommandLog): 0
+Local queue (queue/CommandStatistic): 0/500
+Local queue (queue/MonitorLog): 0/5000
+Local queue (): 0
+Local queue (queue/OrderRoute): 0/500
+Local queue (queue/CommandRoute): 0/500
+Local queue (queue/OrderResponse): 0/4000
+Local queue (queue/CRM): 0/500
+
+Remote queue status: 
+Total command request for queue/OrderRoute : 0
+Total command request for queue/OrderResponse : 0
+
+26/07 10:06:43:894 
+Memory information:
+	 :: Free memory            : 276 MB
+	 :: Allocated memory       : 309 MB
+	 :: Max memory             : 1,342 MB
+	 :: Total free memory      : 1,309 MB
+	 :: Total free memory      : 97 (%)
+	 :: Disk in used           : 70,599/154,805 MB, Used 45 (%) (/)
+	 :: Total running thread   : 41
+
+Database connection status: 
+	 Number database connection			: 5
+	 Number busy database connection	: 0
+	 Number idle database connection	: 5
+	 Number idle database connection	: 0
+
+Local queue status: 
+Local queue (queue/CommandLog): 0
+Local queue (queue/CommandStatistic): 0/500
+Local queue (queue/MonitorLog): 0/5000
+Local queue (): 0
+Local queue (queue/OrderRoute): 0/500
+Local queue (queue/CommandRoute): 0/500
+Local queue (queue/OrderResponse): 0/4000
+Local queue (queue/CRM): 0/500
+
+Remote queue status: 
+Total command request for queue/OrderRoute : 0
+Total command request for queue/OrderResponse : 0
+
+26/07 10:06:48:910 
+Memory information:
+	 :: Free memory            : 273 MB
+	 :: Allocated memory       : 309 MB
+	 :: Max memory             : 1,342 MB
+	 :: Total free memory      : 1,306 MB
+	 :: Total free memory      : 97 (%)
+	 :: Disk in used           : 70,599/154,805 MB, Used 45 (%) (/)
+	 :: Total running thread   : 41
+
+Database connection status: 
+	 Number database connection			: 5
+	 Number busy database connection	: 0
+	 Number idle database connection	: 5
+	 Number idle database connection	: 0
+
+Local queue status: 
+Local queue (queue/CommandLog): 0
+Local queue (queue/CommandStatistic): 0/500
+Local queue (queue/MonitorLog): 0/5000
+Local queue (): 0
+Local queue (queue/OrderRoute): 0/500
+Local queue (queue/CommandRoute): 0/500
+Local queue (queue/OrderResponse): 0/4000
+Local queue (queue/CRM): 0/500
+
+Remote queue status: 
+Total command request for queue/OrderRoute : 0
+Total command request for queue/OrderResponse : 0
+
+26/07 10:06:53:925 
+Memory information:
+	 :: Free memory            : 268 MB
+	 :: Allocated memory       : 309 MB
+	 :: Max memory             : 1,342 MB
+	 :: Total free memory      : 1,300 MB
+	 :: Total free memory      : 96 (%)
+	 :: Disk in used           : 70,599/154,805 MB, Used 45 (%) (/)
+	 :: Total running thread   : 43
+
+Database connection status: 
+	 Number database connection			: 5
+	 Number busy database connection	: 0
+	 Number idle database connection	: 5
+	 Number idle database connection	: 0
+
+Local queue status: 
+Local queue (queue/CommandLog): 0
+Local queue (queue/CommandStatistic): 0/500
+Local queue (queue/MonitorLog): 0/5000
+Local queue (): 0
+Local queue (queue/OrderRoute): 0/500
+Local queue (queue/CommandRoute): 0/500
+Local queue (queue/OrderResponse): 0/4000
+Local queue (queue/CRM): 0/500
+
+Remote queue status: 
+Total command request for queue/OrderRoute : 0
+Total command request for queue/OrderResponse : 0
+
+26/07 10:06:58:940 
+Memory information:
+	 :: Free memory            : 261 MB
+	 :: Allocated memory       : 309 MB
+	 :: Max memory             : 1,342 MB
+	 :: Total free memory      : 1,294 MB
+	 :: Total free memory      : 96 (%)
+	 :: Disk in used           : 70,599/154,805 MB, Used 45 (%) (/)
+	 :: Total running thread   : 46
+
+Database connection status: 
+	 Number database connection			: 5
+	 Number busy database connection	: 0
+	 Number idle database connection	: 5
+	 Number idle database connection	: 0
+
+Local queue status: 
+Local queue (queue/CommandLog): 0
+Local queue (queue/CommandStatistic): 0/500
+Local queue (queue/MonitorLog): 0/5000
+Local queue (): 0
+Local queue (queue/OrderRoute): 0/500
+Local queue (queue/CommandRoute): 0/500
+Local queue (queue/OrderResponse): 0/4000
+Local queue (queue/CRM): 0/500
+
+Remote queue status: 
+Total command request for queue/OrderRoute : 0
+Total command request for queue/OrderResponse : 0
+
+26/07 10:07:03:957 
+Memory information:
+	 :: Free memory            : 261 MB
+	 :: Allocated memory       : 309 MB
+	 :: Max memory             : 1,342 MB
+	 :: Total free memory      : 1,294 MB
+	 :: Total free memory      : 96 (%)
+	 :: Disk in used           : 70,599/154,805 MB, Used 45 (%) (/)
+	 :: Total running thread   : 46
+
+Database connection status: 
+	 Number database connection			: 5
+	 Number busy database connection	: 0
+	 Number idle database connection	: 5
+	 Number idle database connection	: 0
+
+Local queue status: 
+Local queue (queue/CommandLog): 0
+Local queue (queue/CommandStatistic): 0/500
+Local queue (queue/MonitorLog): 0/5000
+Local queue (): 0
+Local queue (queue/OrderRoute): 0/500
+Local queue (queue/CommandRoute): 0/500
+Local queue (queue/OrderResponse): 0/4000
+Local queue (queue/CRM): 0/500
+
+Remote queue status: 
+Total command request for queue/OrderRoute : 0
+Total command request for queue/OrderResponse : 0
+
+26/07 10:07:08:974 
+Memory information:
+	 :: Free memory            : 260 MB
+	 :: Allocated memory       : 309 MB
+	 :: Max memory             : 1,342 MB
+	 :: Total free memory      : 1,293 MB
+	 :: Total free memory      : 96 (%)
+	 :: Disk in used           : 70,599/154,805 MB, Used 45 (%) (/)
+	 :: Total running thread   : 47
+
+Database connection status: 
+	 Number database connection			: 5
+	 Number busy database connection	: 0
+	 Number idle database connection	: 5
+	 Number idle database connection	: 0
+
+Local queue status: 
+Local queue (queue/CommandLog): 0
+Local queue (queue/CommandStatistic): 0/500
+Local queue (queue/MonitorLog): 0/5000
+Local queue (): 0
+Local queue (queue/OrderRoute): 0/500
+Local queue (queue/CommandRoute): 0/500
+Local queue (queue/OrderResponse): 0/4000
+Local queue (queue/CRM): 0/500
+Local queue (queue/VT8X26): 0/500
+
+Remote queue status: 
+Total command request for queue/OrderRoute : 0
+Total command request for queue/OrderResponse : 0
+
+26/07 10:07:13:989 
+Memory information:
+	 :: Free memory            : 260 MB
+	 :: Allocated memory       : 309 MB
+	 :: Max memory             : 1,342 MB
+	 :: Total free memory      : 1,293 MB
+	 :: Total free memory      : 96 (%)
+	 :: Disk in used           : 70,599/154,805 MB, Used 45 (%) (/)
+	 :: Total running thread   : 47
+
+Database connection status: 
+	 Number database connection			: 5
+	 Number busy database connection	: 0
+	 Number idle database connection	: 5
+	 Number idle database connection	: 0
+
+Local queue status: 
+Local queue (queue/CommandLog): 0
+Local queue (queue/CommandStatistic): 0/500
+Local queue (queue/MonitorLog): 0/5000
+Local queue (): 0
+Local queue (queue/OrderRoute): 0/500
+Local queue (queue/CommandRoute): 0/500
+Local queue (queue/OrderResponse): 0/4000
+Local queue (queue/CRM): 0/500
+Local queue (queue/VT8X26): 0/500
+
+Remote queue status: 
+Total command request for queue/OrderRoute : 0
+Total command request for queue/OrderResponse : 0
+
+26/07 10:07:19:006 
+Memory information:
+	 :: Free memory            : 257 MB
+	 :: Allocated memory       : 309 MB
+	 :: Max memory             : 1,342 MB
+	 :: Total free memory      : 1,290 MB
+	 :: Total free memory      : 96 (%)
+	 :: Disk in used           : 70,599/154,805 MB, Used 45 (%) (/)
+	 :: Total running thread   : 47
+
+Database connection status: 
+	 Number database connection			: 5
+	 Number busy database connection	: 0
+	 Number idle database connection	: 5
+	 Number idle database connection	: 0
+
+Local queue status: 
+Local queue (queue/CommandLog): 0
+Local queue (queue/CommandStatistic): 0/500
+Local queue (queue/MonitorLog): 0/5000
+Local queue (): 0
+Local queue (queue/OrderRoute): 0/500
+Local queue (queue/CommandRoute): 0/500
+Local queue (queue/OrderResponse): 0/4000
+Local queue (queue/CRM): 0/500
+Local queue (queue/VT8X26): 0/500
+
+Remote queue status: 
+Total command request for queue/OrderRoute : 0
+Total command request for queue/OrderResponse : 0
+
+26/07 10:07:24:023 
+Memory information:
+	 :: Free memory            : 256 MB
+	 :: Allocated memory       : 309 MB
+	 :: Max memory             : 1,342 MB
+	 :: Total free memory      : 1,289 MB
+	 :: Total free memory      : 96 (%)
+	 :: Disk in used           : 70,599/154,805 MB, Used 45 (%) (/)
+	 :: Total running thread   : 47
+
+Database connection status: 
+	 Number database connection			: 5
+	 Number busy database connection	: 0
+	 Number idle database connection	: 5
+	 Number idle database connection	: 0
+
+Local queue status: 
+Local queue (queue/CommandLog): 0
+Local queue (queue/CommandStatistic): 0/500
+Local queue (queue/MonitorLog): 0/5000
+Local queue (): 0
+Local queue (queue/OrderRoute): 0/500
+Local queue (queue/CommandRoute): 0/500
+Local queue (queue/OrderResponse): 0/4000
+Local queue (queue/CRM): 0/500
+Local queue (queue/VT8X26): 0/500
+
+Remote queue status: 
+Total command request for queue/OrderRoute : 0
+Total command request for queue/OrderResponse : 0
+
+26/07 10:07:29:039 
+Memory information:
+	 :: Free memory            : 256 MB
+	 :: Allocated memory       : 309 MB
+	 :: Max memory             : 1,342 MB
+	 :: Total free memory      : 1,289 MB
+	 :: Total free memory      : 96 (%)
+	 :: Disk in used           : 70,599/154,805 MB, Used 45 (%) (/)
+	 :: Total running thread   : 47
+
+Database connection status: 
+	 Number database connection			: 5
+	 Number busy database connection	: 0
+	 Number idle database connection	: 5
+	 Number idle database connection	: 0
+
+Local queue status: 
+Local queue (queue/CommandLog): 0
+Local queue (queue/CommandStatistic): 0/500
+Local queue (queue/MonitorLog): 0/5000
+Local queue (): 0
+Local queue (queue/OrderRoute): 0/500
+Local queue (queue/CommandRoute): 0/500
+Local queue (queue/OrderResponse): 0/4000
+Local queue (queue/CRM): 0/500
+Local queue (queue/VT8X26): 0/500
+
+Remote queue status: 
+Total command request for queue/OrderRoute : 0
+Total command request for queue/OrderResponse : 0
+
+26/07 10:07:34:053 
+Memory information:
+	 :: Free memory            : 256 MB
+	 :: Allocated memory       : 309 MB
+	 :: Max memory             : 1,342 MB
+	 :: Total free memory      : 1,289 MB
+	 :: Total free memory      : 96 (%)
+	 :: Disk in used           : 70,599/154,805 MB, Used 45 (%) (/)
+	 :: Total running thread   : 47
+
+Database connection status: 
+	 Number database connection			: 5
+	 Number busy database connection	: 0
+	 Number idle database connection	: 5
+	 Number idle database connection	: 0
+
+Local queue status: 
+Local queue (queue/CommandLog): 0
+Local queue (queue/CommandStatistic): 0/500
+Local queue (queue/MonitorLog): 0/5000
+Local queue (): 0
+Local queue (queue/OrderRoute): 0/500
+Local queue (queue/CommandRoute): 0/500
+Local queue (queue/OrderResponse): 0/4000
+Local queue (queue/CRM): 0/500
+Local queue (queue/VT8X26): 0/500
+
+Remote queue status: 
+Total command request for queue/OrderRoute : 0
+Total command request for queue/OrderResponse : 0
+
+26/07 10:07:39:071 
+Memory information:
+	 :: Free memory            : 256 MB
+	 :: Allocated memory       : 309 MB
+	 :: Max memory             : 1,342 MB
+	 :: Total free memory      : 1,289 MB
+	 :: Total free memory      : 96 (%)
+	 :: Disk in used           : 70,599/154,805 MB, Used 45 (%) (/)
+	 :: Total running thread   : 47
+
+Database connection status: 
+	 Number database connection			: 5
+	 Number busy database connection	: 0
+	 Number idle database connection	: 5
+	 Number idle database connection	: 0
+
+Local queue status: 
+Local queue (queue/CommandLog): 0
+Local queue (queue/CommandStatistic): 0/500
+Local queue (queue/MonitorLog): 0/5000
+Local queue (): 0
+Local queue (queue/OrderRoute): 0/500
+Local queue (queue/CommandRoute): 0/500
+Local queue (queue/OrderResponse): 0/4000
+Local queue (queue/CRM): 0/500
+Local queue (queue/VT8X26): 0/500
+
+Remote queue status: 
+Total command request for queue/OrderRoute : 0
+Total command request for queue/OrderResponse : 0
+
+26/07 10:07:44:088 
+Memory information:
+	 :: Free memory            : 255 MB
+	 :: Allocated memory       : 309 MB
+	 :: Max memory             : 1,342 MB
+	 :: Total free memory      : 1,288 MB
+	 :: Total free memory      : 96 (%)
+	 :: Disk in used           : 70,599/154,805 MB, Used 45 (%) (/)
+	 :: Total running thread   : 47
+
+Database connection status: 
+	 Number database connection			: 5
+	 Number busy database connection	: 0
+	 Number idle database connection	: 5
+	 Number idle database connection	: 0
+
+Local queue status: 
+Local queue (queue/CommandLog): 0
+Local queue (queue/CommandStatistic): 0/500
+Local queue (queue/MonitorLog): 0/5000
+Local queue (): 0
+Local queue (queue/OrderRoute): 0/500
+Local queue (queue/CommandRoute): 0/500
+Local queue (queue/OrderResponse): 0/4000
+Local queue (queue/CRM): 0/500
+Local queue (queue/VT8X26): 0/500
+
+Remote queue status: 
+Total command request for queue/OrderRoute : 0
+Total command request for queue/OrderResponse : 0
+
+26/07 10:07:49:106 
+Memory information:
+	 :: Free memory            : 255 MB
+	 :: Allocated memory       : 309 MB
+	 :: Max memory             : 1,342 MB
+	 :: Total free memory      : 1,288 MB
+	 :: Total free memory      : 95 (%)
+	 :: Disk in used           : 70,599/154,805 MB, Used 45 (%) (/)
+	 :: Total running thread   : 47
+
+Database connection status: 
+	 Number database connection			: 5
+	 Number busy database connection	: 0
+	 Number idle database connection	: 5
+	 Number idle database connection	: 0
+
+Local queue status: 
+Local queue (queue/CommandLog): 0
+Local queue (queue/CommandStatistic): 0/500
+Local queue (queue/MonitorLog): 0/5000
+Local queue (): 0
+Local queue (queue/OrderRoute): 0/500
+Local queue (queue/CommandRoute): 0/500
+Local queue (queue/OrderResponse): 0/4000
+Local queue (queue/CRM): 0/500
+Local queue (queue/VT8X26): 0/500
+
+Remote queue status: 
+Total command request for queue/OrderRoute : 0
+Total command request for queue/OrderResponse : 0
+
+26/07 10:07:54:124 
+Memory information:
+	 :: Free memory            : 251 MB
+	 :: Allocated memory       : 309 MB
+	 :: Max memory             : 1,342 MB
+	 :: Total free memory      : 1,284 MB
+	 :: Total free memory      : 95 (%)
+	 :: Disk in used           : 70,599/154,805 MB, Used 45 (%) (/)
+	 :: Total running thread   : 48
+
+Database connection status: 
+	 Number database connection			: 5
+	 Number busy database connection	: 0
+	 Number idle database connection	: 5
+	 Number idle database connection	: 0
+
+Local queue status: 
+Local queue (queue/CommandLog): 0
+Local queue (queue/CommandStatistic): 0/500
+Local queue (queue/MonitorLog): 0/5000
+Local queue (): 0
+Local queue (queue/OrderRoute): 0/500
+Local queue (queue/CommandRoute): 0/500
+Local queue (queue/OrderResponse): 0/4000
+Local queue (queue/CRM): 0/500
+Local queue (queue/VT8X26): 0/500
+
+Remote queue status: 
+Total command request for queue/OrderRoute : 0
+Total command request for queue/OrderResponse : 0
+
+26/07 10:07:59:143 
+Memory information:
+	 :: Free memory            : 250 MB
+	 :: Allocated memory       : 309 MB
+	 :: Max memory             : 1,342 MB
+	 :: Total free memory      : 1,283 MB
+	 :: Total free memory      : 95 (%)
+	 :: Disk in used           : 70,599/154,805 MB, Used 45 (%) (/)
+	 :: Total running thread   : 48
+
+Database connection status: 
+	 Number database connection			: 5
+	 Number busy database connection	: 0
+	 Number idle database connection	: 5
+	 Number idle database connection	: 0
+
+Local queue status: 
+Local queue (queue/CommandLog): 0
+Local queue (queue/CommandStatistic): 0/500
+Local queue (queue/MonitorLog): 0/5000
+Local queue (): 0
+Local queue (queue/OrderRoute): 0/500
+Local queue (queue/CommandRoute): 0/500
+Local queue (queue/OrderResponse): 0/4000
+Local queue (queue/CRM): 0/500
+Local queue (queue/VT8X26): 0/500
+
+Remote queue status: 
+Total command request for queue/OrderRoute : 0
+Total command request for queue/OrderResponse : 0
+
+26/07 10:08:04:156 
+Memory information:
+	 :: Free memory            : 249 MB
+	 :: Allocated memory       : 309 MB
+	 :: Max memory             : 1,342 MB
+	 :: Total free memory      : 1,282 MB
+	 :: Total free memory      : 95 (%)
+	 :: Disk in used           : 70,599/154,805 MB, Used 45 (%) (/)
+	 :: Total running thread   : 48
+
+Database connection status: 
+	 Number database connection			: 5
+	 Number busy database connection	: 0
+	 Number idle database connection	: 5
+	 Number idle database connection	: 0
+
+Local queue status: 
+Local queue (queue/CommandLog): 0
+Local queue (queue/CommandStatistic): 0/500
+Local queue (queue/MonitorLog): 0/5000
+Local queue (): 0
+Local queue (queue/OrderRoute): 0/500
+Local queue (queue/CommandRoute): 0/500
+Local queue (queue/OrderResponse): 0/4000
+Local queue (queue/CRM): 0/500
+Local queue (queue/VT8X26): 0/500
+
+Remote queue status: 
+Total command request for queue/OrderRoute : 0
+Total command request for queue/OrderResponse : 0
+
+26/07 10:08:09:172 
+Memory information:
+	 :: Free memory            : 249 MB
+	 :: Allocated memory       : 309 MB
+	 :: Max memory             : 1,342 MB
+	 :: Total free memory      : 1,282 MB
+	 :: Total free memory      : 95 (%)
+	 :: Disk in used           : 70,599/154,805 MB, Used 45 (%) (/)
+	 :: Total running thread   : 48
+
+Database connection status: 
+	 Number database connection			: 5
+	 Number busy database connection	: 0
+	 Number idle database connection	: 5
+	 Number idle database connection	: 0
+
+Local queue status: 
+Local queue (queue/CommandLog): 0
+Local queue (queue/CommandStatistic): 0/500
+Local queue (queue/MonitorLog): 0/5000
+Local queue (): 0
+Local queue (queue/OrderRoute): 0/500
+Local queue (queue/CommandRoute): 0/500
+Local queue (queue/OrderResponse): 0/4000
+Local queue (queue/CRM): 0/500
+Local queue (queue/VT8X26): 0/500
+
+Remote queue status: 
+Total command request for queue/OrderRoute : 0
+Total command request for queue/OrderResponse : 0
+
+26/07 10:08:14:191 
+Memory information:
+	 :: Free memory            : 249 MB
+	 :: Allocated memory       : 309 MB
+	 :: Max memory             : 1,342 MB
+	 :: Total free memory      : 1,282 MB
+	 :: Total free memory      : 95 (%)
+	 :: Disk in used           : 70,599/154,805 MB, Used 45 (%) (/)
+	 :: Total running thread   : 48
+
+Database connection status: 
+	 Number database connection			: 5
+	 Number busy database connection	: 0
+	 Number idle database connection	: 5
+	 Number idle database connection	: 0
+
+Local queue status: 
+Local queue (queue/CommandLog): 0
+Local queue (queue/CommandStatistic): 0/500
+Local queue (queue/MonitorLog): 0/5000
+Local queue (): 0
+Local queue (queue/OrderRoute): 0/500
+Local queue (queue/CommandRoute): 0/500
+Local queue (queue/OrderResponse): 0/4000
+Local queue (queue/CRM): 0/500
+Local queue (queue/VT8X26): 0/500
+
+Remote queue status: 
+Total command request for queue/OrderRoute : 0
+Total command request for queue/OrderResponse : 0
+
+26/07 10:08:19:210 
+Memory information:
+	 :: Free memory            : 248 MB
+	 :: Allocated memory       : 309 MB
+	 :: Max memory             : 1,342 MB
+	 :: Total free memory      : 1,281 MB
+	 :: Total free memory      : 95 (%)
+	 :: Disk in used           : 70,599/154,805 MB, Used 45 (%) (/)
+	 :: Total running thread   : 48
+
+Database connection status: 
+	 Number database connection			: 5
+	 Number busy database connection	: 0
+	 Number idle database connection	: 5
+	 Number idle database connection	: 0
+
+Local queue status: 
+Local queue (queue/CommandLog): 0
+Local queue (queue/CommandStatistic): 0/500
+Local queue (queue/MonitorLog): 0/5000
+Local queue (): 0
+Local queue (queue/OrderRoute): 0/500
+Local queue (queue/CommandRoute): 0/500
+Local queue (queue/OrderResponse): 0/4000
+Local queue (queue/CRM): 0/500
+Local queue (queue/VT8X26): 0/500
+
+Remote queue status: 
+Total command request for queue/OrderRoute : 0
+Total command request for queue/OrderResponse : 0
+
+26/07 10:08:24:228 
+Memory information:
+	 :: Free memory            : 248 MB
+	 :: Allocated memory       : 309 MB
+	 :: Max memory             : 1,342 MB
+	 :: Total free memory      : 1,281 MB
+	 :: Total free memory      : 95 (%)
+	 :: Disk in used           : 70,599/154,805 MB, Used 45 (%) (/)
+	 :: Total running thread   : 48
+
+Database connection status: 
+	 Number database connection			: 5
+	 Number busy database connection	: 0
+	 Number idle database connection	: 5
+	 Number idle database connection	: 0
+
+Local queue status: 
+Local queue (queue/CommandLog): 0
+Local queue (queue/CommandStatistic): 0/500
+Local queue (queue/MonitorLog): 0/5000
+Local queue (): 0
+Local queue (queue/OrderRoute): 0/500
+Local queue (queue/CommandRoute): 0/500
+Local queue (queue/OrderResponse): 0/4000
+Local queue (queue/CRM): 0/500
+Local queue (queue/VT8X26): 0/500
+
+Remote queue status: 
+Total command request for queue/OrderRoute : 0
+Total command request for queue/OrderResponse : 0
+
+26/07 10:08:29:248 
+Memory information:
+	 :: Free memory            : 248 MB
+	 :: Allocated memory       : 309 MB
+	 :: Max memory             : 1,342 MB
+	 :: Total free memory      : 1,281 MB
+	 :: Total free memory      : 95 (%)
+	 :: Disk in used           : 70,599/154,805 MB, Used 45 (%) (/)
+	 :: Total running thread   : 48
+
+Database connection status: 
+	 Number database connection			: 5
+	 Number busy database connection	: 0
+	 Number idle database connection	: 5
+	 Number idle database connection	: 0
+
+Local queue status: 
+Local queue (queue/CommandLog): 0
+Local queue (queue/CommandStatistic): 0/500
+Local queue (queue/MonitorLog): 0/5000
+Local queue (): 0
+Local queue (queue/OrderRoute): 0/500
+Local queue (queue/CommandRoute): 0/500
+Local queue (queue/OrderResponse): 0/4000
+Local queue (queue/CRM): 0/500
+Local queue (queue/VT8X26): 0/500
+
+Remote queue status: 
+Total command request for queue/OrderRoute : 0
+Total command request for queue/OrderResponse : 0
+
+26/07 10:08:34:266 
+Memory information:
+	 :: Free memory            : 247 MB
+	 :: Allocated memory       : 309 MB
+	 :: Max memory             : 1,342 MB
+	 :: Total free memory      : 1,280 MB
+	 :: Total free memory      : 95 (%)
+	 :: Disk in used           : 70,599/154,805 MB, Used 45 (%) (/)
+	 :: Total running thread   : 48
+
+Database connection status: 
+	 Number database connection			: 5
+	 Number busy database connection	: 0
+	 Number idle database connection	: 5
+	 Number idle database connection	: 0
+
+Local queue status: 
+Local queue (queue/CommandLog): 0
+Local queue (queue/CommandStatistic): 0/500
+Local queue (queue/MonitorLog): 0/5000
+Local queue (): 0
+Local queue (queue/OrderRoute): 0/500
+Local queue (queue/CommandRoute): 0/500
+Local queue (queue/OrderResponse): 0/4000
+Local queue (queue/CRM): 0/500
+Local queue (queue/VT8X26): 0/500
+
+Remote queue status: 
+Total command request for queue/OrderRoute : 0
+Total command request for queue/OrderResponse : 0
+
+26/07 10:08:39:285 
+Memory information:
+	 :: Free memory            : 247 MB
+	 :: Allocated memory       : 309 MB
+	 :: Max memory             : 1,342 MB
+	 :: Total free memory      : 1,280 MB
+	 :: Total free memory      : 95 (%)
+	 :: Disk in used           : 70,599/154,805 MB, Used 45 (%) (/)
+	 :: Total running thread   : 48
+
+Database connection status: 
+	 Number database connection			: 5
+	 Number busy database connection	: 0
+	 Number idle database connection	: 5
+	 Number idle database connection	: 0
+
+Local queue status: 
+Local queue (queue/CommandLog): 0
+Local queue (queue/CommandStatistic): 0/500
+Local queue (queue/MonitorLog): 0/5000
+Local queue (): 0
+Local queue (queue/OrderRoute): 0/500
+Local queue (queue/CommandRoute): 0/500
+Local queue (queue/OrderResponse): 0/4000
+Local queue (queue/CRM): 0/500
+Local queue (queue/VT8X26): 0/500
+
+Remote queue status: 
+Total command request for queue/OrderRoute : 0
+Total command request for queue/OrderResponse : 0
+
+26/07 10:08:44:305 
+Memory information:
+	 :: Free memory            : 247 MB
+	 :: Allocated memory       : 309 MB
+	 :: Max memory             : 1,342 MB
+	 :: Total free memory      : 1,280 MB
+	 :: Total free memory      : 95 (%)
+	 :: Disk in used           : 70,599/154,805 MB, Used 45 (%) (/)
+	 :: Total running thread   : 48
+
+Database connection status: 
+	 Number database connection			: 5
+	 Number busy database connection	: 0
+	 Number idle database connection	: 5
+	 Number idle database connection	: 0
+
+Local queue status: 
+Local queue (queue/CommandLog): 0
+Local queue (queue/CommandStatistic): 0/500
+Local queue (queue/MonitorLog): 0/5000
+Local queue (): 0
+Local queue (queue/OrderRoute): 0/500
+Local queue (queue/CommandRoute): 0/500
+Local queue (queue/OrderResponse): 0/4000
+Local queue (queue/CRM): 0/500
+Local queue (queue/VT8X26): 0/500
+
+Remote queue status: 
+Total command request for queue/OrderRoute : 0
+Total command request for queue/OrderResponse : 0
+

@@ -1,0 +1,4 @@
+31/07 16:44:12:109 Order Response started
+31/07 16:44:12:207 Starting process session
+31/07 16:47:41:357 orderId = 482880633, orderDate = 31/07 16:46:39:481, isdn = 84906130890, status = 4, cause = timeout, description = , response date: 31/07 16:47:41:314, order cost: 61876, update cost: 11, Queue cost: 0, Create cost: 18
+31/07 16:48:21:533 orderId = 482880634, orderDate = 31/07 16:48:16:179, isdn = 84906130890, status = 4, cause = registered, description = , response date: 31/07 16:48:21:511, order cost: 5354, update cost: 15, Queue cost: 0, Create cost: 1

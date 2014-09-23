@@ -1,0 +1,86 @@
+22/07 14:59:09:204 Order Routing started
+22/07 14:59:09:291 Starting process session
+22/07 14:59:10:859 java.lang.ClassNotFoundException: com.crm.product.impl.EntertainmentOrderRoutingImpl
+22/07 14:59:10:859 End of process session
+22/07 14:59:19:862 Order Routing stopped
+22/07 15:01:47:684 Order Routing started
+22/07 15:01:47:710 Starting process session
+22/07 15:01:48:846 java.lang.ClassNotFoundException: com.crm.product.impl.PGOrderRoutingImpl
+22/07 15:01:48:846 End of process session
+22/07 15:02:10:850 Order Routing stopped
+22/07 15:02:12:712 Order Routing started
+22/07 15:02:12:742 Starting process session
+22/07 15:02:13:509 java.lang.NoSuchMethodException: com.crm.provisioning.impl.ccws.PaymentCommandImpl.cardCharging(com.crm.provisioning.thread.CommandInstance, com.crm.provisioning.cache.ProvisioningCommand, com.crm.provisioning.message.CommandMessage)
+22/07 15:02:13:509 End of process session
+22/07 15:06:18:641 Order Routing started
+22/07 15:06:18:668 Starting process session
+22/07 15:06:20:196 java.lang.ClassNotFoundException: com.crm.provisioning.impl.nmschargingapi.NMSCharingImpl
+22/07 15:06:20:196 End of process session
+22/07 15:08:00:202 Starting process session
+22/07 15:08:00:953 java.lang.ClassNotFoundException: com.crm.provisioning.impl.nmschargingapi.NMSCharingImpl
+22/07 15:08:00:954 End of process session
+22/07 15:09:40:972 Starting process session
+22/07 15:09:41:706 java.lang.ClassCastException: com.crm.provisioning.impl.nmschargingapi.NMSCharingImpl cannot be cast to com.crm.kernel.index.ExecuteImpl
+22/07 15:09:41:706 End of process session
+22/07 15:10:01:707 Order Routing stopped
+22/07 15:10:03:690 Order Routing started
+22/07 15:10:03:718 Starting process session
+22/07 15:10:04:275 java.lang.ClassCastException: com.crm.provisioning.impl.nmschargingapi.NMSCharingImpl cannot be cast to com.crm.kernel.index.ExecuteImpl
+22/07 15:10:04:275 End of process session
+22/07 15:11:44:284 Starting process session
+22/07 15:11:44:893 java.lang.ClassCastException: com.crm.provisioning.impl.nmschargingapi.NMSCharingImpl cannot be cast to com.crm.kernel.index.ExecuteImpl
+22/07 15:11:44:894 End of process session
+22/07 15:16:17:887 Order Routing started
+22/07 15:16:17:916 Starting process session
+22/07 15:16:19:251 java.lang.NoSuchMethodException: com.crm.football.provisioning.impl.FootballCommandImpl.registerFootballWC(com.crm.provisioning.thread.CommandInstance, com.crm.provisioning.cache.ProvisioningCommand, com.crm.provisioning.message.CommandMessage)
+22/07 15:16:19:251 End of process session
+22/07 15:17:42:258 Order Routing stopped
+22/07 15:17:43:916 Order Routing started
+22/07 15:17:43:946 Starting process session
+22/07 15:17:44:599 java.lang.NoSuchMethodException: com.crm.football.provisioning.impl.FootballCommandImpl.registerFootballWC(com.crm.provisioning.thread.CommandInstance, com.crm.provisioning.cache.ProvisioningCommand, com.crm.provisioning.message.CommandMessage)
+22/07 15:17:44:600 End of process session
+22/07 15:17:59:601 Order Routing stopped
+22/07 15:18:00:941 Order Routing started
+22/07 15:18:00:965 Starting process session
+22/07 15:18:01:657 java.lang.NoSuchMethodException: com.crm.football.provisioning.impl.FootballCommandImpl.registerFootballWC(com.crm.provisioning.thread.CommandInstance, com.crm.provisioning.cache.ProvisioningCommand, com.crm.provisioning.message.CommandMessage)
+22/07 15:18:01:657 End of process session
+22/07 15:19:49:018 Order Routing started
+22/07 15:19:49:048 Starting process session
+22/07 15:19:50:372 java.lang.NoSuchMethodException: com.crm.football.provisioning.impl.FootballCommandImpl.upgradeFootball(com.crm.provisioning.thread.CommandInstance, com.crm.provisioning.cache.ProvisioningCommand, com.crm.provisioning.message.CommandMessage)
+22/07 15:19:50:373 End of process session
+22/07 15:20:54:378 Order Routing stopped
+22/07 15:20:56:047 Order Routing started
+22/07 15:20:56:073 Starting process session
+22/07 15:20:57:560 java.lang.NoSuchMethodException: com.crm.football.provisioning.impl.FootballCommandImpl.upgradeFootball(com.crm.provisioning.thread.CommandInstance, com.crm.provisioning.cache.ProvisioningCommand, com.crm.provisioning.message.CommandMessage)
+22/07 15:20:57:560 End of process session
+22/07 15:21:27:479 Order Routing started
+22/07 15:21:27:503 Starting process session
+22/07 15:21:29:270 Testing connection ...
+22/07 15:21:29:310 java.lang.ClassNotFoundException: com.crm.provisioning.impl.nmschargingapi.NMSCharingConnection
+22/07 15:21:29:310 Close pool
+22/07 15:21:29:330 End of process session
+22/07 15:22:53:431 Order Routing started
+22/07 15:22:53:457 Starting process session
+22/07 15:22:55:057 Testing connection ...
+22/07 15:22:55:110 java.lang.ClassCastException: com.crm.provisioning.impl.nmschargingapi.NMSCharingConnection cannot be cast to com.crm.provisioning.cache.ProvisioningConnection
+22/07 15:22:55:111 Close pool
+22/07 15:22:55:114 End of process session
+22/07 15:23:22:117 Order Routing stopped
+22/07 15:23:23:483 Order Routing started
+22/07 15:23:23:503 Starting process session
+22/07 15:23:24:380 Close pool
+22/07 15:23:24:381 Close pool
+22/07 15:23:24:381 Testing connection ...
+22/07 15:23:24:417 java.lang.ClassCastException: com.crm.provisioning.impl.nmschargingapi.NMSCharingConnection cannot be cast to com.crm.provisioning.cache.ProvisioningConnection
+22/07 15:23:24:418 Close pool
+22/07 15:23:24:419 End of process session
+22/07 15:23:47:956 Order Routing started
+22/07 15:23:47:983 Starting process session
+22/07 15:23:50:292 Testing connection ...
+22/07 15:23:50:294 Created provisioning instance for NMSCHARGING
+22/07 15:23:50:306 Testing connection are success
+22/07 15:52:07:959 Order Routing started
+22/07 15:52:07:981 Starting process session
+22/07 15:52:08:737 Testing connection ...
+22/07 15:52:08:739 Created provisioning instance for NMSCHARGING
+22/07 15:52:08:739 Testing connection are success

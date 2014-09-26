@@ -5,6 +5,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 
 import com.crm.kernel.sql.Database;
+import com.crm.provisioning.thread.vinaphone.VinaphoneCDR;
 
 public class CDRImpl {
 	public static void insertCDR(CDR[] cdrs) throws Exception {
@@ -83,6 +84,66 @@ public class CDRImpl {
 			Database.closeObject(stmtCDR);
 		}
 
+	}
+
+	public static void insertCDRVinaphone(VinaphoneCDR[] cdrs) throws Exception {
+		Connection connection = null;
+		PreparedStatement stmtCDR = null;
+		try {
+			int count = 0;
+
+			String sql = "insert into TELCOCDR(id, streamno, createdate, orderdate, msgId, cpname, spId, serviceId, "
+					+ "servicename, producId_telco, contentName, subcontentName, playtype, accessChannel, timestamp, "
+					+ "pkgspid, pkgserviceid, pkgproductid, contentid, isdn, prediscountfee, cost, subtype, reason, "
+					+ "chargeMode, chargeResult, recnum, productId) "
+					+ "values "
+					+ "(CDR_SEQ.nextVal, ?,sysdate,sysdate,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)";
+			connection = Database.getConnection();
+			stmtCDR = connection.prepareStatement(sql);
+
+			for (VinaphoneCDR cdr : cdrs) {
+				stmtCDR.setInt(1, cdr.getStreamNo());
+				stmtCDR.setString(2, cdr.getMsgId());
+				stmtCDR.setString(3, cdr.getCpName());
+				stmtCDR.setString(4, cdr.getSpId());
+				stmtCDR.setString(5, cdr.getServiceId());
+				stmtCDR.setString(6, cdr.getServiceName());
+				stmtCDR.setString(7, cdr.getProductId());
+				stmtCDR.setString(8, cdr.getContentName());
+				stmtCDR.setString(9, cdr.getPlayType());
+				stmtCDR.setInt(10, cdr.getAccessChannel());
+				stmtCDR.setString(11, cdr.getTime_stamp());
+				stmtCDR.setString(12, cdr.getPkgSpId());
+				stmtCDR.setString(13, cdr.getPkgServiceId());
+				stmtCDR.setString(14, cdr.getPkgProductId());
+				stmtCDR.setString(15, cdr.getContentId());
+				stmtCDR.setString(16, cdr.getMsisdn());
+				stmtCDR.setInt(17, cdr.getOriginalfee());
+				stmtCDR.setInt(18, cdr.getFee());
+				stmtCDR.setInt(19, cdr.getPayType());
+				stmtCDR.setString(20, cdr.getReason());
+				stmtCDR.setInt(21, cdr.getChargeType());
+				stmtCDR.setInt(22, cdr.getChargeResult());
+				stmtCDR.setInt(23, cdr.getRecNum());
+				stmtCDR.setString(24, cdr.getProductCode());
+
+			}
+
+			stmtCDR.addBatch();
+			count++;
+
+			if (count >= 50) {
+				stmtCDR.executeBatch();
+				count = 0;
+				
+			}
+
+		} catch (Exception e) {
+			throw e;
+		} finally {
+			Database.closeObject(stmtCDR);
+			Database.closeObject(connection);
+		}
 	}
 
 	public static String getProductId(String serviceId) throws Exception {

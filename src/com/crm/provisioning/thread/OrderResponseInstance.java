@@ -177,10 +177,19 @@ public class OrderResponseInstance extends DispatcherInstance {
 					if (!isTimeOut(message.getOrderDate().getTime(),
 							System.currentTimeMillis(), message.getTimeout())) {
 						if (message.getOpId() == 2) {
-							if (!message.getActionType().equals(
-									Constants.ACTION_REGISTER)
-									&& !message.getActionType().equals(
-											Constants.ACTION_UNREGISTER)) {
+
+							if (message.getActionType().equals(
+									Constants.ACTION_REGISTER)) {
+								//khong response lai queue
+							} else if (message.getActionType().equals(
+									Constants.ACTION_UNREGISTER)) {
+								//khong response lai queue
+							} else if (message.getActionType().equals("unregistered")) {
+								//khong response lai queue
+							} else if (message.getActionType().equals("registered")) {
+								//khong response lai queue
+							}  else {
+								debugMonitor("Response lai MT, ActionType " + message.getActionType());
 								producer.send(response);
 							}
 
@@ -218,7 +227,8 @@ public class OrderResponseInstance extends DispatcherInstance {
 				stmtUpdateOrder.setString(14, message.getCause());
 				stmtUpdateOrder.setString(15, message.getDescription());
 				stmtUpdateOrder.setString(16, message.getIdentifier());
-				stmtUpdateOrder.setString(17, message.getParameters().getString("cpurl", ""));
+				stmtUpdateOrder.setString(17, message.getParameters()
+						.getString("cpurl", ""));
 				stmtUpdateOrder.setLong(18,
 						message.getParameters().getLong("QuestionId", 0));
 				if (SubscriberOrderImpl.checkOTP(message.getIsdn(),

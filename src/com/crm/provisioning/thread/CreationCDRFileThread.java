@@ -159,81 +159,91 @@ public class CreationCDRFileThread extends DispatcherThread {
 	public void doProcessSession() throws Exception {
 
 		try {
-			SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMdd");
 
-			Calendar cal = Calendar.getInstance();
+			SimpleDateFormat sdf1 = new SimpleDateFormat("HH");
+			Date cur = Calendar.getInstance().getTime();
+			
+			
+			//Chay tu 9h den 1h chieu
+			if (Integer.parseInt(sdf1.format(cur)) >= 9
+					&& Integer.parseInt(sdf1.format(cur)) <= 13) {
+				
+				SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMdd");
 
-			if (!timetorun.equals("")) {
-				cal.setTime(sdf.parse(timetorun));
-			}
+				Calendar cal = Calendar.getInstance();
 
-			cal.add(Calendar.DATE, -1);
-
-			String exportingFile = serverDir;
-			String backupFile = backupDir;
-			String fullSysTime = sdf.format(cal.getTime());
-			String strFileName = fileName.replaceAll("%t%", fullSysTime);
-			exportingFile = exportingFile + strFileName;
-			backupFile = backupFile + strFileName;
-
-			_stmtCDR.setString(1,
-					new SimpleDateFormat("dd/MM/yyyy").format(cal.getTime()));
-			_stmtCDR.setString(2,
-					new SimpleDateFormat("dd/MM/yyyy").format(cal.getTime()));
-
-			_rSet = _stmtCDR.executeQuery();
-
-			// Get sysDate.
-			String sysDate = "";
-
-			// Get sysTime.
-			String sysTime = "";
-
-			// Gate way.
-			String gateway_name = "Acom";
-
-			// Service No
-			String serviceNo = "8926";
-
-			List<String> listDelivery = new ArrayList<String>();
-			List<Long> listOrderIdInserted = new ArrayList<Long>();
-
-			while (_rSet.next()) {
-				Long orderId = _rSet.getLong("orderId");
-				String orderNo = _rSet.getString("orderNo");
-				String isdn = _rSet.getString("isdn");
-				String description = _rSet.getString("description");
-				String productId = _rSet.getString("alias_");
-				Date orderDate = _rSet.getTimestamp("orderDate");
-				int opId = _rSet.getInt("telcoid");
-
-				sysDate = sdfDate1.format(orderDate);
-				sysTime = sdfTime.format(orderDate);
-
-				boolean check = getDeliveryCDR(isdn, productId,
-						sdf.format(cal.getTime()));
-
-				String status = "";
-				if (check) {
-					status = "DeliveredToNetwork";
-				} else {
-					status = "DeliveryImpossible";
+				if (!timetorun.equals("")) {
+					cal.setTime(sdf.parse(timetorun));
 				}
 
-				logMonitor("Get status: isdn=" + isdn + ",productId="
-						+ productId + ",status=" + status);
+				cal.add(Calendar.DATE, -1);
 
-				// End
+				String exportingFile = serverDir;
+				String backupFile = backupDir;
+				String fullSysTime = sdf.format(cal.getTime());
+				String strFileName = fileName.replaceAll("%t%", fullSysTime);
+				exportingFile = exportingFile + strFileName;
+				backupFile = backupFile + strFileName;
 
-				String resultLine = formatResultLine(orderNo, isdn, serviceNo,
-						sysDate, sysTime, description, gateway_name, productId,
-						status, opId);
-				listDelivery.add(resultLine);
-				listOrderIdInserted.add(orderId);
+				_stmtCDR.setString(1, new SimpleDateFormat("dd/MM/yyyy")
+						.format(cal.getTime()));
+				_stmtCDR.setString(2, new SimpleDateFormat("dd/MM/yyyy")
+						.format(cal.getTime()));
+
+				_rSet = _stmtCDR.executeQuery();
+
+				// Get sysDate.
+				String sysDate = "";
+
+				// Get sysTime.
+				String sysTime = "";
+
+				// Gate way.
+				String gateway_name = "Acom";
+
+				// Service No
+				String serviceNo = "8926";
+
+				List<String> listDelivery = new ArrayList<String>();
+				List<Long> listOrderIdInserted = new ArrayList<Long>();
+
+				while (_rSet.next()) {
+					Long orderId = _rSet.getLong("orderId");
+					String orderNo = _rSet.getString("orderNo");
+					String isdn = _rSet.getString("isdn");
+					String description = _rSet.getString("description");
+					String productId = _rSet.getString("alias_");
+					Date orderDate = _rSet.getTimestamp("orderDate");
+					int opId = _rSet.getInt("telcoid");
+
+					sysDate = sdfDate1.format(orderDate);
+					sysTime = sdfTime.format(orderDate);
+
+					boolean check = getDeliveryCDR(isdn, productId,
+							sdf.format(cal.getTime()), opId);
+
+					String status = "";
+					if (check) {
+						status = "DeliveredToNetwork";
+					} else {
+						status = "DeliveryImpossible";
+					}
+
+					logMonitor("Get status: isdn=" + isdn + ",productId="
+							+ productId + ",status=" + status);
+
+					// End
+
+					String resultLine = formatResultLine(orderNo, isdn,
+							serviceNo, sysDate, sysTime, description,
+							gateway_name, productId, status, opId);
+					listDelivery.add(resultLine);
+					listOrderIdInserted.add(orderId);
+				}
+
+				// Executing create CDR file.
+				createCDRFile(strFileName, listDelivery, listOrderIdInserted);
 			}
-
-			// Executing create CDR file.
-			createCDRFile(strFileName, listDelivery, listOrderIdInserted);
 
 		} catch (SQLException e) {
 			logMonitor("SQL invalid:" + e);
@@ -441,13 +451,23 @@ public class CreationCDRFileThread extends DispatcherThread {
 	}
 
 	public static boolean getDeliveryCDR(String isdn, String productId,
-			String timestamp) throws Exception {
+			String timestamp, int telcoId) throws Exception {
 		boolean check = false;
 		Connection connection = null;
 		PreparedStatement stmt = null;
 		ResultSet rs = null;
+		String sql = "";
 		try {
-			String sql = "select * from telcocdr where isdn = ? and chargeresult = 1 and productId = ? and orderDate >= trunc(sysdate)";
+			if (telcoId == 1) {
+				sql = "select * from telcocdr where isdn = ? "
+						+ "and chargeresult = 1 " + "and productId = ? "
+						+ "and orderDate >= trunc(sysdate)";
+			} else if (telcoId == 2) {
+				sql = "select * from telcocdr where isdn = ? "
+						+ "and chargeresult = 0 " + "and productId = ? "
+						+ "and orderDate >= trunc(sysdate)";
+			}
+
 			connection = Database.getConnection();
 			stmt = connection.prepareStatement(sql);
 			stmt.setString(1, isdn);

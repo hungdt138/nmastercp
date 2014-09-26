@@ -41,25 +41,24 @@ import com.fss.util.AppException;
  * @author hungdt
  * 
  */
-public class CreationNonSubCDR extends DispatcherThread
-{
+public class CreationNonSubCDR extends DispatcherThread {
 
-	private PreparedStatement	_stmtCDR		= null;
-	private ResultSet			_rSet			= null;
+	private PreparedStatement _stmtCDR = null;
+	private ResultSet _rSet = null;
 
-	protected String			fileName		= "";
-	protected String			backupDir		= "";
-	protected String			serverDir		= "";
-	protected String			serverIP		= "";
-	protected String			serverUsername	= "";
-	protected String			serverPassword	= "";
-	protected String			_strSQL			= "";
-	protected String			sdpHost			= "";
-	protected String			sdpUsername		= "";
-	protected String			sdpPassword		= "";
-	protected Connection		connection		= null;
-	private final static String	COMMA_SYMBOL	= ",";
-	protected String			timetorun		= "";
+	protected String fileName = "";
+	protected String backupDir = "";
+	protected String serverDir = "";
+	protected String serverIP = "";
+	protected String serverUsername = "";
+	protected String serverPassword = "";
+	protected String _strSQL = "";
+	protected String sdpHost = "";
+	protected String sdpUsername = "";
+	protected String sdpPassword = "";
+	protected Connection connection = null;
+	private final static String COMMA_SYMBOL = ",";
+	protected String timetorun = "";
 
 	/**
 	 * 
@@ -67,24 +66,22 @@ public class CreationNonSubCDR extends DispatcherThread
 	 * the method.
 	 */
 	@SuppressWarnings({ "rawtypes", "unchecked" })
-	public Vector getParameterDefinition()
-	{
+	public Vector getParameterDefinition() {
 
 		Vector vtReturn = new Vector();
 		vtReturn.addElement(ThreadUtil.createTextParameter("SQL", 100, ""));
 		vtReturn.addElement(ThreadUtil.createTextParameter("fileName", 100, ""));
-		vtReturn.addElement(ThreadUtil
-				.createTextParameter("fileServerDir", 100, ""));
+		vtReturn.addElement(ThreadUtil.createTextParameter("fileServerDir",
+				100, ""));
 		vtReturn.addElement(ThreadUtil
 				.createTextParameter("backupDir", 100, ""));
-		vtReturn.addElement(ThreadUtil
-				.createTextParameter("fileServerIP", 100, ""));
-		vtReturn.addElement(ThreadUtil
-				.createTextParameter("sdpHost", 100, ""));
-		vtReturn.addElement(ThreadUtil
-				.createTextParameter("sdpUsername", 100, ""));
-		vtReturn.addElement(ThreadUtil
-				.createTextParameter("sdpPassword", 100, ""));
+		vtReturn.addElement(ThreadUtil.createTextParameter("fileServerIP", 100,
+				""));
+		vtReturn.addElement(ThreadUtil.createTextParameter("sdpHost", 100, ""));
+		vtReturn.addElement(ThreadUtil.createTextParameter("sdpUsername", 100,
+				""));
+		vtReturn.addElement(ThreadUtil.createTextParameter("sdpPassword", 100,
+				""));
 		vtReturn.addElement(ThreadUtil
 				.createTextParameter("timetorun", 100, ""));
 
@@ -99,8 +96,7 @@ public class CreationNonSubCDR extends DispatcherThread
 	 * @see com.crm.thread.DispatcherThread#fillParameter()
 	 */
 	@Override
-	public void fillParameter() throws AppException
-	{
+	public void fillParameter() throws AppException {
 		super.fillParameter();
 
 		_strSQL = ThreadUtil.getString(this, "SQL", false, "");
@@ -120,16 +116,12 @@ public class CreationNonSubCDR extends DispatcherThread
 	 * @see com.crm.thread.DispatcherThread#beforeProcessSession()
 	 */
 	@Override
-	public void beforeProcessSession() throws Exception
-	{
+	public void beforeProcessSession() throws Exception {
 		super.beforeProcessSession();
-		try
-		{
+		try {
 			connection = Database.getConnection();
 			_stmtCDR = connection.prepareStatement(_strSQL);
-		}
-		catch (Exception e)
-		{
+		} catch (Exception e) {
 			throw e;
 		}
 	}
@@ -140,19 +132,15 @@ public class CreationNonSubCDR extends DispatcherThread
 	 * @see com.crm.thread.DispatcherThread#afterProcessSession()
 	 */
 	@Override
-	public void afterProcessSession() throws Exception
-	{
-		try
-		{
+	public void afterProcessSession() throws Exception {
+		try {
 
 			Database.closeObject(_stmtCDR);
 
 			Database.closeObject(_rSet);
 
 			Database.closeObject(connection);
-		}
-		finally
-		{
+		} finally {
 			super.afterProcessSession();
 		}
 	}
@@ -163,105 +151,108 @@ public class CreationNonSubCDR extends DispatcherThread
 	 * @see com.crm.thread.DispatcherThread#doProcessSession()
 	 */
 	@Override
-	public void doProcessSession() throws Exception
-	{
+	public void doProcessSession() throws Exception {
 
-		try
-		{
+		try {
+			SimpleDateFormat sdf1 = new SimpleDateFormat("HH");
+			Date cur = Calendar.getInstance().getTime();
 
-			Calendar cal = Calendar.getInstance();
+			if (Integer.parseInt(sdf1.format(cur)) >= 8
+					&& Integer.parseInt(sdf1.format(cur)) <= 11) {
+				Calendar cal = Calendar.getInstance();
 
-			if (!timetorun.equals(""))
-			{
-				cal.setTime(new SimpleDateFormat("dd/MM/yyyy").parse(timetorun));
-			}
-
-			cal.add(Calendar.DATE, -1);
-			SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMdd");
-			SimpleDateFormat sdfDate = new SimpleDateFormat("yyyy-MM-dd");
-			SimpleDateFormat sdfTime = new SimpleDateFormat("HH:mm:ss");
-
-			String exportingFile = serverDir;
-			String backupFile = backupDir;
-			String fullSysTime = sdf.format(cal.getTime());
-			String strFileName = fileName.replaceAll("%t%", fullSysTime);
-			exportingFile = exportingFile + strFileName;
-			backupFile = backupFile + strFileName;
-
-			_stmtCDR.setString(1, new SimpleDateFormat("dd/MM/yyyy").format(cal.getTime()));
-			_stmtCDR.setString(2, new SimpleDateFormat("dd/MM/yyyy").format(cal.getTime()));
-
-			_rSet = _stmtCDR.executeQuery();
-
-			// Get sysDate.
-			String sysDate = "";
-
-			// Get sysTime.
-			String sysTime = "";
-
-			// Gate way.
-			String gateway_name = "Acom";
-
-			// Service No
-			String serviceNo = "8626";
-
-			List<String> listDelivery = new ArrayList<String>();
-			List<Long> listOrderIdInserted = new ArrayList<Long>();
-
-			while (_rSet.next())
-			{
-				Long orderId = _rSet.getLong("orderId");
-				// String orderNo = _rSet.getString("orderNo");
-				String isdn = _rSet.getString("isdn");
-				String description = _rSet.getString("orderType");
-				String productId = _rSet.getString("alias_");
-				String cause = _rSet.getString("cause");
-				Date orderdate = _rSet.getTimestamp("orderDate");
-				int opId = _rSet.getInt("telcoid");
-
-				sysDate = sdfDate.format(orderdate);
-				sysTime = sdfTime.format(orderdate);
-
-				String status = "";
-				if (cause.equals("success"))
-				{
-					status = "0";
+				if (!timetorun.equals("")) {
+					cal.setTime(new SimpleDateFormat("dd/MM/yyyy")
+							.parse(timetorun));
 				}
 
-				logMonitor("Get status: isdn=" + isdn + ",productId=" + productId + ",status=" + status);
+				cal.add(Calendar.DATE, -1);
+				SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMdd");
+				SimpleDateFormat sdfDate = new SimpleDateFormat("yyyy-MM-dd");
+				SimpleDateFormat sdfTime = new SimpleDateFormat("HH:mm:ss");
 
-				// End
+				String exportingFile = serverDir;
+				String backupFile = backupDir;
+				String fullSysTime = sdf.format(cal.getTime());
+				String strFileName = fileName.replaceAll("%t%", fullSysTime);
+				exportingFile = exportingFile + strFileName;
+				backupFile = backupFile + strFileName;
 
-				String resultLine = formatResultLine(String.valueOf(orderId), isdn, serviceNo, sysDate, sysTime, description, gateway_name,
-						productId, status, opId);
-				listDelivery.add(resultLine);
-				listOrderIdInserted.add(orderId);
+				_stmtCDR.setString(1, new SimpleDateFormat("dd/MM/yyyy")
+						.format(cal.getTime()));
+				_stmtCDR.setString(2, new SimpleDateFormat("dd/MM/yyyy")
+						.format(cal.getTime()));
+
+				_rSet = _stmtCDR.executeQuery();
+
+				// Get sysDate.
+				String sysDate = "";
+
+				// Get sysTime.
+				String sysTime = "";
+
+				// Gate way.
+				String gateway_name = "Acom";
+
+				// Service No
+				String serviceNo = "8626";
+
+				List<String> listDelivery = new ArrayList<String>();
+				List<Long> listOrderIdInserted = new ArrayList<Long>();
+
+				while (_rSet.next()) {
+					Long orderId = _rSet.getLong("orderId");
+					// String orderNo = _rSet.getString("orderNo");
+					String isdn = _rSet.getString("isdn");
+					String description = _rSet.getString("orderType");
+					String productId = _rSet.getString("alias_");
+					String cause = _rSet.getString("cause");
+					Date orderdate = _rSet.getTimestamp("orderDate");
+					int opId = _rSet.getInt("telcoid");
+
+					sysDate = sdfDate.format(orderdate);
+					sysTime = sdfTime.format(orderdate);
+
+					String status = "";
+					if (cause.equals("success")) {
+						status = "0";
+					}
+
+					logMonitor("Get status: isdn=" + isdn + ",productId="
+							+ productId + ",status=" + status);
+
+					// End
+
+					String resultLine = formatResultLine(
+							String.valueOf(orderId), isdn, serviceNo, sysDate,
+							sysTime, description, gateway_name, productId,
+							status, opId);
+					listDelivery.add(resultLine);
+					listOrderIdInserted.add(orderId);
+				}
+
+				// Executing create CDR file.
+				createCDRFile(strFileName, listDelivery, listOrderIdInserted);
+
+				// if (cal.getTime().before(Calendar.getInstance().getTime()))
+				// {
+				// Calendar timeToRun1 = Calendar.getInstance();
+				// timeToRun1.setTime(new
+				// SimpleDateFormat("dd/MM/yyyy").parse(timetorun));
+				// timeToRun1.add(Calendar.DATE, 1);
+				// timetorun = new
+				// SimpleDateFormat("dd/MM/yyyy").format(timeToRun1.getTime());
+				// mprtParam.setProperty("timetorun", timetorun);
+				// storeConfig();
+				// }
+
 			}
 
-			// Executing create CDR file.
-			createCDRFile(strFileName, listDelivery, listOrderIdInserted);
-
-//			if (cal.getTime().before(Calendar.getInstance().getTime()))
-//			{
-//				Calendar timeToRun1 = Calendar.getInstance();
-//				timeToRun1.setTime(new SimpleDateFormat("dd/MM/yyyy").parse(timetorun));
-//				timeToRun1.add(Calendar.DATE, 1);
-//				timetorun = new SimpleDateFormat("dd/MM/yyyy").format(timeToRun1.getTime());
-//				mprtParam.setProperty("timetorun", timetorun);
-//				storeConfig();
-//			}
-
-		}
-		catch (SQLException e)
-		{
+		} catch (SQLException e) {
 			logMonitor("SQL invalid:" + e);
-		}
-		catch (Exception e)
-		{
+		} catch (Exception e) {
 			e.printStackTrace();
-		}
-		finally
-		{
+		} finally {
 
 			_rSet.close();
 		}
@@ -274,10 +265,8 @@ public class CreationNonSubCDR extends DispatcherThread
 	 * @param listDelivery
 	 */
 	private synchronized void createCDRFile(final String strFileName,
-			List<String> listDelivery, List<Long> listOrderIdInserted)
-	{
-		if (listDelivery.size() == 0)
-		{
+			List<String> listDelivery, List<Long> listOrderIdInserted) {
+		if (listDelivery.size() == 0) {
 			return;
 		}
 		FileOutputStream fos = null;
@@ -287,25 +276,21 @@ public class CreationNonSubCDR extends DispatcherThread
 		// Crearte directory to store CDR file.
 		File cdrDir = new File(serverDir);
 		File cdrBackupDir = new File(backupDir);
-		if (!cdrDir.exists())
-		{
+		if (!cdrDir.exists()) {
 			cdrDir.mkdirs();
 		}
-		if (!cdrBackupDir.exists())
-		{
+		if (!cdrBackupDir.exists()) {
 			cdrBackupDir.mkdirs();
 		}
 
-		try
-		{
+		try {
 			String filePath = serverDir + "/" + strFileName;
 			String filePathBk = backupDir + "/" + strFileName;
 			// String filePath = "C:/" + strFileName;
 			// String filePathBk = "C:/A/" +"/" + strFileName;
 			cdrFile = new File(filePath);
 			fos = new FileOutputStream(cdrFile);
-			for (String aLineInCDRFile : listDelivery)
-			{
+			for (String aLineInCDRFile : listDelivery) {
 				dataToWriteIntoCDRFile += "\n" + aLineInCDRFile;
 				dataToWriteIntoCDRFile = dataToWriteIntoCDRFile.trim();
 			}
@@ -315,32 +300,23 @@ public class CreationNonSubCDR extends DispatcherThread
 			fos.close();
 
 			// Backup file created.
-			if (backupCDRFile(filePath, filePathBk) == true)
-			{
-				logMonitor("Creating CDR file " + strFileName + " completely. " + "Located: " + serverDir);
-			}
-			else
-			{
-				logMonitor("Creating CDR file " + strFileName + " completely. " + "Backup file ERROR.");
+			if (backupCDRFile(filePath, filePathBk) == true) {
+				logMonitor("Creating CDR file " + strFileName + " completely. "
+						+ "Located: " + serverDir);
+			} else {
+				logMonitor("Creating CDR file " + strFileName + " completely. "
+						+ "Backup file ERROR.");
 			}
 
-		}
-		catch (Exception e)
-		{
+		} catch (Exception e) {
 			logMonitor("Creating CDR file false. Cause: " + e);
-		}
-		finally
-		{
+		} finally {
 			// Update export status.
-			try
-			{
-				for (Long orderId : listOrderIdInserted)
-				{
+			try {
+				for (Long orderId : listOrderIdInserted) {
 					SubscriberOrderImpl.updateExportStatus(0, orderId);
 				}
-			}
-			catch (Exception e)
-			{
+			} catch (Exception e) {
 				e.printStackTrace();
 			}
 		}
@@ -354,12 +330,10 @@ public class CreationNonSubCDR extends DispatcherThread
 	 *            String.
 	 */
 	private synchronized boolean backupCDRFile(String filePath,
-			String filePathBk)
-	{
+			String filePathBk) {
 		InputStream is = null;
 		OutputStream os = null;
-		try
-		{
+		try {
 			File cdrFile = new File(filePath);
 			File cdrFileBk = new File(filePathBk);
 
@@ -370,8 +344,7 @@ public class CreationNonSubCDR extends DispatcherThread
 			int length;
 
 			// copy the file content in bytes
-			while ((length = is.read(buffer)) > 0)
-			{
+			while ((length = is.read(buffer)) > 0) {
 				os.write(buffer, 0, length);
 			}
 			os.flush();
@@ -379,13 +352,9 @@ public class CreationNonSubCDR extends DispatcherThread
 			is.close();
 			return true;
 
-		}
-		catch (FileNotFoundException e)
-		{
+		} catch (FileNotFoundException e) {
 			logMonitor("File not found. " + e);
-		}
-		catch (Exception e)
-		{
+		} catch (Exception e) {
 			logMonitor("Error: " + e);
 		}
 		return false;
@@ -399,11 +368,13 @@ public class CreationNonSubCDR extends DispatcherThread
 	private String formatResultLine(final String orderNo, final String isdn,
 			final String serviceNo, final String sysDate, final String sysTime,
 			final String description, final String gateway_name,
-			final String productId, final String result, final int opId)
-	{
+			final String productId, final String result, final int opId) {
 
-		return orderNo + COMMA_SYMBOL + isdn + COMMA_SYMBOL + serviceNo + COMMA_SYMBOL + sysDate + COMMA_SYMBOL + sysTime + COMMA_SYMBOL
-				+ description + COMMA_SYMBOL + gateway_name + COMMA_SYMBOL + opId + COMMA_SYMBOL + productId + COMMA_SYMBOL + result;
+		return orderNo + COMMA_SYMBOL + isdn + COMMA_SYMBOL + serviceNo
+				+ COMMA_SYMBOL + sysDate + COMMA_SYMBOL + sysTime
+				+ COMMA_SYMBOL + description + COMMA_SYMBOL + gateway_name
+				+ COMMA_SYMBOL + opId + COMMA_SYMBOL + productId + COMMA_SYMBOL
+				+ result;
 	}
 
 	/**
@@ -413,15 +384,15 @@ public class CreationNonSubCDR extends DispatcherThread
 	 * @param request
 	 * @return
 	 */
-	public static RequestSOAPHeaderE createHeader(String serviceId, String username, String strPassword, String isdn)
-	{
+	public static RequestSOAPHeaderE createHeader(String serviceId,
+			String username, String strPassword, String isdn) {
 		RequestSOAPHeaderE requestHeaderE = new RequestSOAPHeaderE();
 		RequestSOAPHeader requestHeader = new RequestSOAPHeader();
 		SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMddhhmmss");
 		String created = sdf.format(Calendar.getInstance().getTime());
 
-		String password = NonceGenerator.getInstance()
-				.getNonce(username + strPassword + created);
+		String password = NonceGenerator.getInstance().getNonce(
+				username + strPassword + created);
 		requestHeader.setSpId(username);
 		requestHeader.setSpPassword(password);
 		requestHeader.setServiceId(serviceId);
@@ -442,18 +413,14 @@ public class CreationNonSubCDR extends DispatcherThread
 	 * @throws Exception
 	 */
 	public static GetSmsDeliveryStatusE createBody(String reqIndentifier)
-			throws Exception
-	{
+			throws Exception {
 		GetSmsDeliveryStatusE getSmsDeliveryStatusRequset = null;
-		try
-		{
+		try {
 			getSmsDeliveryStatusRequset = new GetSmsDeliveryStatusE();
 			GetSmsDeliveryStatus request = new GetSmsDeliveryStatus();
 			request.setRequestIdentifier(reqIndentifier);
 			getSmsDeliveryStatusRequset.setGetSmsDeliveryStatus(request);
-		}
-		catch (Exception e)
-		{
+		} catch (Exception e) {
 			throw e;
 		}
 
@@ -471,33 +438,29 @@ public class CreationNonSubCDR extends DispatcherThread
 	 * @throws Exception
 	 */
 	public static GetSmsDeliveryStatusResponseE getDeliverySMS(
-			RequestSOAPHeaderE header, GetSmsDeliveryStatusE body, String host) throws Exception
-	{
+			RequestSOAPHeaderE header, GetSmsDeliveryStatusE body, String host)
+			throws Exception {
 		GetSmsDeliveryStatusResponseE response = null;
-		try
-		{
+		try {
 			SendSmsServiceStub stub = new SendSmsServiceStub(host);
-			stub._getServiceClient()
-					.addHeader(header.getOMElement(RequestSOAPHeaderE.MY_QNAME, OMAbstractFactory
-							.getSOAP11Factory()));
+			stub._getServiceClient().addHeader(
+					header.getOMElement(RequestSOAPHeaderE.MY_QNAME,
+							OMAbstractFactory.getSOAP11Factory()));
 			response = stub.getSmsDeliveryStatus(body);
-		}
-		catch (Exception e)
-		{
+		} catch (Exception e) {
 			throw e;
 		}
 		return response;
 	}
 
-	public static int getDeliveryCDR(String isdn, long productId, String timestamp)
-	{
+	public static int getDeliveryCDR(String isdn, long productId,
+			String timestamp) {
 		SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMddHHmmss");
 		int status = 0;
 		Connection connection = null;
 		PreparedStatement stmt = null;
 		ResultSet rs = null;
-		try
-		{
+		try {
 			String sql = "select * from telcocdr where isdn = ? and productId = ? and thirdparty = ? and timestamp like ?";
 			connection = Database.getConnection();
 			stmt = connection.prepareStatement(sql);
@@ -507,13 +470,10 @@ public class CreationNonSubCDR extends DispatcherThread
 			stmt.setString(4, timestamp + "%");
 
 			rs = stmt.executeQuery();
-			if (rs.next())
-			{
+			if (rs.next()) {
 
 			}
-		}
-		catch (Exception e)
-		{
+		} catch (Exception e) {
 			// TODO: handle exception
 		}
 

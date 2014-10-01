@@ -189,7 +189,7 @@ public class OrderResponseInstance extends DispatcherInstance {
 							} else if (message.getActionType().equals("registered")) {
 								//khong response lai queue
 							}  else {
-								debugMonitor("Response lai MT, ActionType " + message.getActionType());
+								//debugMonitor("Response lai MT, ActionType " + message.getActionType());
 								producer.send(response);
 							}
 

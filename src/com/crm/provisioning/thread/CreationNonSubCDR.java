@@ -253,8 +253,10 @@ public class CreationNonSubCDR extends DispatcherThread {
 		} catch (Exception e) {
 			e.printStackTrace();
 		} finally {
+			if (_rSet != null) {
+				_rSet.close();
+			}
 
-			_rSet.close();
 		}
 	}
 

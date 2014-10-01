@@ -59,6 +59,8 @@ public class CreationCDRFileThread extends DispatcherThread {
 	protected String sdpPassword = "";
 	protected Connection connection = null;
 	protected String timetorun = "";
+	protected int startTimeInDay = 0;
+	protected int endTimeInDay = 0;
 	private final static String COMMA_SYMBOL = ",";
 
 	SimpleDateFormat sdfDate1 = new SimpleDateFormat("yyyy-MM-dd");
@@ -88,7 +90,10 @@ public class CreationCDRFileThread extends DispatcherThread {
 				""));
 		vtReturn.addElement(ThreadUtil
 				.createTextParameter("timetorun", 100, ""));
-
+		vtReturn.add(ThreadUtil.createTextParameter("startTimeInDay", 100,
+				"Thoi gian bat dau chay trong ngay"));
+		vtReturn.add(ThreadUtil.createTextParameter("endTimeInDay", 100,
+				"Thoi gian ket thuc chay trong ngay"));
 		vtReturn.addAll(super.getParameterDefinition());
 
 		return vtReturn;
@@ -112,6 +117,8 @@ public class CreationCDRFileThread extends DispatcherThread {
 		sdpUsername = ThreadUtil.getString(this, "sdpUsername", false, "");
 		sdpPassword = ThreadUtil.getString(this, "sdpPassword", false, "");
 		timetorun = ThreadUtil.getString(this, "timetorun", false, "");
+		startTimeInDay = ThreadUtil.getInt(this, "startTimeInDay", 10);
+		endTimeInDay = ThreadUtil.getInt(this, "endTimeInDay", 13);
 	}
 
 	/*
@@ -162,12 +169,11 @@ public class CreationCDRFileThread extends DispatcherThread {
 
 			SimpleDateFormat sdf1 = new SimpleDateFormat("HH");
 			Date cur = Calendar.getInstance().getTime();
-			
-			
-			//Chay tu 9h den 1h chieu
-			if (Integer.parseInt(sdf1.format(cur)) >= 9
-					&& Integer.parseInt(sdf1.format(cur)) <= 13) {
-				
+
+			// Chay tu 9h den 1h chieu
+			if (Integer.parseInt(sdf1.format(cur)) >= startTimeInDay
+					&& Integer.parseInt(sdf1.format(cur)) <= endTimeInDay) {
+
 				SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMdd");
 
 				Calendar cal = Calendar.getInstance();
@@ -250,8 +256,10 @@ public class CreationCDRFileThread extends DispatcherThread {
 		} catch (Exception e) {
 			e.printStackTrace();
 		} finally {
+			if (_rSet != null) {
+				_rSet.close();
+			}
 
-			_rSet.close();
 		}
 	}
 

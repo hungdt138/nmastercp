@@ -10,12 +10,13 @@ public class HttpRequest {
 	public static String callURL(String url) throws IOException {
 		String strURL = "";
 		if (url.length() > 0 && !url.equals("")) {
+			// Create a URL for the desired page
+			URL _url = new URL(url);
+			// Read all the text returned by the server
+			BufferedReader in = new BufferedReader(new InputStreamReader(
+					_url.openStream()));
 			try {
-				// Create a URL for the desired page
-				URL _url = new URL(url);
-				// Read all the text returned by the server
-				BufferedReader in = new BufferedReader(new InputStreamReader(
-						_url.openStream()));
+
 				String str;
 				// System.out.println(in.toString());
 				while ((str = in.readLine()) != null) {
@@ -26,9 +27,14 @@ public class HttpRequest {
 				throw e;
 			} catch (IOException e) {
 				throw e;
+			} finally {
+				if (in != null) {
+					in.close();
+				}
 			}
+
 		}
 		return strURL;
 	}
-	
+
 }

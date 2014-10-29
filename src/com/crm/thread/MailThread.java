@@ -19,6 +19,7 @@ import javax.mail.internet.MimeBodyPart;
 import javax.mail.internet.MimeMessage;
 import javax.mail.internet.MimeMultipart;
 
+import com.crm.kernel.queue.QueueFactory;
 import com.crm.thread.util.ThreadUtil;
 import com.crm.util.StringUtil;
 import com.fss.util.AppException;
@@ -29,125 +30,104 @@ import com.fss.util.AppException;
  *         Created Date 26/08/2012
  * 
  */
-public class MailThread extends DispatcherThread
-{
-	private String		host			= "";
-	private int			port			= 0;
-	private String		username		= "";
-	private String		password		= "";
-	private String		sender			= "";
-	private String		recipients		= "";
-	private String		subject			= "";
-	private String		contentType		= "";
-	private String		secureType		= "NONE";
+public class MailThread extends DispatcherThread {
+	private String host = "";
+	private int port = 0;
+	private String username = "";
+	private String password = "";
+	private String sender = "";
+	private String recipients = "";
+	private String subject = "";
+	private String contentType = "";
+	private String secureType = "NONE";
 
-	protected boolean	authenticate	= false;
-	protected Session	mailSession		= null;
-	protected Transport	transport		= null;
+	protected boolean authenticate = false;
+	protected Session mailSession = null;
+	protected Transport transport = null;
 
-	public String getHost()
-	{
+	public String getHost() {
 		return host;
 	}
 
-	public void setHost(String host)
-	{
+	public void setHost(String host) {
 		this.host = host;
 	}
 
-	public int getPort()
-	{
+	public int getPort() {
 		return port;
 	}
 
-	public void setPort(int port)
-	{
+	public void setPort(int port) {
 		this.port = port;
 	}
 
-	public String getUsername()
-	{
+	public String getUsername() {
 		return username;
 	}
 
-	public void setUsername(String username)
-	{
+	public void setUsername(String username) {
 		this.username = username;
 	}
 
-	public String getPassword()
-	{
+	public String getPassword() {
 		return password;
 	}
 
-	public void setPassword(String password)
-	{
+	public void setPassword(String password) {
 		this.password = password;
 	}
 
-	public void setSender(String sender)
-	{
+	public void setSender(String sender) {
 		this.sender = sender;
 	}
 
-	public String getSender()
-	{
+	public String getSender() {
 		return sender;
 	}
 
-	public void setRecipients(String recipients)
-	{
+	public void setRecipients(String recipients) {
 		this.recipients = recipients;
 	}
 
-	public String getRecipients()
-	{
+	public String getRecipients() {
 		return recipients;
 	}
 
-	public void setSubject(String subject)
-	{
+	public void setSubject(String subject) {
 		this.subject = subject;
 	}
 
-	public String getSubject()
-	{
+	public String getSubject() {
 		return subject;
 	}
 
-	public void setAuthenticate(boolean authenticate)
-	{
+	public void setAuthenticate(boolean authenticate) {
 		this.authenticate = authenticate;
 	}
 
-	public boolean isAuthenticate()
-	{
+	public boolean isAuthenticate() {
 		return authenticate;
 	}
 
-	public void setContentType(String contentType)
-	{
+	public void setContentType(String contentType) {
 		this.contentType = contentType;
 	}
 
-	public String getContentType()
-	{
+	public String getContentType() {
 		return contentType;
 	}
 
 	@Override
 	@SuppressWarnings(value = { "rawtypes", "unchecked" })
-	public Vector getDispatcherDefinition()
-	{
+	public Vector getDispatcherDefinition() {
 		Vector vtReturn = new Vector();
-		vtReturn.add(ThreadUtil.createTextParameter("host", 500,
-				"Mail host."));
-		vtReturn.add(ThreadUtil.createIntegerParameter("port",
-				"Mail port."));
+		vtReturn.add(ThreadUtil.createTextParameter("host", 500, "Mail host."));
+		vtReturn.add(ThreadUtil.createIntegerParameter("port", "Mail port."));
 		vtReturn.add(ThreadUtil.createBooleanParameter("useAuthenticate",
 				"Use authenticate."));
-		vtReturn.add(ThreadUtil.createComboParameter("secureMode", "NONE,TLS,SSL",
-				"Secure mode, NONE if not use authenticate mode, default NONE."));
+		vtReturn.add(ThreadUtil
+				.createComboParameter("secureMode", "NONE,TLS,SSL",
+						"Secure mode, NONE if not use authenticate mode, default NONE."));
 		vtReturn.add(ThreadUtil.createTextParameter("username", 100,
 				"Mail username."));
 		vtReturn.add(ThreadUtil.createPasswordParameter("password",
@@ -166,31 +146,28 @@ public class MailThread extends DispatcherThread
 	}
 
 	@Override
-	public void fillParameter() throws AppException
-	{
-		try
-		{
+	public void fillParameter() throws AppException {
+		try {
 			super.fillParameter();
 			setHost(ThreadUtil.getString(this, "host", false, ""));
 			setPort(ThreadUtil.getInt(this, "port", 25));
-			setAuthenticate(ThreadUtil.getBoolean(this, "useAuthenticate", false));
+			setAuthenticate(ThreadUtil.getBoolean(this, "useAuthenticate",
+					false));
 			setUsername(ThreadUtil.getString(this, "username", false, ""));
 			setPassword(ThreadUtil.getString(this, "password", false, ""));
 			setSender(ThreadUtil.getString(this, "sender", false, ""));
 			setRecipients(ThreadUtil.getString(this, "recipients", false, ""));
 			setSubject(ThreadUtil.getString(this, "subject", false, ""));
-			setContentType(ThreadUtil.getString(this, "contentType", false, "text/plain"));
-			
-			secureType = ThreadUtil.getString(this, "secureMode", false, "NONE");
-		}
-		catch (AppException e)
-		{
+			setContentType(ThreadUtil.getString(this, "contentType", false,
+					"text/plain"));
+
+			secureType = ThreadUtil
+					.getString(this, "secureMode", false, "NONE");
+		} catch (AppException e) {
 			logMonitor(e);
 
 			throw e;
-		}
-		catch (Exception e)
-		{
+		} catch (Exception e) {
 			logMonitor(e);
 
 			throw new AppException(e.getMessage());
@@ -198,29 +175,49 @@ public class MailThread extends DispatcherThread
 	}
 
 	@Override
-	public void beforeProcessSession() throws Exception
-	{
-		try
-		{
+	public void beforeProcessSession() throws Exception {
+		try {
 			super.beforeProcessSession();
 			initMailSession();
-		}
-		catch (Exception e)
-		{
+		} catch (Exception e) {
 			throw e;
 		}
 	}
 
 	@Override
-	public void afterProcessSession() throws Exception
-	{
-		try
-		{
+	public void afterProcessSession() throws Exception {
+		try {
 			detroyMailSessioin();
-		}
-		finally
-		{
+		} finally {
 			super.afterProcessSession();
+		}
+	}
+
+	public void doProcessSession() throws Exception {
+		try {
+
+			while (isAvailable()) {
+				try {
+
+					Object request = QueueFactory.detachLocal(queueLocalName);
+					
+					if(request!= null)
+					{
+						processMessage(request);
+					}
+
+					
+				} catch (Exception e) {
+					debugMonitor(e);
+					throw e;
+				}
+
+			}
+
+			ThreadUtil.sleep(this);
+
+		} catch (Exception e) {
+			throw e;
 		}
 	}
 
@@ -230,8 +227,7 @@ public class MailThread extends DispatcherThread
 	 * @param request
 	 * @return
 	 */
-	public String formatContent(Object request)
-	{
+	public String formatContent(Object request) {
 		return request.toString();
 	}
 
@@ -241,13 +237,11 @@ public class MailThread extends DispatcherThread
 	 * @param request
 	 * @return
 	 */
-	public String formatSubject(Object request)
-	{
+	public String formatSubject(Object request) {
 		return StringUtil.format(new Date(), getSubject());
 	}
 
-	public void processMessage(Object request) throws Exception
-	{
+	public void processMessage(Object request) throws Exception {
 		String strContent = formatContent(request);
 
 		String strSubject = formatSubject(request);
@@ -255,53 +249,44 @@ public class MailThread extends DispatcherThread
 		sendEmail(strSubject, strContent, "");
 	}
 
-	protected Properties createSessionProperties()
-	{
+	protected Properties createSessionProperties() {
 		Properties props = new Properties();
 		props.put("mail.transport.protocol", "smtp");
 		props.put("mail.smtp.host", getHost());
 		props.put("mail.smtp.port", getPort());
 		props.put("mail.smtp.auth", isAuthenticate() ? "true" : "false");
 
-		if (secureType.equals("TLS"))
-		{
+		if (secureType.equals("TLS")) {
 			props.put("mail.transport.protocol", "smtp");
 			props.put("mail.smtp.starttls.enable", "true");
 			props.put("mail.smtp.ssl.trust", getHost());
-		}
-		else if(secureType.equals("SSL"))
-		{
+		} else if (secureType.equals("SSL")) {
 			props.put("mail.smtp.ssl.trust", getHost());
-			
+
 			props.put("mail.smtp.starttls.enable", "true");
 			// SSL Port
 			props.put("mail.smtp.socketFactory.port", getPort());
 			// SSL Socket Factory class
-			props.put("mail.smtp.socketFactory.class", "javax.net.ssl.SSLSocketFactory");
+			props.put("mail.smtp.socketFactory.class",
+					"javax.net.ssl.SSLSocketFactory");
 			// SMTP port, the same as SSL port :)
-		}
-		else
-		{
+		} else {
 
 			props.put("mail.transport.protocol", "smtp");
 		}
-		
+
 		return props;
 	}
 
-	public void initMailSession() throws Exception
-	{
-		if (mailSession == null)
-		{
+	public void initMailSession() throws Exception {
+		if (mailSession == null) {
 			Properties props = createSessionProperties();
 
-			if (isAuthenticate())
-			{
-				SMTPAuthenticator auth = new SMTPAuthenticator(getUsername(), getPassword());
+			if (isAuthenticate()) {
+				SMTPAuthenticator auth = new SMTPAuthenticator(getUsername(),
+						getPassword());
 				mailSession = Session.getInstance(props, auth);
-			}
-			else
-			{
+			} else {
 				mailSession = Session.getInstance(props);
 			}
 
@@ -310,51 +295,45 @@ public class MailThread extends DispatcherThread
 		}
 	}
 
-	public void detroyMailSessioin() throws MessagingException
-	{
-		try
-		{
+	public void detroyMailSessioin() throws MessagingException {
+		try {
 			if (transport != null)
 				transport.close();
-		}
-		finally
-		{
+		} finally {
 			mailSession = null;
 			transport = null;
 		}
 	}
 
-	public void sendEmail(String strSubject, String strContent, String strFileName) throws Exception
-	{
-		try
-		{
+	public void sendEmail(String strSubject, String strContent,
+			String strFileName) throws Exception {
+		try {
 			MimeMessage mailMessage = new MimeMessage(mailSession);
 			mailMessage.setFrom(new InternetAddress(getSender().toLowerCase()));
 
 			ArrayList<InternetAddress> recipients = new ArrayList<InternetAddress>();
 
-			String[] strRecipientList = StringUtil.toStringArray(getRecipients(), ";");
+			String[] strRecipientList = StringUtil.toStringArray(
+					getRecipients(), ";");
 
-			for (int j = 0; j < strRecipientList.length; j++)
-			{
-				if (!strRecipientList[j].trim().equals(""))
-				{
+			for (int j = 0; j < strRecipientList.length; j++) {
+				if (!strRecipientList[j].trim().equals("")) {
 					boolean blnExists = false;
-					for (int k = 0; (k < j) && !blnExists; k++)
-					{
-						blnExists = strRecipientList[j].equals(strRecipientList[k]);
+					for (int k = 0; (k < j) && !blnExists; k++) {
+						blnExists = strRecipientList[j]
+								.equals(strRecipientList[k]);
 					}
-					if (!blnExists)
-					{
-						InternetAddress address = new InternetAddress(strRecipientList[j]);
-						mailMessage.addRecipient(javax.mail.Message.RecipientType.TO, address);
+					if (!blnExists) {
+						InternetAddress address = new InternetAddress(
+								strRecipientList[j]);
+						mailMessage.addRecipient(
+								javax.mail.Message.RecipientType.TO, address);
 						recipients.add(address);
 					}
 				}
 			}
 
-			if (recipients.size() == 0)
-			{
+			if (recipients.size() == 0) {
 				debugMonitor("Invalid receipients list.");
 			}
 
@@ -371,20 +350,17 @@ public class MailThread extends DispatcherThread
 
 			Multipart multiPart = new MimeMultipart();
 			multiPart.addBodyPart(mailBody);
-			if (strFileName != null)
-			{
+			if (strFileName != null) {
 				// Create part 2 of mail (attach file )
 				String arrFileName[] = strFileName.split(";");
 				FileDataSource fds = null;
 
-				for (int i = 0; i < arrFileName.length; i++)
-				{
+				for (int i = 0; i < arrFileName.length; i++) {
 					if (arrFileName[i].equals(""))
 						continue;
 					fds = new FileDataSource(arrFileName[i]);
 					mailBody = new MimeBodyPart();
-					if (fds != null)
-					{
+					if (fds != null) {
 						mailBody.setDataHandler(new DataHandler(fds));
 						mailBody.setFileName(fds.getName());
 						multiPart.addBodyPart(mailBody);
@@ -395,38 +371,32 @@ public class MailThread extends DispatcherThread
 			mailMessage.setContent(multiPart, getContentType());
 			mailMessage.saveChanges();
 
-			debugMonitor("Send mail [" + strSubject + "] to [" + getRecipients() + "] from [" + getSender() + "].");
+			debugMonitor("Send mail [" + strSubject + "] to ["
+					+ getRecipients() + "] from [" + getSender() + "].");
 
 			sendViaTransport(mailMessage, addresses);
-		}
-		catch (Exception e)
-		{
+		} catch (Exception e) {
 			throw e;
-		}
-		finally
-		{
+		} finally {
 		}
 	}
-	
-	protected void sendViaTransport(javax.mail.Message message, Address[] addresses) throws MessagingException
-	{
+
+	protected void sendViaTransport(javax.mail.Message message,
+			Address[] addresses) throws MessagingException {
 		transport.sendMessage(message, addresses);
 	}
 
-	protected class SMTPAuthenticator extends javax.mail.Authenticator
-	{
-		private String	username;
-		private String	password;
+	protected class SMTPAuthenticator extends javax.mail.Authenticator {
+		private String username;
+		private String password;
 
-		public SMTPAuthenticator(String username, String password)
-		{
+		public SMTPAuthenticator(String username, String password) {
 			super();
 			this.username = username;
 			this.password = password;
 		}
 
-		public PasswordAuthentication getPasswordAuthentication()
-		{
+		public PasswordAuthentication getPasswordAuthentication() {
 			return new PasswordAuthentication(username, password);
 		}
 	}

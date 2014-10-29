@@ -96,7 +96,9 @@ public class OTPCommandImpl extends CommandImpl {
 		try {
 			String isdn = request.getIsdn();
 			String otp = request.getParameters().getString("request.otp", "");
-
+			// insert thue bao vao bang tam
+			SubscriberOrderImpl.insertOTPQueue(result.getIsdn(),
+					result.getProductId());
 			connection = (OTPConnection) instance.getProvisioningConnection();
 
 			String requestStr = "com.crm.provisioning.impl.mobifone.otp.OTPCommandImpl.SubRequest{spid= "
@@ -107,12 +109,8 @@ public class OTPCommandImpl extends CommandImpl {
 					+ ",isdn= "
 					+ result.getIsdn()
 					+ ",otp= " + otp + "}";
-
+			
 			long sessionId = setRequest(instance, result, requestStr);
-
-			// insert thue bao vao bang tam
-			SubscriberOrderImpl.insertOTPQueue(result.getIsdn(),
-					result.getProductId());
 
 			int response = connection.createSUBRequest(isdn,
 					request.getRequestId(), otp);
@@ -120,44 +118,40 @@ public class OTPCommandImpl extends CommandImpl {
 			if (response == Constants.OK_200) {
 				setResponse(instance, request, "success", sessionId);
 				result.setCause("success");
+				
 			} else if (response == Constants.BAD_400) {
 				setResponse(instance, request, "bad-request", sessionId);
-				SubscriberOrderImpl.deleteOTPQueue(result.getIsdn(),
-						result.getProductId());
+
 				throw new AppException("bad-request");
 			} else if (response == Constants.UNAUTHORIZED_401) {
 				setResponse(instance, request, "Unauthorized", sessionId);
-				SubscriberOrderImpl.deleteOTPQueue(result.getIsdn(),
-						result.getProductId());
+
 				throw new AppException("Unauthorized");
 			} else if (response == Constants.INVALID_402) {
 				setResponse(instance, request, "Invalid-isdn", sessionId);
-				SubscriberOrderImpl.deleteOTPQueue(result.getIsdn(),
-						result.getProductId());
+
 				throw new AppException("Invalid-isdn");
 			} else if (response == Constants.FORBIDDEN_403) {
 				setResponse(instance, request, "Forbidden", sessionId);
-				SubscriberOrderImpl.deleteOTPQueue(result.getIsdn(),
-						result.getProductId());
+
 				throw new AppException("Forbidden");
 			} else if (response == Constants.METHOD_NOT_ALLOWED_405) {
 				setResponse(instance, request, "Method-not-allowed", sessionId);
-				SubscriberOrderImpl.deleteOTPQueue(result.getIsdn(),
-						result.getProductId());
+
 				throw new AppException("Method-not-allowed");
 			} else if (response == Constants.NOT_ACCEPTABLE_406) {
 				setResponse(instance, request, "Not-acceptable", sessionId);
-				SubscriberOrderImpl.deleteOTPQueue(result.getIsdn(),
-						result.getProductId());
+
 				throw new AppException("Not-acceptable");
 			} else if (response == Constants.INVALID_REQUEST_ID_407) {
 				setResponse(instance, request, "requestId-not-exist", sessionId);
-				SubscriberOrderImpl.deleteOTPQueue(result.getIsdn(),
-						result.getProductId());
+
 				throw new AppException("requestId-not-exist");
 			}
 
 		} catch (Exception e) {
+			SubscriberOrderImpl.deleteOTPQueue(request.getIsdn(),
+					request.getProductId());
 			processError(instance, provisioningCommand, result, e);
 		} finally {
 			instance.closeProvisioningConnection(connection);

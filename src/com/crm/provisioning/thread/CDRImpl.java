@@ -3,9 +3,11 @@ package com.crm.provisioning.thread;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
+import java.text.SimpleDateFormat;
 
 import com.crm.kernel.sql.Database;
 import com.crm.provisioning.thread.vinaphone.VinaphoneCDR;
+import com.crm.util.DateUtil;
 
 public class CDRImpl {
 	public static void insertCDR(CDR[] cdrs) throws Exception {
@@ -33,46 +35,54 @@ public class CDRImpl {
 					+ "spid, serviceid, productid_telco, productid, chargemode, begintime, endtime, "
 					+ "subtype, cost, b_isdn, status, telcoID, THIRDPARTY,times,uplinkvolume,downlinkvolume,preDiscountFee,spBenifitRate"
 					+ ",sPBenifitFee,apn,ggsnId,pKgSpId,pKgServiceId,pKgProductId,serviceCategory,contentProvision,orderDate)"
-					+ " VALUES(CDR_SEQ.nextVal,?,sysdate,?,?,?,?,?,?,?,?,?,?,?,?,?,1,1,?,?,?,?,?,?,?,?,?,?,?,?,?,?,sysdate)";
+					+ " VALUES(CDR_SEQ.nextVal,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,1,1,?,?,?,?,?,?,?,?,?,?,?,?,?,?,sysdate)";
 
 			stmtCDR = connection.prepareStatement(SQL);
-
+			SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMddHHmmss");
 			for (CDR cdr : cdrs) {
-				stmtCDR.setString(1, cdr.getStreamNo());
-				stmtCDR.setString(2, cdr.getTimeStamp());
-				stmtCDR.setString(3, cdr.getChargeResult());
-				stmtCDR.setString(4, cdr.getMsIsdn());
-				stmtCDR.setString(5, cdr.getSpID());
-				stmtCDR.setString(6, cdr.getSpID() + cdr.getServiceID());
-				stmtCDR.setString(7, cdr.getProductID_telco());
-				stmtCDR.setString(8, cdr.getProductId());
-				stmtCDR.setString(9, cdr.getChargeMode());
-				stmtCDR.setString(10, cdr.getBeginTime());
-				stmtCDR.setString(11, cdr.getEndTime());
-				stmtCDR.setString(12, cdr.getPayType());
-				stmtCDR.setString(13, cdr.getCost());
-				stmtCDR.setString(14, cdr.getB_Isdn());
-				stmtCDR.setString(15, cdr.getThirdParty());
-				stmtCDR.setInt(16, cdr.getTimes());
-				stmtCDR.setInt(17, cdr.getUplinkVolume());
-				stmtCDR.setInt(18, cdr.getDownlinkVolume());
-				stmtCDR.setInt(19, cdr.getPreDiscountFee());
-				stmtCDR.setInt(20, cdr.getSpBenifitRate());
-				stmtCDR.setInt(21, cdr.getsPBenifitFee());
-				stmtCDR.setString(22, cdr.getApn());
-				stmtCDR.setString(23, cdr.getGgsnId());
-				stmtCDR.setString(24, cdr.getpKgSpId());
-				stmtCDR.setString(25, cdr.getpKgServiceId());
-				stmtCDR.setString(26, cdr.getpKgProductId());
-				stmtCDR.setString(27, cdr.getServiceCategory());
-				stmtCDR.setString(28, cdr.getContentProvision());
+				if (!cdr.getMsIsdn().equals("") || cdr.getMsIsdn() != null
+						|| cdr.getTimeStamp().length() >= 14) {
+					stmtCDR.setString(1, cdr.getStreamNo());
+					stmtCDR.setTimestamp(2, DateUtil.getTimestampSQL(sdf
+							.parse(cdr.getTimeStamp())));
+					stmtCDR.setString(3, cdr.getTimeStamp());
+					stmtCDR.setString(4, cdr.getChargeResult());
+					stmtCDR.setString(5, cdr.getMsIsdn());
+					stmtCDR.setString(6, cdr.getSpID());
+					stmtCDR.setString(7, cdr.getSpID() + cdr.getServiceID());
+					stmtCDR.setString(8, cdr.getProductID_telco());
+					stmtCDR.setString(9, cdr.getProductId());
+					stmtCDR.setString(10, cdr.getChargeMode());
+					stmtCDR.setString(11, cdr.getBeginTime());
+					stmtCDR.setString(12, cdr.getEndTime());
+					stmtCDR.setString(13, cdr.getPayType());
+					stmtCDR.setString(14, cdr.getCost());
+					stmtCDR.setString(15, cdr.getB_Isdn());
+					stmtCDR.setString(16, cdr.getThirdParty());
+					stmtCDR.setInt(17, cdr.getTimes());
+					stmtCDR.setInt(18, cdr.getUplinkVolume());
+					stmtCDR.setInt(19, cdr.getDownlinkVolume());
+					stmtCDR.setInt(20, cdr.getPreDiscountFee());
+					stmtCDR.setInt(21, cdr.getSpBenifitRate());
+					stmtCDR.setInt(22, cdr.getsPBenifitFee());
+					stmtCDR.setString(23, cdr.getApn());
+					stmtCDR.setString(24, cdr.getGgsnId());
+					stmtCDR.setString(25, cdr.getpKgSpId());
+					stmtCDR.setString(26, cdr.getpKgServiceId());
+					stmtCDR.setString(27, cdr.getpKgProductId());
+					stmtCDR.setString(28, cdr.getServiceCategory());
+					stmtCDR.setString(29, cdr.getContentProvision());
 
-				stmtCDR.addBatch();
-				count++;
+					stmtCDR.addBatch();
+					count++;
 
-				if (count >= 50) {
-					stmtCDR.executeBatch();
-					count = 0;
+					if (count >= 50) {
+						stmtCDR.executeBatch();
+						count = 0;
+					}
+
+				} else {
+					System.out.println("LOI ROI " + cdr.getStreamNo());
 				}
 			}
 			if (count > 0) {
@@ -97,45 +107,50 @@ public class CDRImpl {
 					+ "pkgspid, pkgserviceid, pkgproductid, contentid, isdn, prediscountfee, cost, subtype, reason, "
 					+ "chargeMode, chargeResult, recnum, productId, telcoId) "
 					+ "values "
-					+ "(CDR_SEQ.nextVal,?,sysdate,sysdate,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)";
+					+ "(CDR_SEQ.nextVal,?,?,sysdate,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)";
 			connection = Database.getConnection();
 			stmtCDR = connection.prepareStatement(sql);
-
+			SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMddHHmmss");
 			for (VinaphoneCDR cdr : cdrs) {
-				stmtCDR.setInt(1, cdr.getStreamNo());
-				stmtCDR.setString(2, cdr.getMsgId());
-				stmtCDR.setString(3, cdr.getCpName());
-				stmtCDR.setString(4, cdr.getSpId());
-				stmtCDR.setString(5, cdr.getServiceId());
-				stmtCDR.setString(6, cdr.getServiceName());
-				stmtCDR.setString(7, cdr.getProductId());
-				stmtCDR.setString(8, cdr.getContentName());
-				stmtCDR.setString(9, cdr.getContentName());
-				stmtCDR.setString(10, cdr.getPlayType());
-				stmtCDR.setInt(11, cdr.getAccessChannel());
-				stmtCDR.setString(12, cdr.getTime_stamp());
-				stmtCDR.setString(13, cdr.getPkgSpId());
-				stmtCDR.setString(14, cdr.getPkgServiceId());
-				stmtCDR.setString(15, cdr.getPkgProductId());
-				stmtCDR.setString(16, cdr.getContentId());
-				stmtCDR.setString(17, cdr.getMsisdn());
-				stmtCDR.setInt(18, cdr.getOriginalfee());
-				stmtCDR.setInt(19, cdr.getFee());
-				stmtCDR.setInt(20, cdr.getPayType());
-				stmtCDR.setString(21, cdr.getReason());
-				stmtCDR.setInt(22, cdr.getChargeType());
-				stmtCDR.setInt(23, cdr.getChargeResult());
-				stmtCDR.setInt(24, cdr.getRecNum());
-				stmtCDR.setString(25, cdr.getProductCode());
-				stmtCDR.setInt(26, 2);//telcoID VNP = 2;
+				if (!cdr.getMsisdn().equals("") || cdr.getMsisdn() != null
+						|| cdr.getTime_stamp().length() >= 14) {
+					stmtCDR.setInt(1, cdr.getStreamNo());
+					stmtCDR.setTimestamp(2, DateUtil.getTimestampSQL(sdf
+							.parse(cdr.getTime_stamp())));
+					stmtCDR.setString(3, cdr.getMsgId());
+					stmtCDR.setString(4, cdr.getCpName());
+					stmtCDR.setString(5, cdr.getSpId());
+					stmtCDR.setString(6, cdr.getServiceId());
+					stmtCDR.setString(7, cdr.getServiceName());
+					stmtCDR.setString(8, cdr.getProductId());
+					stmtCDR.setString(9, cdr.getContentName());
+					stmtCDR.setString(10, cdr.getContentName());
+					stmtCDR.setString(11, cdr.getPlayType());
+					stmtCDR.setInt(12, cdr.getAccessChannel());
+					stmtCDR.setString(13, cdr.getTime_stamp());
+					stmtCDR.setString(14, cdr.getPkgSpId());
+					stmtCDR.setString(15, cdr.getPkgServiceId());
+					stmtCDR.setString(16, cdr.getPkgProductId());
+					stmtCDR.setString(17, cdr.getContentId());
+					stmtCDR.setString(18, cdr.getMsisdn());
+					stmtCDR.setInt(19, cdr.getOriginalfee());
+					stmtCDR.setInt(20, cdr.getFee());
+					stmtCDR.setInt(21, cdr.getPayType());
+					stmtCDR.setString(22, cdr.getReason());
+					stmtCDR.setInt(23, cdr.getChargeType());
+					stmtCDR.setInt(24, cdr.getChargeResult());
+					stmtCDR.setInt(25, cdr.getRecNum());
+					stmtCDR.setString(26, cdr.getProductCode());
+					stmtCDR.setInt(27, 2);// telcoID VNP = 2;
 
-				stmtCDR.addBatch();
-				count++;
+					stmtCDR.addBatch();
+					count++;
 
-				if (count >= 50) {
-					stmtCDR.executeBatch();
-					count = 0;
+					if (count >= 50) {
+						stmtCDR.executeBatch();
+						count = 0;
 
+					}
 				}
 
 			}

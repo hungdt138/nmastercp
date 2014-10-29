@@ -39,6 +39,7 @@ public class ImportCDRThread extends ImportFileThread
 		
 		try
 		{
+			
 			CDRImpl.insertCDR(cdrs.toArray(new CDR[] {}));
 			cdrs.clear();
 		}

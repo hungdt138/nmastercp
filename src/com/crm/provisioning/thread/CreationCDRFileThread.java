@@ -469,11 +469,17 @@ public class CreationCDRFileThread extends DispatcherThread {
 			if (telcoId == 1) {
 				sql = "select * from telcocdr where isdn = ? "
 						+ "and chargeresult = 1 " + "and productId = ? "
-						+ "and orderDate >= trunc(sysdate)";
+						+ "and orderDate >= trunc(to_date('" + timestamp
+						+ "','YYYYMMDD')) + 1"
+						+ " and orderDate <= trunc(to_date('" + timestamp
+						+ "','YYYYMMDD')) + 2";
 			} else if (telcoId == 2) {
 				sql = "select * from telcocdr where isdn = ? "
 						+ "and chargeresult = 0 " + "and productId = ? "
-						+ "and orderDate >= trunc(sysdate)";
+						+ "and orderDate >= trunc(to_date('" + timestamp
+						+ "','YYYYMMDD')) +1"
+						+ " and orderDate <= trunc(to_date('" + timestamp
+						+ "','YYYYMMDD')) + 2";
 			}
 
 			connection = Database.getConnection();

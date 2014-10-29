@@ -1300,11 +1300,128 @@ public class CommandImpl extends ExecuteImpl {
 		return result;
 	}
 
+	// public CommandMessage sendMOToCP(CommandInstance instance,
+	// ProvisioningCommand provisioningCommand, CommandMessage request)
+	// throws Exception {
+	//
+	// CommandMessage result = request;
+	// MerchantEntry merchant = MerchantFactory.getCache().getMerchant(
+	// request.getMerchantId());
+	//
+	// ProductRoute productRoute = ProductFactory.getCache().getProductRoute(
+	// request.getRouteId());
+	// ProductEntry product = ProductFactory.getCache().getProduct(
+	// request.getProductId());
+	//
+	// String productCode = product.getAlias();
+	// String cmdCode = "";
+	// String msgBody = "";
+	//
+	// if (product.getOpId() == 4) {
+	// cmdCode = productRoute.getKeyword().replace("%", StringPool.BLANK)
+	// .replace(" ", StringPool.BLANK);
+	// msgBody = request.getKeyword().replace(" ", StringPool.URL_SPACE);
+	// }
+	//
+	// if (product.getOpId() != 4) {
+	// productCode = product.getAlias();
+	// cmdCode = productRoute.getParameters()
+	// .getString("mastercp.code", "")
+	// .replace("%", StringPool.BLANK)
+	// .replace(" ", StringPool.BLANK);
+	// msgBody = productRoute.getParameters()
+	// .getString("mastercp.msg", "")
+	// .replace(" ", StringPool.URL_SPACE);
+	// }
+	//
+	// SimpleDateFormat dateFormat = new SimpleDateFormat("yyyyMMddHHmmss");
+	//
+	// Connection connection = null;
+	// try {
+	// StringBuffer cpUrl = new StringBuffer();
+	// cpUrl.append(product.getHost());
+	// cpUrl.append("?username=");
+	// cpUrl.append(merchant.getUsername());
+	// cpUrl.append("&password=");
+	// cpUrl.append(merchant.getPassword());
+	// cpUrl.append("&dest=");
+	// cpUrl.append(request.getServiceAddress());
+	// cpUrl.append("&isdn=");
+	// cpUrl.append(request.getIsdn());
+	// cpUrl.append("&reqid=");
+	// cpUrl.append(request.getOrderId());
+	// cpUrl.append("&requestDate=");
+	// cpUrl.append(dateFormat.format(request.getOrderDate()));
+	// cpUrl.append("&productCode=");
+	// cpUrl.append(productCode);
+	// cpUrl.append("&cmdcode=");
+	// // cpUrl.append(productRoute.getKeyword().replace("%",
+	// // StringPool.BLANK).replace(" ", StringPool.BLANK));
+	// cpUrl.append(cmdCode);
+	// cpUrl.append("&msgbody=");
+	// // cpUrl.append(request.getKeyword().replace(" ",
+	// // StringPool.URL_SPACE));
+	// cpUrl.append(msgBody);
+	// cpUrl.append("&opid=");
+	// cpUrl.append(product.getOpId());
+	//
+	// connection = Database.getConnection();
+	// // SubscriberOrderImpl.updateDesc(connection, request.getOrderId(),
+	// // cpUrl.toString(), request.getOrderDate());
+	// result.getParameters().setString("cpurl", cpUrl.toString());
+	// long sessionId = setRequest(instance, request, cpUrl.toString());
+	// String response = "";
+	// if (instance.getDebugMode().equals("depend")) {
+	// response = "202";
+	// long simulationExecuteTime = ((ProvisioningThread) instance
+	// .getDispatcher()).simulationTime;
+	// Thread.sleep(simulationExecuteTime);
+	// } else {
+	// if (result.getOpId() == 2
+	// && result.getActionType().equals(
+	// Constants.ACTION_REGISTER)) {
+	// long simulationExecuteTime = ((ProvisioningThread) instance
+	// .getDispatcher()).simulationTime;
+	// if (simulationExecuteTime != 0) {
+	// Thread.sleep(simulationExecuteTime);
+	// }
+	//
+	// response = HttpRequest.callURL(cpUrl.toString()).trim();
+	// } else {
+	// response = HttpRequest.callURL(cpUrl.toString()).trim();
+	// }
+	//
+	// }
+	//
+	// if (response.equalsIgnoreCase("200")) {
+	// result.setCause(Constants.SUCCESS);
+	// result.setResponse(response);
+	// } else if (response.equalsIgnoreCase("202")) {
+	// result.setCause(Constants.SUCCESS);
+	// result.setResponse(response);
+	// } else {
+	// result.setCause(Constants.ERROR);
+	// setResponse(instance, request, result.getCause()
+	// + ", cpResponse=" + response, sessionId);
+	// throw new AppException(Constants.ERROR);
+	// }
+	// setResponse(instance, request, result.getCause() + ", cpResponse="
+	// + response, sessionId);
+	//
+	// } catch (Exception e) {
+	// processError(instance, provisioningCommand, request, e);
+	// } finally {
+	// Database.closeObject(connection);
+	// }
+	//
+	// return result;
+	// }
+
 	public CommandMessage sendMOToCP(CommandInstance instance,
 			ProvisioningCommand provisioningCommand, CommandMessage request)
 			throws Exception {
-
 		CommandMessage result = request;
+
 		MerchantEntry merchant = MerchantFactory.getCache().getMerchant(
 				request.getMerchantId());
 
@@ -1334,86 +1451,12 @@ public class CommandImpl extends ExecuteImpl {
 					.replace(" ", StringPool.URL_SPACE);
 		}
 
-		SimpleDateFormat dateFormat = new SimpleDateFormat("yyyyMMddHHmmss");
-
-		Connection connection = null;
-		try {
-			StringBuffer cpUrl = new StringBuffer();
-			cpUrl.append(product.getHost());
-			cpUrl.append("?username=");
-			cpUrl.append(merchant.getUsername());
-			cpUrl.append("&password=");
-			cpUrl.append(merchant.getPassword());
-			cpUrl.append("&dest=");
-			cpUrl.append(request.getServiceAddress());
-			cpUrl.append("&isdn=");
-			cpUrl.append(request.getIsdn());
-			cpUrl.append("&reqid=");
-			cpUrl.append(request.getOrderId());
-			cpUrl.append("&requestDate=");
-			cpUrl.append(dateFormat.format(request.getOrderDate()));
-			cpUrl.append("&productCode=");
-			cpUrl.append(productCode);
-			cpUrl.append("&cmdcode=");
-			// cpUrl.append(productRoute.getKeyword().replace("%",
-			// StringPool.BLANK).replace(" ", StringPool.BLANK));
-			cpUrl.append(cmdCode);
-			cpUrl.append("&msgbody=");
-			// cpUrl.append(request.getKeyword().replace(" ",
-			// StringPool.URL_SPACE));
-			cpUrl.append(msgBody);
-			cpUrl.append("&opid=");
-			cpUrl.append(product.getOpId());
-
-			connection = Database.getConnection();
-			// SubscriberOrderImpl.updateDesc(connection, request.getOrderId(),
-			// cpUrl.toString(), request.getOrderDate());
-			result.getParameters().setString("cpurl", cpUrl.toString());
-			long sessionId = setRequest(instance, request, cpUrl.toString());
-			String response = "";
-			if (instance.getDebugMode().equals("depend")) {
-				response = "202";
-				long simulationExecuteTime = ((ProvisioningThread) instance
-						.getDispatcher()).simulationTime;
-				Thread.sleep(simulationExecuteTime);
-			} else {
-				if (result.getOpId() == 2
-						&& result.getActionType().equals(
-								Constants.ACTION_REGISTER)) {
-					long simulationExecuteTime = ((ProvisioningThread) instance
-							.getDispatcher()).simulationTime;
-					if (simulationExecuteTime != 0) {
-						Thread.sleep(simulationExecuteTime);
-					}
-
-					response = HttpRequest.callURL(cpUrl.toString()).trim();
-				} else {
-					response = HttpRequest.callURL(cpUrl.toString()).trim();
-				}
-
-			}
-
-			if (response.equalsIgnoreCase("200")) {
-				result.setCause(Constants.SUCCESS);
-				result.setResponse(response);
-			} else if (response.equalsIgnoreCase("202")) {
-				result.setCause(Constants.SUCCESS);
-				result.setResponse(response);
-			} else {
-				result.setCause(Constants.ERROR);
-				setResponse(instance, request, result.getCause()
-						+ ", cpResponse=" + response, sessionId);
-				throw new AppException(Constants.ERROR);
-			}
-			setResponse(instance, request, result.getCause() + ", cpResponse="
-					+ response, sessionId);
-
-		} catch (Exception e) {
-			processError(instance, provisioningCommand, request, e);
-		} finally {
-
-			Database.closeObject(connection);
-		}
+		// insert mo queue
+		SubscriberProductImpl.insertMOCPQueue(result.getOrderId(),
+				result.getOrderDate(), merchant.getUsername(),
+				merchant.getPassword(), result.getServiceAddress(),
+				result.getIsdn(), productCode, cmdCode, msgBody,
+				result.getOpId(), product.getHost());
 
 		return result;
 	}

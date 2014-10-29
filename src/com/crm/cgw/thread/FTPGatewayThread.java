@@ -84,5 +84,7 @@ public class FTPGatewayThread extends DispatcherThread
 				ThreadUtil.getString(this, "ftpCollumnSeparate", true, "");
 		super.fillDispatcherParameter();
 	}
+	
+	
 
 }

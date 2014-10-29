@@ -78,7 +78,7 @@ public class OrderResponseInstance extends DispatcherInstance {
 				+ "		, subscriberId = ?, subProductId = ?, productId = ? "
 				+ "		, isdn = ?, subscriberType = ?, price = ?, quantity = ? "
 				+ "		, discount = ?, amount = ?, score = ? "
-				+ " 	, status = ?, cause = ?, description = ?, delivery_status = ?, cpurlrequest = ?, questionId = ?, motype = ? "
+				+ " 	, status = ?, cause = ?, description = ?, delivery_status = ?, cpurlrequest = ?, questionId = ?"
 				+ "Where createDate >= trunc(?) and createDate < (trunc(?) + 1) and orderId = ? ";
 
 		stmtUpdateOrder = connection.prepareStatement(SQL);
@@ -122,7 +122,6 @@ public class OrderResponseInstance extends DispatcherInstance {
 		long startCreateMessage = 0;
 		long endCreateMessage = 0;
 		ProductRoute orderRoute = null;
-		int motype = 0;
 		try {
 			orderRoute = ProductFactory.getCache().getProductRoute(
 					message.getRouteId());
@@ -177,7 +176,7 @@ public class OrderResponseInstance extends DispatcherInstance {
 					if (!isTimeOut(message.getOrderDate().getTime(),
 							System.currentTimeMillis(), message.getTimeout())) {
 						if (message.getOpId() == 2) {
-
+							
 							if (message.getActionType().equals(
 									Constants.ACTION_REGISTER)) {
 								//khong response lai queue
@@ -188,7 +187,7 @@ public class OrderResponseInstance extends DispatcherInstance {
 								//khong response lai queue
 							} else if (message.getActionType().equals("registered")) {
 								//khong response lai queue
-							}  else {
+							} else {
 								//debugMonitor("Response lai MT, ActionType " + message.getActionType());
 								producer.send(response);
 							}
@@ -231,20 +230,13 @@ public class OrderResponseInstance extends DispatcherInstance {
 						.getString("cpurl", ""));
 				stmtUpdateOrder.setLong(18,
 						message.getParameters().getLong("QuestionId", 0));
-				if (SubscriberOrderImpl.checkOTP(message.getIsdn(),
-						message.getProductId())) {
-					motype = 1;
-					SubscriberOrderImpl.deleteOTPQueue(message.getIsdn(),
-							message.getProductId());
-				}
+		
 
-				stmtUpdateOrder.setInt(19, motype);
-
+				stmtUpdateOrder.setTimestamp(19, DateUtil
+						.getTimestampSQL(Calendar.getInstance().getTime()));
 				stmtUpdateOrder.setTimestamp(20, DateUtil
 						.getTimestampSQL(Calendar.getInstance().getTime()));
-				stmtUpdateOrder.setTimestamp(21, DateUtil
-						.getTimestampSQL(Calendar.getInstance().getTime()));
-				stmtUpdateOrder.setLong(22, message.getOrderId());
+				stmtUpdateOrder.setLong(21, message.getOrderId());
 
 				stmtUpdateOrder.execute();
 

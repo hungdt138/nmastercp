@@ -170,7 +170,8 @@ public class ImportFileThread extends DispatcherThread
 
 		if (!importingDir.exists())
 		{
-			throw new Exception("Can not find importing directory: " + importingDirectory);
+			debugMonitor("Can not find importing directory: " + importingDirectory);
+//			throw new Exception("Can not find importing directory: " + importingDirectory);
 		}
 
 		debugMonitor("Searching by wildcard " + wildcard + " ...");

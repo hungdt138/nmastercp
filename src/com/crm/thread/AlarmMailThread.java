@@ -185,7 +185,7 @@ public class AlarmMailThread extends MailThread
 		if (request instanceof AlarmMessage)
 		{
 			AlarmMessage alarm = (AlarmMessage) request;
-
+			
 			if (alarm.isImmediately())
 			{
 				String strSubject = formatSubject(alarm);

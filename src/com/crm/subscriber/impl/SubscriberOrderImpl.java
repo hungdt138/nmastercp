@@ -240,7 +240,7 @@ public class SubscriberOrderImpl {
 			double discount, double amount, double score, String cause,
 			int status, String channel, String serviceAddr, long merchantId,
 			long opId, long orderNo, String content, long agentId,
-			String telcoServiceId) throws Exception {
+			String telcoServiceId, int motype) throws Exception {
 		SubscriberOrder order = null;
 
 		PreparedStatement stmtOrder = null;
@@ -257,10 +257,10 @@ public class SubscriberOrderImpl {
 			String SQL = "Insert into SubscriberOrder "
 					+ "		(orderId, userId, userName, createDate, modifiedDate, orderType, orderDate, cycleDate "
 					+ "		, subscriberId, subProductId, productId, isdn, subscriberType "
-					+ "		, offerPrice, price, quantity, discount, amount, score, status, cause, channel,serviceaddr,merchantId,telcoid, orderNo, shippingto, agentId, exportstatus,TELCOSSERVICEID, DELIVERYCOUNTER) "
+					+ "		, offerPrice, price, quantity, discount, amount, score, status, cause, channel,serviceaddr,merchantId,telcoid, orderNo, shippingto, agentId, exportstatus,TELCOSSERVICEID, DELIVERYCOUNTER, motype) "
 					+ " Values " + "		(?, ?, ?, sysDate, sysDate, ?, ?, ? "
 					+ "		, ?, ?, ?, ?, ? "
-					+ "		, ?, ?, ?, ?, ?, ?, ?, ?, ?,?,?,?,?,?,?,1,?,0) ";
+					+ "		, ?, ?, ?, ?, ?, ?, ?, ?, ?,?,?,?,?,?,?,1,?,0,?) ";
 
 			stmtOrder = connection.prepareStatement(SQL);
 
@@ -296,6 +296,7 @@ public class SubscriberOrderImpl {
 			stmtOrder.setString(25, content);
 			stmtOrder.setLong(26, agentId);
 			stmtOrder.setString(27, telcoServiceId);
+			stmtOrder.setInt(28, motype);
 
 			stmtOrder.execute();
 
@@ -334,12 +335,12 @@ public class SubscriberOrderImpl {
 			double price, int quantity, double discount, double amount,
 			double score, String cause, int status, String serviceAddr,
 			long merchantId, int opId, int orderNo, String content,
-			long agentId, String telcoServiceId) throws Exception {
+			long agentId, String telcoServiceId, int motype) throws Exception {
 		return createOrder(userId, userName, orderDate, orderType,
 				subscriberId, isdn, subscriberType, subProductId, productId,
 				price, quantity, discount, amount, score, cause, status, "",
 				serviceAddr, merchantId, opId, orderNo, content, agentId,
-				telcoServiceId);
+				telcoServiceId, motype);
 
 	}
 
@@ -349,7 +350,7 @@ public class SubscriberOrderImpl {
 			double price, int quantity, double discount, double amount,
 			double score, String cause, int status, String channel,
 			String serviceAddr, long merchantId, long opId, long orderNo,
-			String content, long agentId, String telcoServiceId)
+			String content, long agentId, String telcoServiceId, int motype)
 			throws Exception {
 		Connection connection = null;
 		long startTime = System.currentTimeMillis();
@@ -360,15 +361,15 @@ public class SubscriberOrderImpl {
 					orderType, subscriberId, isdn, subscriberType,
 					subProductId, productId, price, quantity, discount, amount,
 					score, cause, status, channel, serviceAddr, merchantId,
-					opId, orderNo, content, agentId, telcoServiceId);
+					opId, orderNo, content, agentId, telcoServiceId, motype);
 		} finally {
 			Database.closeObject(connection);
 			long endTime = System.currentTimeMillis();
-//			 if ((endTime - startTime) > Database.getDatabaseHigh())
-//			 {
-//			 Database.processAlarmDB(startTime, endTime, orderDate, productId,
-//			 isdn, "Insert Order");
-//			 }
+			// if ((endTime - startTime) > Database.getDatabaseHigh())
+			// {
+			// Database.processAlarmDB(startTime, endTime, orderDate, productId,
+			// isdn, "Insert Order");
+			// }
 		}
 	}
 
@@ -756,4 +757,5 @@ public class SubscriberOrderImpl {
 			Database.closeObject(connection);
 		}
 	}
+
 }

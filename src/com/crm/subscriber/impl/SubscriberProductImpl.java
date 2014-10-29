@@ -2475,4 +2475,67 @@ public class SubscriberProductImpl {
 		}
 	}
 
+	public static void insertMOCPQueue(long orderId, Date requestDate,
+			String username, String password, String serviceAddress,
+			String isdn, String productCode, String cmdCode, String msgBody,
+			long opId, String cpUrl) throws Exception {
+		PreparedStatement stmtInsert = null;
+		Connection connection = null;
+		try {
+			connection = Database.getConnection();
+			String sql = " insert into CPQUEUE (ORDERID, REQUESTDATE, USERNAME, PASSWORD, SERVICEADDRESS, ISDN, "
+					+ "PRODUCTCODE, CMDCODE, MSGBODY, OPID, CPURL, RETRY, STATUS) values (?,?,?,?,?,?,?,?,?,?,?,0,1)";
+			stmtInsert = connection.prepareStatement(sql);
+
+			stmtInsert.setLong(1, orderId);
+			stmtInsert.setTimestamp(2, DateUtil.getTimestampSQL(requestDate));
+			stmtInsert.setString(3, username);
+			stmtInsert.setString(4, password);
+			stmtInsert.setString(5, serviceAddress);
+			stmtInsert.setString(6, isdn);
+			stmtInsert.setString(7, productCode);
+			stmtInsert.setString(8, cmdCode);
+			stmtInsert.setString(9, msgBody);
+			stmtInsert.setLong(10, opId);
+			stmtInsert.setString(11, cpUrl);
+
+			stmtInsert.execute();
+		} catch (Exception e) {
+			throw e;
+		} finally {
+			Database.closeObject(stmtInsert);
+			Database.closeObject(connection);
+		}
+	}
+
+	public static void updateStatusMoQueue(long orderId, int status, int retry)
+			throws Exception {
+		PreparedStatement stmtInsert = null;
+		Connection connection = null;
+		try {
+			connection = Database.getConnection();
+			String sql = " update CPQUEUE set status = ?, retry = ? where orderId = ?";
+			stmtInsert = connection.prepareStatement(sql);
+
+			stmtInsert.setInt(1, 1);
+
+			if (status == 0) {
+				retry = retry + 1;
+			} else if (status == 1) {
+				retry = 0;
+			}
+			stmtInsert.setInt(2, retry);
+			stmtInsert.setLong(3, orderId);
+
+			stmtInsert.execute();
+		} catch (Exception e) {
+			throw e;
+		} finally {
+			Database.closeObject(stmtInsert);
+			Database.closeObject(connection);
+		}
+	}
+	
+	
+
 }

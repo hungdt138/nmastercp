@@ -173,6 +173,7 @@ public class OrderRoutingInstance extends ProvisioningInstance {
 			if (content == null) {
 				content = order.getKeyword();
 			}
+			int motype = 0;
 
 			/**
 			 * Create order
@@ -181,6 +182,22 @@ public class OrderRoutingInstance extends ProvisioningInstance {
 			if ((orderRoute != null) && orderRoute.isCreateOrder()) {
 				try {
 					long startTime = System.currentTimeMillis();
+					if (!order.getKeyword().startsWith("DELIVERY_")) {
+						if (SubscriberOrderImpl.checkOTP(order.getIsdn(),
+								order.getProductId())) {
+
+							SubscriberOrderImpl.deleteOTPQueue(order.getIsdn(),
+									order.getProductId());
+							motype = 1;
+						}
+					}
+
+					if (order.getKeyword().startsWith("OTPREQ_")) {
+						motype = 1;
+					}
+					if (order.getKeyword().startsWith("SUBREQ_")) {
+						motype = 1;
+					}
 
 					subscriberOrder = SubscriberOrderImpl.createOrder(
 							order.getUserId(),
@@ -207,7 +224,7 @@ public class OrderRoutingInstance extends ProvisioningInstance {
 							content,
 							order.getAgentId(),
 							product.getParameters().getString(
-									"sdp.service.serviceid", ""));
+									"sdp.service.serviceid", ""), motype);
 
 					order.setOrderDate(subscriberOrder.getOrderDate());
 					order.setOrderId(subscriberOrder.getOrderId());

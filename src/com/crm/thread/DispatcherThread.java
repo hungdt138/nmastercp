@@ -80,8 +80,10 @@ public class DispatcherThread extends ManageableThread
 	public int				insertCount				= 0;
 	public int				updateCount				= 0;
 	public int				exportCount				= 0;
+	public int 				retryCount = 0;
 	public String			minStamp				= "";
 	public String			maxStamp				= "";
+	
 
 	// //////////////////////////////////////////////////////
 	// batch variables
@@ -451,6 +453,7 @@ public class DispatcherThread extends ManageableThread
 		bypassCount = 0;
 		insertCount = 0;
 		updateCount = 0;
+		retryCount = 0;
 
 		minStamp = "";
 		maxStamp = "";

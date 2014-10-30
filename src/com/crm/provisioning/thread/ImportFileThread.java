@@ -92,7 +92,8 @@ public class ImportFileThread extends DispatcherThread
 			debugMonitor("Directory " + backupDirectory + " does not exist.");
 			if (!directory.mkdirs())
 			{
-				throw new Exception("Can not create directory: " + backupDirectory);
+				debugMonitor("Can not create directory: " + backupDirectory);
+				//throw new Exception("Can not create directory: " + backupDirectory);
 			}
 			else
 			{

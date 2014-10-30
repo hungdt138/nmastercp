@@ -168,7 +168,7 @@ public class SendMOToCPThread extends DispatcherThread {
 				cpUrl.append("&opid=");
 				cpUrl.append(rsQueue.getString("opid"));
 
-				// Bắn cảnh báo trường hợp nhiều lỗi
+				// Báº¯n cáº£nh bÃ¡o trÆ°á»�ng há»£p nhiá»�u lá»—i
 				debugMonitor("Error count: " + errorCouter);
 				if (errorCouter >= alarmError) {
 					systemDump = new StringBuilder();
@@ -288,7 +288,6 @@ public class SendMOToCPThread extends DispatcherThread {
 			stmtQueueUpdateRetry.execute();
 			errorCouter += 1;
 			debugMonitor(e.toString());
-			throw e;
 		} finally {
 
 			orderId = 0;

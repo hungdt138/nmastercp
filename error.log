@@ -3641,3 +3641,57 @@ INFO: Cannot find javadb client jar file, derby jdbc driver will not be availabl
 31/07 16:49:51 	at com.fss.ddtp.DDTP.<init>(DDTP.java:63)
 31/07 16:49:51 	at com.fss.ddtp.SocketTransmitter.run(SocketTransmitter.java:82)
 31/07 16:49:51 	at java.lang.Thread.run(Unknown Source)
+2
+31/10 13:14:13 com.fss.thread.ThreadController@72e6f7d2
+2
+31/10 13:14:13 com.fss.thread.ThreadController@72e6f7d2
+2
+31/10 13:14:13 com.fss.thread.ThreadController@72e6f7d2
+2
+31/10 13:14:14 com.fss.thread.ThreadController@72e6f7d2
+2
+31/10 13:14:14 com.fss.thread.ThreadController@72e6f7d2
+31/10 13:14:14 log4j:WARN No appenders could be found for logger (com.crm.kernel.domain.DomainCache).
+31/10 13:14:14 log4j:WARN Please initialize the log4j system properly.
+31/10 13:14:17 Oct 31, 2014 1:14:17 PM com.sun.enterprise.v3.server.CommonClassLoaderServiceImpl findDerbyClient
+INFO: Cannot find javadb client jar file, derby jdbc driver will not be available by default.
+31/10 13:14:46 java.io.FileNotFoundException: system.pwd (The system cannot find the file specified)
+31/10 13:14:46 	at java.io.FileInputStream.open(Native Method)
+31/10 13:14:46 	at java.io.FileInputStream.<init>(FileInputStream.java:120)
+31/10 13:14:46 	at java.io.FileInputStream.<init>(FileInputStream.java:79)
+31/10 13:14:46 	at com.fss.thread.ThreadProcessor.getSystemPassword(ThreadProcessor.java:292)
+31/10 13:14:46 	at com.fss.thread.ThreadProcessor.login(ThreadProcessor.java:192)
+31/10 13:14:46 	at com.fss.thread.ThreadServer.run(ThreadServer.java:73)
+31/10 13:14:46 	at java.lang.Thread.run(Thread.java:662)
+2
+31/10 13:15:01 com.fss.thread.ThreadController@72e6f7d2
+1
+31/10 13:16:09 com.fss.thread.ThreadController@72e6f7d2
+2
+31/10 13:16:17 com.fss.thread.ThreadController@72e6f7d2
+2
+31/10 13:20:23 com.fss.thread.ThreadController@199836ed
+2
+31/10 13:20:23 com.fss.thread.ThreadController@199836ed
+2
+31/10 13:20:23 com.fss.thread.ThreadController@199836ed
+2
+31/10 13:20:23 com.fss.thread.ThreadController@199836ed
+2
+31/10 13:20:23 com.fss.thread.ThreadController@199836ed
+31/10 13:20:24 log4j:WARN No appenders could be found for logger (com.crm.kernel.domain.DomainCache).
+31/10 13:20:24 log4j:WARN Please initialize the log4j system properly.
+31/10 13:20:26 Oct 31, 2014 1:20:26 PM com.sun.enterprise.v3.server.CommonClassLoaderServiceImpl findDerbyClient
+INFO: Cannot find javadb client jar file, derby jdbc driver will not be available by default.
+31/10 13:20:31 java.io.FileNotFoundException: system.pwd (The system cannot find the file specified)
+31/10 13:20:31 	at java.io.FileInputStream.open(Native Method)
+31/10 13:20:31 	at java.io.FileInputStream.<init>(FileInputStream.java:120)
+31/10 13:20:31 	at java.io.FileInputStream.<init>(FileInputStream.java:79)
+31/10 13:20:31 	at com.fss.thread.ThreadProcessor.getSystemPassword(ThreadProcessor.java:292)
+31/10 13:20:31 	at com.fss.thread.ThreadProcessor.login(ThreadProcessor.java:192)
+31/10 13:20:31 	at com.fss.thread.ThreadServer.run(ThreadServer.java:73)
+31/10 13:20:31 	at java.lang.Thread.run(Thread.java:662)
+2
+31/10 13:20:37 com.fss.thread.ThreadController@199836ed
+2
+31/10 13:21:16 com.fss.thread.ThreadController@199836ed

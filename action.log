@@ -1194,3 +1194,28 @@
 31/07 16:45:19 User 'system' try to start thread 'Mobifone OTP'
 31/07 16:45:20 <FONT color="#0033CC"><B>Mobifone OTP started</B></FONT>
 31/07 16:49:51 <FONT color="#CC6622"><U>User 'system' disconnected</U></FONT>
+31/10 13:14:14 <FONT color="#0033CC"><B>Command Statistc started</B></FONT>
+31/10 13:14:14 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+31/10 13:14:15 <FONT color="#0033CC"><B>Command Routing started</B></FONT>
+31/10 13:14:15 <FONT color="#0033CC"><B>CRM started</B></FONT>
+31/10 13:14:16 <FONT color="#0033CC"><B>Queue Monitor started</B></FONT>
+31/10 13:14:46 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+31/10 13:14:59 User 'system' try to update parameter of thread 'CP Sync'
+31/10 13:14:59 Parameter of thread 'CP Sync' updated
+31/10 13:15:01 User 'system' try to start thread 'CP Sync'
+31/10 13:15:02 <FONT color="#0033CC"><B>CP Sync started</B></FONT>
+31/10 13:16:09 User 'system' try to start thread 'CP Sync'
+31/10 13:16:15 User 'system' try to destroy thread 'CP Sync'
+31/10 13:16:17 User 'system' try to start thread 'CP Sync'
+31/10 13:16:17 <FONT color="#0033CC"><B>CP Sync started</B></FONT>
+31/10 13:20:24 <FONT color="#0033CC"><B>Order Routing started</B></FONT>
+31/10 13:20:24 <FONT color="#0033CC"><B>Command Statistc started</B></FONT>
+31/10 13:20:24 <FONT color="#0033CC"><B>CRM started</B></FONT>
+31/10 13:20:25 <FONT color="#0033CC"><B>Command Routing started</B></FONT>
+31/10 13:20:26 <FONT color="#0033CC"><B>Queue Monitor started</B></FONT>
+31/10 13:20:31 <FONT color="#2266CC"><U>User 'system' connected successfully</U></FONT>
+31/10 13:20:37 User 'system' try to start thread 'CP Sync'
+31/10 13:20:37 <FONT color="#0033CC"><B>CP Sync started</B></FONT>
+31/10 13:21:14 User 'system' try to destroy thread 'CP Sync'
+31/10 13:21:16 User 'system' try to start thread 'CP Sync'
+31/10 13:21:16 <FONT color="#0033CC"><B>CP Sync started</B></FONT>

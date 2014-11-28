@@ -2478,13 +2478,13 @@ public class SubscriberProductImpl {
 	public static void insertMOCPQueue(long orderId, Date requestDate,
 			String username, String password, String serviceAddress,
 			String isdn, String productCode, String cmdCode, String msgBody,
-			long opId, String cpUrl) throws Exception {
+			long opId, String cpUrl, Date dateSend) throws Exception {
 		PreparedStatement stmtInsert = null;
 		Connection connection = null;
 		try {
 			connection = Database.getConnection();
 			String sql = " insert into CPQUEUE (ORDERID, REQUESTDATE, USERNAME, PASSWORD, SERVICEADDRESS, ISDN, "
-					+ "PRODUCTCODE, CMDCODE, MSGBODY, OPID, CPURL, RETRY, STATUS) values (?,?,?,?,?,?,?,?,?,?,?,0,1)";
+					+ "PRODUCTCODE, CMDCODE, MSGBODY, OPID, CPURL, RETRY, STATUS, DATESEND) values (?,?,?,?,?,?,?,?,?,?,?,0,1,?)";
 			stmtInsert = connection.prepareStatement(sql);
 
 			stmtInsert.setLong(1, orderId);
@@ -2498,7 +2498,7 @@ public class SubscriberProductImpl {
 			stmtInsert.setString(9, msgBody);
 			stmtInsert.setLong(10, opId);
 			stmtInsert.setString(11, cpUrl);
-
+			stmtInsert.setTimestamp(12, DateUtil.getTimestampSQL(dateSend));
 			stmtInsert.execute();
 		} catch (Exception e) {
 			throw e;

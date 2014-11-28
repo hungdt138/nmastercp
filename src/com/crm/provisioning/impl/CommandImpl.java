@@ -15,6 +15,7 @@ import java.util.Date;
 import java.util.List;
 
 import org.apache.axis.AxisFault;
+import org.apache.commons.net.ntp.TimeStamp;
 
 import com.crm.product.cache.ProductFactory;
 import com.crm.product.cache.ProductEntry;
@@ -1451,12 +1452,24 @@ public class CommandImpl extends ExecuteImpl {
 					.replace(" ", StringPool.URL_SPACE);
 		}
 
+		int timedelay = merchant.getParameters().getInteger(
+				"timedelay.vinaphone", 10);
+		if (timedelay == 0) {
+			timedelay = 10;
+		}
+
+		Calendar cal = Calendar.getInstance();
+		cal.setTime(result.getOrderDate());
+		if (result.getOpId() == 2) {
+			cal.add(Calendar.SECOND, timedelay);
+		}
+
 		// insert mo queue
 		SubscriberProductImpl.insertMOCPQueue(result.getOrderId(),
 				result.getOrderDate(), merchant.getUsername(),
 				merchant.getPassword(), result.getServiceAddress(),
 				result.getIsdn(), productCode, cmdCode, msgBody,
-				result.getOpId(), product.getHost());
+				result.getOpId(), product.getHost(), cal.getTime());
 
 		return result;
 	}

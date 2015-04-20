@@ -175,20 +175,26 @@ public class OrderResponseInstance extends DispatcherInstance {
 					startSendToQueue = System.currentTimeMillis();
 					if (!isTimeOut(message.getOrderDate().getTime(),
 							System.currentTimeMillis(), message.getTimeout())) {
-						if (message.getOpId() == 2) {
-							
+						if (message.getOpId() == 2 || message.getOpId() == 1) {
+
 							if (message.getActionType().equals(
 									Constants.ACTION_REGISTER)) {
-								//khong response lai queue
+								// khong response lai queue
 							} else if (message.getActionType().equals(
 									Constants.ACTION_UNREGISTER)) {
-								//khong response lai queue
-							} else if (message.getActionType().equals("unregistered")) {
-								//khong response lai queue
-							} else if (message.getActionType().equals("registered")) {
+								// khong response lai queue
+							} else if (message.getActionType().equals(
+									"unregistered")) {
+								// khong response lai queue
+							} else if (message.getActionType().equals(
+									"registered")) {
+								// khong response lai queue
+							} else if (message.getActionType()
+									.equals("send-mt")) {
 								//khong response lai queue
 							} else {
-								//debugMonitor("Response lai MT, ActionType " + message.getActionType());
+								// debugMonitor("Response lai MT, ActionType " +
+								// message.getActionType());
 								producer.send(response);
 							}
 
@@ -230,7 +236,6 @@ public class OrderResponseInstance extends DispatcherInstance {
 						.getString("cpurl", ""));
 				stmtUpdateOrder.setLong(18,
 						message.getParameters().getLong("QuestionId", 0));
-		
 
 				stmtUpdateOrder.setTimestamp(19, DateUtil
 						.getTimestampSQL(Calendar.getInstance().getTime()));

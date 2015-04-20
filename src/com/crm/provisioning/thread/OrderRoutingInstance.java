@@ -4,6 +4,7 @@
 package com.crm.provisioning.thread;
 
 import java.sql.SQLException;
+import java.util.Calendar;
 
 import javax.jms.QueueSession;
 
@@ -121,6 +122,9 @@ public class OrderRoutingInstance extends ProvisioningInstance {
 			if (isOverload() && getDispatcher().autoReplyIfOverload) {
 				throw new AppException(Constants.ERROR_RESOURCE_BUSY);
 			}
+			
+			//Set lai thoi gian orderDate
+			order.setOrderDate(Calendar.getInstance().getTime());
 
 			// get order routing
 			if (order.getRouteId() != Constants.DEFAULT_ID) {

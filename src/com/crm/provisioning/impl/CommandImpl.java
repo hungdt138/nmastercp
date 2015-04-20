@@ -1016,10 +1016,15 @@ public class CommandImpl extends ExecuteImpl {
 
 			// Truong hop co them 1 content nua tra ve khi dang ky ngoai MT
 			// thong bao va noi dung cau hoi
-			String firstContent = SubscriberProductImpl.getFirstContent(
+			List<String> firstContent = SubscriberProductImpl.getFirstContent(
 					request.getProductId(), "content");
 
-			result.getParameters().setString("firstcontent", firstContent);
+			result.getParameters().setInteger("firstcontentSize",firstContent.size());
+
+			for (int j = 0; j < firstContent.size(); j++) {
+				result.getParameters().setString("firstcontent[" + j + "]",
+						firstContent.get(j));
+			}
 
 			// Score
 			if (!result.getParameters().getString("BonusPoint").equals("")) {

@@ -9,6 +9,8 @@
  */
 package com.crm.provisioning.impl.vinaphone;
 
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
 import java.util.Date;
 
 import com.crm.kernel.message.Constants;
@@ -30,24 +32,26 @@ import com.fss.util.AppException;
  * @author hungdt
  * 
  */
-public class VinaCommandImpl extends CommandImpl
-{
+public class VinaCommandImpl extends CommandImpl {
 	public CommandMessage sendSms(CommandInstance instance,
 			ProvisioningCommand provisioningCommand, CommandMessage request)
-			throws Exception
-	{
+			throws Exception {
 		VinaConnection connection = null;
 		CommandMessage result = request;
-		try
-		{
-			CommandEntry command = ProvisioningFactory.getCache().getCommand(request.getCommandId());
 
-			ProductEntry product = ProductFactory.getCache().getProduct(request.getProductId());
+		try {
+			CommandEntry command = ProvisioningFactory.getCache().getCommand(
+					request.getCommandId());
+
+			ProductEntry product = ProductFactory.getCache().getProduct(
+					request.getProductId());
 
 			command.setMaxRetry(1);
 
-			String serviceId = product.getParameters().getString("sdp.service.serviceid", "");
-			String productId = product.getParameters().getString("sdp.service.productcode", "");
+			String serviceId = product.getParameters().getString(
+					"sdp.service.serviceid", "");
+			String productId = product.getParameters().getString(
+					"sdp.service.productcode", "");
 
 			AppProperties app = new AppProperties();
 			app.setString("serviceid", serviceId);
@@ -83,14 +87,11 @@ public class VinaCommandImpl extends CommandImpl
 			// identifier);
 			//
 			// setResponse(instance, request, respStr, sessionId);
-		}
-		catch (Exception e)
-		{
+		} catch (Exception e) {
 			processError(instance, provisioningCommand, result, e);
 		}
 
-		finally
-		{
+		finally {
 			instance.closeProvisioningConnection(connection);
 		}
 
@@ -99,20 +100,22 @@ public class VinaCommandImpl extends CommandImpl
 
 	public CommandMessage sendWap(CommandInstance instance,
 			ProvisioningCommand provisioningCommand, CommandMessage request)
-			throws Exception
-	{
+			throws Exception {
 		VinaConnection connection = null;
 		CommandMessage result = request;
-		try
-		{
-			CommandEntry command = ProvisioningFactory.getCache().getCommand(request.getCommandId());
+		try {
+			CommandEntry command = ProvisioningFactory.getCache().getCommand(
+					request.getCommandId());
 
-			ProductEntry product = ProductFactory.getCache().getProduct(request.getProductId());
+			ProductEntry product = ProductFactory.getCache().getProduct(
+					request.getProductId());
 
 			command.setMaxRetry(1);
 
-			String serviceId = product.getParameters().getString("sdp.service.serviceid", "");
-			String productId = product.getParameters().getString("sdp.service.productcode", "");
+			String serviceId = product.getParameters().getString(
+					"sdp.service.serviceid", "");
+			String productId = product.getParameters().getString(
+					"sdp.service.productcode", "");
 
 			AppProperties app = new AppProperties();
 			app.setString("serviceid", serviceId);
@@ -149,14 +152,11 @@ public class VinaCommandImpl extends CommandImpl
 			//
 			// setResponse(instance, request, respStr, sessionId);
 
-		}
-		catch (Exception e)
-		{
+		} catch (Exception e) {
 			processError(instance, provisioningCommand, result, e);
 		}
 
-		finally
-		{
+		finally {
 			instance.closeProvisioningConnection(connection);
 		}
 
@@ -165,17 +165,19 @@ public class VinaCommandImpl extends CommandImpl
 
 	public CommandMessage sendMT(CommandInstance instance,
 			ProvisioningCommand provisioningCommand, CommandMessage request)
-			throws Exception
-	{
+			throws Exception {
 		VinaConnection connection = null;
 		CommandMessage result = request;
-		try
-		{
+		String contentAppend = "";
+		try {
 			String type = result.getParameters().getString("mttype", "sms");
-			ProductEntry product = ProductFactory.getCache().getProduct(request.getProductId());
+			ProductEntry product = ProductFactory.getCache().getProduct(
+					request.getProductId());
 
-			String serviceId = product.getParameters().getString("sdp.service.serviceid", "").trim();
-			String productId = product.getParameters().getString("sdp.service.productcode", "").trim();
+			String serviceId = product.getParameters()
+					.getString("sdp.service.serviceid", "").trim();
+			String productId = product.getParameters()
+					.getString("sdp.service.productcode", "").trim();
 
 			result.getParameters().setString("serviceid", serviceId);
 			result.getParameters().setString("productid", productId);
@@ -188,14 +190,42 @@ public class VinaCommandImpl extends CommandImpl
 
 			connection = (VinaConnection) instance.getProvisioningConnection();
 
-			if (type.equalsIgnoreCase("sms"))
-			{
-				String requestStr = "com.crm.provisioning.impl.vinaphone.sendMT SMS{spid= " + spId + ",sid= " + serviceId + ",productid= "
-						+ productId + "" +
-						",isdn= " + result.getIsdn() + ",description= " + description + ",content= " + result.getContent() + "}";
+			if (type.equalsIgnoreCase("sms")) {
+				contentAppend = product.getParameters().getString(
+						"sdp.appendmt", "");
+
+				String content = result.getContent();
+
+				SimpleDateFormat sdf1 = new SimpleDateFormat("HH");
+				Date cur = Calendar.getInstance().getTime();
+
+				if (Integer.parseInt(sdf1.format(cur)) >= 23
+						|| Integer.parseInt(sdf1.format(cur)) <= 4) {
+					if (!contentAppend.equals("")) {
+						if (result.getContent().contains("goo.gl")) {
+							content = content.substring(0,
+									content.indexOf("http://goo.gl"))
+									+ contentAppend;
+						}
+					}
+				}
+
+				result.setContent(content);
+				String requestStr = "com.crm.provisioning.impl.vinaphone.sendMT SMS{spid= "
+						+ spId
+						+ ",sid= "
+						+ serviceId
+						+ ",productid= "
+						+ productId
+						+ ""
+						+ ",isdn= "
+						+ result.getIsdn()
+						+ ",description= "
+						+ description
+						+ ",content= "
+						+ result.getContent() + "}";
 
 				long sessionId = setRequest(instance, result, requestStr);
-
 				String identifier = connection.sendSms(instance, result);
 
 				// SubscriberOrderImpl.updateDeliveryStatus(result.getOrderId(),
@@ -203,13 +233,23 @@ public class VinaCommandImpl extends CommandImpl
 
 				result.setIdentifier(identifier);
 
-				setResponse(instance, request, "identifier= " + identifier + ",status= success", sessionId);
-			}
-			else if (type.equalsIgnoreCase("wappush"))
-			{
-				String requestStr = "com.crm.provisioning.impl.mobifone.sendMT WAPPUSH{spid = " + spId + ",sid= " + serviceId + ",productid= "
-						+ productId + "" +
-						",isdn= " + result.getIsdn() + ",description= " + description + ",subject= " + result.getDeliveryWapTitle() + ",url= "
+				setResponse(instance, request, "identifier= " + identifier
+						+ ",status= success", sessionId);
+			} else if (type.equalsIgnoreCase("wappush")) {
+				String requestStr = "com.crm.provisioning.impl.mobifone.sendMT WAPPUSH{spid = "
+						+ spId
+						+ ",sid= "
+						+ serviceId
+						+ ",productid= "
+						+ productId
+						+ ""
+						+ ",isdn= "
+						+ result.getIsdn()
+						+ ",description= "
+						+ description
+						+ ",subject= "
+						+ result.getDeliveryWapTitle()
+						+ ",url= "
 						+ result.getDeliveryWapHref() + "}";
 
 				long sessionId = setRequest(instance, result, requestStr);
@@ -220,21 +260,17 @@ public class VinaCommandImpl extends CommandImpl
 
 				result.setIdentifier(identifier);
 
-				setResponse(instance, request, "identifier= " + identifier + ",status= success", sessionId);
-			}
-			else
-			{
+				setResponse(instance, request, "identifier= " + identifier
+						+ ",status= success", sessionId);
+			} else {
 				throw new AppException(Constants.ERROR_INVALID_DELIVER);
 			}
 
-		}
-		catch (Exception e)
-		{
+		} catch (Exception e) {
 			processError(instance, provisioningCommand, result, e);
 		}
 
-		finally
-		{
+		finally {
 			instance.closeProvisioningConnection(connection);
 		}
 

@@ -102,6 +102,7 @@ public class CommandStatisticThread extends DispatcherThread
 
 				ProductStatistic productStatistic = QueueFactory.chpProductStatistic.get(productId);
 
+
 				synchronized (productStatistic)
 				{
 					if (productStatistic.getFailure() > 0)
@@ -132,6 +133,7 @@ public class CommandStatisticThread extends DispatcherThread
 							ProductEntry product = ProductFactory.getCache().getProduct(productId);
 
 							productStatistic.setAlias(product.getAlias());
+							productStatistic.setTitle(product.getTitle());
 							productStatistic.setProductId(productId);
 							productStatistic.setStartTime(now);
 							productStatistic.setSuccess(0);
@@ -161,11 +163,12 @@ public class CommandStatisticThread extends DispatcherThread
 
 			if ((warningCount > 0) && (failureCount >= warningCount))
 			{
+				failureCount = 0;
 				AlarmMessage alarmMessage = new AlarmMessage();
 				alarmMessage.setRequestTime(new Date());
 				alarmMessage.setContent(failureContent);
-				alarmMessage.setCause("failure-command");
-				alarmMessage.setDescription("Too many failed request.");
+				alarmMessage.setCause("Failure Command");
+				alarmMessage.setDescription("Nhieu giao dich fail, kiem tra lai he thong");
 				alarmMessage.setImmediately(true);
 
 				sendAlarmMessage(alarmMessage);

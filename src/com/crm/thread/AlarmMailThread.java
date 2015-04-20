@@ -158,6 +158,7 @@ public class AlarmMailThread extends MailThread
 		if (request instanceof AlarmMessage)
 		{
 			AlarmMessage alarm = (AlarmMessage) request;
+			
 			String subject = super.formatSubject(request) + " - " + alarm.getCause();
 
 			if (alarm.getProvisioningId() != 0)

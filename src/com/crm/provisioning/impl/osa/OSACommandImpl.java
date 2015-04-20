@@ -347,6 +347,8 @@ public class OSACommandImpl extends CommandImpl
 			ProductEntry product = ProductFactory.getCache().getProduct(result.getProductId());
 
 			command.setMaxRetry(1);
+			
+			
 
 			int amount = CommandUtil.getAmount(result.getAmount());
 

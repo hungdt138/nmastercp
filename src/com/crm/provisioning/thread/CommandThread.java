@@ -26,36 +26,32 @@ import com.crm.provisioning.cache.ProvisioningFactory;
  * @version 1.0
  */
 
-public class CommandThread extends ProvisioningThread
-{
-	public ConcurrentHashMap<Long, CommandStatistic>	commandStatistic		= null;
+public class CommandThread extends ProvisioningThread {
+	public ConcurrentHashMap<Long, CommandStatistic> commandStatistic = null;
 
-	public void updateStatistic() throws Exception
-	{
-		try
-		{
+	public void updateStatistic() throws Exception {
+		try {
 			Set<Long> keys = commandStatistic.keySet();
 
 			Iterator<Long> iterator = keys.iterator();
 			Calendar now = Calendar.getInstance();
 
-			while (iterator.hasNext())
-			{
+			while (iterator.hasNext()) {
 				Long commandId = iterator.next();
 
 				CommandStatistic cmdStatistic = commandStatistic.get(commandId);
 
-				synchronized (cmdStatistic)
-				{
-					int total = cmdStatistic.getFailure() + cmdStatistic.getSuccess();
+				synchronized (cmdStatistic) {
+					int total = cmdStatistic.getFailure()
+							+ cmdStatistic.getSuccess();
 
-					if (total > 0)
-					{
-						logMonitor(cmdStatistic.toString() + ", " + statisticInterval);
+					if (total > 0) {
+						logMonitor(cmdStatistic.toString() + ", "
+								+ statisticInterval);
 
-						try
-						{
-							CommandEntry command = ProvisioningFactory.getCache().getCommand(commandId);
+						try {
+							CommandEntry command = ProvisioningFactory
+									.getCache().getCommand(commandId);
 
 							cmdStatistic.setAlias(command.getAlias());
 							cmdStatistic.setCommandId(commandId);
@@ -64,37 +60,32 @@ public class CommandThread extends ProvisioningThread
 							cmdStatistic.setFailure(0);
 
 							commandStatistic.put(commandId, cmdStatistic);
-						}
-						catch (Exception e)
-						{
+						} catch (Exception e) {
+							sendAlarmMessage(e, "Fail to update database",
+									provisioning.getProvisioningId(),
+									provisioningClass);
 							debugMonitor(e);
-							debugMonitor("Fail to update database " + commandStatistic.toString());
+							debugMonitor("Fail to update database "
+									+ commandStatistic.toString());
 						}
 					}
 				}
 			}
 
 			lastStatistic = System.currentTimeMillis();
-		}
-		catch (Exception e)
-		{
+		} catch (Exception e) {
 			throw e;
 		}
 	}
 
-	public void beforeProcessSession() throws Exception
-	{
-		try
-		{
+	public void beforeProcessSession() throws Exception {
+		try {
 			super.beforeProcessSession();
 
-			if (commandStatistic == null)
-			{
+			if (commandStatistic == null) {
 				commandStatistic = new ConcurrentHashMap<Long, CommandStatistic>();
 			}
-		}
-		catch (Exception e)
-		{
+		} catch (Exception e) {
 			throw e;
 		}
 	}

@@ -2033,9 +2033,9 @@ public class SubscriberProductImpl {
 		return strQuestion;
 	}
 
-	public static String getFirstContent(long productid, String type)
+	public static List<String> getFirstContent(long productid, String type)
 			throws Exception {
-		String strQuestion = "";
+		List<String> strQuestion = new ArrayList<String>();
 		PreparedStatement stmtQuest = null;
 		ResultSet rs = null;
 		Connection connection = null;
@@ -2049,7 +2049,7 @@ public class SubscriberProductImpl {
 
 			rs = stmtQuest.executeQuery();
 			while (rs.next()) {
-				strQuestion = rs.getString("question");
+				strQuestion.add(rs.getString("question"));
 			}
 		} finally {
 			Database.closeObject(rs);
@@ -2535,7 +2535,5 @@ public class SubscriberProductImpl {
 			Database.closeObject(connection);
 		}
 	}
-	
-	
 
 }

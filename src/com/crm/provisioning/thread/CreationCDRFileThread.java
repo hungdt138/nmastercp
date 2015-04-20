@@ -3,12 +3,15 @@
  */
 package com.crm.provisioning.thread;
 
+import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.InputStream;
 import java.io.OutputStream;
+import java.io.OutputStreamWriter;
+import java.io.Writer;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -235,8 +238,7 @@ public class CreationCDRFileThread extends DispatcherThread {
 						status = "DeliveryImpossible";
 					}
 
-					logMonitor("Get status: isdn=" + isdn + ",productId="
-							+ productId + ",status=" + status);
+					logMonitor("Get status: isdn=" + isdn + ",productId=" + productId + ",status=" + status);
 
 					// End
 
@@ -274,7 +276,7 @@ public class CreationCDRFileThread extends DispatcherThread {
 		if (listDelivery.size() == 0) {
 			return;
 		}
-		FileOutputStream fos = null;
+		Writer fos = null;
 		File cdrFile = null;
 		String dataToWriteIntoCDRFile = "";
 
@@ -294,13 +296,16 @@ public class CreationCDRFileThread extends DispatcherThread {
 			// String filePath = "C:/" + strFileName;
 			// String filePathBk = "C:/A/" +"/" + strFileName;
 			cdrFile = new File(filePath);
-			fos = new FileOutputStream(cdrFile);
+			// Using OutputStreamWriter you don't have to convert the String to byte[]
+			fos = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(cdrFile), "utf-8"));
+
 			for (String aLineInCDRFile : listDelivery) {
 				dataToWriteIntoCDRFile += "\n" + aLineInCDRFile;
 				dataToWriteIntoCDRFile = dataToWriteIntoCDRFile.trim();
 			}
-			byte[] contentinBytes = dataToWriteIntoCDRFile.getBytes();
-			fos.write(contentinBytes);
+			//byte[] contentinBytes = dataToWriteIntoCDRFile.getBytes();
+			
+			fos.write(dataToWriteIntoCDRFile);
 			fos.flush();
 			fos.close();
 
@@ -469,17 +474,17 @@ public class CreationCDRFileThread extends DispatcherThread {
 			if (telcoId == 1) {
 				sql = "select * from telcocdr where isdn = ? "
 						+ "and chargeresult = 1 " + "and productId = ? "
-						+ "and orderDate >= trunc(to_date('" + timestamp
-						+ "','YYYYMMDD')) + 1"
-						+ " and orderDate <= trunc(to_date('" + timestamp
-						+ "','YYYYMMDD')) + 2";
+						+ "and createDate >= trunc(to_date('" + timestamp
+						+ "','YYYYMMDD'))"
+						+ " and createDate <= trunc(to_date('" + timestamp
+						+ "','YYYYMMDD')) + 1";
 			} else if (telcoId == 2) {
 				sql = "select * from telcocdr where isdn = ? "
 						+ "and chargeresult = 0 " + "and productId = ? "
-						+ "and orderDate >= trunc(to_date('" + timestamp
-						+ "','YYYYMMDD')) +1"
-						+ " and orderDate <= trunc(to_date('" + timestamp
-						+ "','YYYYMMDD')) + 2";
+						+ "and createDate >= trunc(to_date('" + timestamp
+						+ "','YYYYMMDD'))"
+						+ " and createDate <= trunc(to_date('" + timestamp
+						+ "','YYYYMMDD')) + 1";
 			}
 
 			connection = Database.getConnection();

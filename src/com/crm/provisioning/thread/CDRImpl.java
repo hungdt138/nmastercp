@@ -40,11 +40,10 @@ public class CDRImpl {
 			stmtCDR = connection.prepareStatement(SQL);
 			SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMddHHmmss");
 			for (CDR cdr : cdrs) {
-				if (!cdr.getMsIsdn().equals("") || cdr.getMsIsdn() != null
-						|| cdr.getTimeStamp().length() >= 14) {
+				if (!cdr.getMsIsdn().equals("") && cdr.getMsIsdn() != null
+						&& cdr.getTimeStamp().length() >= 14) {
 					stmtCDR.setString(1, cdr.getStreamNo());
-					stmtCDR.setTimestamp(2, DateUtil.getTimestampSQL(sdf
-							.parse(cdr.getTimeStamp())));
+					stmtCDR.setTimestamp(2, DateUtil.getTimestampSQL(sdf.parse(cdr.getTimeStamp())));
 					stmtCDR.setString(3, cdr.getTimeStamp());
 					stmtCDR.setString(4, cdr.getChargeResult());
 					stmtCDR.setString(5, cdr.getMsIsdn());

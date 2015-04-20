@@ -13,8 +13,8 @@ import com.crm.provisioning.cache.ProvisioningFactory;
 import com.crm.provisioning.message.CommandMessage;
 import com.crm.provisioning.util.CommandUtil;
 import com.crm.thread.util.ThreadUtil;
+import com.crm.kernel.message.AlarmMessage;
 import com.crm.kernel.message.Constants;
-
 import com.fss.util.AppException;
 
 /**
@@ -35,27 +35,27 @@ import com.fss.util.AppException;
  * @version 1.0
  */
 
-public class CommandInstance extends ProvisioningInstance
-{
-	public CommandInstance() throws Exception
-	{
+public class CommandInstance extends ProvisioningInstance {
+
+	
+
+	public CommandInstance() throws Exception {
 		super();
 	}
 
-	public CommandThread getDispatcher()
-	{
+	public CommandThread getDispatcher() {
 		return (CommandThread) dispatcher;
 	}
 
-	public void displayCommand(CommandMessage request, long startTime, boolean debug) throws Exception
-	{
+	public void displayCommand(CommandMessage request, long startTime,
+			boolean debug) throws Exception {
 		int baseCostTime = getDispatcher().baseCostTime;
 		long executeCost = (System.currentTimeMillis() - startTime);
 
 		boolean highCost = ((baseCostTime > 0) && (executeCost > baseCostTime));
 
-		if (dispatcher.displayDebug || highCost || (request.getStatus() == Constants.ORDER_STATUS_DENIED))
-		{
+		if (dispatcher.displayDebug || highCost
+				|| (request.getStatus() == Constants.ORDER_STATUS_DENIED)) {
 			StringBuilder sbLog = new StringBuilder();
 
 			sbLog.append("orderId = ");
@@ -71,30 +71,27 @@ public class CommandInstance extends ProvisioningInstance
 			sbLog.append(", cost = ");
 			sbLog.append(executeCost);
 
-			if (!request.getParameters().getString("cost").equals(""))
-			{
+			if (!request.getParameters().getString("cost").equals("")) {
 				sbLog.append(",");
 				sbLog.append(request.getParameters().getString("cost"));
 			}
 
-			if (highCost || (request.getStatus() == Constants.ORDER_STATUS_DENIED))
-			{
+			if (highCost
+					|| (request.getStatus() == Constants.ORDER_STATUS_DENIED)) {
 				logMonitor(sbLog.toString());
-			}
-			else
-			{
+			} else {
 				debugMonitor(sbLog.toString());
 			}
 		}
 	}
 
-	public CommandMessage executeProvisioning(ProvisioningCommand action, CommandMessage request) throws Exception
-	{
-		return (CommandMessage) action.getExecuteMethod().invoke(action.getExecuteImpl(), this, action, request);
+	public CommandMessage executeProvisioning(ProvisioningCommand action,
+			CommandMessage request) throws Exception {
+		return (CommandMessage) action.getExecuteMethod().invoke(
+				action.getExecuteImpl(), this, action, request);
 	}
 
-	public int processMessage(CommandMessage request) throws Exception
-	{
+	public int processMessage(CommandMessage request) throws Exception {
 		CommandMessage result = request;
 
 		CommandEntry command = null;
@@ -105,103 +102,84 @@ public class CommandInstance extends ProvisioningInstance
 
 		long startTime = System.currentTimeMillis();
 
-		try
-		{
+		try {
 			result.setRequestTime(new Date());
 			result.setResponseTime(null);
 
-			productRoute = ProductFactory.getCache().getProductRoute(result.getRouteId());
+			productRoute = ProductFactory.getCache().getProductRoute(
+					result.getRouteId());
 
-			command = ProvisioningFactory.getCache().getCommand(request.getCommandId());
+			command = ProvisioningFactory.getCache().getCommand(
+					request.getCommandId());
 
 			if (!result.getActionType().equals(Constants.ACTION_ROLLBACK)
 					&& productRoute != null
-					&& CommandUtil.isTimeout(result, productRoute.getTimeout()))
-			{
+					&& CommandUtil.isTimeout(result, productRoute.getTimeout())) {
 				throw new AppException(Constants.ERROR_TIMEOUT);
 			}
 
-			ProvisioningEntry provisioning = ProvisioningFactory.getCache().getProvisioning(request.getProvisioningId());
+			ProvisioningEntry provisioning = ProvisioningFactory.getCache()
+					.getProvisioning(request.getProvisioningId());
 
-			if (provisioning.getStatus() == Constants.SERVICE_STATUS_DENIED)
-			{
+			if (provisioning.getStatus() == Constants.SERVICE_STATUS_DENIED) {
 				throw new AppException(Constants.UPGRADING);
 			}
 
 			action = provisioning.getAction(command.getCommandId());
 
-			if (action.getStatus() == Constants.SERVICE_STATUS_DENIED)
-			{
+			if (action.getStatus() == Constants.SERVICE_STATUS_DENIED) {
 				throw new AppException(Constants.UPGRADING);
-			}
-			else
-			{
-				result = executeProvisioning(action, request); 
+			} else {
+				result = executeProvisioning(action, request);
 
-				if (result == null)
-				{
+				if (result == null) {
 					result = request;
 				}
 
 				if (result.getResponseTime() == null)
 					result.setResponseTime(new Date());
 			}
-		}
-		catch (AppException e)
-		{
+		} catch (AppException e) {
 			result.setCause(e.getMessage());
 			result.setDescription(e.getContext());
 
 			error = e;
-		}
-		catch (Exception e)
-		{
+		} catch (Exception e) {
 			result.setCause(Constants.ERROR);
 			result.setDescription(e.getMessage());
 
 			error = e;
-		}
-		finally
-		{
-			if ((action == null) || action.isLogEnable())
-			{
+		} finally {
+			if ((action == null) || action.isLogEnable()) {
 				sendCommandLog(result);
 			}
 		}
 
 		// get next command if available
-		try
-		{
+		try {
 			boolean rollbacked = false;
 
 			String actionCause = result.getCause();
 
-			if (error != null)
-			{
+			if (error != null) {
 				result.setStatus(Constants.ORDER_STATUS_DENIED);
 			}
 
-			if (result.getStatus() == Constants.ORDER_STATUS_DENIED)
-			{
+			if (result.getStatus() == Constants.ORDER_STATUS_DENIED) {
 				if (actionCause.equals(""))
 					actionCause = Constants.ERROR;
-			}
-			else if (actionCause.equals(""))
-			{
+			} else if (actionCause.equals("")) {
 				actionCause = Constants.SUCCESS;
 			}
 
 			if (!result.getActionType().equals(Constants.ACTION_ROLLBACK)
-					&& actionCause.equals(Constants.SUCCESS)
-					&& command != null)
+					&& actionCause.equals(Constants.SUCCESS) && command != null)
 				result.getCompletedCommands().add(command.getAlias());
 
 			int nextCounter = 0;
 
-			if (!request.getActionType().equals(Constants.ACTION_ROLLBACK))
-			{
-				if (isTimeout(request))
-				{
+			if (!request.getActionType().equals(Constants.ACTION_ROLLBACK)) {
+				if (isTimeout(request)) {
 					actionCause = Constants.ERROR_TIMEOUT;
 				}
 			}
@@ -211,191 +189,164 @@ public class CommandInstance extends ProvisioningInstance
 			if (!result.getActionType().equals(Constants.ACTION_ROLLBACK)
 					&& !result.getActionType().equals(Constants.ACTION_CANCEL)
 					&& !actionCause.equals(Constants.SUCCESS)
-					&& command != null)
-			{
+					&& command != null) {
 				result.setStatus(Constants.ORDER_STATUS_DENIED);
 				rollbacked = rollback(result);
 			}
 
 			if ((result.getActionType().equals(Constants.ACTION_CANCEL)
-					|| result.getActionType().equals(Constants.ACTION_SUPPLIER_DEACTIVE)
-					|| result.getActionType().equals(Constants.ACTION_UNREGISTER))
+					|| result.getActionType().equals(
+							Constants.ACTION_SUPPLIER_DEACTIVE) || result
+					.getActionType().equals(Constants.ACTION_UNREGISTER))
 					&& !result.getCause().equals(Constants.SUCCESS)
 					&& !result.getCause().equals(Constants.ERROR_RESOURCE_BUSY)
 					&& !result.getCause().equals(Constants.ERROR_UNREGISTERED)
-					&& !result.getCause().equals(Constants.ERROR_SUBSCRIPTION_NOT_FOUND))
-			{
+					&& !result.getCause().equals(
+							Constants.ERROR_SUBSCRIPTION_NOT_FOUND)) {
 				result.setDescription(result.getCause());
 				result.setCause(Constants.SUCCESS);
 				result.setStatus(Constants.ORDER_STATUS_PENDING);
 				actionCause = Constants.SUCCESS;
 			}
 
-			try
-			{
-				nextCounter = sendNextCommand(productRoute, result, command, result.getActionType(), actionCause);
-			}
-			catch (JMSException jme)
-			{
+			try {
+				nextCounter = sendNextCommand(productRoute, result, command,
+						result.getActionType(), actionCause);
+			} catch (JMSException jme) {
 				result.setCause(Constants.ERROR_RESOURCE_BUSY);
 
 				result.setStatus(Constants.ORDER_STATUS_DENIED);
-				if (!rollbacked)
-				{
+				if (!rollbacked) {
 					rollbacked = rollback(result);
 				}
 			}
 
 			// reply to sender
-			if (!result.getActionType().equals(Constants.ACTION_ROLLBACK) && ((nextCounter == 0) || (nextCounter > 1)))
-			{
-				if (result.getStatus() == Constants.ORDER_STATUS_PENDING)
-				{
-					result.setStatus(Constants.ORDER_STATUS_APPROVED);
-				}
-				
-				if(result.getParameters().getBoolean("isViettel_nonsub"))
-				{
+			if (!result.getActionType().equals(Constants.ACTION_ROLLBACK)
+					&& ((nextCounter == 0) || (nextCounter > 1))) {
+				if (result.getStatus() == Constants.ORDER_STATUS_PENDING) {
 					result.setStatus(Constants.ORDER_STATUS_APPROVED);
 				}
 
-				try
-				{
-					if(!result.getProvisioningType().equals("VT8X26"))
-					{
-						sendOrderResponse(productRoute, result);
-					}
-					if(result.getChannel().equals(Constants.CHANNEL_CORE) && result.getProvisioningType().equals("VT8X26"))
-					{
-						sendOrderResponse(productRoute, result);
-					}
+				if (result.getParameters().getBoolean("isViettel_nonsub")) {
+					result.setStatus(Constants.ORDER_STATUS_APPROVED);
 				}
-				catch (Exception e)
-				{
+
+				try {
+					if (!result.getProvisioningType().equals("VT8X26")) {
+						sendOrderResponse(productRoute, result);
+					}
+					if (result.getChannel().equals(Constants.CHANNEL_CORE)
+							&& result.getProvisioningType().equals("VT8X26")) {
+						sendOrderResponse(productRoute, result);
+					}
+				} catch (Exception e) {
 					logMonitor(e);
 
 					result.setCause(Constants.ERROR_RESOURCE_BUSY);
 					result.setStatus(Constants.ORDER_STATUS_DENIED);
 
-					if (!rollbacked)
-					{
+					if (!rollbacked) {
 						rollback(result);
 					}
 				}
 			}
 
-			if ((error != null) && !(error instanceof AppException))
-			{
+			if ((error != null) && !(error instanceof AppException)) {
 				throw error;
 			}
-		}
-		catch (Exception e)
-		{
+		} catch (Exception e) {
 			throw e;
-		}
-		finally
-		{
-			if (result != null)
-			{
+		} finally {
+			if (result != null) {
 				long commandId = result.getCommandId();
 
-				CommandStatistic cmdStatistic = getDispatcher().commandStatistic.get(commandId);
+				CommandStatistic cmdStatistic = getDispatcher().commandStatistic
+						.get(commandId);
 
-				if (cmdStatistic == null)
-				{
+				if (cmdStatistic == null) {
 					cmdStatistic = new CommandStatistic();
 
 					cmdStatistic.setCommandId(commandId);
 
-					getDispatcher().commandStatistic.put(commandId, cmdStatistic);
+					getDispatcher().commandStatistic.put(commandId,
+							cmdStatistic);
 				}
 
-				synchronized (cmdStatistic)
-				{
-					if (result.getStatus() == Constants.ORDER_STATUS_DENIED)
-					{
+				synchronized (cmdStatistic) {
+					if (result.getStatus() == Constants.ORDER_STATUS_DENIED) {
 						cmdStatistic.setFailure(cmdStatistic.getFailure() + 1);
-					}
-					else
-					{
+					} else {
 						cmdStatistic.setSuccess(cmdStatistic.getSuccess() + 1);
 					}
 
-					getDispatcher().commandStatistic.put(commandId, cmdStatistic);
+					getDispatcher().commandStatistic.put(commandId,
+							cmdStatistic);
 				}
 			}
 			
+
 			displayCommand(result, startTime, dispatcher.displayDebug);
 		}
 
 		return Constants.BIND_ACTION_SUCCESS;
 	}
 
-	public boolean rollback(CommandMessage request)
-	{
+	public boolean rollback(CommandMessage request) {
 		CommandMessage rollback = null;
-		for (int i = 0; i < request.getCompletedCommands().size(); i++)
-		{
+		for (int i = 0; i < request.getCompletedCommands().size(); i++) {
 			String commandAlias = request.getCompletedCommands().get(i);
 
-			try
-			{
+			try {
 				CommandEntry completedCommand = null;
-				try
-				{
-					completedCommand = ProvisioningFactory.getCache().getCommand(commandAlias);
-				}
-				catch (Exception e)
-				{
-					debugMonitor("Error: rollback command [" + completedCommand + "]not found.");
+				try {
+					completedCommand = ProvisioningFactory.getCache()
+							.getCommand(commandAlias);
+				} catch (Exception e) {
+					debugMonitor("Error: rollback command [" + completedCommand
+							+ "]not found.");
 				}
 
-				String rollbackCommandAlias = completedCommand.getParameter("rollback", "");
+				String rollbackCommandAlias = completedCommand.getParameter(
+						"rollback", "");
 
-				if (!"".equals(rollbackCommandAlias))
-				{
+				if (!"".equals(rollbackCommandAlias)) {
 					CommandEntry commandEntry = null;
-					try
-					{
-						commandEntry = ProvisioningFactory.getCache().getCommand(rollbackCommandAlias);
-					}
-					catch (Exception e)
-					{
+					try {
+						commandEntry = ProvisioningFactory.getCache()
+								.getCommand(rollbackCommandAlias);
+					} catch (Exception e) {
 
 					}
-					if (commandEntry != null)
-					{
+					if (commandEntry != null) {
 						rollback = request.clone();
-						rollback.setProvisioningType(commandEntry.getProvisioningType());
+						rollback.setProvisioningType(commandEntry
+								.getProvisioningType());
 						rollback.setCommandId(commandEntry.getCommandId());
 
 						rollback.setActionType(Constants.ACTION_ROLLBACK);
 						// rollback.setParameter("ignoreDBUpdate", "true");
-						rollback.getParameters().setProperty("ignoreError", "true");
+						rollback.getParameters().setProperty("ignoreError",
+								"true");
 						rollback.setStatus(Constants.SERVICE_STATUS_DENIED);
 
 						rollback.setRequest("");
 						rollback.setResponse("");
 
 						// Send to command routing queue.
-						try
-						{
+						try {
 							sendCommandRouting(rollback);
+						} catch (Exception e) {
+							debugMonitor("Error: rollback error ["
+									+ rollbackCommandAlias + "].");
 						}
-						catch (Exception e)
-						{
-							debugMonitor("Error: rollback error [" + rollbackCommandAlias + "].");
-						}
-					}
-					else
-					{
+					} else {
 						// Rollback command not found.
-						debugMonitor("Error: rollback command [" + rollbackCommandAlias + "]not found.");
+						debugMonitor("Error: rollback command ["
+								+ rollbackCommandAlias + "]not found.");
 					}
 				}
-			}
-			catch (Exception e)
-			{
+			} catch (Exception e) {
 				debugMonitor(e);
 			}
 		}

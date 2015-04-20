@@ -137,82 +137,27 @@ public class SendMOToCPThread extends DispatcherThread {
 		SimpleDateFormat dateFormat = new SimpleDateFormat("yyyyMMddHHmmss");
 		StringBuffer cpUrl = new StringBuffer();
 
-		if (rsQueue.getInt("retry") > 0) {
-			Date lastRunTime = rsQueue.getTimestamp("lastruntime");
-			Date sysDate = Calendar.getInstance().getTime();
-			long diff = sysDate.getTime() - lastRunTime.getTime();
-			// debugMonitor("Time: " + (diff / (60 * 1000) % 60));
-			if ((diff / (60 * 1000) % 60) >= timeRetry) {
-				debugMonitor("OrderId: " + rsQueue.getString("orderId")
-						+ " retry " + rsQueue.getInt("retry") + " times.");
-				cpUrl.append(rsQueue.getString("CPURL"));
-				cpUrl.append("?username=");
-				cpUrl.append(rsQueue.getString("username"));
-				cpUrl.append("&password=");
-				cpUrl.append(rsQueue.getString("password"));
-				cpUrl.append("&dest=");
-				cpUrl.append(rsQueue.getString("serviceAddress"));
-				cpUrl.append("&isdn=");
-				cpUrl.append(rsQueue.getString("isdn"));
-				cpUrl.append("&reqid=");
-				cpUrl.append(rsQueue.getString("orderId"));
-				cpUrl.append("&requestDate=");
-				cpUrl.append(dateFormat.format(rsQueue
-						.getTimestamp("REQUESTDATE")));
-				cpUrl.append("&productCode=");
-				cpUrl.append(rsQueue.getString("productCode"));
-				cpUrl.append("&cmdcode=");
-				cpUrl.append(rsQueue.getString("cmdcode"));
-				cpUrl.append("&msgbody=");
-				cpUrl.append(rsQueue.getString("msgBody"));
-				cpUrl.append("&opid=");
-				cpUrl.append(rsQueue.getString("opid"));
-
-				// Báº¯n cáº£nh bÃ¡o trÆ°á»�ng há»£p nhiá»�u lá»—i
-				debugMonitor("Error count: " + errorCouter);
-				if (errorCouter >= alarmError) {
-					systemDump = new StringBuilder();
-					systemDump.append("\r\n");
-					systemDump.append("Please check agent\r\n");
-					systemDump.append("\tNumber error >= " + errorCouter
-							+ "\r\n");
-
-					AlarmMessage message = new AlarmMessage();
-
-					message.setContent(systemDump.toString());
-					message.setDescription("Error send MO to sub cp.");
-					message.setCause("httpcall-error");
-					message.setImmediately(true);
-
-					sendAlarmMessage(message);
-
-				}
-			}
-
-		} else {
-			cpUrl.append(rsQueue.getString("CPURL"));
-			cpUrl.append("?username=");
-			cpUrl.append(rsQueue.getString("username"));
-			cpUrl.append("&password=");
-			cpUrl.append(rsQueue.getString("password"));
-			cpUrl.append("&dest=");
-			cpUrl.append(rsQueue.getString("serviceAddress"));
-			cpUrl.append("&isdn=");
-			cpUrl.append(rsQueue.getString("isdn"));
-			cpUrl.append("&reqid=");
-			cpUrl.append(rsQueue.getString("orderId"));
-			cpUrl.append("&requestDate=");
-			cpUrl.append(dateFormat.format(rsQueue.getTimestamp("REQUESTDATE")));
-			cpUrl.append("&productCode=");
-			cpUrl.append(rsQueue.getString("productCode"));
-			cpUrl.append("&cmdcode=");
-			cpUrl.append(rsQueue.getString("cmdcode"));
-			cpUrl.append("&msgbody=");
-			cpUrl.append(rsQueue.getString("msgBody"));
-			cpUrl.append("&opid=");
-			cpUrl.append(rsQueue.getString("opid"));
-
-		}
+		cpUrl.append(rsQueue.getString("CPURL"));
+		cpUrl.append("?username=");
+		cpUrl.append(rsQueue.getString("username"));
+		cpUrl.append("&password=");
+		cpUrl.append(rsQueue.getString("password"));
+		cpUrl.append("&dest=");
+		cpUrl.append(rsQueue.getString("serviceAddress"));
+		cpUrl.append("&isdn=");
+		cpUrl.append(rsQueue.getString("isdn"));
+		cpUrl.append("&reqid=");
+		cpUrl.append(rsQueue.getString("orderId"));
+		cpUrl.append("&requestDate=");
+		cpUrl.append(dateFormat.format(rsQueue.getTimestamp("REQUESTDATE")));
+		cpUrl.append("&productCode=");
+		cpUrl.append(rsQueue.getString("productCode"));
+		cpUrl.append("&cmdcode=");
+		cpUrl.append(rsQueue.getString("cmdcode"));
+		cpUrl.append("&msgbody=");
+		cpUrl.append(rsQueue.getString("msgBody"));
+		cpUrl.append("&opid=");
+		cpUrl.append(rsQueue.getString("opid"));
 
 		if (rsQueue.getString("opid").equals("2")) {
 			Thread.sleep(timeDelay);
@@ -284,9 +229,6 @@ public class SendMOToCPThread extends DispatcherThread {
 			}
 
 		} catch (Exception e) {
-			stmtQueueUpdateRetry.setLong(1, orderId);
-			stmtQueueUpdateRetry.execute();
-			errorCouter += 1;
 			debugMonitor(e.toString());
 		} finally {
 

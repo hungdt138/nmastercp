@@ -1,11 +1,13 @@
 package com.crm.provisioning.impl.mobifone;
 
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
 import java.util.Date;
+
 import vms.org.csapi.www.wsdl.parlayx.sms.send.v2_2.service.SendSmsServiceStub.SendSmsE;
 import vms.org.csapi.www.wsdl.parlayx.sms.send.v2_2.service.SendSmsServiceStub.SendSmsResponseE;
 import vms.org.csapi.www.wsdl.parlayx.wap_push.send.v1_0.service.SendPushMessageServiceStub.SendPushMessageE;
 import vms.org.csapi.www.wsdl.parlayx.wap_push.send.v1_0.service.SendPushMessageServiceStub.SendPushMessageResponseE;
-
 import vms.cn.com.huawei.www.schema.common.v2_1.RequestSOAPHeaderE;
 
 import com.crm.kernel.message.Constants;
@@ -20,8 +22,7 @@ import com.crm.provisioning.thread.CommandInstance;
 import com.crm.util.AppProperties;
 import com.fss.util.AppException;
 
-public class SdpVmsCommandImp extends CommandImpl
-{
+public class SdpVmsCommandImp extends CommandImpl {
 	/**
 	 * 
 	 * hungdt
@@ -34,21 +35,23 @@ public class SdpVmsCommandImp extends CommandImpl
 	 */
 	public CommandMessage sendSms(CommandInstance instance,
 			ProvisioningCommand provisioningCommand, CommandMessage request)
-			throws Exception
-	{
+			throws Exception {
 		SdpVmsConnection connection = null;
 		CommandMessage result = request;
 
-		try
-		{
-			CommandEntry command = ProvisioningFactory.getCache().getCommand(request.getCommandId());
+		try {
+			CommandEntry command = ProvisioningFactory.getCache().getCommand(
+					request.getCommandId());
 
-			ProductEntry product = ProductFactory.getCache().getProduct(request.getProductId());
+			ProductEntry product = ProductFactory.getCache().getProduct(
+					request.getProductId());
 
 			command.setMaxRetry(1);
 
-			String serviceId = product.getParameters().getString("sdp.service.serviceid", "");
-			String productId = product.getParameters().getString("sdp.service.productcode", "");
+			String serviceId = product.getParameters().getString(
+					"sdp.service.serviceid", "");
+			String productId = product.getParameters().getString(
+					"sdp.service.productcode", "");
 
 			result.getParameters().setString("serviceid", serviceId);
 			result.getParameters().setString("productid", productId);
@@ -60,14 +63,24 @@ public class SdpVmsCommandImp extends CommandImpl
 
 			description = description.replace("<ALIAS>", product.getIndexKey());
 
-			connection = (SdpVmsConnection) instance.getProvisioningConnection();
+			connection = (SdpVmsConnection) instance
+					.getProvisioningConnection();
 
 			RequestSOAPHeaderE header = connection.createHeader(result);
 
 			SendSmsE body = connection.createBodySmS(result);
 
-			String requestStr = "com.crm.provisioning.impl.mobifone.sendSms{spid= " + spId + ",sid= " + serviceId + ",productid= " + productId + "" +
-					",isdn= " + result.getIsdn() + ",description= " + description + ",content= " + result.getContent() + "}";
+			String requestStr = "com.crm.provisioning.impl.mobifone.sendSms{spid= "
+					+ spId
+					+ ",sid= "
+					+ serviceId
+					+ ",productid= "
+					+ productId
+					+ ""
+					+ ",isdn= "
+					+ result.getIsdn()
+					+ ",description= "
+					+ description + ",content= " + result.getContent() + "}";
 
 			long sessionId = setRequest(instance, result, requestStr);
 
@@ -81,16 +94,14 @@ public class SdpVmsCommandImp extends CommandImpl
 
 			request.setResponseTime(new Date());
 
-			setResponse(instance, request, "identifier= " + identifier + "status= success", sessionId);
+			setResponse(instance, request, "identifier= " + identifier
+					+ "status= success", sessionId);
 
-		}
-		catch (Exception e)
-		{
+		} catch (Exception e) {
 			processError(instance, provisioningCommand, result, e);
 		}
 
-		finally
-		{
+		finally {
 			instance.closeProvisioningConnection(connection);
 		}
 
@@ -182,16 +193,17 @@ public class SdpVmsCommandImp extends CommandImpl
 	 */
 	public CommandMessage sendWappush(CommandInstance instance,
 			ProvisioningCommand provisioningCommand, CommandMessage request)
-			throws Exception
-	{
+			throws Exception {
 		SdpVmsConnection connection = null;
 		CommandMessage result = request;
-		try
-		{
-			ProductEntry product = ProductFactory.getCache().getProduct(request.getProductId());
+		try {
+			ProductEntry product = ProductFactory.getCache().getProduct(
+					request.getProductId());
 
-			String serviceId = product.getParameters().getString("sdp.service.serviceid", "");
-			String productId = product.getParameters().getString("sdp.service.productcode", "");
+			String serviceId = product.getParameters().getString(
+					"sdp.service.serviceid", "");
+			String productId = product.getParameters().getString(
+					"sdp.service.productcode", "");
 
 			AppProperties app = new AppProperties();
 			app.setString("serviceid", serviceId);
@@ -205,16 +217,27 @@ public class SdpVmsCommandImp extends CommandImpl
 
 			description = description.replace("<ALIAS>", product.getIndexKey());
 
-			connection = (SdpVmsConnection) instance.getProvisioningConnection();
+			connection = (SdpVmsConnection) instance
+					.getProvisioningConnection();
 
 			RequestSOAPHeaderE header = connection.createHeader(result);
 
 			SendPushMessageE body = connection.createBodyWap(result);
 
-			String requestStr = "com.crm.provisioning.impl.mobifone.sendWappush{spid = " + spId + ",sid= " + serviceId + ",productid= " + productId
-					+ "" +
-					",isdn= " + result.getIsdn() + ",description= " + description + ",subject= " + result.getDeliveryWapTitle() + ",url= "
-					+ result.getDeliveryWapHref() + "}";
+			String requestStr = "com.crm.provisioning.impl.mobifone.sendWappush{spid = "
+					+ spId
+					+ ",sid= "
+					+ serviceId
+					+ ",productid= "
+					+ productId
+					+ ""
+					+ ",isdn= "
+					+ result.getIsdn()
+					+ ",description= "
+					+ description
+					+ ",subject= "
+					+ result.getDeliveryWapTitle()
+					+ ",url= " + result.getDeliveryWapHref() + "}";
 
 			long sessionId = setRequest(instance, result, requestStr);
 
@@ -222,21 +245,20 @@ public class SdpVmsCommandImp extends CommandImpl
 			if (req == null)
 				throw new AppException(Constants.ERROR_TIMEOUT);
 
-			String identifier = req.getSendPushMessageResponse().getRequestIdentifier();
+			String identifier = req.getSendPushMessageResponse()
+					.getRequestIdentifier();
 
 			result.setIdentifier(identifier);
 
 			request.setResponseTime(new Date());
 
-			setResponse(instance, request, "identifier= " + identifier + "status= success", sessionId);
-		}
-		catch (Exception e)
-		{
+			setResponse(instance, request, "identifier= " + identifier
+					+ "status= success", sessionId);
+		} catch (Exception e) {
 			processError(instance, provisioningCommand, result, e);
 		}
 
-		finally
-		{
+		finally {
 			instance.closeProvisioningConnection(connection);
 		}
 
@@ -322,8 +344,7 @@ public class SdpVmsCommandImp extends CommandImpl
 	// }
 
 	public void sendMMS(CommandInstance instance,
-			ProvisioningCommand provisioningCommand, CommandMessage request)
-	{
+			ProvisioningCommand provisioningCommand, CommandMessage request) {
 
 	}
 
@@ -338,16 +359,18 @@ public class SdpVmsCommandImp extends CommandImpl
 	 */
 	public CommandMessage sendMT(CommandInstance instance,
 			ProvisioningCommand provisioningCommand, CommandMessage request)
-			throws Exception
-	{
+			throws Exception {
 		SdpVmsConnection connection = null;
 		CommandMessage result = request;
-		try
-		{
-			ProductEntry product = ProductFactory.getCache().getProduct(request.getProductId());
+		String contentAppend = "";
+		try {
+			ProductEntry product = ProductFactory.getCache().getProduct(
+					request.getProductId());
 
-			String serviceId = product.getParameters().getString("sdp.service.serviceid", "").trim();
-			String productId = product.getParameters().getString("sdp.service.productcode", "").trim();
+			String serviceId = product.getParameters()
+					.getString("sdp.service.serviceid", "").trim();
+			String productId = product.getParameters()
+					.getString("sdp.service.productcode", "").trim();
 
 			String type = result.getParameters().getString("mttype", "sms");
 
@@ -362,20 +385,53 @@ public class SdpVmsCommandImp extends CommandImpl
 
 			description = description.replace("<ALIAS>", product.getIndexKey());
 
-			connection = (SdpVmsConnection) instance.getProvisioningConnection();
+			connection = (SdpVmsConnection) instance
+					.getProvisioningConnection();
 
 			RequestSOAPHeaderE header = connection.createHeader(result);
 
-			if (type.equalsIgnoreCase("sms"))
-			{
+			if (type.equalsIgnoreCase("sms")) {
+				contentAppend = product.getParameters().getString(
+						"sdp.appendmt", "");
+
+				String content = result.getContent();
+
+				SimpleDateFormat sdf1 = new SimpleDateFormat("HH");
+				Date cur = Calendar.getInstance().getTime();
+
+				if (Integer.parseInt(sdf1.format(cur)) >= 23
+						|| Integer.parseInt(sdf1.format(cur)) <= 4) {
+					if (!contentAppend.equals("")) {
+						if (result.getContent().contains("goo.gl")) {
+
+							content = content.substring(0,
+									content.indexOf("http://goo.gl"))
+									+ contentAppend;
+						}
+					}
+
+				}
+
+				result.setContent(content);
+
 				SendSmsE body = connection.createBodySmS(result);
 
-				String requestStr = "com.crm.provisioning.impl.mobifone.sendMT SMS{spid= " + spId + ",sid= " + serviceId + ",productid= " + productId
-						+ "" +
-						",isdn= " + result.getIsdn() + ",description= " + description + ",content= " + result.getContent() + "}";
+				String requestStr = "com.crm.provisioning.impl.mobifone.sendMT SMS{spid= "
+						+ spId
+						+ ",sid= "
+						+ serviceId
+						+ ",productid= "
+						+ productId
+						+ ""
+						+ ",isdn= "
+						+ result.getIsdn()
+						+ ",description= "
+						+ description
+						+ ",content= "
+						+ result.getContent() + "}";
 
 				long sessionId = setRequest(instance, result, requestStr);
-
+				
 				SendSmsResponseE req = connection.sendSMS(header, body);
 				if (req == null)
 					throw new AppException(Constants.ERROR_TIMEOUT);
@@ -386,15 +442,25 @@ public class SdpVmsCommandImp extends CommandImpl
 				// identifier, serviceId);
 				result.setIdentifier(identifier);
 
-				setResponse(instance, request, "identifier= " + identifier + ",status= success", sessionId);
-			}
-			else if (type.equalsIgnoreCase("wappush"))
-			{
+				setResponse(instance, request, "identifier= " + identifier
+						+ ",status= success", sessionId);
+			} else if (type.equalsIgnoreCase("wappush")) {
 				SendPushMessageE body = connection.createBodyWap(result);
 
-				String requestStr = "com.crm.provisioning.impl.mobifone.sendMT WAPPUSH{spid = " + spId + ",sid= " + serviceId + ",productid= "
-						+ productId + "" +
-						",isdn= " + result.getIsdn() + ",description= " + description + ",subject= " + result.getDeliveryWapTitle() + ",url= "
+				String requestStr = "com.crm.provisioning.impl.mobifone.sendMT WAPPUSH{spid = "
+						+ spId
+						+ ",sid= "
+						+ serviceId
+						+ ",productid= "
+						+ productId
+						+ ""
+						+ ",isdn= "
+						+ result.getIsdn()
+						+ ",description= "
+						+ description
+						+ ",subject= "
+						+ result.getDeliveryWapTitle()
+						+ ",url= "
 						+ result.getDeliveryWapHref() + "}";
 
 				long sessionId = setRequest(instance, result, requestStr);
@@ -403,27 +469,24 @@ public class SdpVmsCommandImp extends CommandImpl
 				if (req == null)
 					throw new AppException(Constants.ERROR_TIMEOUT);
 
-				String identifier = req.getSendPushMessageResponse().getRequestIdentifier();
+				String identifier = req.getSendPushMessageResponse()
+						.getRequestIdentifier();
 
 				// SubscriberOrderImpl.updateDeliveryStatus(result.getOrderId(),
 				// identifier, serviceId);
 
 				result.setIdentifier(identifier);
 
-				setResponse(instance, request, "identifier= " + identifier + ",status= success", sessionId);
-			}
-			else
-			{
+				setResponse(instance, request, "identifier= " + identifier
+						+ ",status= success", sessionId);
+			} else {
 				throw new AppException(Constants.ERROR_INVALID_DELIVER);
 			}
-		}
-		catch (Exception e)
-		{
+		} catch (Exception e) {
 			processError(instance, provisioningCommand, result, e);
 		}
 
-		finally
-		{
+		finally {
 			instance.closeProvisioningConnection(connection);
 		}
 
